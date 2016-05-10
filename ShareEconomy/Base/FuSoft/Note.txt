@@ -1,0 +1,31 @@
+
+一，项目个人包
+
+    1.FuData : 处理数据的类
+
+    2.FuSigl : 单例，用来保存工程唯一变量
+
+    3.FuHead : 头文件，宏定义等
+    
+二，框架
+
+    1.框架：
+
+        Foundation.framework
+        CoreGraphics.framework
+        UIKit.framework
+        XCTest.framework [option]
+        SystemConfiguration.framework  (Reachability用)
+        
+        
+三，使用
+
+    1.将FuHead、FuData导入到工程的全局文件 *-Prefix.pch中
+    
+    2.
+
+
+1.非ARC标志：   -fno-objc-arc
+2.这是一个独立的版本，没有耦合
+3.2015.12.29:这是轻量级的去除没必要三方的一个版本
+4.2015.12.29:FuData中有url编码解码功能
