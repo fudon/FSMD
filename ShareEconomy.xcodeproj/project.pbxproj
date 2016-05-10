@@ -138,12 +138,9 @@
 		7117B2AC1CCBC07C00F959D2 /* 180.png in Resources */ = {isa = PBXBuildFile; fileRef = 7117B2AA1CCBC07C00F959D2 /* 180.png */; };
 		7117B2AF1CCC3D3600F959D2 /* FSRegisterPwdController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7117B2AE1CCC3D3600F959D2 /* FSRegisterPwdController.m */; };
 		7141E2081CBE8B090090AF17 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7141E2071CBE8B090090AF17 /* main.m */; };
-		7141E20B1CBE8B090090AF17 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7141E20A1CBE8B090090AF17 /* AppDelegate.m */; };
-		7141E20E1CBE8B090090AF17 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7141E20D1CBE8B090090AF17 /* ViewController.m */; };
 		7141E2111CBE8B090090AF17 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7141E20F1CBE8B090090AF17 /* Main.storyboard */; };
 		7141E2131CBE8B090090AF17 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7141E2121CBE8B090090AF17 /* Assets.xcassets */; };
 		7141E2161CBE8B090090AF17 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7141E2141CBE8B090090AF17 /* LaunchScreen.storyboard */; };
-		7141E2241CBE8D920090AF17 /* FSTabbarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7141E2231CBE8D920090AF17 /* FSTabbarController.m */; };
 		7141E2311CBE8EC50090AF17 /* FSHomeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7141E2301CBE8EC50090AF17 /* FSHomeController.m */; };
 		7141E2341CBE8ED20090AF17 /* FSMoneyController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7141E2331CBE8ED20090AF17 /* FSMoneyController.m */; };
 		7141E2371CBE8EDE0090AF17 /* FSZoneController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7141E2361CBE8EDE0090AF17 /* FSZoneController.m */; };
@@ -171,6 +168,9 @@
 		71ABE50C1CD5EFE000808AFF /* FSBaseController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71ABE5071CD5EFE000808AFF /* FSBaseController.m */; };
 		71ABE50D1CD5EFE000808AFF /* FSNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71ABE5091CD5EFE000808AFF /* FSNavigationController.m */; };
 		71ABE50E1CD5EFE000808AFF /* FSViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 71ABE50B1CD5EFE000808AFF /* FSViewManager.m */; };
+		71ABE5FB1CE2A73900808AFF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 71ABE5FA1CE2A73900808AFF /* AppDelegate.m */; };
+		71ABE5FE1CE2A74400808AFF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71ABE5FD1CE2A74400808AFF /* ViewController.m */; };
+		71ABE6011CE2A75E00808AFF /* FSTabbarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71ABE6001CE2A75E00808AFF /* FSTabbarController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -308,16 +308,10 @@
 		7117B2AE1CCC3D3600F959D2 /* FSRegisterPwdController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSRegisterPwdController.m; sourceTree = "<group>"; };
 		7141E2031CBE8B090090AF17 /* ShareEconomy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShareEconomy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7141E2071CBE8B090090AF17 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		7141E2091CBE8B090090AF17 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ../AppDelegate.h; sourceTree = "<group>"; };
-		7141E20A1CBE8B090090AF17 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ../AppDelegate.m; sourceTree = "<group>"; };
-		7141E20C1CBE8B090090AF17 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = ../ViewController.h; sourceTree = "<group>"; };
-		7141E20D1CBE8B090090AF17 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = ../ViewController.m; sourceTree = "<group>"; };
 		7141E2101CBE8B090090AF17 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7141E2121CBE8B090090AF17 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7141E2151CBE8B090090AF17 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7141E2171CBE8B090090AF17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7141E2221CBE8D920090AF17 /* FSTabbarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FSTabbarController.h; path = ../Base/FSTabbarController.h; sourceTree = "<group>"; };
-		7141E2231CBE8D920090AF17 /* FSTabbarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FSTabbarController.m; path = ../Base/FSTabbarController.m; sourceTree = "<group>"; };
 		7141E22F1CBE8EC50090AF17 /* FSHomeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSHomeController.h; sourceTree = "<group>"; };
 		7141E2301CBE8EC50090AF17 /* FSHomeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSHomeController.m; sourceTree = "<group>"; };
 		7141E2321CBE8ED20090AF17 /* FSMoneyController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSMoneyController.h; sourceTree = "<group>"; };
@@ -380,6 +374,12 @@
 		71ABE50A1CD5EFE000808AFF /* FSViewManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSViewManager.h; sourceTree = "<group>"; };
 		71ABE50B1CD5EFE000808AFF /* FSViewManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSViewManager.m; sourceTree = "<group>"; };
 		71ABE50F1CD5EFF800808AFF /* FSMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSMacro.h; sourceTree = "<group>"; };
+		71ABE5F91CE2A73900808AFF /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ShareEconomy/AppDelegate.h; sourceTree = SOURCE_ROOT; };
+		71ABE5FA1CE2A73900808AFF /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ShareEconomy/AppDelegate.m; sourceTree = SOURCE_ROOT; };
+		71ABE5FC1CE2A74400808AFF /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = ShareEconomy/ViewController.h; sourceTree = SOURCE_ROOT; };
+		71ABE5FD1CE2A74400808AFF /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = ShareEconomy/ViewController.m; sourceTree = SOURCE_ROOT; };
+		71ABE5FF1CE2A75E00808AFF /* FSTabbarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FSTabbarController.h; path = ShareEconomy/Base/FSTabbarController.h; sourceTree = SOURCE_ROOT; };
+		71ABE6001CE2A75E00808AFF /* FSTabbarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FSTabbarController.m; path = ShareEconomy/Base/FSTabbarController.m; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -668,13 +668,13 @@
 		7141E2211CBE8CEB0090AF17 /* Main */ = {
 			isa = PBXGroup;
 			children = (
-				7141E2091CBE8B090090AF17 /* AppDelegate.h */,
-				7141E20A1CBE8B090090AF17 /* AppDelegate.m */,
-				7141E20C1CBE8B090090AF17 /* ViewController.h */,
-				7141E20D1CBE8B090090AF17 /* ViewController.m */,
+				71ABE5F91CE2A73900808AFF /* AppDelegate.h */,
+				71ABE5FA1CE2A73900808AFF /* AppDelegate.m */,
+				71ABE5FC1CE2A74400808AFF /* ViewController.h */,
+				71ABE5FD1CE2A74400808AFF /* ViewController.m */,
 				7141E20F1CBE8B090090AF17 /* Main.storyboard */,
-				7141E2221CBE8D920090AF17 /* FSTabbarController.h */,
-				7141E2231CBE8D920090AF17 /* FSTabbarController.m */,
+				71ABE5FF1CE2A75E00808AFF /* FSTabbarController.h */,
+				71ABE6001CE2A75E00808AFF /* FSTabbarController.m */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -1062,24 +1062,24 @@
 				7141E2341CBE8ED20090AF17 /* FSMoneyController.m in Sources */,
 				7141E2721CBE95570090AF17 /* MASCompositeConstraint.m in Sources */,
 				7141E2821CBE95570090AF17 /* FuWeb.m in Sources */,
-				7141E2241CBE8D920090AF17 /* FSTabbarController.m in Sources */,
 				7117B2A71CCBBCF000F959D2 /* FSRegisterController.m in Sources */,
+				71ABE5FB1CE2A73900808AFF /* AppDelegate.m in Sources */,
 				7141E2771CBE95570090AF17 /* MASViewConstraint.m in Sources */,
-				7141E20E1CBE8B090090AF17 /* ViewController.m in Sources */,
 				7141E28D1CBFD4230090AF17 /* FSCommuniteController.m in Sources */,
 				7141E27A1CBE95570090AF17 /* View+MASAdditions.m in Sources */,
 				7141E27F1CBE95570090AF17 /* FIWebView.m in Sources */,
 				7141E2791CBE95570090AF17 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+				71ABE6011CE2A75E00808AFF /* FSTabbarController.m in Sources */,
 				7141E2751CBE95570090AF17 /* MASLayoutConstraint.m in Sources */,
 				7141E2971CC529EE0090AF17 /* FSLoginController.m in Sources */,
 				7141E27B1CBE95570090AF17 /* ViewController+MASAdditions.m in Sources */,
 				7141E2741CBE95570090AF17 /* MASConstraintMaker.m in Sources */,
 				7141E2801CBE95570090AF17 /* FuData.m in Sources */,
 				7141E2311CBE8EC50090AF17 /* FSHomeController.m in Sources */,
-				7141E20B1CBE8B090090AF17 /* AppDelegate.m in Sources */,
 				7141E2371CBE8EDE0090AF17 /* FSZoneController.m in Sources */,
 				71ABE50E1CD5EFE000808AFF /* FSViewManager.m in Sources */,
 				71ABE50D1CD5EFE000808AFF /* FSNavigationController.m in Sources */,
+				71ABE5FE1CE2A74400808AFF /* ViewController.m in Sources */,
 				71ABE50C1CD5EFE000808AFF /* FSBaseController.m in Sources */,
 				7141E2781CBE95570090AF17 /* NSArray+MASAdditions.m in Sources */,
 				7141E2761CBE95570090AF17 /* MASViewAttribute.m in Sources */,
