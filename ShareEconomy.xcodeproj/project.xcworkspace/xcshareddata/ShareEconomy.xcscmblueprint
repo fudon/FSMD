@@ -5,14 +5,16 @@
   },
   "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
     "8A6891D59F97357B3FE4A49F961297DD8BF8929E" : 0,
-    "EEF542AF9FAEACF13C10F43D22951598AEA57641" : 0,
-    "4E4FE9CE4AFD1718700795AA18DFE709FF7CD456" : 0
+    "4E4FE9CE4AFD1718700795AA18DFE709FF7CD456" : 0,
+    "FDE7AAF66104056186180A65CAD9775A415495E4" : 0,
+    "EEF542AF9FAEACF13C10F43D22951598AEA57641" : 0
   },
   "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "4259C9B9-D3FE-473C-A75E-9E6595DAA8B5",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
     "8A6891D59F97357B3FE4A49F961297DD8BF8929E" : "FuSoft\/",
-    "EEF542AF9FAEACF13C10F43D22951598AEA57641" : "Thanks\/",
-    "4E4FE9CE4AFD1718700795AA18DFE709FF7CD456" : "FSMD\/"
+    "4E4FE9CE4AFD1718700795AA18DFE709FF7CD456" : "FSMD\/",
+    "FDE7AAF66104056186180A65CAD9775A415495E4" : "",
+    "EEF542AF9FAEACF13C10F43D22951598AEA57641" : "Thanks\/"
   },
   "DVTSourceControlWorkspaceBlueprintNameKey" : "ShareEconomy",
   "DVTSourceControlWorkspaceBlueprintVersion" : 204,
@@ -32,6 +34,11 @@
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/fudon\/Thanks.git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "EEF542AF9FAEACF13C10F43D22951598AEA57641"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/fudon\/fudon.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "FDE7AAF66104056186180A65CAD9775A415495E4"
     }
   ]
 }
