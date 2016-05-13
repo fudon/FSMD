@@ -7,8 +7,11 @@
 //
 
 #import "FSCommuniteController.h"
+#import "FuSoft.h"
 
-@interface FSCommuniteController ()
+@interface FSCommuniteController ()<UITableViewDelegate,UITableViewDataSource>
+
+@property (nonatomic,strong) NSArray        *dataArray;
 
 @end
 
@@ -16,8 +19,30 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.title = @"心";
-    // Do any additional setup after loading the view.
+    self.title = @"硬件信息";
+    self.dataArray = [FuData deviceInfos];
+    UITableView *tableView = [[UITableView alloc] initWithFrame:CGRectMake(0, 64, WIDTHFC, HEIGHTFC - 64) style:UITableViewStylePlain];
+    tableView.delegate = self;
+    tableView.dataSource = self;
+    [self.view addSubview:tableView];
+}
+
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
+{
+    return self.dataArray.count;
+}
+
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    static NSString *identifier = @"hardwareCell";
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:identifier];
+    if (!cell) {
+        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleValue1 reuseIdentifier:identifier];
+    }
+    NSDictionary *dic = [self.dataArray objectAtIndex:indexPath.row];
+    cell.textLabel.text = [dic objectForKey:@"name"];
+    cell.detailTextLabel.text = [dic objectForKey:@"value"];
+    return cell;
 }
 
 - (void)didReceiveMemoryWarning {
