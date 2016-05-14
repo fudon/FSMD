@@ -190,6 +190,9 @@
 		71ABE6551CE2A7D500808AFF /* FuWeb.m in Sources */ = {isa = PBXBuildFile; fileRef = 71ABE63D1CE2A7D500808AFF /* FuWeb.m */; };
 		71ABE6561CE2A7D500808AFF /* Note.txt in Resources */ = {isa = PBXBuildFile; fileRef = 71ABE63E1CE2A7D500808AFF /* Note.txt */; };
 		71ABE6571CE2A7D500808AFF /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 71ABE63F1CE2A7D500808AFF /* README.md */; };
+		71ABE7AC1CE6CAE600808AFF /* FSImageLabelView.m in Sources */ = {isa = PBXBuildFile; fileRef = 71ABE7AB1CE6CAE600808AFF /* FSImageLabelView.m */; };
+		71ABE7AF1CE6E2CE00808AFF /* FSQRController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71ABE7AE1CE6E2CE00808AFF /* FSQRController.m */; };
+		71ABE7B21CE7061900808AFF /* FSWebController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71ABE7B11CE7061900808AFF /* FSWebController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -437,6 +440,12 @@
 		71ABE63D1CE2A7D500808AFF /* FuWeb.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FuWeb.m; sourceTree = "<group>"; };
 		71ABE63E1CE2A7D500808AFF /* Note.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Note.txt; sourceTree = "<group>"; };
 		71ABE63F1CE2A7D500808AFF /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		71ABE7AA1CE6CAE600808AFF /* FSImageLabelView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSImageLabelView.h; sourceTree = "<group>"; };
+		71ABE7AB1CE6CAE600808AFF /* FSImageLabelView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSImageLabelView.m; sourceTree = "<group>"; };
+		71ABE7AD1CE6E2CE00808AFF /* FSQRController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSQRController.h; sourceTree = "<group>"; };
+		71ABE7AE1CE6E2CE00808AFF /* FSQRController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSQRController.m; sourceTree = "<group>"; };
+		71ABE7B01CE7061900808AFF /* FSWebController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSWebController.h; sourceTree = "<group>"; };
+		71ABE7B11CE7061900808AFF /* FSWebController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSWebController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -945,6 +954,12 @@
 				71ABE6321CE2A7D500808AFF /* FSViewManager.m */,
 				71ABE6331CE2A7D500808AFF /* FSWebImageView.h */,
 				71ABE6341CE2A7D500808AFF /* FSWebImageView.m */,
+				71ABE7AA1CE6CAE600808AFF /* FSImageLabelView.h */,
+				71ABE7AB1CE6CAE600808AFF /* FSImageLabelView.m */,
+				71ABE7AD1CE6E2CE00808AFF /* FSQRController.h */,
+				71ABE7AE1CE6E2CE00808AFF /* FSQRController.m */,
+				71ABE7B01CE7061900808AFF /* FSWebController.h */,
+				71ABE7B11CE7061900808AFF /* FSWebController.m */,
 			);
 			path = FSBase;
 			sourceTree = "<group>";
@@ -1186,10 +1201,12 @@
 				7141E2311CBE8EC50090AF17 /* FSHomeController.m in Sources */,
 				5C7378711CE5CD81002E1C4C /* UIImageView+HighlightedWebCache.m in Sources */,
 				71ABE6401CE2A7D500808AFF /* FIBaseEntity.m in Sources */,
+				71ABE7AF1CE6E2CE00808AFF /* FSQRController.m in Sources */,
 				71ABE6481CE2A7D500808AFF /* NSArray+MASAdditions.m in Sources */,
 				71ABE64E1CE2A7D500808AFF /* FSBaseController.m in Sources */,
 				7141E2371CBE8EDE0090AF17 /* FSZoneController.m in Sources */,
 				71ABE6471CE2A7D500808AFF /* MASViewConstraint.m in Sources */,
+				71ABE7B21CE7061900808AFF /* FSWebController.m in Sources */,
 				5C7378721CE5CD81002E1C4C /* UIImageView+WebCache.m in Sources */,
 				71ABE6521CE2A7D500808AFF /* FSWebImageView.m in Sources */,
 				5C7378731CE5CD81002E1C4C /* UIView+WebCacheOperation.m in Sources */,
@@ -1206,6 +1223,7 @@
 				5C7378651CE5CD81002E1C4C /* NSData+ImageContentType.m in Sources */,
 				71ABE64F1CE2A7D500808AFF /* FSBaseView.m in Sources */,
 				5C73786C1CE5CD81002E1C4C /* SDWebImagePrefetcher.m in Sources */,
+				71ABE7AC1CE6CAE600808AFF /* FSImageLabelView.m in Sources */,
 				5C73786F1CE5CD81002E1C4C /* UIImage+MultiFormat.m in Sources */,
 				71ABE6411CE2A7D500808AFF /* GTMBase64.m in Sources */,
 				71ABE6501CE2A7D500808AFF /* FSNavigationController.m in Sources */,
@@ -1324,7 +1342,7 @@
 				INFOPLIST_FILE = ShareEconomy/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.fusu.ShareEconomy;
+				PRODUCT_BUNDLE_IDENTIFIER = com.guazi.bs;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -1336,7 +1354,7 @@
 				INFOPLIST_FILE = ShareEconomy/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.fusu.ShareEconomy;
+				PRODUCT_BUNDLE_IDENTIFIER = com.guazi.bs;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
