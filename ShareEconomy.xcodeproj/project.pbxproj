@@ -193,6 +193,7 @@
 		71ABE7AC1CE6CAE600808AFF /* FSImageLabelView.m in Sources */ = {isa = PBXBuildFile; fileRef = 71ABE7AB1CE6CAE600808AFF /* FSImageLabelView.m */; };
 		71ABE7AF1CE6E2CE00808AFF /* FSQRController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71ABE7AE1CE6E2CE00808AFF /* FSQRController.m */; };
 		71ABE7B21CE7061900808AFF /* FSWebController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71ABE7B11CE7061900808AFF /* FSWebController.m */; };
+		71ABE7BD1CE7192D00808AFF /* FSHardwareInfoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71ABE7BC1CE7192D00808AFF /* FSHardwareInfoController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -446,6 +447,8 @@
 		71ABE7AE1CE6E2CE00808AFF /* FSQRController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSQRController.m; sourceTree = "<group>"; };
 		71ABE7B01CE7061900808AFF /* FSWebController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSWebController.h; sourceTree = "<group>"; };
 		71ABE7B11CE7061900808AFF /* FSWebController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSWebController.m; sourceTree = "<group>"; };
+		71ABE7BB1CE7192D00808AFF /* FSHardwareInfoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSHardwareInfoController.h; sourceTree = "<group>"; };
+		71ABE7BC1CE7192D00808AFF /* FSHardwareInfoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSHardwareInfoController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -960,6 +963,8 @@
 				71ABE7AE1CE6E2CE00808AFF /* FSQRController.m */,
 				71ABE7B01CE7061900808AFF /* FSWebController.h */,
 				71ABE7B11CE7061900808AFF /* FSWebController.m */,
+				71ABE7BB1CE7192D00808AFF /* FSHardwareInfoController.h */,
+				71ABE7BC1CE7192D00808AFF /* FSHardwareInfoController.m */,
 			);
 			path = FSBase;
 			sourceTree = "<group>";
@@ -1178,6 +1183,7 @@
 				71ABE64B1CE2A7D500808AFF /* ViewController+MASAdditions.m in Sources */,
 				7141E2891CBF12140090AF17 /* FSHomeCell.m in Sources */,
 				5C7378671CE5CD81002E1C4C /* SDWebImageCompat.m in Sources */,
+				71ABE7BD1CE7192D00808AFF /* FSHardwareInfoController.m in Sources */,
 				7141E2341CBE8ED20090AF17 /* FSMoneyController.m in Sources */,
 				7117B2A71CCBBCF000F959D2 /* FSRegisterController.m in Sources */,
 				5C73786D1CE5CD81002E1C4C /* UIButton+WebCache.m in Sources */,

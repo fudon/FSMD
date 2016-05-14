@@ -9,6 +9,7 @@
 #import "FSMoneyController.h"
 #import "FSImageLabelView.h"
 #import "FSQRController.h"
+#import "FSHardwareInfoController.h"
 
 @interface FSMoneyController ()
 
@@ -49,7 +50,10 @@
         {}
             break;
             case 2:
-        {}
+        {
+            FSHardwareInfoController *hwController = [[FSHardwareInfoController alloc] init];
+            [self.navigationController pushViewController:hwController animated:YES];
+        }
             break;
             case 3:
         {}
