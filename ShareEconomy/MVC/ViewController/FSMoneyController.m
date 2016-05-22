@@ -22,7 +22,7 @@
     self.title = @"百宝箱";
     
     NSArray *array = @[@"二维码",@"记账本",@"设备信息",@"蓝牙",@"利息计算器",@"贷款计算器",@"个税计算器"];
-    NSArray *picArray = @[@"a9m",@"a_4",@"a_n",@"ae6",@"myintegral",@"my_history",@"tootoodingdan"];
+    NSArray *picArray = @[@"saoma_too",@"a_4",@"a_n",@"ae6",@"myintegral",@"my_history",@"tootoodingdan"];
     
     CGFloat width = (WIDTHFC - 100) / 4;
     WEAKSELF(this);
