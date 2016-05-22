@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "FSEaseMob.h"
 
 @interface AppDelegate ()
 
@@ -16,7 +17,7 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    [[FSEaseMob shareInstance] initEaseMob:application launchOptions:launchOptions];
     return YES;
 }
 

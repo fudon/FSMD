@@ -12,6 +12,7 @@
 #import "FSZoneController.h"
 #import "FSNavigationController.h"
 #import "FSCommuniteController.h"
+#import "FSChatListController.h"
 
 @interface FSTabbarController ()
 
@@ -23,7 +24,7 @@
 {
     [super viewDidLoad];
     FSHomeController *home = [[FSHomeController alloc] init];
-    FSCommuniteController *communicate = [[FSCommuniteController alloc] init];
+    FSChatListController *communicate = [[FSChatListController alloc] init];
     FSMoneyController *money = [[FSMoneyController alloc] init];
     FSZoneController *zone = [[FSZoneController alloc] init];
     NSArray *vcs = @[home,communicate,money,zone];
