@@ -12,12 +12,14 @@
 #import "FSChatCell.h"
 #import "FSEMMessage.h"
 #import "FSSendCell.h"
+#import "MJRefresh.h"
 
 @interface FSMSGController ()<UITableViewDelegate,UITableViewDataSource,EMClientDelegate,EMChatManagerDelegate>
 
 @property (nonatomic,strong) NSArray            *chatArray;
 @property (nonatomic,strong) UITableView        *tableView;
 @property (nonatomic,strong) FSChatView         *chatView;
+@property (nonatomic,assign) NSInteger          count;
 
 @property (nonatomic,assign) BOOL               canHiddenKeyboard;
 
@@ -41,12 +43,16 @@
 - (void)msgHandleDatas
 {
     EMConversation *conversation = [[EMClient sharedClient].chatManager getConversation:_chatToWho type:EMConversationTypeChat createIfNotExist:YES];
-    int count = conversation.unreadMessagesCount;
-    if (count < 10) {
-        count = 10;
+    if (_count == 0) {
+        _count = conversation.unreadMessagesCount;
+        if (_count < 10) {
+            _count = 10;
+        }
+    }else{
+        [_tableView.mj_header endRefreshing];
     }
-    self.chatArray = [conversation loadMoreMessagesFromId:@"" limit:count direction:EMMessageSearchDirectionUp];
-    dispatch_async(dispatch_get_global_queue(0, 0), ^{        
+    self.chatArray = [conversation loadMoreMessagesFromId:@"" limit:_count direction:EMMessageSearchDirectionUp];
+    dispatch_async(dispatch_get_global_queue(0, 0), ^{
         [conversation markAllMessagesAsRead];
     });
     
@@ -143,6 +149,15 @@
     _tableView.separatorStyle = UITableViewCellSeparatorStyleNone;
     [self.view addSubview:_tableView];
     [self makeNewsVisible];
+    _tableView.mj_header= [MJRefreshNormalHeader headerWithRefreshingBlock:^{
+        if (this.chatArray.count < this.count) {
+            [this showTitle:@"没有更多聊天数据"];
+            [this.tableView.mj_header endRefreshing];
+            return;
+        }
+        this.count += 10;
+        [this msgHandleDatas];
+    }];
 }
 
 - (void)clearChatRecord

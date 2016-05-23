@@ -45,11 +45,14 @@
     _textView.delegate = self;
     [self addSubview:_textView];
     
+    NSArray *pictureNames = @[@"ade",@"afl",@"ade",@"ade"];
     for (int x = 0; x < 4; x ++) {
-        UIButton *button = [FSViewManager buttonWithFrame:CGRectMake(WIDTHFC / 4 * x + (WIDTHFC / 8 - 15), 49, 30, 30) title:@(x).stringValue titleColor:nil backColor:FS_RedColor fontInt:0 target:self selector:@selector(btnClickInChatView:)];
-        button.layer.cornerRadius = 15;
+        UIButton *button = [FSViewManager buttonWithFrame:CGRectMake(WIDTHFC / 4 * x, 49, WIDTHFC / 4, 30) title:nil titleColor:nil backColor:nil fontInt:0 target:self selector:@selector(btnClickInChatView:)];
         button.tag = TAGBUTTON + x;
         [self addSubview:button];
+        
+        UIImageView *imageView = [FSViewManager imageViewWithFrame:CGRectMake(WIDTHFC / 8 - 15, 0, 30, 30) imageName:pictureNames[x]];
+        [button addSubview:imageView];
     }
     
     _otherView = [[UIView alloc] initWithFrame:CGRectMake(0, 89, WIDTHFC, self.height - 89)];
