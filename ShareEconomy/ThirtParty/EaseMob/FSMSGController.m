@@ -51,7 +51,7 @@
     }else{
         [_tableView.mj_header endRefreshing];
     }
-    self.chatArray = [conversation loadMoreMessagesFromId:@"" limit:_count direction:EMMessageSearchDirectionUp];
+    self.chatArray = [conversation loadMoreMessagesFromId:@"" limit:(int)self.count direction:EMMessageSearchDirectionUp];
     dispatch_async(dispatch_get_global_queue(0, 0), ^{
         [conversation markAllMessagesAsRead];
     });

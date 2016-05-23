@@ -49,7 +49,7 @@
     [self addSubview:_sendImageView];
     
     _progressLabel = [[UILabel alloc] initWithFrame:CGRectMake(0, 0, 0, 0)];
-    _progressLabel.backgroundColor = [UIColor grayColor];
+    _progressLabel.backgroundColor = [UIColor blackColor];
     _progressLabel.alpha = .6;
     _progressLabel.textAlignment = NSTextAlignmentCenter;
     _progressLabel.textColor = [UIColor whiteColor];
@@ -93,7 +93,7 @@
 - (void)handleProgressAction:(NSNotification *)notification
 {
     NSString *progress = [notification.object stringValue];
-    _progressLabel.text = progress;
+    _progressLabel.text = [[NSString alloc] initWithFormat:@"%@%@",progress,@"%"];
 }
 
 - (void)awakeFromNib {
