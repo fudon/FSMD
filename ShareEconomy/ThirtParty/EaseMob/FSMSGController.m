@@ -157,7 +157,7 @@
             [this.tableView.mj_header endRefreshing];
             return;
         }
-        this.count += 10;
+        this.count += 5;
         [this msgHandleDatas];
     }];
     [self makeNewsVisible];
