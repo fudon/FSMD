@@ -148,7 +148,6 @@
     _tableView.dataSource = self;
     _tableView.separatorStyle = UITableViewCellSeparatorStyleNone;
     [self.view addSubview:_tableView];
-    [self makeNewsVisible];
     _tableView.mj_header= [MJRefreshNormalHeader headerWithRefreshingBlock:^{
         if (this.chatArray.count < this.count) {
             [this showTitle:@"没有更多聊天数据"];
@@ -158,6 +157,7 @@
         this.count += 10;
         [this msgHandleDatas];
     }];
+    [self makeNewsVisible];
 }
 
 - (void)clearChatRecord
@@ -271,7 +271,7 @@
 {
     if (self.chatArray.count) {
         NSIndexPath *scrollIndexPath = [NSIndexPath indexPathForRow:self.chatArray.count - 1 inSection:0];
-        [_tableView scrollToRowAtIndexPath:scrollIndexPath atScrollPosition:UITableViewScrollPositionTop animated:YES];
+        [_tableView scrollToRowAtIndexPath:scrollIndexPath atScrollPosition:UITableViewScrollPositionBottom animated:YES];
     }
 }
 
