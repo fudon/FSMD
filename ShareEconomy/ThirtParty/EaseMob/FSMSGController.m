@@ -66,15 +66,18 @@
 - (void)msgDesignViews
 {
     self.title = _chatToWho;
-    self.view.height = HEIGHTFC + 308;
+    self.view.height = HEIGHTFC + FSChatViewHeight;
     UIBarButtonItem *bbi = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemTrash target:self action:@selector(clearChatRecord)];
     bbi.tintColor = [UIColor whiteColor];
     self.navigationItem.rightBarButtonItem = bbi;
     
-    _chatView = [[FSChatView alloc] initWithFrame:CGRectMake(0, HEIGHTFC - 88, WIDTHFC, 308)];
+    _chatView = [[FSChatView alloc] initWithFrame:CGRectMake(0, HEIGHTFC - 88, WIDTHFC, FSChatViewHeight)];
     _chatView.backgroundColor = RGBCOLOR(240, 240, 240, 1);
     [self.view addSubview:_chatView];
     WEAKSELF(this);
+    _chatView.changeHeightBlock = ^ (FSChatView *bChatView,CGFloat delta){
+        this.tableView.height = HEIGHTFC - 152 - delta;
+    };
     _chatView.sendBlock = ^ (NSString *bText){
         if (![FuData cleanString:bText].length) {
             return;
