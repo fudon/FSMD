@@ -70,7 +70,6 @@
     }else{
         _otherButtonsClick = YES;
         [self.viewController showTitle:@"正在开发中，敬请期待!"];
-//        NSLog(@"%d",button.tag);
     }
 }
 
@@ -112,8 +111,16 @@
 - (void)growingTextView:(HPGrowingTextView *)growingTextView willChangeHeight:(float)height
 {
     float delta = height - 31;
-    self.height = 300 + delta;
-    self.top = HEIGHTFC - self.height;
+    self.height = FSChatViewHeight + delta;
+    self.top = HEIGHTFC - 88 -  delta;
+    for (int x = 0; x < 4; x ++) {
+        UIButton *button = (UIButton *)[self viewWithTag:TAGBUTTON + x];
+        button.top = 49 + delta;
+    }
+    _otherView.top = 89 + delta;
+    if (_changeHeightBlock) {
+        _changeHeightBlock(self,delta);
+    }
 }
 
 - (BOOL)growingTextViewShouldReturn:(HPGrowingTextView *)growingTextView

@@ -40,7 +40,6 @@
 {
     [[EMClient sharedClient] addDelegate:self delegateQueue:nil];
     NSArray *userPwd = [[NSUserDefaults standardUserDefaults] objectForKey:UserDefaultsKey_UserPwd];
-    userPwd = @[@"22",@"22"];
     if (userPwd) {
         WEAKSELF(this);
         [self showWaitView:YES];

@@ -66,15 +66,18 @@
 - (void)msgDesignViews
 {
     self.title = _chatToWho;
-    self.view.height = HEIGHTFC + 308;
+    self.view.height = HEIGHTFC + FSChatViewHeight;
     UIBarButtonItem *bbi = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemTrash target:self action:@selector(clearChatRecord)];
     bbi.tintColor = [UIColor whiteColor];
     self.navigationItem.rightBarButtonItem = bbi;
     
-    _chatView = [[FSChatView alloc] initWithFrame:CGRectMake(0, HEIGHTFC - 88, WIDTHFC, 308)];
+    _chatView = [[FSChatView alloc] initWithFrame:CGRectMake(0, HEIGHTFC - 88, WIDTHFC, FSChatViewHeight)];
     _chatView.backgroundColor = RGBCOLOR(240, 240, 240, 1);
     [self.view addSubview:_chatView];
     WEAKSELF(this);
+    _chatView.changeHeightBlock = ^ (FSChatView *bChatView,CGFloat delta){
+        this.tableView.height = HEIGHTFC - 152 - delta;
+    };
     _chatView.sendBlock = ^ (NSString *bText){
         if (![FuData cleanString:bText].length) {
             return;
@@ -148,16 +151,16 @@
     _tableView.dataSource = self;
     _tableView.separatorStyle = UITableViewCellSeparatorStyleNone;
     [self.view addSubview:_tableView];
-    [self makeNewsVisible];
     _tableView.mj_header= [MJRefreshNormalHeader headerWithRefreshingBlock:^{
         if (this.chatArray.count < this.count) {
             [this showTitle:@"没有更多聊天数据"];
             [this.tableView.mj_header endRefreshing];
             return;
         }
-        this.count += 10;
+        this.count += 5;
         [this msgHandleDatas];
     }];
+    [self makeNewsVisible];
 }
 
 - (void)clearChatRecord
@@ -271,7 +274,7 @@
 {
     if (self.chatArray.count) {
         NSIndexPath *scrollIndexPath = [NSIndexPath indexPathForRow:self.chatArray.count - 1 inSection:0];
-        [_tableView scrollToRowAtIndexPath:scrollIndexPath atScrollPosition:UITableViewScrollPositionTop animated:YES];
+        [_tableView scrollToRowAtIndexPath:scrollIndexPath atScrollPosition:UITableViewScrollPositionBottom animated:YES];
     }
 }
 
