@@ -18,10 +18,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.title = @"爱";
-    
-    FSLog(@"%@",[FuData textFromBase64String:[FuData base64StringForText:@"你好，欢迎光临老罗的缤纷天地！"]]);
-    
+        
     NSString *version = [FuData appVersionNumber];
     UIButton *rightButton = [FSViewManager buttonWithFrame:CGRectMake(0, 0, 60, 40) title:version titleColor:[UIColor redColor] backColor:nil fontInt:0 target:self selector:@selector(rightBtnClick)];
     UIBarButtonItem *bbi = [FSViewManager barButtonItemWithCustomButton:rightButton];
