@@ -9,8 +9,12 @@
 #import "FSHomeController.h"
 #import "FSHomeCell.h"
 #import "FSLoginController.h"
+#import "FSComposeController.h"
 
 @interface FSHomeController ()<UITableViewDelegate,UITableViewDataSource>
+
+@property (nonatomic,assign) BOOL               hasHiddenNavigationBar;
+@property (nonatomic,strong) UITableView        *tableView;
 
 @end
 
@@ -23,11 +27,26 @@
     UIButton *rightButton = [FSViewManager buttonWithFrame:CGRectMake(0, 0, 60, 40) title:version titleColor:[UIColor redColor] backColor:nil fontInt:0 target:self selector:@selector(rightBtnClick)];
     UIBarButtonItem *bbi = [FSViewManager barButtonItemWithCustomButton:rightButton];
     self.navigationItem.rightBarButtonItem = bbi;
+    
+    UISegmentedControl *segControl = [[UISegmentedControl alloc] initWithItems:@[@"消息",@"时间",@"广告"]];
+    segControl.tintColor = [UIColor whiteColor];
+    segControl.selectedSegmentIndex = 0;
+    self.navigationItem.titleView = segControl;
+    
+    UIBarButtonItem *addBBI = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemCompose target:self action:@selector(addActionHome)];
+    addBBI.tintColor = [UIColor whiteColor];
+    self.navigationItem.rightBarButtonItem = addBBI;
 
-    UITableView *tableView = [[UITableView alloc] initWithFrame:CGRectMake(0, 64, WIDTHFC, HEIGHTFC - 113) style:UITableViewStylePlain];
-    tableView.delegate = self;
-    tableView.dataSource = self;
-    [self.view addSubview:tableView];
+    _tableView = [[UITableView alloc] initWithFrame:CGRectMake(0, 64, WIDTHFC, HEIGHTFC - 113) style:UITableViewStylePlain];
+    _tableView.delegate = self;
+    _tableView.dataSource = self;
+    [self.view addSubview:_tableView];
+}
+
+- (void)addActionHome
+{
+    FSComposeController *composeController = [[FSComposeController alloc] init];
+    [self.navigationController pushViewController:composeController animated:YES];
 }
 
 - (void)rightBtnClick
@@ -70,6 +89,31 @@
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
+}
+
+- (void)scrollViewDidScroll:(UIScrollView *)scrollView
+{
+    if ((scrollView.contentOffset.y > HEIGHTFC)) {
+        if (!self.hasHiddenNavigationBar) {
+            WEAKSELF(this);
+            [UIView animateWithDuration:.3 animations:^{
+                this.navigationController.navigationBar.bottom = 0;
+            } completion:^(BOOL finished) {
+                this.tableView.frame = CGRectMake(0, 0, WIDTHFC, HEIGHTFC - 49);
+            }];
+            self.hasHiddenNavigationBar = YES;
+        }
+    }else{
+        if (self.hasHiddenNavigationBar) {
+            WEAKSELF(this);
+            [UIView animateWithDuration:.3 animations:^{
+                this.navigationController.navigationBar.bottom = 64;
+            } completion:^(BOOL finished) {
+                this.tableView.frame = CGRectMake(0, 64, WIDTHFC, HEIGHTFC - 113);
+            }];
+            self.hasHiddenNavigationBar = NO;
+        }
+    }
 }
 
 - (void)didReceiveMemoryWarning {
