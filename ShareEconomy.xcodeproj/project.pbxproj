@@ -191,7 +191,6 @@
 		71ABE6551CE2A7D500808AFF /* FuWeb.m in Sources */ = {isa = PBXBuildFile; fileRef = 71ABE63D1CE2A7D500808AFF /* FuWeb.m */; };
 		71ABE6561CE2A7D500808AFF /* Note.txt in Resources */ = {isa = PBXBuildFile; fileRef = 71ABE63E1CE2A7D500808AFF /* Note.txt */; };
 		71ABE7AC1CE6CAE600808AFF /* FSImageLabelView.m in Sources */ = {isa = PBXBuildFile; fileRef = 71ABE7AB1CE6CAE600808AFF /* FSImageLabelView.m */; };
-		71ABE7AF1CE6E2CE00808AFF /* FSQRController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71ABE7AE1CE6E2CE00808AFF /* FSQRController.m */; };
 		71ABE7B21CE7061900808AFF /* FSWebController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71ABE7B11CE7061900808AFF /* FSWebController.m */; };
 		71ABE7BD1CE7192D00808AFF /* FSHardwareInfoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71ABE7BC1CE7192D00808AFF /* FSHardwareInfoController.m */; };
 		71ABEDAC1CF1CFA000808AFF /* FSChatCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 71ABECB41CF1CF9F00808AFF /* FSChatCell.m */; };
@@ -235,6 +234,16 @@
 		71ABEE171CF1D20000808AFF /* UIScrollView+MJRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = 71ABEE031CF1D20000808AFF /* UIScrollView+MJRefresh.m */; };
 		71ABEE181CF1D20000808AFF /* UIView+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 71ABEE051CF1D20000808AFF /* UIView+MJExtension.m */; };
 		71ABEE701CF2038E00808AFF /* libHyphenateFullSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 71ABEE6E1CF2036B00808AFF /* libHyphenateFullSDK.a */; settings = {ATTRIBUTES = (Required, ); }; };
+		71FBBC531CFA85AF0086D807 /* FSComposeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71FBBC521CFA85AF0086D807 /* FSComposeController.m */; };
+		71FBBC571CFAD1570086D807 /* FSQRController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71FBBC561CFAD1570086D807 /* FSQRController.m */; };
+		71FBBC5D1CFAD1BD0086D807 /* fsqr1.png in Resources */ = {isa = PBXBuildFile; fileRef = 71FBBC591CFAD1BD0086D807 /* fsqr1.png */; };
+		71FBBC5E1CFAD1BD0086D807 /* fsqr2.png in Resources */ = {isa = PBXBuildFile; fileRef = 71FBBC5A1CFAD1BD0086D807 /* fsqr2.png */; };
+		71FBBC5F1CFAD1BD0086D807 /* fsqr3.png in Resources */ = {isa = PBXBuildFile; fileRef = 71FBBC5B1CFAD1BD0086D807 /* fsqr3.png */; };
+		71FBBC601CFAD1BD0086D807 /* fsqr4.png in Resources */ = {isa = PBXBuildFile; fileRef = 71FBBC5C1CFAD1BD0086D807 /* fsqr4.png */; };
+		71FBBC621CFAD2E40086D807 /* fsqrline.png in Resources */ = {isa = PBXBuildFile; fileRef = 71FBBC611CFAD2E40086D807 /* fsqrline.png */; };
+		71FBBC651CFAE4CB0086D807 /* fsqrlightoff.png in Resources */ = {isa = PBXBuildFile; fileRef = 71FBBC631CFAE4CB0086D807 /* fsqrlightoff.png */; };
+		71FBBC661CFAE4CB0086D807 /* fsqrlighton.png in Resources */ = {isa = PBXBuildFile; fileRef = 71FBBC641CFAE4CB0086D807 /* fsqrlighton.png */; };
+		71FBBC681CFAF06F0086D807 /* fsqrmsg.wav in Resources */ = {isa = PBXBuildFile; fileRef = 71FBBC671CFAF06F0086D807 /* fsqrmsg.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -522,8 +531,6 @@
 		71ABE63E1CE2A7D500808AFF /* Note.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Note.txt; sourceTree = "<group>"; };
 		71ABE7AA1CE6CAE600808AFF /* FSImageLabelView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSImageLabelView.h; sourceTree = "<group>"; };
 		71ABE7AB1CE6CAE600808AFF /* FSImageLabelView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSImageLabelView.m; sourceTree = "<group>"; };
-		71ABE7AD1CE6E2CE00808AFF /* FSQRController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSQRController.h; sourceTree = "<group>"; };
-		71ABE7AE1CE6E2CE00808AFF /* FSQRController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSQRController.m; sourceTree = "<group>"; };
 		71ABE7B01CE7061900808AFF /* FSWebController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSWebController.h; sourceTree = "<group>"; };
 		71ABE7B11CE7061900808AFF /* FSWebController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSWebController.m; sourceTree = "<group>"; };
 		71ABE7BB1CE7192D00808AFF /* FSHardwareInfoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSHardwareInfoController.h; sourceTree = "<group>"; };
@@ -635,6 +642,18 @@
 		71ABEE6B1CF2036B00808AFF /* IEMGroupManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IEMGroupManager.h; sourceTree = "<group>"; };
 		71ABEE6C1CF2036B00808AFF /* OpenGLView20.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenGLView20.h; sourceTree = "<group>"; };
 		71ABEE6E1CF2036B00808AFF /* libHyphenateFullSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libHyphenateFullSDK.a; sourceTree = "<group>"; };
+		71FBBC511CFA85AF0086D807 /* FSComposeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSComposeController.h; sourceTree = "<group>"; };
+		71FBBC521CFA85AF0086D807 /* FSComposeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSComposeController.m; sourceTree = "<group>"; };
+		71FBBC551CFAD1570086D807 /* FSQRController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSQRController.h; sourceTree = "<group>"; };
+		71FBBC561CFAD1570086D807 /* FSQRController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSQRController.m; sourceTree = "<group>"; };
+		71FBBC591CFAD1BD0086D807 /* fsqr1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fsqr1.png; sourceTree = "<group>"; };
+		71FBBC5A1CFAD1BD0086D807 /* fsqr2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fsqr2.png; sourceTree = "<group>"; };
+		71FBBC5B1CFAD1BD0086D807 /* fsqr3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fsqr3.png; sourceTree = "<group>"; };
+		71FBBC5C1CFAD1BD0086D807 /* fsqr4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fsqr4.png; sourceTree = "<group>"; };
+		71FBBC611CFAD2E40086D807 /* fsqrline.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fsqrline.png; sourceTree = "<group>"; };
+		71FBBC631CFAE4CB0086D807 /* fsqrlightoff.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fsqrlightoff.png; sourceTree = "<group>"; };
+		71FBBC641CFAE4CB0086D807 /* fsqrlighton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fsqrlighton.png; sourceTree = "<group>"; };
+		71FBBC671CFAF06F0086D807 /* fsqrmsg.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = fsqrmsg.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1082,6 +1101,8 @@
 				7117B2A51CCBBCF000F959D2 /* FSRegisterController.m */,
 				7117B2AD1CCC3D3600F959D2 /* FSRegisterPwdController.h */,
 				7117B2AE1CCC3D3600F959D2 /* FSRegisterPwdController.m */,
+				71FBBC511CFA85AF0086D807 /* FSComposeController.h */,
+				71FBBC521CFA85AF0086D807 /* FSComposeController.m */,
 			);
 			name = Home;
 			sourceTree = "<group>";
@@ -1209,6 +1230,7 @@
 		71ABE62A1CE2A7D500808AFF /* FSBase */ = {
 			isa = PBXGroup;
 			children = (
+				71FBBC541CFAD1570086D807 /* QR */,
 				71ABE62B1CE2A7D500808AFF /* FSBaseController.h */,
 				71ABE62C1CE2A7D500808AFF /* FSBaseController.m */,
 				71ABE62D1CE2A7D500808AFF /* FSBaseView.h */,
@@ -1221,8 +1243,6 @@
 				71ABE6341CE2A7D500808AFF /* FSWebImageView.m */,
 				71ABE7AA1CE6CAE600808AFF /* FSImageLabelView.h */,
 				71ABE7AB1CE6CAE600808AFF /* FSImageLabelView.m */,
-				71ABE7AD1CE6E2CE00808AFF /* FSQRController.h */,
-				71ABE7AE1CE6E2CE00808AFF /* FSQRController.m */,
 				71ABE7B01CE7061900808AFF /* FSWebController.h */,
 				71ABE7B11CE7061900808AFF /* FSWebController.m */,
 				71ABE7BB1CE7192D00808AFF /* FSHardwareInfoController.h */,
@@ -1462,6 +1482,31 @@
 			name = EMBanks;
 			sourceTree = "<group>";
 		};
+		71FBBC541CFAD1570086D807 /* QR */ = {
+			isa = PBXGroup;
+			children = (
+				71FBBC581CFAD1760086D807 /* IMAGES */,
+				71FBBC551CFAD1570086D807 /* FSQRController.h */,
+				71FBBC561CFAD1570086D807 /* FSQRController.m */,
+			);
+			path = QR;
+			sourceTree = "<group>";
+		};
+		71FBBC581CFAD1760086D807 /* IMAGES */ = {
+			isa = PBXGroup;
+			children = (
+				71FBBC671CFAF06F0086D807 /* fsqrmsg.wav */,
+				71FBBC631CFAE4CB0086D807 /* fsqrlightoff.png */,
+				71FBBC641CFAE4CB0086D807 /* fsqrlighton.png */,
+				71FBBC611CFAD2E40086D807 /* fsqrline.png */,
+				71FBBC591CFAD1BD0086D807 /* fsqr1.png */,
+				71FBBC5A1CFAD1BD0086D807 /* fsqr2.png */,
+				71FBBC5B1CFAD1BD0086D807 /* fsqr3.png */,
+				71FBBC5C1CFAD1BD0086D807 /* fsqr4.png */,
+			);
+			path = IMAGES;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -1493,7 +1538,7 @@
 				TargetAttributes = {
 					7141E2021CBE8B090090AF17 = {
 						CreatedOnToolsVersion = 7.3;
-						DevelopmentTeam = BL86JR5S2K;
+						DevelopmentTeam = U9Y4DBL6N3;
 					};
 				};
 			};
@@ -1559,6 +1604,7 @@
 				7117B2881CCBADD500F959D2 /* sg07.jpg in Resources */,
 				7117B2241CCBADD500F959D2 /* number1.png in Resources */,
 				7117B2821CCBADD500F959D2 /* sg01.jpg in Resources */,
+				71FBBC601CFAD1BD0086D807 /* fsqr4.png in Resources */,
 				7117B26A1CCBADD500F959D2 /* gouwuche.png in Resources */,
 				7117B2911CCBADD500F959D2 /* testdd.jpg in Resources */,
 				7117B2791CCBADD500F959D2 /* sc04.jpg in Resources */,
@@ -1570,13 +1616,17 @@
 				7117B2711CCBADD500F959D2 /* mycomment.png in Resources */,
 				7117B2611CCBADD500F959D2 /* centy.png in Resources */,
 				7117B2401CCBADD500F959D2 /* fhsafe.png in Resources */,
+				71FBBC5E1CFAD1BD0086D807 /* fsqr2.png in Resources */,
 				7117B2481CCBADD500F959D2 /* xfjl.png in Resources */,
 				7117B27E1CCBADD500F959D2 /* sc09.jpg in Resources */,
 				7117B25F1CCBADD500F959D2 /* callProStaff.png in Resources */,
+				71FBBC621CFAD2E40086D807 /* fsqrline.png in Resources */,
 				7117B2861CCBADD500F959D2 /* sg05.jpg in Resources */,
 				7117B2871CCBADD500F959D2 /* sg06.jpg in Resources */,
 				7117B2761CCBADD500F959D2 /* sc01.jpg in Resources */,
+				71FBBC681CFAF06F0086D807 /* fsqrmsg.wav in Resources */,
 				7117B2941CCBADD500F959D2 /* wxzf.png in Resources */,
+				71FBBC651CFAE4CB0086D807 /* fsqrlightoff.png in Resources */,
 				7117B21D1CCBADD500F959D2 /* hdtp.png in Resources */,
 				71ABE6561CE2A7D500808AFF /* Note.txt in Resources */,
 				7117B2891CCBADD500F959D2 /* sg08.jpg in Resources */,
@@ -1636,11 +1686,13 @@
 				7141E2111CBE8B090090AF17 /* Main.storyboard in Resources */,
 				7117B28A1CCBADD500F959D2 /* sg09.jpg in Resources */,
 				7117B2191CCBADD500F959D2 /* banjiaa.png in Resources */,
+				71FBBC661CFAE4CB0086D807 /* fsqrlighton.png in Resources */,
 				7117B2321CCBADD500F959D2 /* 114.png in Resources */,
 				7117B2681CCBADD500F959D2 /* fhmt.png in Resources */,
 				7117B2801CCBADD500F959D2 /* sc11.jpg in Resources */,
 				7117B27C1CCBADD500F959D2 /* sc07.jpg in Resources */,
 				7117B28B1CCBADD500F959D2 /* sg10.jpg in Resources */,
+				71FBBC5F1CFAD1BD0086D807 /* fsqr3.png in Resources */,
 				7117B21F1CCBADD500F959D2 /* lstd.jpg in Resources */,
 				7117B2181CCBADD500F959D2 /* actionPic.jpg in Resources */,
 				7117B2521CCBADD500F959D2 /* asv.png in Resources */,
@@ -1650,6 +1702,7 @@
 				7117B2561CCBADD500F959D2 /* sxs6.jpg in Resources */,
 				7117B2451CCBADD500F959D2 /* qq.png in Resources */,
 				7117B2341CCBADD500F959D2 /* 29.png in Resources */,
+				71FBBC5D1CFAD1BD0086D807 /* fsqr1.png in Resources */,
 				7117B24D1CCBADD500F959D2 /* a9z.png in Resources */,
 				7117B2371CCBADD500F959D2 /* 80.png in Resources */,
 				7117B2291CCBADD500F959D2 /* number6.png in Resources */,
@@ -1702,10 +1755,10 @@
 				71ABE6401CE2A7D500808AFF /* FIBaseEntity.m in Sources */,
 				71ABEE111CF1D20000808AFF /* MJRefreshGifHeader.m in Sources */,
 				71ABEE061CF1D20000808AFF /* MJRefreshAutoFooter.m in Sources */,
-				71ABE7AF1CE6E2CE00808AFF /* FSQRController.m in Sources */,
 				71ABEDAE1CF1CFA000808AFF /* FSEaseMob.m in Sources */,
 				71ABE6481CE2A7D500808AFF /* NSArray+MASAdditions.m in Sources */,
 				71ABE64E1CE2A7D500808AFF /* FSBaseController.m in Sources */,
+				71FBBC571CFAD1570086D807 /* FSQRController.m in Sources */,
 				7141E2371CBE8EDE0090AF17 /* FSZoneController.m in Sources */,
 				71ABE6471CE2A7D500808AFF /* MASViewConstraint.m in Sources */,
 				71ABEE101CF1D20000808AFF /* MJRefreshBackStateFooter.m in Sources */,
@@ -1741,6 +1794,7 @@
 				5C73786C1CE5CD81002E1C4C /* SDWebImagePrefetcher.m in Sources */,
 				71ABEE0F1CF1D20000808AFF /* MJRefreshBackNormalFooter.m in Sources */,
 				71ABEE181CF1D20000808AFF /* UIView+MJExtension.m in Sources */,
+				71FBBC531CFA85AF0086D807 /* FSComposeController.m in Sources */,
 				71ABE7AC1CE6CAE600808AFF /* FSImageLabelView.m in Sources */,
 				5C73786F1CE5CD81002E1C4C /* UIImage+MultiFormat.m in Sources */,
 				71ABE6411CE2A7D500808AFF /* GTMBase64.m in Sources */,
@@ -1863,10 +1917,10 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
+					"/Users/fudonfuchina/Documents/FSGit/HyphenateFullSDK/lib\n/Users/fudonfuchina/Documents/FSGit/HyphenateFullSDK/lib\n",
 					"$(inherited)",
-					/Users/ios/Documents/fudon/HyphenateFullSDK/lib,
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.guazi.bb;
+				PRODUCT_BUNDLE_IDENTIFIER = com.guazi.bs;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -1881,10 +1935,10 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
+					"/Users/fudonfuchina/Documents/FSGit/HyphenateFullSDK/lib\n/Users/fudonfuchina/Documents/FSGit/HyphenateFullSDK/lib\n",
 					"$(inherited)",
-					/Users/ios/Documents/fudon/HyphenateFullSDK/lib,
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.guazi.bb;
+				PRODUCT_BUNDLE_IDENTIFIER = com.guazi.bs;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;

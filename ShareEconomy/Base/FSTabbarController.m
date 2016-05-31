@@ -27,6 +27,7 @@
     FSChatListController *communicate = [[FSChatListController alloc] init];
     FSMoneyController *money = [[FSMoneyController alloc] init];
     FSZoneController *zone = [[FSZoneController alloc] init];
+    
     NSArray *vcs = @[home,communicate,money,zone];
     NSMutableArray *vcNavs = [[NSMutableArray alloc] init];
     for (int x = 0; x < vcs.count; x ++) {
@@ -34,7 +35,20 @@
         FSNavigationController *nav = [[FSNavigationController alloc] initWithRootViewController:vc];
         [vcNavs addObject:nav];
     }
-    self.viewControllers = vcNavs;    
+    self.viewControllers = vcNavs;
+
+    NSArray *titles = @[@"首页",@"联系",@"百宝箱",@"我"];
+    NSArray *picArray = @[@"huodongp",@"shebaoUse",@"shopcari",@"ct24"];
+         for(int i = 0; i < self.tabBar.items.count; i++) {
+         UITabBarItem *item = [self.tabBar.items objectAtIndex:i];
+         item.title = titles[i];
+         item.image = IMAGENAMED(picArray[i]);
+         
+         NSDictionary *dict = [NSDictionary dictionaryWithObjectsAndKeys:[UIColor grayColor],NSForegroundColorAttributeName, nil];
+         NSDictionary *dict2 = [NSDictionary dictionaryWithObjectsAndKeys:RGBCOLOR(42, 121, 252, 1),NSForegroundColorAttributeName,nil];
+         [item setTitleTextAttributes:dict forState:UIControlStateNormal];
+         [item setTitleTextAttributes:dict2 forState:UIControlStateSelected];
+     }
 }
 
 - (void)didReceiveMemoryWarning {
