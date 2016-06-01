@@ -28,11 +28,11 @@
     _headImageView = [FSViewManager imageViewWithFrame:CGRectMake(10, 15, 50, 50) imageName:@"testdd.jpg"];
     [self addSubview:_headImageView];
     
-    _timeLabel = [FSViewManager labelWithFrame:CGRectMake(WIDTHFC / 2 - 50, 10, 100, 20) text:@"" textColor:[UIColor grayColor] backColor:nil textAlignment:NSTextAlignmentCenter];
+    _timeLabel = [FSViewManager labelWithFrame:CGRectMake(WIDTHFC / 2 - 50, 10, 100, 20) text:@"" textColor:[UIColor grayColor] backColor:nil font:nil textAlignment:NSTextAlignmentCenter];
     _timeLabel.font = FONTFC(12);
     [self addSubview:_timeLabel];
     
-    _contentLabel = [FSViewManager labelWithFrame:CGRectMake(_headImageView.right + 10, 30, WIDTHFC - 80, 40) text:@"" textColor:nil backColor:nil textAlignment:NSTextAlignmentLeft];
+    _contentLabel = [FSViewManager labelWithFrame:CGRectMake(_headImageView.right + 10, 30, WIDTHFC - 80, 40) text:@"" textColor:nil backColor:nil font:nil textAlignment:NSTextAlignmentLeft];
     _contentLabel.font = FONTFC(14);
     _contentLabel.numberOfLines = 0;
     [self addSubview:_contentLabel];

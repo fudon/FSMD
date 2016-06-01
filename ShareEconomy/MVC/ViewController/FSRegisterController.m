@@ -26,7 +26,7 @@
     [super viewDidLoad];
     self.title = @"注册";
     
-    UILabel *label = [FSViewManager labelWithFrame:CGRectMake(0, 90, 70, 40) text:@"手机号" textColor:FS_TextColor_Normal backColor:[UIColor whiteColor] textAlignment:NSTextAlignmentCenter];
+    UILabel *label = [FSViewManager labelWithFrame:CGRectMake(0, 90, 70, 40) text:@"手机号" textColor:FS_TextColor_Normal backColor:[UIColor whiteColor] font:nil textAlignment:NSTextAlignmentCenter];
     [self.view addSubview:label];
     
     _textField = [FSViewManager textFieldWithFrame:CGRectMake(label.right, label.top, WIDTHFC - label.width, label.height) placeholder:@"请输入手机号" textColor:FS_TextColor_Normal];

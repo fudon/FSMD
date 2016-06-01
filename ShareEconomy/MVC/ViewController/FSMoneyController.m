@@ -10,6 +10,7 @@
 #import "FSImageLabelView.h"
 #import "FSQRController.h"
 #import "FSHardwareInfoController.h"
+#import "FSLoanCounterController.h"
 
 @interface FSMoneyController ()
 
@@ -62,7 +63,10 @@
         {}
             break;
             case 5:
-        {}
+        {
+            FSLoanCounterController *loanCounter = [[FSLoanCounterController alloc] init];
+            [self.navigationController pushViewController:loanCounter animated:YES];
+        }
             break;
             case 6:
         {}

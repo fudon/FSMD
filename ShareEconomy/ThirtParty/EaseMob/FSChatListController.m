@@ -62,7 +62,9 @@
 
 - (void)homeDesignViews
 {
-    self.title = @"朋友";
+    UIBarButtonItem *rightBBI = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemAction target:self action:@selector(chatToWhoAction)];
+    self.navigationItem.rightBarButtonItem = rightBBI;
+    
     _tableView = [[UITableView alloc] initWithFrame:CGRectMake(0, 64, WIDTHFC, HEIGHTFC - 113) style:UITableViewStylePlain];
     _tableView.delegate = self;
     _tableView.dataSource = self;
@@ -72,6 +74,13 @@
     _tableView.mj_header= [MJRefreshNormalHeader headerWithRefreshingBlock:^{
         [this refreshConversations];
     }];
+}
+
+- (void)chatToWhoAction
+{
+    FSMSGController *msg = [[FSMSGController alloc] init];
+    msg.chatToWho = @"11";
+    [self.navigationController pushViewController:msg animated:YES];
 }
 
 - (void)refreshConversations

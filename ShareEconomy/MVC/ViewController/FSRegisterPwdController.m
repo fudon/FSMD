@@ -47,7 +47,7 @@
 
 - (void)registerDesignViews
 {
-    UILabel *showLabel = [FSViewManager labelWithFrame:CGRectMake(10, 64, WIDTHFC - 20, 42) text:@"您的手机号18810790738将会收到一条短信验证码,如果超时未收到，请点重新发送" textColor:FS_TextColor_Light backColor:nil textAlignment:NSTextAlignmentLeft];
+    UILabel *showLabel = [FSViewManager labelWithFrame:CGRectMake(10, 64, WIDTHFC - 20, 42) text:@"您的手机号18810790738将会收到一条短信验证码,如果超时未收到，请点重新发送" textColor:FS_TextColor_Light backColor:nil font:nil textAlignment:NSTextAlignmentLeft];
     showLabel.numberOfLines = 2;
     showLabel.font = FONTFC(13);
     [self.view addSubview:showLabel];
@@ -55,7 +55,7 @@
     NSArray *array = @[@"验证码",@"设置密码"];
     CGFloat yPoint = 108;
     for (int x = 0; x < 2; x ++) {
-        UILabel *label = [FSViewManager labelWithFrame:CGRectMake(0, yPoint + x * 40.7, 79, 40) text:array[x] textColor:FS_TextColor_Normal backColor:[UIColor whiteColor] textAlignment:NSTextAlignmentCenter];
+        UILabel *label = [FSViewManager labelWithFrame:CGRectMake(0, yPoint + x * 40.7, 79, 40) text:array[x] textColor:FS_TextColor_Normal backColor:[UIColor whiteColor] font:nil textAlignment:NSTextAlignmentCenter];
         [self.view addSubview:label];
         
         UITextField *textField = [FSViewManager textFieldWithFrame:CGRectMake(label.right, label.top, WIDTHFC - label.width - 70 + x * 70, label.height) placeholder:[[NSString alloc] initWithFormat:@"请输入%@",array[x]] textColor:FS_TextColor_Normal onlyChars:YES];

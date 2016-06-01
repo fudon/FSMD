@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		5C12F7D61CF993B700309F7A /* libHyphenateFullSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C12F7D51CF993B700309F7A /* libHyphenateFullSDK.a */; };
+		5C5056211CFE8B3A00B654AB /* FSLoanCounterController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C5056201CFE8B3A00B654AB /* FSLoanCounterController.m */; };
 		5C7378641CE5CD81002E1C4C /* MKAnnotationView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C7378441CE5CD81002E1C4C /* MKAnnotationView+WebCache.m */; };
 		5C7378651CE5CD81002E1C4C /* NSData+ImageContentType.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C7378461CE5CD81002E1C4C /* NSData+ImageContentType.m */; };
 		5C7378661CE5CD81002E1C4C /* SDImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C7378481CE5CD81002E1C4C /* SDImageCache.m */; };
@@ -286,6 +287,8 @@
 		5C12F7D21CF993B700309F7A /* IEMGroupManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IEMGroupManager.h; sourceTree = "<group>"; };
 		5C12F7D31CF993B700309F7A /* OpenGLView20.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenGLView20.h; sourceTree = "<group>"; };
 		5C12F7D51CF993B700309F7A /* libHyphenateFullSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libHyphenateFullSDK.a; sourceTree = "<group>"; };
+		5C50561F1CFE8B3A00B654AB /* FSLoanCounterController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSLoanCounterController.h; sourceTree = "<group>"; };
+		5C5056201CFE8B3A00B654AB /* FSLoanCounterController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSLoanCounterController.m; sourceTree = "<group>"; };
 		5C7378431CE5CD81002E1C4C /* MKAnnotationView+WebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MKAnnotationView+WebCache.h"; sourceTree = "<group>"; };
 		5C7378441CE5CD81002E1C4C /* MKAnnotationView+WebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MKAnnotationView+WebCache.m"; sourceTree = "<group>"; };
 		5C7378451CE5CD81002E1C4C /* NSData+ImageContentType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+ImageContentType.h"; sourceTree = "<group>"; };
@@ -1112,6 +1115,8 @@
 			children = (
 				7141E2321CBE8ED20090AF17 /* FSMoneyController.h */,
 				7141E2331CBE8ED20090AF17 /* FSMoneyController.m */,
+				5C50561F1CFE8B3A00B654AB /* FSLoanCounterController.h */,
+				5C5056201CFE8B3A00B654AB /* FSLoanCounterController.m */,
 			);
 			name = Money;
 			sourceTree = "<group>";
@@ -1538,7 +1543,7 @@
 				TargetAttributes = {
 					7141E2021CBE8B090090AF17 = {
 						CreatedOnToolsVersion = 7.3;
-						DevelopmentTeam = U9Y4DBL6N3;
+						DevelopmentTeam = BL86JR5S2K;
 					};
 				};
 			};
@@ -1792,6 +1797,7 @@
 				5C7378651CE5CD81002E1C4C /* NSData+ImageContentType.m in Sources */,
 				71ABE64F1CE2A7D500808AFF /* FSBaseView.m in Sources */,
 				5C73786C1CE5CD81002E1C4C /* SDWebImagePrefetcher.m in Sources */,
+				5C5056211CFE8B3A00B654AB /* FSLoanCounterController.m in Sources */,
 				71ABEE0F1CF1D20000808AFF /* MJRefreshBackNormalFooter.m in Sources */,
 				71ABEE181CF1D20000808AFF /* UIView+MJExtension.m in Sources */,
 				71FBBC531CFA85AF0086D807 /* FSComposeController.m in Sources */,
@@ -1917,10 +1923,10 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
-					"/Users/fudonfuchina/Documents/FSGit/HyphenateFullSDK/lib\n/Users/fudonfuchina/Documents/FSGit/HyphenateFullSDK/lib\n",
+					/Users/ios/Documents/fudon/HyphenateFullSDK/lib,
 					"$(inherited)",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.guazi.bs;
+				PRODUCT_BUNDLE_IDENTIFIER = com.guazi.bb;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -1935,10 +1941,10 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
-					"/Users/fudonfuchina/Documents/FSGit/HyphenateFullSDK/lib\n/Users/fudonfuchina/Documents/FSGit/HyphenateFullSDK/lib\n",
+					/Users/ios/Documents/fudon/HyphenateFullSDK/lib,
 					"$(inherited)",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.guazi.bs;
+				PRODUCT_BUNDLE_IDENTIFIER = com.guazi.bb;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;

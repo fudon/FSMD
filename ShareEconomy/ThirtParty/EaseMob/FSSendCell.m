@@ -41,7 +41,7 @@
     _headImageView = [FSViewManager imageViewWithFrame:CGRectMake(WIDTHFC - 60, 15, 50, 50) imageName:@"testdd.jpg"];
     [self addSubview:_headImageView];
 
-    _timeLabel = [FSViewManager labelWithFrame:CGRectMake(WIDTHFC / 2 - 50, 10, 100, 20) text:@"" textColor:[UIColor grayColor] backColor:nil textAlignment:NSTextAlignmentCenter];
+    _timeLabel = [FSViewManager labelWithFrame:CGRectMake(WIDTHFC / 2 - 50, 10, 100, 20) text:@"" textColor:[UIColor grayColor] backColor:nil font:nil textAlignment:NSTextAlignmentCenter];
     _timeLabel.font = FONTFC(12);
     [self addSubview:_timeLabel];
     

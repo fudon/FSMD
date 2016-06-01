@@ -28,18 +28,18 @@
     _headImageView = [[UIImageView alloc] initWithFrame:CGRectMake(10, 5, 50, 50)];
     [self addSubview:_headImageView];
     
-    _nameLabel = [FSViewManager labelWithFrame:CGRectMake(_headImageView.right + 10, 5, WIDTHFC - 100, 30) text:@"" textColor:nil backColor:nil textAlignment:NSTextAlignmentLeft];
+    _nameLabel = [FSViewManager labelWithFrame:CGRectMake(_headImageView.right + 10, 5, WIDTHFC - 100, 30) text:@"" textColor:nil backColor:nil font:nil textAlignment:NSTextAlignmentLeft];
     [self addSubview:_nameLabel];
     
-    _messageLabel = [FSViewManager labelWithFrame:CGRectMake(_nameLabel.left, _nameLabel.bottom, _nameLabel.width, 20) text:@"" textColor:[UIColor grayColor] backColor:nil textAlignment:NSTextAlignmentLeft];
+    _messageLabel = [FSViewManager labelWithFrame:CGRectMake(_nameLabel.left, _nameLabel.bottom, _nameLabel.width, 20) text:@"" textColor:[UIColor grayColor] backColor:nil font:nil textAlignment:NSTextAlignmentLeft];
     _messageLabel.font = FONTFC(12);
     [self addSubview:_messageLabel];
     
-    _timeLabel = [FSViewManager labelWithFrame:CGRectMake(WIDTHFC - 40, 5, 40, 20) text:@"" textColor:[UIColor grayColor] backColor:nil textAlignment:NSTextAlignmentLeft];
+    _timeLabel = [FSViewManager labelWithFrame:CGRectMake(WIDTHFC - 40, 5, 40, 20) text:@"" textColor:[UIColor grayColor] backColor:nil font:nil textAlignment:NSTextAlignmentLeft];
     _timeLabel.font = FONTFC(12);
     [self addSubview:_timeLabel];
     
-    _numberLabel = [FSViewManager labelWithFrame:CGRectMake(WIDTHFC - 40, _timeLabel.bottom + 5, 20, 20) text:@"" textColor:[UIColor whiteColor] backColor:FS_RedColor textAlignment:NSTextAlignmentCenter];
+    _numberLabel = [FSViewManager labelWithFrame:CGRectMake(WIDTHFC - 40, _timeLabel.bottom + 5, 20, 20) text:@"" textColor:[UIColor whiteColor] backColor:FS_RedColor font:nil textAlignment:NSTextAlignmentCenter];
     _numberLabel.layer.cornerRadius = _numberLabel.width / 2;
     _numberLabel.layer.masksToBounds = YES;
     _numberLabel.font = FONTFC(12);
