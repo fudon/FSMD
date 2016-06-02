@@ -55,7 +55,7 @@
         cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:identifier];
         CGFloat xPoint = 0;
         for (int x = 0; x < 5; x ++) {
-            UILabel *label = [FSViewManager labelWithFrame:CGRectMake(xPoint, 0, (x == 0)?40:((WIDTHFC - 40)/ 4), 44) text:@"" textColor:FSAPPCOLOR backColor:nil font:FONTFC(13) textAlignment:NSTextAlignmentCenter];
+            UILabel *label = [FSViewManager labelWithFrame:CGRectMake(xPoint, 0, (x == 0)?30:((WIDTHFC - 30)/ 4), 44) text:@"" textColor:nil backColor:nil font:FONTFC(13) textAlignment:NSTextAlignmentCenter];
             label.tag = TAGLABEL + x;
             [cell addSubview:label];
             xPoint += label.width;
@@ -67,13 +67,22 @@
         array = @[@(indexPath.row + 1),@([self.bjInterests[indexPath.row] doubleValue] + monthPay),@(monthPay),@([self.bjInterests[indexPath.row] doubleValue]),@(_money - monthPay * (indexPath.row + 1))];
     }else{
         double perInterest = [self.bxInterests[indexPath.row] doubleValue];
-        array = @[@(indexPath.row + 1),@(_bxMonthPay),@(_bxMonthPay - perInterest),@(perInterest),@(_money - (_bxMonthPay * indexPath.row + 1))];
+        array = @[@(indexPath.row + 1),@(_bxMonthPay),@(_bxMonthPay - perInterest),@(perInterest),@(_money - [self havePaybackMoney:indexPath.row])];
     }
     for (int x = 0; x < array.count; x ++) {
         UILabel *label = (UILabel *)[cell viewWithTag:TAGLABEL + x];
         label.text = (x == 0?[array[x] stringValue]:[[NSString alloc] initWithFormat:@"%.2f",[array[x] doubleValue]]);
     }
     return cell;
+}
+
+- (double)havePaybackMoney:(NSInteger)row
+{
+    double havePayback = 0;
+    for (int x = 0; x < row + 1; x ++) {
+        havePayback += (_bxMonthPay - [self.bxInterests[x] doubleValue]);
+    }
+    return havePayback;
 }
 
 - (UIView *)tableView:(UITableView *)tableView viewForHeaderInSection:(NSInteger)section
@@ -94,7 +103,7 @@
         NSArray *perTitles = @[@"期数",@"偿还本息",@"偿还本金",@"偿还利息",@"剩余本金"];
         CGFloat xPoint = 0;
         for (int x = 0; x < perTitles.count; x ++) {
-            UILabel *label = [FSViewManager labelWithFrame:CGRectMake(xPoint, 95, (x == 0)?40:((WIDTHFC - 40)/ 4), 25) text:perTitles[x] textColor:[UIColor whiteColor] backColor:FSAPPCOLOR font:FONTFC(13) textAlignment:NSTextAlignmentCenter];
+            UILabel *label = [FSViewManager labelWithFrame:CGRectMake(xPoint, 95, (x == 0)?30:((WIDTHFC - 30)/ 4), 25) text:perTitles[x] textColor:[UIColor whiteColor] backColor:FSAPPCOLOR font:FONTFC(13) textAlignment:NSTextAlignmentCenter];
             [_headView addSubview:label];
             xPoint += label.width;
         }
