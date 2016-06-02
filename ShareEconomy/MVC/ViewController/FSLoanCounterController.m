@@ -67,18 +67,33 @@
     CGFloat month = [periodTF.text integerValue];
     CGFloat rate = [rateTF.text doubleValue];
     double R = rate / 1200;
+    
+    // 等额本息
     double monthPay = (money * R * pow(1 + R, month)) / (pow(1 + R, month) - 1);
-    NSLog(@"%.2f",monthPay);
-    NSMutableArray *array = [[NSMutableArray alloc] init];
+//    NSLog(@"%.2f",monthPay);
+    NSMutableArray *bxArray = [[NSMutableArray alloc] initWithCapacity:month];
     for (int x = 1; x <= month; x ++) {
         double mP = (money * R - monthPay) * pow(1 + R, x - 1) + monthPay;
-        [array addObject:@(mP)];
+        [bxArray addObject:@(mP)];
     }
-    NSLog(@"%@",array);
+//    NSLog(@"%@",bxArray);
     
+    // 等额本金
+    NSMutableArray *bjArray = [[NSMutableArray alloc] initWithCapacity:month];
+    double payMonth = money / month;
+    for (int x = 0; x < month; x ++) {
+        double mI = (money - x * payMonth) * R;
+        [bjArray addObject:@(mI).stringValue];
+    }
+    NSLog(@"%@",bjArray);
+
     FSLoanResultController *resultController = [[FSLoanResultController alloc] init];
     resultController.bxMonthPay = monthPay;
-    resultController.bxInterests = array;
+    resultController.bxInterests = bxArray;
+    resultController.bjInterests = bjArray;
+    resultController.money = money;
+    resultController.month = month;
+    resultController.bxMonthPay = monthPay;
     [self.navigationController pushViewController:resultController animated:YES];
 }
 

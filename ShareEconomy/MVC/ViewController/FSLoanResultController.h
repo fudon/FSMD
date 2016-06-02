@@ -13,5 +13,9 @@
 // 月均还款、支付利息、还款总额   【期数、每期利息、每期本金、档期月供、】
 @property (nonatomic,assign) double     bxMonthPay;
 @property (nonatomic,strong) NSArray    *bxInterests;
+@property (nonatomic,strong) NSArray    *bjInterests;
+
+@property (nonatomic,assign) double     money;
+@property (nonatomic,assign) NSInteger  month;
 
 @end
