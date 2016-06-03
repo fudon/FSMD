@@ -13,6 +13,10 @@
 @property (nonatomic,strong) UITableView       *tableView;
 @property (nonatomic,strong) UIView            *headView;
 @property (nonatomic,assign) BOOL              isDEBJ;
+@property (nonatomic,assign) double            bjAll;
+
+@property (nonatomic,strong) NSArray           *bxHeadArray;
+@property (nonatomic,strong) NSArray           *bjHeadArray;
 
 @end
 
@@ -39,6 +43,7 @@
     if (_isDEBJ != isDEBJ) {
         _isDEBJ = isDEBJ;
         [_tableView reloadData];
+        [self refreshHeadView];
     }
 }
 
@@ -85,6 +90,44 @@
     return havePayback;
 }
 
+- (double)thesumForBjInterests
+{
+    if (_bjAll < 0.1) {
+        double sum = 0;
+        for (int x = 0; x < _bjInterests.count; x ++) {
+            sum += ([_bjInterests[x] doubleValue] + _money / _month);
+        }
+        _bjAll = sum;
+    }
+    return _bjAll;
+}
+
+- (void)refreshHeadView
+{
+    NSArray *array = nil;
+    if (_isDEBJ) {
+        if (_bjHeadArray) {
+            array = _bjHeadArray;
+        }else{
+            double all = [self thesumForBjInterests];
+            array = @[[[NSString alloc] initWithFormat:@"%@ 元",@(_money)],[[NSString alloc] initWithFormat:@"%@ 月",@(_month)],[[NSString alloc] initWithFormat:@"%.2f 元",all],[[NSString alloc] initWithFormat:@"%@ %@",@(_yearRate),@"%"],[[NSString alloc] initWithFormat:@"%.2f 元",all - _money]];
+            _bjHeadArray = array;
+        }
+    }else{
+        if (_bxHeadArray) {
+            array = _bxHeadArray;
+        }else{
+            double all = _bxMonthPay * _month;
+            array = @[[[NSString alloc] initWithFormat:@"%@ 元",@(_money)],[[NSString alloc] initWithFormat:@"%@ 月",@(_month)],[[NSString alloc] initWithFormat:@"%.2f 元",all],[[NSString alloc] initWithFormat:@"%@ %@",@(_yearRate),@"%"],[[NSString alloc] initWithFormat:@"%.2f 元",all - _money]];
+            _bxHeadArray = array;
+        }
+    }
+    for (int x = 0; x < 5; x ++) {
+        UILabel *label = (UILabel *)[_headView viewWithTag:TAGLABEL + x];
+        label.text = array[x];
+    }
+}
+
 - (UIView *)tableView:(UITableView *)tableView viewForHeaderInSection:(NSInteger)section
 {
     if (!_headView) {
@@ -108,6 +151,7 @@
             xPoint += label.width;
         }
     }
+    [self refreshHeadView];
     return _headView;
 }
 

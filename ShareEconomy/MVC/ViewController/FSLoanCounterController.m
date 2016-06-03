@@ -31,10 +31,10 @@
         
         UITextField *textField = [FSViewManager textFieldWithFrame:CGRectMake(label.right + 10, label.top, WIDTHFC - 30 - label.width, label.height) placeholder:placeholders[x] textColor:nil backColor:RGBCOLOR(240, 240, 240, 1)];
         textField.tag = TAGTEXTFIELD + x;
-        if (x == 0) {
-            textField.keyboardType = UIKeyboardTypeDecimalPad;
-        }else{
+        if (x == 1) {
             textField.keyboardType = UIKeyboardTypeNumberPad;
+        }else{
+            textField.keyboardType = UIKeyboardTypeDecimalPad;
         }
         [self.view addSubview:textField];
     }
@@ -49,7 +49,7 @@
 {
     UITextField *moneyTF = (UITextField *)[self.view viewWithTag:TAGTEXTFIELD];
     if (![FuData isPureFloat:moneyTF.text]) {
-        [self showTitle:@"请填写总金额"];
+        [self showTitle:@"请填写正确的总金额数字"];
         return;
     }
     UITextField *periodTF = (UITextField *)[self.view viewWithTag:TAGTEXTFIELD + 1];
@@ -59,7 +59,7 @@
     }
     UITextField *rateTF = (UITextField *)[self.view viewWithTag:TAGTEXTFIELD + 2];
     if (![FuData isPureFloat:rateTF.text]) {
-        [self showTitle:@"请填写年利率"];
+        [self showTitle:@"请填写正确的年利率数字"];
         return;
     }
     
@@ -70,13 +70,11 @@
     
     // 等额本息
     double monthPay = (money * R * pow(1 + R, month)) / (pow(1 + R, month) - 1);
-//    NSLog(@"%.2f",monthPay);
     NSMutableArray *bxArray = [[NSMutableArray alloc] initWithCapacity:month];
     for (int x = 1; x <= month; x ++) {
         double mP = (money * R - monthPay) * pow(1 + R, x - 1) + monthPay;
         [bxArray addObject:@(mP)];
     }
-//    NSLog(@"%@",bxArray);
     
     // 等额本金
     NSMutableArray *bjArray = [[NSMutableArray alloc] initWithCapacity:month];
@@ -85,7 +83,6 @@
         double mI = (money - x * payMonth) * R;
         [bjArray addObject:@(mI).stringValue];
     }
-    NSLog(@"%@",bjArray);
 
     FSLoanResultController *resultController = [[FSLoanResultController alloc] init];
     resultController.bxMonthPay = monthPay;
@@ -94,6 +91,7 @@
     resultController.money = money;
     resultController.month = month;
     resultController.bxMonthPay = monthPay;
+    resultController.yearRate = rate;
     [self.navigationController pushViewController:resultController animated:YES];
 }
 

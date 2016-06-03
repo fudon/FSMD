@@ -17,5 +17,6 @@
 
 @property (nonatomic,assign) double     money;
 @property (nonatomic,assign) NSInteger  month;
+@property (nonatomic,assign) double     yearRate;
 
 @end
