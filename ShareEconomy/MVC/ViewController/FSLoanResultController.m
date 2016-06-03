@@ -62,6 +62,7 @@
         for (int x = 0; x < 5; x ++) {
             UILabel *label = [FSViewManager labelWithFrame:CGRectMake(xPoint, 0, (x == 0)?30:((WIDTHFC - 30)/ 4), 44) text:@"" textColor:nil backColor:nil font:FONTFC(13) textAlignment:NSTextAlignmentCenter];
             label.tag = TAGLABEL + x;
+            label.adjustsFontSizeToFitWidth = YES;
             [cell addSubview:label];
             xPoint += label.width;
         }
