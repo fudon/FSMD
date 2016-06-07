@@ -11,6 +11,7 @@
 #import "FSQRController.h"
 #import "FSHardwareInfoController.h"
 #import "FSLoanCounterController.h"
+#import "FSTaxOfIncomeController.h"
 
 @interface FSMoneyController ()
 
@@ -69,10 +70,14 @@
         }
             break;
             case 6:
-        {}
+        {
+            FSTaxOfIncomeController *taxController = [[FSTaxOfIncomeController alloc] init];
+            [self.navigationController pushViewController:taxController animated:YES];
+        }
             break;
             case 7:
-        {}
+        {
+        }
             break;
         default:
             break;

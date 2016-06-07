@@ -26,6 +26,8 @@
 		5C7378711CE5CD81002E1C4C /* UIImageView+HighlightedWebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C73785F1CE5CD81002E1C4C /* UIImageView+HighlightedWebCache.m */; };
 		5C7378721CE5CD81002E1C4C /* UIImageView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C7378611CE5CD81002E1C4C /* UIImageView+WebCache.m */; };
 		5C7378731CE5CD81002E1C4C /* UIView+WebCacheOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C7378631CE5CD81002E1C4C /* UIView+WebCacheOperation.m */; };
+		5C7BB73B1D06620900876F3C /* FSCacheManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C7BB73A1D06620900876F3C /* FSCacheManager.m */; };
+		5CB6A43B1D059ED3008AEBEB /* FSTaxOfIncomeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CB6A43A1D059ED3008AEBEB /* FSTaxOfIncomeController.m */; };
 		7117B2181CCBADD500F959D2 /* actionPic.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7117B1911CCBADD500F959D2 /* actionPic.jpg */; };
 		7117B2191CCBADD500F959D2 /* banjiaa.png in Resources */ = {isa = PBXBuildFile; fileRef = 7117B1921CCBADD500F959D2 /* banjiaa.png */; };
 		7117B21A1CCBADD500F959D2 /* cart10.png in Resources */ = {isa = PBXBuildFile; fileRef = 7117B1931CCBADD500F959D2 /* cart10.png */; };
@@ -325,6 +327,10 @@
 		5C7378611CE5CD81002E1C4C /* UIImageView+WebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+WebCache.m"; sourceTree = "<group>"; };
 		5C7378621CE5CD81002E1C4C /* UIView+WebCacheOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+WebCacheOperation.h"; sourceTree = "<group>"; };
 		5C7378631CE5CD81002E1C4C /* UIView+WebCacheOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+WebCacheOperation.m"; sourceTree = "<group>"; };
+		5C7BB7391D06620900876F3C /* FSCacheManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSCacheManager.h; sourceTree = "<group>"; };
+		5C7BB73A1D06620900876F3C /* FSCacheManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSCacheManager.m; sourceTree = "<group>"; };
+		5CB6A4391D059ED3008AEBEB /* FSTaxOfIncomeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSTaxOfIncomeController.h; sourceTree = "<group>"; };
+		5CB6A43A1D059ED3008AEBEB /* FSTaxOfIncomeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSTaxOfIncomeController.m; sourceTree = "<group>"; };
 		7117B1911CCBADD500F959D2 /* actionPic.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = actionPic.jpg; sourceTree = "<group>"; };
 		7117B1921CCBADD500F959D2 /* banjiaa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = banjiaa.png; sourceTree = "<group>"; };
 		7117B1931CCBADD500F959D2 /* cart10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cart10.png; sourceTree = "<group>"; };
@@ -1161,6 +1167,8 @@
 				71ABE63C1CE2A7D500808AFF /* FuWeb.h */,
 				71ABE63D1CE2A7D500808AFF /* FuWeb.m */,
 				71ABE63E1CE2A7D500808AFF /* Note.txt */,
+				5C7BB7391D06620900876F3C /* FSCacheManager.h */,
+				5C7BB73A1D06620900876F3C /* FSCacheManager.m */,
 			);
 			name = FuSoft;
 			path = ../../../FuSoft;
@@ -1257,6 +1265,8 @@
 				71ABE7B11CE7061900808AFF /* FSWebController.m */,
 				71ABE7BB1CE7192D00808AFF /* FSHardwareInfoController.h */,
 				71ABE7BC1CE7192D00808AFF /* FSHardwareInfoController.m */,
+				5CB6A4391D059ED3008AEBEB /* FSTaxOfIncomeController.h */,
+				5CB6A43A1D059ED3008AEBEB /* FSTaxOfIncomeController.m */,
 			);
 			path = FSBase;
 			sourceTree = "<group>";
@@ -1755,6 +1765,7 @@
 				5C7378701CE5CD81002E1C4C /* UIImage+WebP.m in Sources */,
 				71ABEE151CF1D20000808AFF /* MJRefreshConst.m in Sources */,
 				71ABE64D1CE2A7D500808AFF /* FIWebView.m in Sources */,
+				5CB6A43B1D059ED3008AEBEB /* FSTaxOfIncomeController.m in Sources */,
 				71ABEE171CF1D20000808AFF /* UIScrollView+MJRefresh.m in Sources */,
 				5C73786A1CE5CD81002E1C4C /* SDWebImageDownloaderOperation.m in Sources */,
 				7141E2971CC529EE0090AF17 /* FSLoginController.m in Sources */,
@@ -1775,6 +1786,7 @@
 				71ABE7B21CE7061900808AFF /* FSWebController.m in Sources */,
 				71ABEE131CF1D20000808AFF /* MJRefreshStateHeader.m in Sources */,
 				71ABEDB41CF1CFA000808AFF /* HPTextViewInternal.m in Sources */,
+				5C7BB73B1D06620900876F3C /* FSCacheManager.m in Sources */,
 				71ABEE091CF1D20000808AFF /* MJRefreshFooter.m in Sources */,
 				5C7378721CE5CD81002E1C4C /* UIImageView+WebCache.m in Sources */,
 				71ABE6521CE2A7D500808AFF /* FSWebImageView.m in Sources */,
