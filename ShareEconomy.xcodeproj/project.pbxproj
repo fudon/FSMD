@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		5C12F7D61CF993B700309F7A /* libHyphenateFullSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C12F7D51CF993B700309F7A /* libHyphenateFullSDK.a */; };
+		5C4F61581D07FD130086C265 /* FSTaxDetailView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C4F61571D07FD130086C265 /* FSTaxDetailView.m */; };
+		5C4F615B1D07FFD00086C265 /* FSTapScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C4F615A1D07FFD00086C265 /* FSTapScrollView.m */; };
 		5C5056211CFE8B3A00B654AB /* FSLoanCounterController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C5056201CFE8B3A00B654AB /* FSLoanCounterController.m */; };
 		5C50567C1CFF162D00B654AB /* FSLoanResultController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C50567B1CFF162D00B654AB /* FSLoanResultController.m */; };
 		5C7378641CE5CD81002E1C4C /* MKAnnotationView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C7378441CE5CD81002E1C4C /* MKAnnotationView+WebCache.m */; };
@@ -290,6 +292,10 @@
 		5C12F7D21CF993B700309F7A /* IEMGroupManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IEMGroupManager.h; sourceTree = "<group>"; };
 		5C12F7D31CF993B700309F7A /* OpenGLView20.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenGLView20.h; sourceTree = "<group>"; };
 		5C12F7D51CF993B700309F7A /* libHyphenateFullSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libHyphenateFullSDK.a; sourceTree = "<group>"; };
+		5C4F61561D07FD130086C265 /* FSTaxDetailView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSTaxDetailView.h; sourceTree = "<group>"; };
+		5C4F61571D07FD130086C265 /* FSTaxDetailView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSTaxDetailView.m; sourceTree = "<group>"; };
+		5C4F61591D07FFD00086C265 /* FSTapScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSTapScrollView.h; sourceTree = "<group>"; };
+		5C4F615A1D07FFD00086C265 /* FSTapScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSTapScrollView.m; sourceTree = "<group>"; };
 		5C50561F1CFE8B3A00B654AB /* FSLoanCounterController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSLoanCounterController.h; sourceTree = "<group>"; };
 		5C5056201CFE8B3A00B654AB /* FSLoanCounterController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSLoanCounterController.m; sourceTree = "<group>"; };
 		5C50567A1CFF162D00B654AB /* FSLoanResultController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSLoanResultController.h; sourceTree = "<group>"; };
@@ -1169,6 +1175,10 @@
 				71ABE63E1CE2A7D500808AFF /* Note.txt */,
 				5C7BB7391D06620900876F3C /* FSCacheManager.h */,
 				5C7BB73A1D06620900876F3C /* FSCacheManager.m */,
+				5C4F61561D07FD130086C265 /* FSTaxDetailView.h */,
+				5C4F61571D07FD130086C265 /* FSTaxDetailView.m */,
+				5C4F61591D07FFD00086C265 /* FSTapScrollView.h */,
+				5C4F615A1D07FFD00086C265 /* FSTapScrollView.m */,
 			);
 			name = FuSoft;
 			path = ../../../FuSoft;
@@ -1789,6 +1799,7 @@
 				5C7BB73B1D06620900876F3C /* FSCacheManager.m in Sources */,
 				71ABEE091CF1D20000808AFF /* MJRefreshFooter.m in Sources */,
 				5C7378721CE5CD81002E1C4C /* UIImageView+WebCache.m in Sources */,
+				5C4F615B1D07FFD00086C265 /* FSTapScrollView.m in Sources */,
 				71ABE6521CE2A7D500808AFF /* FSWebImageView.m in Sources */,
 				5C7378731CE5CD81002E1C4C /* UIView+WebCacheOperation.m in Sources */,
 				71ABE5FE1CE2A74400808AFF /* ViewController.m in Sources */,
@@ -1802,6 +1813,7 @@
 				71ABEE161CF1D20000808AFF /* UIScrollView+MJExtension.m in Sources */,
 				71ABEE081CF1D20000808AFF /* MJRefreshComponent.m in Sources */,
 				71ABEDAF1CF1CFA000808AFF /* FSEMMessage.m in Sources */,
+				5C4F61581D07FD130086C265 /* FSTaxDetailView.m in Sources */,
 				71ABE6551CE2A7D500808AFF /* FuWeb.m in Sources */,
 				5C73786E1CE5CD81002E1C4C /* UIImage+GIF.m in Sources */,
 				71ABEE071CF1D20000808AFF /* MJRefreshBackFooter.m in Sources */,
