@@ -23,6 +23,7 @@
 
 - (void)loanCounterDesignViews
 {
+    self.title = @"贷款计算器";
     NSArray *titles = @[@"贷款总额",@"贷款期数",@"年利率"];
     NSArray *placeholders = @[@"单位：万元",@"月数，如10年填120",@"如5%，填5"];
     for (int x = 0; x < titles.count; x ++) {
@@ -41,6 +42,9 @@
     
     UIButton *button = [FSViewManager buttonWithFrame:CGRectMake(20, 240, WIDTHFC - 40, 40) title:@"计算" titleColor:[UIColor whiteColor] backColor:FSAPPCOLOR fontInt:0 target:self selector:@selector(countAction)];
     [self.view addSubview:button];
+    
+    UILabel *showLabel = [FSViewManager labelWithFrame:CGRectMake(20, button.bottom + 5, WIDTHFC - 20, 30) text:@"*计算结果只供参考，如有出入,请以专业为准。" textColor:[UIColor lightGrayColor] backColor:nil font:FONTFC(12) textAlignment:NSTextAlignmentLeft];
+    [self.view addSubview:showLabel];
 }
 
 // http://www.edai.com/jsq/ajfd/
