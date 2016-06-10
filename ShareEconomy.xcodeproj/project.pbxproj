@@ -170,6 +170,7 @@
 		7141E2971CC529EE0090AF17 /* FSLoginController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7141E2961CC529EE0090AF17 /* FSLoginController.m */; };
 		71A9713E1D086F5D00E70408 /* FSTaxDetailView.m in Sources */ = {isa = PBXBuildFile; fileRef = 71A9713B1D086F5D00E70408 /* FSTaxDetailView.m */; };
 		71A9713F1D086F5D00E70408 /* FSTaxOfIncomeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71A9713D1D086F5D00E70408 /* FSTaxOfIncomeController.m */; };
+		71A971421D0AB63500E70408 /* FSTaxRateEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 71A971411D0AB63500E70408 /* FSTaxRateEntity.m */; };
 		71ABE5FB1CE2A73900808AFF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 71ABE5FA1CE2A73900808AFF /* AppDelegate.m */; };
 		71ABE5FE1CE2A74400808AFF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71ABE5FD1CE2A74400808AFF /* ViewController.m */; };
 		71ABE6011CE2A75E00808AFF /* FSTabbarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71ABE6001CE2A75E00808AFF /* FSTabbarController.m */; };
@@ -487,6 +488,8 @@
 		71A9713B1D086F5D00E70408 /* FSTaxDetailView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSTaxDetailView.m; sourceTree = "<group>"; };
 		71A9713C1D086F5D00E70408 /* FSTaxOfIncomeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSTaxOfIncomeController.h; sourceTree = "<group>"; };
 		71A9713D1D086F5D00E70408 /* FSTaxOfIncomeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSTaxOfIncomeController.m; sourceTree = "<group>"; };
+		71A971401D0AB63500E70408 /* FSTaxRateEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSTaxRateEntity.h; sourceTree = "<group>"; };
+		71A971411D0AB63500E70408 /* FSTaxRateEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSTaxRateEntity.m; sourceTree = "<group>"; };
 		71ABE5F91CE2A73900808AFF /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ShareEconomy/AppDelegate.h; sourceTree = SOURCE_ROOT; };
 		71ABE5FA1CE2A73900808AFF /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ShareEconomy/AppDelegate.m; sourceTree = SOURCE_ROOT; };
 		71ABE5FC1CE2A74400808AFF /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = ShareEconomy/ViewController.h; sourceTree = SOURCE_ROOT; };
@@ -1163,6 +1166,8 @@
 				71A9713B1D086F5D00E70408 /* FSTaxDetailView.m */,
 				71A9713C1D086F5D00E70408 /* FSTaxOfIncomeController.h */,
 				71A9713D1D086F5D00E70408 /* FSTaxOfIncomeController.m */,
+				71A971401D0AB63500E70408 /* FSTaxRateEntity.h */,
+				71A971411D0AB63500E70408 /* FSTaxRateEntity.m */,
 			);
 			path = Tax;
 			sourceTree = "<group>";
@@ -1837,6 +1842,7 @@
 				5C73786C1CE5CD81002E1C4C /* SDWebImagePrefetcher.m in Sources */,
 				5C5056211CFE8B3A00B654AB /* FSLoanCounterController.m in Sources */,
 				71ABEE0F1CF1D20000808AFF /* MJRefreshBackNormalFooter.m in Sources */,
+				71A971421D0AB63500E70408 /* FSTaxRateEntity.m in Sources */,
 				71ABEE181CF1D20000808AFF /* UIView+MJExtension.m in Sources */,
 				71FBBC531CFA85AF0086D807 /* FSComposeController.m in Sources */,
 				71ABE7AC1CE6CAE600808AFF /* FSImageLabelView.m in Sources */,
