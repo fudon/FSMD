@@ -173,6 +173,7 @@
 		71A971421D0AB63500E70408 /* FSTaxRateEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 71A971411D0AB63500E70408 /* FSTaxRateEntity.m */; };
 		71A971481D0AD53100E70408 /* FSSelectController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71A971471D0AD53100E70408 /* FSSelectController.m */; };
 		71A9714B1D0AD73000E70408 /* FSSelectSectionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71A9714A1D0AD73000E70408 /* FSSelectSectionController.m */; };
+		71A9714E1D0AF79600E70408 /* FSAddTaxModelController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71A9714D1D0AF79600E70408 /* FSAddTaxModelController.m */; };
 		71ABE5FB1CE2A73900808AFF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 71ABE5FA1CE2A73900808AFF /* AppDelegate.m */; };
 		71ABE5FE1CE2A74400808AFF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71ABE5FD1CE2A74400808AFF /* ViewController.m */; };
 		71ABE6011CE2A75E00808AFF /* FSTabbarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71ABE6001CE2A75E00808AFF /* FSTabbarController.m */; };
@@ -496,6 +497,8 @@
 		71A971471D0AD53100E70408 /* FSSelectController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSSelectController.m; sourceTree = "<group>"; };
 		71A971491D0AD73000E70408 /* FSSelectSectionController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSSelectSectionController.h; sourceTree = "<group>"; };
 		71A9714A1D0AD73000E70408 /* FSSelectSectionController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSSelectSectionController.m; sourceTree = "<group>"; };
+		71A9714C1D0AF79600E70408 /* FSAddTaxModelController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSAddTaxModelController.h; sourceTree = "<group>"; };
+		71A9714D1D0AF79600E70408 /* FSAddTaxModelController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSAddTaxModelController.m; sourceTree = "<group>"; };
 		71ABE5F91CE2A73900808AFF /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ShareEconomy/AppDelegate.h; sourceTree = SOURCE_ROOT; };
 		71ABE5FA1CE2A73900808AFF /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ShareEconomy/AppDelegate.m; sourceTree = SOURCE_ROOT; };
 		71ABE5FC1CE2A74400808AFF /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = ShareEconomy/ViewController.h; sourceTree = SOURCE_ROOT; };
@@ -1174,6 +1177,8 @@
 				71A9713D1D086F5D00E70408 /* FSTaxOfIncomeController.m */,
 				71A971401D0AB63500E70408 /* FSTaxRateEntity.h */,
 				71A971411D0AB63500E70408 /* FSTaxRateEntity.m */,
+				71A9714C1D0AF79600E70408 /* FSAddTaxModelController.h */,
+				71A9714D1D0AF79600E70408 /* FSAddTaxModelController.m */,
 			);
 			path = Tax;
 			sourceTree = "<group>";
@@ -1818,6 +1823,7 @@
 				71ABEE101CF1D20000808AFF /* MJRefreshBackStateFooter.m in Sources */,
 				71ABE7B21CE7061900808AFF /* FSWebController.m in Sources */,
 				71ABEE131CF1D20000808AFF /* MJRefreshStateHeader.m in Sources */,
+				71A9714E1D0AF79600E70408 /* FSAddTaxModelController.m in Sources */,
 				71ABEDB41CF1CFA000808AFF /* HPTextViewInternal.m in Sources */,
 				5C7BB73B1D06620900876F3C /* FSCacheManager.m in Sources */,
 				71ABEE091CF1D20000808AFF /* MJRefreshFooter.m in Sources */,
