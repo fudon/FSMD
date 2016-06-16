@@ -1985,8 +1985,8 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
-					"/Users/fudonfuchina/Documents/FSGit/HyphenateFullSDK/lib\n/Users/fudonfuchina/Documents/FSGit/HyphenateFullSDK/lib\n",
 					"$(inherited)",
+					/Users/ios/Documents/fudon/HyphenateFullSDK/lib,
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.guazi.bb;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -2003,8 +2003,8 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
-					"/Users/fudonfuchina/Documents/FSGit/HyphenateFullSDK/lib\n/Users/fudonfuchina/Documents/FSGit/HyphenateFullSDK/lib\n",
 					"$(inherited)",
+					/Users/ios/Documents/fudon/HyphenateFullSDK/lib,
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.guazi.bb;
 				PRODUCT_NAME = "$(TARGET_NAME)";
