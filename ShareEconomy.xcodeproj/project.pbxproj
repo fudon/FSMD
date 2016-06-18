@@ -28,6 +28,7 @@
 		5C7378721CE5CD81002E1C4C /* UIImageView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C7378611CE5CD81002E1C4C /* UIImageView+WebCache.m */; };
 		5C7378731CE5CD81002E1C4C /* UIView+WebCacheOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C7378631CE5CD81002E1C4C /* UIView+WebCacheOperation.m */; };
 		5C7BB73B1D06620900876F3C /* FSCacheManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C7BB73A1D06620900876F3C /* FSCacheManager.m */; };
+		5C913D4D1D15006F0009DC32 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C913D4C1D15006F0009DC32 /* WebKit.framework */; };
 		7117B2181CCBADD500F959D2 /* actionPic.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7117B1911CCBADD500F959D2 /* actionPic.jpg */; };
 		7117B2191CCBADD500F959D2 /* banjiaa.png in Resources */ = {isa = PBXBuildFile; fileRef = 7117B1921CCBADD500F959D2 /* banjiaa.png */; };
 		7117B21A1CCBADD500F959D2 /* cart10.png in Resources */ = {isa = PBXBuildFile; fileRef = 7117B1931CCBADD500F959D2 /* cart10.png */; };
@@ -337,6 +338,7 @@
 		5C7378631CE5CD81002E1C4C /* UIView+WebCacheOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+WebCacheOperation.m"; sourceTree = "<group>"; };
 		5C7BB7391D06620900876F3C /* FSCacheManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSCacheManager.h; sourceTree = "<group>"; };
 		5C7BB73A1D06620900876F3C /* FSCacheManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSCacheManager.m; sourceTree = "<group>"; };
+		5C913D4C1D15006F0009DC32 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		7117B1911CCBADD500F959D2 /* actionPic.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = actionPic.jpg; sourceTree = "<group>"; };
 		7117B1921CCBADD500F959D2 /* banjiaa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = banjiaa.png; sourceTree = "<group>"; };
 		7117B1931CCBADD500F959D2 /* cart10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cart10.png; sourceTree = "<group>"; };
@@ -691,6 +693,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5C913D4D1D15006F0009DC32 /* WebKit.framework in Frameworks */,
 				71ABEE701CF2038E00808AFF /* libHyphenateFullSDK.a in Frameworks */,
 				71ABEDD51CF1D09B00808AFF /* CoreMedia.framework in Frameworks */,
 				71ABEDD31CF1D09400808AFF /* AudioToolbox.framework in Frameworks */,
@@ -1043,6 +1046,7 @@
 		7141E2061CBE8B090090AF17 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				5C913D4C1D15006F0009DC32 /* WebKit.framework */,
 				7141E2071CBE8B090090AF17 /* main.m */,
 			);
 			name = "Supporting Files";

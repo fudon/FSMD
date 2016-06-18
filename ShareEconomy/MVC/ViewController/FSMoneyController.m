@@ -12,6 +12,7 @@
 #import "FSHardwareInfoController.h"
 #import "FSLoanCounterController.h"
 #import "FSTaxOfIncomeController.h"
+#import "FSWebController.h"
 
 @interface FSMoneyController ()
 
@@ -61,7 +62,11 @@
         {}
             break;
             case 4:
-        {}
+        {
+            FSWebController *webController = [[FSWebController alloc] init];
+            webController.urlString = @"http://blog.sina.cn/";
+            [self.navigationController pushViewController:webController animated:YES];
+        }
             break;
             case 5:
         {
