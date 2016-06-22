@@ -13,6 +13,7 @@
 #import "FSLoanCounterController.h"
 #import "FSTaxOfIncomeController.h"
 #import "FSWebController.h"
+#import "FSSameKindController.h"
 
 @interface FSMoneyController ()
 
@@ -63,9 +64,12 @@
             break;
             case 4:
         {
-            FSWebController *webController = [[FSWebController alloc] init];
-            webController.urlString = @"http://blog.sina.cn/";
-            [self.navigationController pushViewController:webController animated:YES];
+            FSSameKindController *sameKind = [[FSSameKindController alloc] init];
+            [self.navigationController pushViewController:sameKind animated:YES];
+            
+//            FSWebController *webController = [[FSWebController alloc] init];
+//            webController.urlString = @"http://blog.sina.cn/";
+//            [self.navigationController pushViewController:webController animated:YES];
         }
             break;
             case 5:

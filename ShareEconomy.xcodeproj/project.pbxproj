@@ -29,6 +29,7 @@
 		5C7378731CE5CD81002E1C4C /* UIView+WebCacheOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C7378631CE5CD81002E1C4C /* UIView+WebCacheOperation.m */; };
 		5C7BB73B1D06620900876F3C /* FSCacheManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C7BB73A1D06620900876F3C /* FSCacheManager.m */; };
 		5C913D4D1D15006F0009DC32 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C913D4C1D15006F0009DC32 /* WebKit.framework */; };
+		5CCBBC791D1AB248003B5C41 /* FSSameKindController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CCBBC781D1AB248003B5C41 /* FSSameKindController.m */; };
 		7117B2181CCBADD500F959D2 /* actionPic.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7117B1911CCBADD500F959D2 /* actionPic.jpg */; };
 		7117B2191CCBADD500F959D2 /* banjiaa.png in Resources */ = {isa = PBXBuildFile; fileRef = 7117B1921CCBADD500F959D2 /* banjiaa.png */; };
 		7117B21A1CCBADD500F959D2 /* cart10.png in Resources */ = {isa = PBXBuildFile; fileRef = 7117B1931CCBADD500F959D2 /* cart10.png */; };
@@ -339,6 +340,8 @@
 		5C7BB7391D06620900876F3C /* FSCacheManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSCacheManager.h; sourceTree = "<group>"; };
 		5C7BB73A1D06620900876F3C /* FSCacheManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSCacheManager.m; sourceTree = "<group>"; };
 		5C913D4C1D15006F0009DC32 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		5CCBBC771D1AB248003B5C41 /* FSSameKindController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSSameKindController.h; sourceTree = "<group>"; };
+		5CCBBC781D1AB248003B5C41 /* FSSameKindController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSSameKindController.m; sourceTree = "<group>"; };
 		7117B1911CCBADD500F959D2 /* actionPic.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = actionPic.jpg; sourceTree = "<group>"; };
 		7117B1921CCBADD500F959D2 /* banjiaa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = banjiaa.png; sourceTree = "<group>"; };
 		7117B1931CCBADD500F959D2 /* cart10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cart10.png; sourceTree = "<group>"; };
@@ -1150,6 +1153,8 @@
 				5C5056201CFE8B3A00B654AB /* FSLoanCounterController.m */,
 				5C50567A1CFF162D00B654AB /* FSLoanResultController.h */,
 				5C50567B1CFF162D00B654AB /* FSLoanResultController.m */,
+				5CCBBC771D1AB248003B5C41 /* FSSameKindController.h */,
+				5CCBBC781D1AB248003B5C41 /* FSSameKindController.m */,
 			);
 			name = Money;
 			sourceTree = "<group>";
@@ -1841,6 +1846,7 @@
 				7141E2081CBE8B090090AF17 /* main.m in Sources */,
 				71ABE64C1CE2A7D500808AFF /* UIViewExt.m in Sources */,
 				71ABEDB11CF1CFA000808AFF /* FSSendCell.m in Sources */,
+				5CCBBC791D1AB248003B5C41 /* FSSameKindController.m in Sources */,
 				71ABE6511CE2A7D500808AFF /* FSViewManager.m in Sources */,
 				5C7378691CE5CD81002E1C4C /* SDWebImageDownloader.m in Sources */,
 				71ABEE161CF1D20000808AFF /* UIScrollView+MJExtension.m in Sources */,
