@@ -7,6 +7,7 @@
 //
 
 #import "FSSameKindController.h"
+#import "FSWebController.h"
 
 @interface FSSameKindController ()<UITableViewDelegate,UITableViewDataSource>
 
@@ -35,8 +36,18 @@
         cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:identifier];
     }
     NSDictionary *dic = self.datas[indexPath.row];
-    
+    cell.imageView.image = IMAGENAMED([dic objectForKey:Picture_Name]);
+    cell.textLabel.text = [dic objectForKey:Text_Name];
     return cell;
+}
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    NSDictionary *dic = self.datas[indexPath.row];
+    
+    FSWebController *webController = [[FSWebController alloc] init];
+    webController.urlString = [dic objectForKey:Url_String];
+    [self.navigationController pushViewController:webController animated:YES];
 }
 
 - (void)didReceiveMemoryWarning {

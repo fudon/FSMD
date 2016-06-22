@@ -25,7 +25,7 @@
     [super viewDidLoad];
     self.title = @"百宝箱";
     
-    NSArray *array = @[@"二维码",@"记账本",@"设备信息",@"蓝牙",@"利息计算器",@"贷款计算器",@"个税计算器"];
+    NSArray *array = @[@"二维码",@"记账本",@"设备信息",@"蓝牙",@"购物网站",@"贷款计算器",@"个税计算器"];
     NSArray *picArray = @[@"saoma_too",@"a_4",@"a_n",@"ae6",@"myintegral",@"my_history",@"tootoodingdan"];
     
     CGFloat width = (WIDTHFC - 100) / 4;
@@ -65,6 +65,11 @@
             case 4:
         {
             FSSameKindController *sameKind = [[FSSameKindController alloc] init];
+            sameKind.datas = @[@{Picture_Name:@"tblogo",Text_Name:@"淘宝",Url_String:@"https://m.taobao.com"},
+                               @{Picture_Name:@"jdlogo",Text_Name:@"京东商城",Url_String:@"https://m.jd.com"},
+                               @{Picture_Name:@"gmlogo.jpg",Text_Name:@"国美电器",Url_String:@"https://m.gome.com.cn"},
+                               @{Picture_Name:@"snlogo.jpg",Text_Name:@"苏宁易购",Url_String:@"https://m.suning.com"}
+                               ];
             [self.navigationController pushViewController:sameKind animated:YES];
             
 //            FSWebController *webController = [[FSWebController alloc] init];

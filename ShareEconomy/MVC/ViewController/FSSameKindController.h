@@ -9,8 +9,8 @@
 #import "FSBaseController.h"
 
 #define Picture_Name    @"Picture_Name"
-#define Name_           @"Picture_Name"
-#define Picture_Name    @"Picture_Name"
+#define Text_Name       @"Text_Name"
+#define Url_String      @"Url_String"
 
 @interface FSSameKindController : FSBaseController
 
