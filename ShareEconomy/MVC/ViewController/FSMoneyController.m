@@ -66,15 +66,24 @@
         {
             FSSameKindController *sameKind = [[FSSameKindController alloc] init];
             sameKind.datas = @[@{Picture_Name:@"tblogo",Text_Name:@"淘宝",Url_String:@"https://m.taobao.com"},
-                               @{Picture_Name:@"jdlogo",Text_Name:@"京东商城",Url_String:@"https://m.jd.com"},
+                               @{Picture_Name:@"snlogo.jpg",Text_Name:@"天猫",Url_String:@"https://m.tmall.com"},
+                               @{Picture_Name:@"snlogo.jpg",Text_Name:@"1688",Url_String:@"http://m.1688.com"},
+                               @{Picture_Name:@"jdlogo",Text_Name:@"京东商城",Url_String:@"http://m.jd.com"},
                                @{Picture_Name:@"gmlogo.jpg",Text_Name:@"国美电器",Url_String:@"http://m.gome.com.cn"},
-                               @{Picture_Name:@"snlogo.jpg",Text_Name:@"苏宁易购",Url_String:@"https://m.suning.com"}
+                               @{Picture_Name:@"snlogo.jpg",Text_Name:@"苏宁易购",Url_String:@"http://m.suning.com"},
+                               @{Picture_Name:@"snlogo.jpg",Text_Name:@"亚马逊",Url_String:@"https://www.z.cn"},
+                               @{Picture_Name:@"snlogo.jpg",Text_Name:@"美团",Url_String:@"http://i.meituan.com"},
+                               @{Picture_Name:@"snlogo.jpg",Text_Name:@"大众点评",Url_String:@"http://m.dianping.com"},
+                               @{Picture_Name:@"snlogo.jpg",Text_Name:@"一号店",Url_String:@"http://m.yhd.com"},
+                               @{Picture_Name:@"snlogo.jpg",Text_Name:@"百度糯米",Url_String:@"https://m.nuomi.com"},
+                               @{Picture_Name:@"snlogo.jpg",Text_Name:@"唯品会",Url_String:@"http://m.vip.com"},
+                               @{Picture_Name:@"snlogo.jpg",Text_Name:@"蘑菇街",Url_String:@"http://m.mogujie.com"},
+                               @{Picture_Name:@"snlogo.jpg",Text_Name:@"返利网",Url_String:@"https://m.fanli.com"},
+                               @{Picture_Name:@"snlogo.jpg",Text_Name:@"聚美优品",Url_String:@"http://m.jumei.com"},
+                               @{Picture_Name:@"snlogo.jpg",Text_Name:@"小米官网",Url_String:@"http://m.mi.com"},
+                               @{Picture_Name:@"snlogo.jpg",Text_Name:@"酒仙网",Url_String:@"http://m.jiuxian.com"}
                                ];
             [self.navigationController pushViewController:sameKind animated:YES];
-            
-//            FSWebController *webController = [[FSWebController alloc] init];
-//            webController.urlString = @"http://blog.sina.cn/";
-//            [self.navigationController pushViewController:webController animated:YES];
         }
             break;
             case 5:
