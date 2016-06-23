@@ -67,7 +67,7 @@
             FSSameKindController *sameKind = [[FSSameKindController alloc] init];
             sameKind.datas = @[@{Picture_Name:@"tblogo",Text_Name:@"淘宝",Url_String:@"https://m.taobao.com"},
                                @{Picture_Name:@"jdlogo",Text_Name:@"京东商城",Url_String:@"https://m.jd.com"},
-                               @{Picture_Name:@"gmlogo.jpg",Text_Name:@"国美电器",Url_String:@"https://m.gome.com.cn"},
+                               @{Picture_Name:@"gmlogo.jpg",Text_Name:@"国美电器",Url_String:@"http://m.gome.com.cn"},
                                @{Picture_Name:@"snlogo.jpg",Text_Name:@"苏宁易购",Url_String:@"https://m.suning.com"}
                                ];
             [self.navigationController pushViewController:sameKind animated:YES];
