@@ -1605,7 +1605,7 @@
 				TargetAttributes = {
 					7141E2021CBE8B090090AF17 = {
 						CreatedOnToolsVersion = 7.3;
-						DevelopmentTeam = U9Y4DBL6N3;
+						DevelopmentTeam = BL86JR5S2K;
 					};
 				};
 			};
@@ -1998,7 +1998,7 @@
 					"/Users/ios/Documents/fudon/HyphenateFullSDK/lib\n",
 					"$(inherited)",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.guazi.bs;
+				PRODUCT_BUNDLE_IDENTIFIER = com.guazi.bb;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -2016,7 +2016,7 @@
 					"/Users/ios/Documents/fudon/HyphenateFullSDK/lib\n",
 					"$(inherited)",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.guazi.bs;
+				PRODUCT_BUNDLE_IDENTIFIER = com.guazi.bb;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
