@@ -176,6 +176,10 @@
 		71A971481D0AD53100E70408 /* FSSelectController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71A971471D0AD53100E70408 /* FSSelectController.m */; };
 		71A9714B1D0AD73000E70408 /* FSSelectSectionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71A9714A1D0AD73000E70408 /* FSSelectSectionController.m */; };
 		71A9714E1D0AF79600E70408 /* FSAddTaxModelController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71A9714D1D0AF79600E70408 /* FSAddTaxModelController.m */; };
+		71A971521D1D768100E70408 /* a99.png in Resources */ = {isa = PBXBuildFile; fileRef = 71A9714F1D1D768100E70408 /* a99.png */; };
+		71A971531D1D768100E70408 /* webback.png in Resources */ = {isa = PBXBuildFile; fileRef = 71A971501D1D768100E70408 /* webback.png */; };
+		71A971541D1D768100E70408 /* webmore.png in Resources */ = {isa = PBXBuildFile; fileRef = 71A971511D1D768100E70408 /* webmore.png */; };
+		71A971561D1D799600E70408 /* forwardweb.png in Resources */ = {isa = PBXBuildFile; fileRef = 71A971551D1D799600E70408 /* forwardweb.png */; };
 		71ABE5FB1CE2A73900808AFF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 71ABE5FA1CE2A73900808AFF /* AppDelegate.m */; };
 		71ABE5FE1CE2A74400808AFF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71ABE5FD1CE2A74400808AFF /* ViewController.m */; };
 		71ABE6011CE2A75E00808AFF /* FSTabbarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71ABE6001CE2A75E00808AFF /* FSTabbarController.m */; };
@@ -504,6 +508,10 @@
 		71A9714A1D0AD73000E70408 /* FSSelectSectionController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSSelectSectionController.m; sourceTree = "<group>"; };
 		71A9714C1D0AF79600E70408 /* FSAddTaxModelController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSAddTaxModelController.h; sourceTree = "<group>"; };
 		71A9714D1D0AF79600E70408 /* FSAddTaxModelController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSAddTaxModelController.m; sourceTree = "<group>"; };
+		71A9714F1D1D768100E70408 /* a99.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = a99.png; sourceTree = "<group>"; };
+		71A971501D1D768100E70408 /* webback.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = webback.png; sourceTree = "<group>"; };
+		71A971511D1D768100E70408 /* webmore.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = webmore.png; sourceTree = "<group>"; };
+		71A971551D1D799600E70408 /* forwardweb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = forwardweb.png; sourceTree = "<group>"; };
 		71ABE5F91CE2A73900808AFF /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ShareEconomy/AppDelegate.h; sourceTree = SOURCE_ROOT; };
 		71ABE5FA1CE2A73900808AFF /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ShareEconomy/AppDelegate.m; sourceTree = SOURCE_ROOT; };
 		71ABE5FC1CE2A74400808AFF /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = ShareEconomy/ViewController.h; sourceTree = SOURCE_ROOT; };
@@ -823,6 +831,10 @@
 		7117B1901CCBADD500F959D2 /* First */ = {
 			isa = PBXGroup;
 			children = (
+				71A971551D1D799600E70408 /* forwardweb.png */,
+				71A9714F1D1D768100E70408 /* a99.png */,
+				71A971501D1D768100E70408 /* webback.png */,
+				71A971511D1D768100E70408 /* webmore.png */,
 				7117B1911CCBADD500F959D2 /* actionPic.jpg */,
 				7117B1921CCBADD500F959D2 /* banjiaa.png */,
 				7117B1931CCBADD500F959D2 /* cart10.png */,
@@ -1740,6 +1752,7 @@
 				7117B24F1CCBADD500F959D2 /* all.png in Resources */,
 				7117B2581CCBADD500F959D2 /* appicon.png in Resources */,
 				7117B2751CCBADD500F959D2 /* otherV.png in Resources */,
+				71A971531D1D768100E70408 /* webback.png in Resources */,
 				7117B2251CCBADD500F959D2 /* number2.png in Resources */,
 				7117B2431CCBADD500F959D2 /* forset.png in Resources */,
 				7117B26C1CCBADD500F959D2 /* huodongp.png in Resources */,
@@ -1755,6 +1768,7 @@
 				7117B2191CCBADD500F959D2 /* banjiaa.png in Resources */,
 				71FBBC661CFAE4CB0086D807 /* fsqrlighton.png in Resources */,
 				7117B2321CCBADD500F959D2 /* 114.png in Resources */,
+				71A971561D1D799600E70408 /* forwardweb.png in Resources */,
 				7117B2681CCBADD500F959D2 /* fhmt.png in Resources */,
 				7117B2801CCBADD500F959D2 /* sc11.jpg in Resources */,
 				7117B27C1CCBADD500F959D2 /* sc07.jpg in Resources */,
@@ -1772,8 +1786,10 @@
 				71FBBC5D1CFAD1BD0086D807 /* fsqr1.png in Resources */,
 				7117B24D1CCBADD500F959D2 /* a9z.png in Resources */,
 				7117B2371CCBADD500F959D2 /* 80.png in Resources */,
+				71A971521D1D768100E70408 /* a99.png in Resources */,
 				7117B2291CCBADD500F959D2 /* number6.png in Resources */,
 				7117B22B1CCBADD500F959D2 /* number8.png in Resources */,
+				71A971541D1D768100E70408 /* webmore.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1995,7 +2011,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
-					"/Users/ios/Documents/fudon/HyphenateFullSDK/lib\n",
+					"/Users/fudonfuchina/Documents/FSGit/HyphenateFullSDK/lib\n",
 					"$(inherited)",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.guazi.bb;
@@ -2013,7 +2029,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
-					"/Users/ios/Documents/fudon/HyphenateFullSDK/lib\n",
+					"/Users/fudonfuchina/Documents/FSGit/HyphenateFullSDK/lib\n",
 					"$(inherited)",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.guazi.bb;

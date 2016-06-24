@@ -60,11 +60,25 @@
         }
             break;
             case 3:
-        {}
+        {
+            FSSameKindController *sameKind = [[FSSameKindController alloc] init];
+            sameKind.title = @"新闻阅读";
+            sameKind.datas = @[@{Picture_Name:@"tblogo",Text_Name:@"腾讯",Url_String:@"http://xw.qq.com"},
+                               @{Picture_Name:@"snlogo.jpg",Text_Name:@"新浪",Url_String:@"http://www.sina.cn"},
+                               @{Picture_Name:@"snlogo.jpg",Text_Name:@"新浪博客",Url_String:@"http://blog.sina.cn"},
+                               @{Picture_Name:@"jdlogo",Text_Name:@"网易",Url_String:@"http://3g.163.com"},
+                               @{Picture_Name:@"gmlogo.jpg",Text_Name:@"搜狐",Url_String:@"http://www.souhu.com"},
+                               @{Picture_Name:@"snlogo.jpg",Text_Name:@"凤凰",Url_String:@"http://i.ifeng.com"},
+                               @{Picture_Name:@"snlogo.jpg",Text_Name:@"简书",Url_String:@"http://www.jianshu.com"},
+                               ];
+            [self.navigationController pushViewController:sameKind animated:YES];
+
+        }
             break;
             case 4:
         {
             FSSameKindController *sameKind = [[FSSameKindController alloc] init];
+            sameKind.title = @"购物消费";
             sameKind.datas = @[@{Picture_Name:@"tblogo",Text_Name:@"淘宝",Url_String:@"https://m.taobao.com"},
                                @{Picture_Name:@"snlogo.jpg",Text_Name:@"天猫",Url_String:@"https://m.tmall.com"},
                                @{Picture_Name:@"snlogo.jpg",Text_Name:@"1688",Url_String:@"http://m.1688.com"},
@@ -81,7 +95,9 @@
                                @{Picture_Name:@"snlogo.jpg",Text_Name:@"返利网",Url_String:@"https://m.fanli.com"},
                                @{Picture_Name:@"snlogo.jpg",Text_Name:@"聚美优品",Url_String:@"http://m.jumei.com"},
                                @{Picture_Name:@"snlogo.jpg",Text_Name:@"小米官网",Url_String:@"http://m.mi.com"},
-                               @{Picture_Name:@"snlogo.jpg",Text_Name:@"酒仙网",Url_String:@"http://m.jiuxian.com"}
+                               @{Picture_Name:@"snlogo.jpg",Text_Name:@"酒仙网",Url_String:@"http://m.jiuxian.com"},
+                               @{Picture_Name:@"snlogo.jpg",Text_Name:@"58同城",Url_String:@"http://m.58.com"},
+                               @{Picture_Name:@"snlogo.jpg",Text_Name:@"滴滴打车",Url_String:@"http://www.xiaojukeji.com/"}
                                ];
             [self.navigationController pushViewController:sameKind animated:YES];
         }
