@@ -176,9 +176,7 @@
 		71A971481D0AD53100E70408 /* FSSelectController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71A971471D0AD53100E70408 /* FSSelectController.m */; };
 		71A9714B1D0AD73000E70408 /* FSSelectSectionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71A9714A1D0AD73000E70408 /* FSSelectSectionController.m */; };
 		71A971521D1D768100E70408 /* a99.png in Resources */ = {isa = PBXBuildFile; fileRef = 71A9714F1D1D768100E70408 /* a99.png */; };
-		71A971531D1D768100E70408 /* webback.png in Resources */ = {isa = PBXBuildFile; fileRef = 71A971501D1D768100E70408 /* webback.png */; };
 		71A971541D1D768100E70408 /* webmore.png in Resources */ = {isa = PBXBuildFile; fileRef = 71A971511D1D768100E70408 /* webmore.png */; };
-		71A971561D1D799600E70408 /* forwardweb.png in Resources */ = {isa = PBXBuildFile; fileRef = 71A971551D1D799600E70408 /* forwardweb.png */; };
 		71A971CC1D1E2AC100E70408 /* fsqr1.png in Resources */ = {isa = PBXBuildFile; fileRef = 71A971C21D1E2AC100E70408 /* fsqr1.png */; };
 		71A971CD1D1E2AC100E70408 /* fsqr2.png in Resources */ = {isa = PBXBuildFile; fileRef = 71A971C31D1E2AC100E70408 /* fsqr2.png */; };
 		71A971CE1D1E2AC100E70408 /* fsqr3.png in Resources */ = {isa = PBXBuildFile; fileRef = 71A971C41D1E2AC100E70408 /* fsqr3.png */; };
@@ -189,6 +187,7 @@
 		71A971D31D1E2AC100E70408 /* fsqrline.png in Resources */ = {isa = PBXBuildFile; fileRef = 71A971CA1D1E2AC100E70408 /* fsqrline.png */; };
 		71A971D41D1E2AC100E70408 /* fsqrmsg.wav in Resources */ = {isa = PBXBuildFile; fileRef = 71A971CB1D1E2AC100E70408 /* fsqrmsg.wav */; };
 		71A971D71D1E2B1500E70408 /* FSAddTaxModelController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71A971D61D1E2B1500E70408 /* FSAddTaxModelController.m */; };
+		71A971DA1D1E2BD700E70408 /* FIMoveButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 71A971D91D1E2BD700E70408 /* FIMoveButton.m */; };
 		71ABE5FB1CE2A73900808AFF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 71ABE5FA1CE2A73900808AFF /* AppDelegate.m */; };
 		71ABE5FE1CE2A74400808AFF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71ABE5FD1CE2A74400808AFF /* ViewController.m */; };
 		71ABE6011CE2A75E00808AFF /* FSTabbarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71ABE6001CE2A75E00808AFF /* FSTabbarController.m */; };
@@ -507,9 +506,7 @@
 		71A971491D0AD73000E70408 /* FSSelectSectionController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSSelectSectionController.h; sourceTree = "<group>"; };
 		71A9714A1D0AD73000E70408 /* FSSelectSectionController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSSelectSectionController.m; sourceTree = "<group>"; };
 		71A9714F1D1D768100E70408 /* a99.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = a99.png; sourceTree = "<group>"; };
-		71A971501D1D768100E70408 /* webback.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = webback.png; sourceTree = "<group>"; };
 		71A971511D1D768100E70408 /* webmore.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = webmore.png; sourceTree = "<group>"; };
-		71A971551D1D799600E70408 /* forwardweb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = forwardweb.png; sourceTree = "<group>"; };
 		71A971C21D1E2AC100E70408 /* fsqr1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fsqr1.png; sourceTree = "<group>"; };
 		71A971C31D1E2AC100E70408 /* fsqr2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fsqr2.png; sourceTree = "<group>"; };
 		71A971C41D1E2AC100E70408 /* fsqr3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fsqr3.png; sourceTree = "<group>"; };
@@ -522,6 +519,8 @@
 		71A971CB1D1E2AC100E70408 /* fsqrmsg.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = fsqrmsg.wav; sourceTree = "<group>"; };
 		71A971D51D1E2B1500E70408 /* FSAddTaxModelController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSAddTaxModelController.h; sourceTree = "<group>"; };
 		71A971D61D1E2B1500E70408 /* FSAddTaxModelController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSAddTaxModelController.m; sourceTree = "<group>"; };
+		71A971D81D1E2BD700E70408 /* FIMoveButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FIMoveButton.h; path = ../FIMoveButton.h; sourceTree = "<group>"; };
+		71A971D91D1E2BD700E70408 /* FIMoveButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FIMoveButton.m; path = ../FIMoveButton.m; sourceTree = "<group>"; };
 		71ABE5F91CE2A73900808AFF /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ShareEconomy/AppDelegate.h; sourceTree = SOURCE_ROOT; };
 		71ABE5FA1CE2A73900808AFF /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ShareEconomy/AppDelegate.m; sourceTree = SOURCE_ROOT; };
 		71ABE5FC1CE2A74400808AFF /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = ShareEconomy/ViewController.h; sourceTree = SOURCE_ROOT; };
@@ -831,9 +830,7 @@
 		7117B1901CCBADD500F959D2 /* First */ = {
 			isa = PBXGroup;
 			children = (
-				71A971551D1D799600E70408 /* forwardweb.png */,
 				71A9714F1D1D768100E70408 /* a99.png */,
-				71A971501D1D768100E70408 /* webback.png */,
 				71A971511D1D768100E70408 /* webmore.png */,
 				7117B1911CCBADD500F959D2 /* actionPic.jpg */,
 				7117B1921CCBADD500F959D2 /* banjiaa.png */,
@@ -1325,6 +1322,8 @@
 		71ABE62A1CE2A7D500808AFF /* FSBase */ = {
 			isa = PBXGroup;
 			children = (
+				71A971D81D1E2BD700E70408 /* FIMoveButton.h */,
+				71A971D91D1E2BD700E70408 /* FIMoveButton.m */,
 				71A971C11D1E2AC100E70408 /* QR */,
 				71A971391D086F5D00E70408 /* Tax */,
 				71ABE62B1CE2A7D500808AFF /* FSBaseController.h */,
@@ -1746,7 +1745,6 @@
 				7117B2581CCBADD500F959D2 /* appicon.png in Resources */,
 				71A971CE1D1E2AC100E70408 /* fsqr3.png in Resources */,
 				7117B2751CCBADD500F959D2 /* otherV.png in Resources */,
-				71A971531D1D768100E70408 /* webback.png in Resources */,
 				7117B2251CCBADD500F959D2 /* number2.png in Resources */,
 				7117B2431CCBADD500F959D2 /* forset.png in Resources */,
 				7117B26C1CCBADD500F959D2 /* huodongp.png in Resources */,
@@ -1761,7 +1759,6 @@
 				7117B28A1CCBADD500F959D2 /* sg09.jpg in Resources */,
 				7117B2191CCBADD500F959D2 /* banjiaa.png in Resources */,
 				7117B2321CCBADD500F959D2 /* 114.png in Resources */,
-				71A971561D1D799600E70408 /* forwardweb.png in Resources */,
 				7117B2681CCBADD500F959D2 /* fhmt.png in Resources */,
 				7117B2801CCBADD500F959D2 /* sc11.jpg in Resources */,
 				7117B27C1CCBADD500F959D2 /* sc07.jpg in Resources */,
@@ -1837,6 +1834,7 @@
 				71ABE64E1CE2A7D500808AFF /* FSBaseController.m in Sources */,
 				7141E2371CBE8EDE0090AF17 /* FSZoneController.m in Sources */,
 				71ABE6471CE2A7D500808AFF /* MASViewConstraint.m in Sources */,
+				71A971DA1D1E2BD700E70408 /* FIMoveButton.m in Sources */,
 				71ABEE101CF1D20000808AFF /* MJRefreshBackStateFooter.m in Sources */,
 				71ABE7B21CE7061900808AFF /* FSWebController.m in Sources */,
 				71ABEE131CF1D20000808AFF /* MJRefreshStateHeader.m in Sources */,
