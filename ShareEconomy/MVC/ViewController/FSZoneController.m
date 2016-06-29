@@ -7,7 +7,7 @@
 //
 
 #import "FSZoneController.h"
-#import "SDImageCache.h"
+#import "FSCacheManager.h"
 
 @interface FSZoneController ()<UITableViewDataSource,UITableViewDelegate>
 
@@ -47,22 +47,16 @@
 
 - (NSString *)sdWebCacheSize
 {
-    SDImageCache *cacheManager = [SDImageCache sharedImageCache];
-    NSUInteger size = cacheManager.getSize;
-    return [FuData kMGTUnit:size];
+    return [FuData kMGTUnit:[FSCacheManager allCacheSize]];
 }
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
-        SDImageCache *cacheManager = [SDImageCache sharedImageCache];
-        [cacheManager cleanDisk];
-        [cacheManager clearDisk];
-        dispatch_async(dispatch_get_main_queue(), ^{
-            [tableView deselectRowAtIndexPath:indexPath animated:YES];
-            [self showTitle:@"清除成功"];
-        });
-    });
+    [FSCacheManager clearAllCache:^{        
+        [tableView deselectRowAtIndexPath:indexPath animated:YES];
+        [self showTitle:@"清除成功"];
+    }];
+    
 }
 
 - (void)didReceiveMemoryWarning {
