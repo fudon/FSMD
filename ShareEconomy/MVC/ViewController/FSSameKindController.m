@@ -11,16 +11,30 @@
 
 @interface FSSameKindController ()<UITableViewDelegate,UITableViewDataSource>
 
+@property (nonatomic,assign) NSInteger      selectedIndex;
+@property (nonatomic,strong) UITableView    *tableView;
+
 @end
 
 @implementation FSSameKindController
 
+- (void)viewDidAppear:(BOOL)animated
+{
+    [super viewDidAppear:animated];
+    
+    if (_selectedIndex > -1) {
+        [_tableView deselectRowAtIndexPath:[NSIndexPath indexPathForRow:_selectedIndex inSection:0] animated:NO];
+    }
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
-    UITableView *tableView = [[UITableView alloc] initWithFrame:CGRectMake(0, 64, WIDTHFC, HEIGHTFC - 64) style:UITableViewStylePlain];
-    tableView.delegate = self;
-    tableView.dataSource = self;
-    [self.view addSubview:tableView];
+    _selectedIndex = -1;
+    
+    _tableView = [[UITableView alloc] initWithFrame:CGRectMake(0, 64, WIDTHFC, HEIGHTFC - 64) style:UITableViewStylePlain];
+    _tableView.delegate = self;
+    _tableView.dataSource = self;
+    [self.view addSubview:_tableView];
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
@@ -44,6 +58,7 @@
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
     NSDictionary *dic = self.datas[indexPath.row];
+    _selectedIndex = indexPath.row;
     
     FSWebController *webController = [[FSWebController alloc] init];
     webController.urlString = [dic objectForKey:Url_String];
