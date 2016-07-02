@@ -11,6 +11,8 @@
 
 @interface FSZoneController ()<UITableViewDataSource,UITableViewDelegate>
 
+@property (nonatomic,strong) UITableView *tableView;
+
 @end
 
 @implementation FSZoneController
@@ -19,12 +21,11 @@
     [super viewDidLoad];
     self.title = @"行";
     
-    UITableView *tableView = [[UITableView alloc] initWithFrame:CGRectMake(0, 64, WIDTHFC, HEIGHTFC - 64) style:UITableViewStyleGrouped];
-    tableView.delegate = self;
-    tableView.dataSource = self;
-    tableView.showsVerticalScrollIndicator = NO;
-    [self.view addSubview:tableView];
-    // Do any additional setup after loading the view.
+    _tableView = [[UITableView alloc] initWithFrame:CGRectMake(0, 64, WIDTHFC, HEIGHTFC - 64) style:UITableViewStyleGrouped];
+    _tableView.delegate = self;
+    _tableView.dataSource = self;
+    _tableView.showsVerticalScrollIndicator = NO;
+    [self.view addSubview:_tableView];
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
@@ -52,11 +53,14 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    [FSCacheManager clearAllCache:^{        
-        [tableView deselectRowAtIndexPath:indexPath animated:YES];
-        [self showTitle:@"清除成功"];
+    [tableView deselectRowAtIndexPath:indexPath animated:YES];
+    WEAKSELF(this);
+    [self showWaitView:YES];
+    [FSCacheManager clearAllCache:^{
+        [this showWaitView:NO];
+        [this showTitle:@"清除成功"];
+        [this.tableView reloadData];
     }];
-    
 }
 
 - (void)didReceiveMemoryWarning {
