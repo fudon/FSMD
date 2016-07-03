@@ -259,6 +259,7 @@
 		71ABEE181CF1D20000808AFF /* UIView+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 71ABEE051CF1D20000808AFF /* UIView+MJExtension.m */; };
 		71ABEE701CF2038E00808AFF /* libHyphenateFullSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 71ABEE6E1CF2036B00808AFF /* libHyphenateFullSDK.a */; settings = {ATTRIBUTES = (Required, ); }; };
 		71E534131D28B2F80036AD5E /* FSMakeQRController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71E534121D28B2F80036AD5E /* FSMakeQRController.m */; };
+		71E534161D28FA510036AD5E /* FSTapLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 71E534151D28FA510036AD5E /* FSTapLabel.m */; };
 		71FBBC531CFA85AF0086D807 /* FSComposeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71FBBC521CFA85AF0086D807 /* FSComposeController.m */; };
 /* End PBXBuildFile section */
 
@@ -697,6 +698,8 @@
 		71ABEE6E1CF2036B00808AFF /* libHyphenateFullSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libHyphenateFullSDK.a; sourceTree = "<group>"; };
 		71E534111D28B2F80036AD5E /* FSMakeQRController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSMakeQRController.h; sourceTree = "<group>"; };
 		71E534121D28B2F80036AD5E /* FSMakeQRController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSMakeQRController.m; sourceTree = "<group>"; };
+		71E534141D28FA510036AD5E /* FSTapLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSTapLabel.h; sourceTree = "<group>"; };
+		71E534151D28FA510036AD5E /* FSTapLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSTapLabel.m; sourceTree = "<group>"; };
 		71FBBC511CFA85AF0086D807 /* FSComposeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSComposeController.h; sourceTree = "<group>"; };
 		71FBBC521CFA85AF0086D807 /* FSComposeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSComposeController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -1347,6 +1350,8 @@
 				71ABE7B11CE7061900808AFF /* FSWebController.m */,
 				71ABE7BB1CE7192D00808AFF /* FSHardwareInfoController.h */,
 				71ABE7BC1CE7192D00808AFF /* FSHardwareInfoController.m */,
+				71E534141D28FA510036AD5E /* FSTapLabel.h */,
+				71E534151D28FA510036AD5E /* FSTapLabel.m */,
 			);
 			path = FSBase;
 			sourceTree = "<group>";
@@ -1863,6 +1868,7 @@
 				71ABEE161CF1D20000808AFF /* UIScrollView+MJExtension.m in Sources */,
 				71ABEE081CF1D20000808AFF /* MJRefreshComponent.m in Sources */,
 				71A971481D0AD53100E70408 /* FSSelectController.m in Sources */,
+				71E534161D28FA510036AD5E /* FSTapLabel.m in Sources */,
 				71ABEDAF1CF1CFA000808AFF /* FSEMMessage.m in Sources */,
 				71A9713E1D086F5D00E70408 /* FSTaxDetailView.m in Sources */,
 				71ABE6551CE2A7D500808AFF /* FuWeb.m in Sources */,

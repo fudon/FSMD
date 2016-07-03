@@ -70,7 +70,8 @@
     [FSCacheManager clearAllCache:^{
         [this showWaitView:NO];
         [this showTitle:@"清除成功"];
-        [this.tableView reloadData];
+        UITableViewCell *cell = [this.tableView cellForRowAtIndexPath:[NSIndexPath indexPathForRow:0 inSection:0]];
+        cell.detailTextLabel.text = @"";
     }];
 }
 
