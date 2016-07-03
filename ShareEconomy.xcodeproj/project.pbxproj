@@ -258,6 +258,7 @@
 		71ABEE171CF1D20000808AFF /* UIScrollView+MJRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = 71ABEE031CF1D20000808AFF /* UIScrollView+MJRefresh.m */; };
 		71ABEE181CF1D20000808AFF /* UIView+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 71ABEE051CF1D20000808AFF /* UIView+MJExtension.m */; };
 		71ABEE701CF2038E00808AFF /* libHyphenateFullSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 71ABEE6E1CF2036B00808AFF /* libHyphenateFullSDK.a */; settings = {ATTRIBUTES = (Required, ); }; };
+		71E534131D28B2F80036AD5E /* FSMakeQRController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71E534121D28B2F80036AD5E /* FSMakeQRController.m */; };
 		71FBBC531CFA85AF0086D807 /* FSComposeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71FBBC521CFA85AF0086D807 /* FSComposeController.m */; };
 /* End PBXBuildFile section */
 
@@ -694,6 +695,8 @@
 		71ABEE6B1CF2036B00808AFF /* IEMGroupManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IEMGroupManager.h; sourceTree = "<group>"; };
 		71ABEE6C1CF2036B00808AFF /* OpenGLView20.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenGLView20.h; sourceTree = "<group>"; };
 		71ABEE6E1CF2036B00808AFF /* libHyphenateFullSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libHyphenateFullSDK.a; sourceTree = "<group>"; };
+		71E534111D28B2F80036AD5E /* FSMakeQRController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSMakeQRController.h; sourceTree = "<group>"; };
+		71E534121D28B2F80036AD5E /* FSMakeQRController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSMakeQRController.m; sourceTree = "<group>"; };
 		71FBBC511CFA85AF0086D807 /* FSComposeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSComposeController.h; sourceTree = "<group>"; };
 		71FBBC521CFA85AF0086D807 /* FSComposeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSComposeController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -1210,6 +1213,8 @@
 				71A971C51D1E2AC100E70408 /* fsqr4.png */,
 				71A971C61D1E2AC100E70408 /* FSQRController.h */,
 				71A971C71D1E2AC100E70408 /* FSQRController.m */,
+				71E534111D28B2F80036AD5E /* FSMakeQRController.h */,
+				71E534121D28B2F80036AD5E /* FSMakeQRController.m */,
 				71A971C81D1E2AC100E70408 /* fsqrlightoff.png */,
 				71A971C91D1E2AC100E70408 /* fsqrlighton.png */,
 				71A971CA1D1E2AC100E70408 /* fsqrline.png */,
@@ -1843,6 +1848,7 @@
 				71ABEE091CF1D20000808AFF /* MJRefreshFooter.m in Sources */,
 				5C7378721CE5CD81002E1C4C /* UIImageView+WebCache.m in Sources */,
 				5C4F615B1D07FFD00086C265 /* FSTapScrollView.m in Sources */,
+				71E534131D28B2F80036AD5E /* FSMakeQRController.m in Sources */,
 				71ABE6521CE2A7D500808AFF /* FSWebImageView.m in Sources */,
 				5C7378731CE5CD81002E1C4C /* UIView+WebCacheOperation.m in Sources */,
 				71ABE5FE1CE2A74400808AFF /* ViewController.m in Sources */,
