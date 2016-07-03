@@ -17,6 +17,12 @@
 
 @implementation FSZoneController
 
+- (void)viewDidAppear:(BOOL)animated
+{
+    [super viewDidAppear:animated];
+    [self sdWebCacheSize];
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.title = @"行";
@@ -41,14 +47,19 @@
         cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleValue1 reuseIdentifier:identifier];
     }
     cell.textLabel.text = @"清除缓存";
-    cell.detailTextLabel.text = [self sdWebCacheSize];
+    cell.detailTextLabel.text = @"计算缓存中...";
     cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
     return cell;
 }
 
-- (NSString *)sdWebCacheSize
+- (void)sdWebCacheSize
 {
-    return [FuData kMGTUnit:[FSCacheManager allCacheSize]];
+    WEAKSELF(this);
+    [FSCacheManager allCacheSize:^(NSUInteger bResult) {
+        NSString *cache = [FuData kMGTUnit:bResult];
+        UITableViewCell *cell = [this.tableView cellForRowAtIndexPath:[NSIndexPath indexPathForRow:0 inSection:0]];
+        cell.detailTextLabel.text = cache;
+    }];
 }
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
