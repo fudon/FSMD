@@ -25,7 +25,7 @@
     [super viewDidLoad];
     self.title = @"百宝箱";
     
-    NSArray *array = @[@"二维码",@"记账本",@"设备信息",@"蓝牙",@"购物网站",@"贷款计算器",@"个税计算器"];
+    NSArray *array = @[@"二维码",@"记账本",@"设备信息",@"信息",@"消费",@"贷款计算器",@"个税计算器"];
     NSArray *picArray = @[@"saoma_too",@"a_4",@"a_n",@"ae6",@"myintegral",@"my_history",@"tootoodingdan"];
     
     CGFloat width = (WIDTHFC - 100) / 4;
