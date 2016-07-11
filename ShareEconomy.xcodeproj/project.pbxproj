@@ -258,6 +258,7 @@
 		71ABEE171CF1D20000808AFF /* UIScrollView+MJRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = 71ABEE031CF1D20000808AFF /* UIScrollView+MJRefresh.m */; };
 		71ABEE181CF1D20000808AFF /* UIView+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 71ABEE051CF1D20000808AFF /* UIView+MJExtension.m */; };
 		71ABEE701CF2038E00808AFF /* libHyphenateFullSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 71ABEE6E1CF2036B00808AFF /* libHyphenateFullSDK.a */; settings = {ATTRIBUTES = (Required, ); }; };
+		71D9C25D1D3316C100DDDB10 /* FSMoneyListController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71D9C25C1D3316C100DDDB10 /* FSMoneyListController.m */; };
 		71E534131D28B2F80036AD5E /* FSMakeQRController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71E534121D28B2F80036AD5E /* FSMakeQRController.m */; };
 		71E534161D28FA510036AD5E /* FSTapLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 71E534151D28FA510036AD5E /* FSTapLabel.m */; };
 		71FBBC531CFA85AF0086D807 /* FSComposeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71FBBC521CFA85AF0086D807 /* FSComposeController.m */; };
@@ -696,6 +697,8 @@
 		71ABEE6B1CF2036B00808AFF /* IEMGroupManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IEMGroupManager.h; sourceTree = "<group>"; };
 		71ABEE6C1CF2036B00808AFF /* OpenGLView20.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenGLView20.h; sourceTree = "<group>"; };
 		71ABEE6E1CF2036B00808AFF /* libHyphenateFullSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libHyphenateFullSDK.a; sourceTree = "<group>"; };
+		71D9C25B1D3316C100DDDB10 /* FSMoneyListController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSMoneyListController.h; sourceTree = "<group>"; };
+		71D9C25C1D3316C100DDDB10 /* FSMoneyListController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSMoneyListController.m; sourceTree = "<group>"; };
 		71E534111D28B2F80036AD5E /* FSMakeQRController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSMakeQRController.h; sourceTree = "<group>"; };
 		71E534121D28B2F80036AD5E /* FSMakeQRController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSMakeQRController.m; sourceTree = "<group>"; };
 		71E534141D28FA510036AD5E /* FSTapLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSTapLabel.h; sourceTree = "<group>"; };
@@ -1170,6 +1173,8 @@
 				5C50567B1CFF162D00B654AB /* FSLoanResultController.m */,
 				5CCBBC771D1AB248003B5C41 /* FSSameKindController.h */,
 				5CCBBC781D1AB248003B5C41 /* FSSameKindController.m */,
+				71D9C25B1D3316C100DDDB10 /* FSMoneyListController.h */,
+				71D9C25C1D3316C100DDDB10 /* FSMoneyListController.m */,
 			);
 			name = Money;
 			sourceTree = "<group>";
@@ -1875,6 +1880,7 @@
 				5C73786E1CE5CD81002E1C4C /* UIImage+GIF.m in Sources */,
 				71ABEE071CF1D20000808AFF /* MJRefreshBackFooter.m in Sources */,
 				71ABE6451CE2A7D500808AFF /* MASLayoutConstraint.m in Sources */,
+				71D9C25D1D3316C100DDDB10 /* FSMoneyListController.m in Sources */,
 				71ABEE0B1CF1D20000808AFF /* MJRefreshAutoGifFooter.m in Sources */,
 				71ABEDAC1CF1CFA000808AFF /* FSChatCell.m in Sources */,
 				5C50567C1CFF162D00B654AB /* FSLoanResultController.m in Sources */,
