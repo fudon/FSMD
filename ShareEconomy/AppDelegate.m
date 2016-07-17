@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import "FSEaseMob.h"
+#import "FlowMeter.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +18,7 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    [FlowMeter shareInstance];
     [[FSEaseMob shareInstance] initEaseMob:application launchOptions:launchOptions];
     return YES;
 }

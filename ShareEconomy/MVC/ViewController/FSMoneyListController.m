@@ -21,9 +21,9 @@
     [super viewDidLoad];
     self.title = @"记一笔";
     
-    _textArrays = @[@"现金消费",@"借钱消费",@"一笔收入",@"借钱给别人",@"别人借钱给我"];
+    _textArrays = @[@"收入",@"成本",@"应收账款",@"现金",@"投资",@"存货",@"摊销资产",@"负债"];
     
-    UIBarButtonItem *bbi = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemAdd target:self action:@selector(bbiActionMoneyList)];
+    UIBarButtonItem *bbi = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemOrganize target:self action:@selector(bbiActionMoneyList)];
     bbi.tintColor = [UIColor whiteColor];
     self.navigationItem.rightBarButtonItem = bbi;
     
