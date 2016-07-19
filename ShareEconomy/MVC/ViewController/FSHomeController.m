@@ -10,6 +10,7 @@
 #import "FSHomeCell.h"
 #import "FSLoginController.h"
 #import "FSComposeController.h"
+#import "FSAddressController.h"
 
 @interface FSHomeController ()<UITableViewDelegate,UITableViewDataSource>
 
@@ -23,10 +24,10 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
         
-    NSString *version = [FuData appVersionNumber];
-    UIButton *rightButton = [FSViewManager buttonWithFrame:CGRectMake(0, 0, 60, 40) title:version titleColor:[UIColor redColor] backColor:nil fontInt:0 target:self selector:@selector(rightBtnClick)];
+    NSString *version = @"北京";
+    UIButton *rightButton = [FSViewManager buttonWithFrame:CGRectMake(0, 0, 60, 40) title:version titleColor:[UIColor whiteColor] backColor:nil fontInt:0 target:self selector:@selector(rightBtnClick)];
     UIBarButtonItem *bbi = [FSViewManager barButtonItemWithCustomButton:rightButton];
-    self.navigationItem.rightBarButtonItem = bbi;
+    self.navigationItem.leftBarButtonItem = bbi;
     
     UISegmentedControl *segControl = [[UISegmentedControl alloc] initWithItems:@[@"消息",@"时间",@"广告"]];
     segControl.tintColor = [UIColor whiteColor];
@@ -51,7 +52,8 @@
 
 - (void)rightBtnClick
 {
-    [self checkIsLogined];
+    FSAddressController *addressController = [[FSAddressController alloc] init];
+    [self.navigationController pushViewController:addressController animated:YES];
 }
 
 - (void)checkIsLogined
