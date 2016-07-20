@@ -1,41 +1,34 @@
 //
-//  FSZoneController.m
+//  FSSetController.m
 //  ShareEconomy
 //
-//  Created by FudonFuchina on 16/4/13.
+//  Created by FudonFuchina on 16/7/20.
 //  Copyright © 2016年 FudonFuchina. All rights reserved.
 //
 
-#import "FSZoneController.h"
 #import "FSSetController.h"
-#import "FSZoneHeadView.h"
+#import "FSCacheManager.h"
 
-@interface FSZoneController ()<UITableViewDataSource,UITableViewDelegate>
+@interface FSSetController ()<UITableViewDataSource,UITableViewDelegate>
 
 @property (nonatomic,strong) UITableView *tableView;
 
 @end
 
-@implementation FSZoneController
+@implementation FSSetController
 
-- (void)viewDidLoad {
-    [super viewDidLoad];
-    self.title = @"行";
-    
-    self.navigationItem.rightBarButtonItem = [FSViewManager barButtonItemWithTitle:@"设置" target:self selector:@selector(configAction) tintColor:[UIColor whiteColor]];
-    
-    FSZoneHeadView *headView = [[FSZoneHeadView alloc] initWithFrame:CGRectMake(0, 0, WIDTHFC, 132)];
-    
-    _tableView = [FSViewManager tableViewWithFrame:CGRectMake(0, 64, WIDTHFC, HEIGHTFC - 64) delegate:self style:UITableViewStyleGrouped footerView:[UIView new]];
-    _tableView.showsVerticalScrollIndicator = NO;
-    _tableView.tableHeaderView = headView;
-    [self.view addSubview:_tableView];
-}
-
-- (void)configAction
+- (void)viewDidLoad
 {
-    FSSetController *setController = [[FSSetController alloc] init];
-    [self.navigationController pushViewController:setController animated:YES];
+    [super viewDidLoad];
+    self.title = @"设置";
+    
+    _tableView = [[UITableView alloc] initWithFrame:CGRectMake(0, 64, WIDTHFC, HEIGHTFC - 64) style:UITableViewStyleGrouped];
+    _tableView.delegate = self;
+    _tableView.dataSource = self;
+    _tableView.showsVerticalScrollIndicator = NO;
+    [self.view addSubview:_tableView];
+    
+    [self sdWebCacheSize];
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
@@ -56,20 +49,27 @@
     return cell;
 }
 
-- (CGFloat)tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section
+- (void)sdWebCacheSize
 {
-    return 15;
-}
-
-- (CGFloat)tableView:(UITableView *)tableView heightForFooterInSection:(NSInteger)section
-{
-    return 5;
+    WEAKSELF(this);
+    [FSCacheManager allCacheSize:^(NSUInteger bResult) {
+        NSString *cache = [FuData kMGTUnit:bResult];
+        UITableViewCell *cell = [this.tableView cellForRowAtIndexPath:[NSIndexPath indexPathForRow:0 inSection:0]];
+        cell.detailTextLabel.text = cache;
+    }];
 }
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
-    
+    WEAKSELF(this);
+    [self showWaitView:YES];
+    [FSCacheManager clearAllCache:^{
+        [this showWaitView:NO];
+        [this showTitle:@"清除成功"];
+        UITableViewCell *cell = [this.tableView cellForRowAtIndexPath:[NSIndexPath indexPathForRow:0 inSection:0]];
+        cell.detailTextLabel.text = @"";
+    }];
 }
 
 - (void)didReceiveMemoryWarning {

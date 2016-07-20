@@ -160,6 +160,8 @@
 		7117B2AB1CCBC07C00F959D2 /* 87.png in Resources */ = {isa = PBXBuildFile; fileRef = 7117B2A91CCBC07C00F959D2 /* 87.png */; };
 		7117B2AC1CCBC07C00F959D2 /* 180.png in Resources */ = {isa = PBXBuildFile; fileRef = 7117B2AA1CCBC07C00F959D2 /* 180.png */; };
 		7117B2AF1CCC3D3600F959D2 /* FSRegisterPwdController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7117B2AE1CCC3D3600F959D2 /* FSRegisterPwdController.m */; };
+		712A54B51D3FB32900B6CDD6 /* FSSetController.m in Sources */ = {isa = PBXBuildFile; fileRef = 712A54B41D3FB32900B6CDD6 /* FSSetController.m */; };
+		712A54B81D3FBF1D00B6CDD6 /* FSZoneHeadView.m in Sources */ = {isa = PBXBuildFile; fileRef = 712A54B71D3FBF1D00B6CDD6 /* FSZoneHeadView.m */; };
 		7141E2081CBE8B090090AF17 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7141E2071CBE8B090090AF17 /* main.m */; };
 		7141E2111CBE8B090090AF17 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7141E20F1CBE8B090090AF17 /* Main.storyboard */; };
 		7141E2131CBE8B090090AF17 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7141E2121CBE8B090090AF17 /* Assets.xcassets */; };
@@ -486,6 +488,10 @@
 		7117B2AA1CCBC07C00F959D2 /* 180.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 180.png; sourceTree = "<group>"; };
 		7117B2AD1CCC3D3600F959D2 /* FSRegisterPwdController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSRegisterPwdController.h; sourceTree = "<group>"; };
 		7117B2AE1CCC3D3600F959D2 /* FSRegisterPwdController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSRegisterPwdController.m; sourceTree = "<group>"; };
+		712A54B31D3FB32900B6CDD6 /* FSSetController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSSetController.h; sourceTree = "<group>"; };
+		712A54B41D3FB32900B6CDD6 /* FSSetController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSSetController.m; sourceTree = "<group>"; };
+		712A54B61D3FBF1D00B6CDD6 /* FSZoneHeadView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSZoneHeadView.h; sourceTree = "<group>"; };
+		712A54B71D3FBF1D00B6CDD6 /* FSZoneHeadView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSZoneHeadView.m; sourceTree = "<group>"; };
 		7141E2031CBE8B090090AF17 /* ShareEconomy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShareEconomy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7141E2071CBE8B090090AF17 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7141E2101CBE8B090090AF17 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -1207,6 +1213,10 @@
 			children = (
 				7141E2351CBE8EDE0090AF17 /* FSZoneController.h */,
 				7141E2361CBE8EDE0090AF17 /* FSZoneController.m */,
+				712A54B31D3FB32900B6CDD6 /* FSSetController.h */,
+				712A54B41D3FB32900B6CDD6 /* FSSetController.m */,
+				712A54B61D3FBF1D00B6CDD6 /* FSZoneHeadView.h */,
+				712A54B71D3FBF1D00B6CDD6 /* FSZoneHeadView.m */,
 			);
 			name = Zone;
 			sourceTree = "<group>";
@@ -1846,6 +1856,7 @@
 			files = (
 				71ABE6431CE2A7D500808AFF /* MASConstraint.m in Sources */,
 				7117B2AF1CCC3D3600F959D2 /* FSRegisterPwdController.m in Sources */,
+				712A54B81D3FBF1D00B6CDD6 /* FSZoneHeadView.m in Sources */,
 				71ABE64B1CE2A7D500808AFF /* ViewController+MASAdditions.m in Sources */,
 				71A971D01D1E2AC100E70408 /* FSQRController.m in Sources */,
 				7141E2891CBF12140090AF17 /* FSHomeCell.m in Sources */,
@@ -1881,6 +1892,7 @@
 				5C7378641CE5CD81002E1C4C /* MKAnnotationView+WebCache.m in Sources */,
 				716203861D3A7DB400D2768E /* FMModel.m in Sources */,
 				7141E2311CBE8EC50090AF17 /* FSHomeController.m in Sources */,
+				712A54B51D3FB32900B6CDD6 /* FSSetController.m in Sources */,
 				5C7378711CE5CD81002E1C4C /* UIImageView+HighlightedWebCache.m in Sources */,
 				71ABEE0E1CF1D20000808AFF /* MJRefreshBackGifFooter.m in Sources */,
 				71ABE6401CE2A7D500808AFF /* FIBaseEntity.m in Sources */,

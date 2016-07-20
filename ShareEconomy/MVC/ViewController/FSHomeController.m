@@ -29,7 +29,7 @@
     UIBarButtonItem *bbi = [FSViewManager barButtonItemWithCustomButton:rightButton];
     self.navigationItem.leftBarButtonItem = bbi;
     
-    UISegmentedControl *segControl = [[UISegmentedControl alloc] initWithItems:@[@"消息",@"时间",@"广告"]];
+    UISegmentedControl *segControl = [[UISegmentedControl alloc] initWithItems:@[@"我要",@"帮人"]];
     segControl.tintColor = [UIColor whiteColor];
     segControl.selectedSegmentIndex = 0;
     self.navigationItem.titleView = segControl;
