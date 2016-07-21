@@ -45,8 +45,7 @@
     UIImageView *imageView = [FSViewManager imageViewWithFrame:CGRectMake(WIDTHFC / 2 - 35, 60, 70, 70) imageName:@"testdd.jpg"];
     [self.view addSubview:imageView];
     
-    UIButton *findPwdButton = [FSViewManager buttonWithFrame:CGRectMake(WIDTHFC  - 100, self.view.center.y + 10, 80, 30) title:@"找回密码?" titleColor:[UIColor lightGrayColor] backColor:nil fontInt:13  target:self selector:@selector(buttonClickLogin:)];
-    findPwdButton.tag = TAGBUTTON + 2;
+    UIButton *findPwdButton = [FSViewManager buttonWithFrame:CGRectMake(WIDTHFC  - 100, self.view.center.y + 10, 80, 30) title:@"找回密码?" titleColor:[UIColor lightGrayColor] backColor:nil fontInt:13 tag:TAGBUTTON + 2  target:self selector:@selector(buttonClickLogin:)];
     [self.view addSubview:findPwdButton];
     
     NSArray *tfTitles = @[@"用户名/手机号",@"密码"];
@@ -65,7 +64,7 @@
             [self.view addSubview:[FSViewManager seprateViewWithFrame:CGRectMake(0, textField.bottom - FS_LineThickness, WIDTHFC, FS_LineThickness)]];
         }
         
-        UIButton *button = [FSViewManager buttonWithFrame:CGRectMake(WIDTHFC / 2 * x, HEIGHTFC - 50, WIDTHFC / 2, 50) title:buttonTitles[x] titleColor:[UIColor whiteColor] backColor:buttonColors[x] fontInt:0 target:self selector:@selector(buttonClickLogin:)];
+        UIButton *button = [FSViewManager buttonWithFrame:CGRectMake(WIDTHFC / 2 * x, HEIGHTFC - 50, WIDTHFC / 2, 50) title:buttonTitles[x] titleColor:[UIColor whiteColor] backColor:buttonColors[x] fontInt:0 tag:TAGBUTTON + x target:self selector:@selector(buttonClickLogin:)];
         button.tag = TAGBUTTON + x;
         [self.view addSubview:button];
     }

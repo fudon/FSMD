@@ -47,8 +47,7 @@
     
     NSArray *pictureNames = @[@"ade",@"afl",@"ade",@"ade"];
     for (int x = 0; x < 4; x ++) {
-        UIButton *button = [FSViewManager buttonWithFrame:CGRectMake(WIDTHFC / 4 * x, 49, WIDTHFC / 4, 30) title:nil titleColor:nil backColor:nil fontInt:0 target:self selector:@selector(btnClickInChatView:)];
-        button.tag = TAGBUTTON + x;
+        UIButton *button = [FSViewManager buttonWithFrame:CGRectMake(WIDTHFC / 4 * x, 49, WIDTHFC / 4, 30) title:nil titleColor:nil backColor:nil fontInt:0 tag:TAGBUTTON + x target:self selector:@selector(btnClickInChatView:)];
         [self addSubview:button];
         
         UIImageView *imageView = [FSViewManager imageViewWithFrame:CGRectMake(WIDTHFC / 8 - 15, 0, 30, 30) imageName:pictureNames[x]];

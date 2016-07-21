@@ -25,7 +25,7 @@
     [super viewDidLoad];
         
     NSString *version = @"北京";
-    UIButton *rightButton = [FSViewManager buttonWithFrame:CGRectMake(0, 0, 60, 40) title:version titleColor:[UIColor whiteColor] backColor:nil fontInt:0 target:self selector:@selector(rightBtnClick)];
+    UIButton *rightButton = [FSViewManager buttonWithFrame:CGRectMake(0, 0, 60, 40) title:version titleColor:[UIColor whiteColor] backColor:nil fontInt:0 tag:0 target:self selector:@selector(rightBtnClick)];
     UIBarButtonItem *bbi = [FSViewManager barButtonItemWithCustomButton:rightButton];
     self.navigationItem.leftBarButtonItem = bbi;
     

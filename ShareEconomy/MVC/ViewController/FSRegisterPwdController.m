@@ -67,14 +67,13 @@
         }
         [self.view addSubview:textField];
         if (x == 0) {
-            UIButton *reSendButton = [FSViewManager buttonWithFrame:CGRectMake(textField.right, textField.top, 70, textField.height) title:@"重新发送" titleColor:[UIColor lightGrayColor] backColor:[UIColor whiteColor] fontInt:0 target:self selector:@selector(buttonClickInRegisterPwd:)];
-            reSendButton.tag = TAGBUTTON + 1;
+            UIButton *reSendButton = [FSViewManager buttonWithFrame:CGRectMake(textField.right, textField.top, 70, textField.height) title:@"重新发送" titleColor:[UIColor lightGrayColor] backColor:[UIColor whiteColor] fontInt:0 tag:TAGBUTTON + 1 target:self selector:@selector(buttonClickInRegisterPwd:)];
             reSendButton.enabled = NO;
             [self.view addSubview:reSendButton];
         }
     }
     
-    UIButton *registerBtn = [FSViewManager buttonWithFrame:CGRectMake(20, yPoint + 100, WIDTHFC - 40, 40) title:@"注册" titleColor:nil backColor:FS_RedColor fontInt:0 target:self selector:@selector(buttonClickInRegisterPwd:)];
+    UIButton *registerBtn = [FSViewManager buttonWithFrame:CGRectMake(20, yPoint + 100, WIDTHFC - 40, 40) title:@"注册" titleColor:nil backColor:FS_RedColor fontInt:0 tag:0 target:self selector:@selector(buttonClickInRegisterPwd:)];
     registerBtn.layer.cornerRadius = 3;
     [self.view addSubview:registerBtn];
     

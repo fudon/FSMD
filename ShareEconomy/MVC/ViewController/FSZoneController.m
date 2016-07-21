@@ -25,6 +25,9 @@
     self.navigationItem.rightBarButtonItem = [FSViewManager barButtonItemWithTitle:@"设置" target:self selector:@selector(configAction) tintColor:[UIColor whiteColor]];
     
     FSZoneHeadView *headView = [[FSZoneHeadView alloc] initWithFrame:CGRectMake(0, 0, WIDTHFC, 132)];
+    headView.block = ^ (FSZoneHeadView *bView,NSInteger bIndex){
+        NSLog(@"%d",bIndex);
+    };
     
     _tableView = [FSViewManager tableViewWithFrame:CGRectMake(0, 64, WIDTHFC, HEIGHTFC - 64) delegate:self style:UITableViewStyleGrouped footerView:[UIView new]];
     _tableView.showsVerticalScrollIndicator = NO;

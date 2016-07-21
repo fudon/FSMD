@@ -35,7 +35,7 @@
     [_textField addTarget:self action:@selector(textFieldChanged:) forControlEvents:UIControlEventEditingChanged];
     [self.view addSubview:_textField];
     
-    UIButton *registerBtn = [FSViewManager buttonWithFrame:CGRectMake(20, _textField.bottom + 20, WIDTHFC - 40, 40) title:@"下一步" titleColor:nil backColor:FS_RedColor fontInt:0 target:self selector:@selector(buttonClickInRegister:)];
+    UIButton *registerBtn = [FSViewManager buttonWithFrame:CGRectMake(20, _textField.bottom + 20, WIDTHFC - 40, 40) title:@"下一步" titleColor:nil backColor:FS_RedColor fontInt:0 tag:0 target:self selector:@selector(buttonClickInRegister:)];
     registerBtn.layer.cornerRadius = 3;
     [self.view addSubview:registerBtn];
 }

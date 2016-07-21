@@ -8,6 +8,12 @@
 
 #import "FSBaseView.h"
 
+
+@class FSZoneHeadView;
+typedef void(^ZoneHeadBlock)(FSZoneHeadView *bView,NSInteger bIndex);
+
 @interface FSZoneHeadView : FSBaseView
+
+@property (nonatomic,copy) ZoneHeadBlock        block;
 
 @end

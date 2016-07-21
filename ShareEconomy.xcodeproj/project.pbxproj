@@ -162,6 +162,7 @@
 		7117B2AF1CCC3D3600F959D2 /* FSRegisterPwdController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7117B2AE1CCC3D3600F959D2 /* FSRegisterPwdController.m */; };
 		712A54B51D3FB32900B6CDD6 /* FSSetController.m in Sources */ = {isa = PBXBuildFile; fileRef = 712A54B41D3FB32900B6CDD6 /* FSSetController.m */; };
 		712A54B81D3FBF1D00B6CDD6 /* FSZoneHeadView.m in Sources */ = {isa = PBXBuildFile; fileRef = 712A54B71D3FBF1D00B6CDD6 /* FSZoneHeadView.m */; };
+		712A54BB1D4044FF00B6CDD6 /* FSTapCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 712A54BA1D4044FF00B6CDD6 /* FSTapCell.m */; };
 		7141E2081CBE8B090090AF17 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7141E2071CBE8B090090AF17 /* main.m */; };
 		7141E2111CBE8B090090AF17 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7141E20F1CBE8B090090AF17 /* Main.storyboard */; };
 		7141E2131CBE8B090090AF17 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7141E2121CBE8B090090AF17 /* Assets.xcassets */; };
@@ -492,6 +493,8 @@
 		712A54B41D3FB32900B6CDD6 /* FSSetController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSSetController.m; sourceTree = "<group>"; };
 		712A54B61D3FBF1D00B6CDD6 /* FSZoneHeadView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSZoneHeadView.h; sourceTree = "<group>"; };
 		712A54B71D3FBF1D00B6CDD6 /* FSZoneHeadView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSZoneHeadView.m; sourceTree = "<group>"; };
+		712A54B91D4044FF00B6CDD6 /* FSTapCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSTapCell.h; sourceTree = "<group>"; };
+		712A54BA1D4044FF00B6CDD6 /* FSTapCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSTapCell.m; sourceTree = "<group>"; };
 		7141E2031CBE8B090090AF17 /* ShareEconomy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShareEconomy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7141E2071CBE8B090090AF17 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7141E2101CBE8B090090AF17 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -1407,6 +1410,8 @@
 				71ABE7BC1CE7192D00808AFF /* FSHardwareInfoController.m */,
 				71E534141D28FA510036AD5E /* FSTapLabel.h */,
 				71E534151D28FA510036AD5E /* FSTapLabel.m */,
+				712A54B91D4044FF00B6CDD6 /* FSTapCell.h */,
+				712A54BA1D4044FF00B6CDD6 /* FSTapCell.m */,
 			);
 			path = FSBase;
 			sourceTree = "<group>";
@@ -1890,6 +1895,7 @@
 				5C73786A1CE5CD81002E1C4C /* SDWebImageDownloaderOperation.m in Sources */,
 				7141E2971CC529EE0090AF17 /* FSLoginController.m in Sources */,
 				5C7378641CE5CD81002E1C4C /* MKAnnotationView+WebCache.m in Sources */,
+				712A54BB1D4044FF00B6CDD6 /* FSTapCell.m in Sources */,
 				716203861D3A7DB400D2768E /* FMModel.m in Sources */,
 				7141E2311CBE8EC50090AF17 /* FSHomeController.m in Sources */,
 				712A54B51D3FB32900B6CDD6 /* FSSetController.m in Sources */,

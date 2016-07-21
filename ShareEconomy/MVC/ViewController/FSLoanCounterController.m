@@ -40,7 +40,7 @@
         [self.view addSubview:textField];
     }
     
-    UIButton *button = [FSViewManager buttonWithFrame:CGRectMake(20, 240, WIDTHFC - 40, 40) title:@"计算" titleColor:[UIColor whiteColor] backColor:FSAPPCOLOR fontInt:0 target:self selector:@selector(countAction)];
+    UIButton *button = [FSViewManager buttonWithFrame:CGRectMake(20, 240, WIDTHFC - 40, 40) title:@"计算" titleColor:[UIColor whiteColor] backColor:FSAPPCOLOR fontInt:0 tag:0 target:self selector:@selector(countAction)];
     [self.view addSubview:button];
     
     UILabel *showLabel = [FSViewManager labelWithFrame:CGRectMake(20, button.bottom + 5, WIDTHFC - 20, 30) text:@"*计算结果只供参考，如有出入,请以专业为准。" textColor:[UIColor lightGrayColor] backColor:nil font:FONTFC(12) textAlignment:NSTextAlignmentLeft];
