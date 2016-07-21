@@ -163,6 +163,10 @@
 		712A54B51D3FB32900B6CDD6 /* FSSetController.m in Sources */ = {isa = PBXBuildFile; fileRef = 712A54B41D3FB32900B6CDD6 /* FSSetController.m */; };
 		712A54B81D3FBF1D00B6CDD6 /* FSZoneHeadView.m in Sources */ = {isa = PBXBuildFile; fileRef = 712A54B71D3FBF1D00B6CDD6 /* FSZoneHeadView.m */; };
 		712A54BB1D4044FF00B6CDD6 /* FSTapCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 712A54BA1D4044FF00B6CDD6 /* FSTapCell.m */; };
+		712A54BE1D410E7600B6CDD6 /* FSPersonController.m in Sources */ = {isa = PBXBuildFile; fileRef = 712A54BD1D410E7600B6CDD6 /* FSPersonController.m */; };
+		712A54C11D41105A00B6CDD6 /* FSHeadPictureController.m in Sources */ = {isa = PBXBuildFile; fileRef = 712A54C01D41105A00B6CDD6 /* FSHeadPictureController.m */; };
+		712A54C51D41137800B6CDD6 /* ClipPictureController.m in Sources */ = {isa = PBXBuildFile; fileRef = 712A54C41D41137800B6CDD6 /* ClipPictureController.m */; };
+		712A54C81D4116B200B6CDD6 /* FSChangeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 712A54C71D4116B200B6CDD6 /* FSChangeController.m */; };
 		7141E2081CBE8B090090AF17 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7141E2071CBE8B090090AF17 /* main.m */; };
 		7141E2111CBE8B090090AF17 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7141E20F1CBE8B090090AF17 /* Main.storyboard */; };
 		7141E2131CBE8B090090AF17 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7141E2121CBE8B090090AF17 /* Assets.xcassets */; };
@@ -495,6 +499,14 @@
 		712A54B71D3FBF1D00B6CDD6 /* FSZoneHeadView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSZoneHeadView.m; sourceTree = "<group>"; };
 		712A54B91D4044FF00B6CDD6 /* FSTapCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSTapCell.h; sourceTree = "<group>"; };
 		712A54BA1D4044FF00B6CDD6 /* FSTapCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSTapCell.m; sourceTree = "<group>"; };
+		712A54BC1D410E7600B6CDD6 /* FSPersonController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSPersonController.h; sourceTree = "<group>"; };
+		712A54BD1D410E7600B6CDD6 /* FSPersonController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSPersonController.m; sourceTree = "<group>"; };
+		712A54BF1D41105A00B6CDD6 /* FSHeadPictureController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSHeadPictureController.h; sourceTree = "<group>"; };
+		712A54C01D41105A00B6CDD6 /* FSHeadPictureController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSHeadPictureController.m; sourceTree = "<group>"; };
+		712A54C31D41137800B6CDD6 /* ClipPictureController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClipPictureController.h; sourceTree = "<group>"; };
+		712A54C41D41137800B6CDD6 /* ClipPictureController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClipPictureController.m; sourceTree = "<group>"; };
+		712A54C61D4116B200B6CDD6 /* FSChangeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSChangeController.h; sourceTree = "<group>"; };
+		712A54C71D4116B200B6CDD6 /* FSChangeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSChangeController.m; sourceTree = "<group>"; };
 		7141E2031CBE8B090090AF17 /* ShareEconomy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShareEconomy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7141E2071CBE8B090090AF17 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7141E2101CBE8B090090AF17 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -1060,6 +1072,15 @@
 			path = BaseViews;
 			sourceTree = "<group>";
 		};
+		712A54C21D41137800B6CDD6 /* ClipPicture */ = {
+			isa = PBXGroup;
+			children = (
+				712A54C31D41137800B6CDD6 /* ClipPictureController.h */,
+				712A54C41D41137800B6CDD6 /* ClipPictureController.m */,
+			);
+			path = ClipPicture;
+			sourceTree = "<group>";
+		};
 		7141E1FA1CBE8B090090AF17 = {
 			isa = PBXGroup;
 			children = (
@@ -1220,6 +1241,12 @@
 				712A54B41D3FB32900B6CDD6 /* FSSetController.m */,
 				712A54B61D3FBF1D00B6CDD6 /* FSZoneHeadView.h */,
 				712A54B71D3FBF1D00B6CDD6 /* FSZoneHeadView.m */,
+				712A54BC1D410E7600B6CDD6 /* FSPersonController.h */,
+				712A54BD1D410E7600B6CDD6 /* FSPersonController.m */,
+				712A54BF1D41105A00B6CDD6 /* FSHeadPictureController.h */,
+				712A54C01D41105A00B6CDD6 /* FSHeadPictureController.m */,
+				712A54C61D4116B200B6CDD6 /* FSChangeController.h */,
+				712A54C71D4116B200B6CDD6 /* FSChangeController.m */,
 			);
 			name = Zone;
 			sourceTree = "<group>";
@@ -1316,6 +1343,7 @@
 		71ABE6031CE2A7D500808AFF /* 3rd */ = {
 			isa = PBXGroup;
 			children = (
+				712A54C21D41137800B6CDD6 /* ClipPicture */,
 				716203761D3A7DB400D2768E /* FlowMeter */,
 				71ABE6041CE2A7D500808AFF /* BaseModel */,
 				71ABE6071CE2A7D500808AFF /* GTMBase64 */,
@@ -1859,6 +1887,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				712A54C51D41137800B6CDD6 /* ClipPictureController.m in Sources */,
 				71ABE6431CE2A7D500808AFF /* MASConstraint.m in Sources */,
 				7117B2AF1CCC3D3600F959D2 /* FSRegisterPwdController.m in Sources */,
 				712A54B81D3FBF1D00B6CDD6 /* FSZoneHeadView.m in Sources */,
@@ -1888,6 +1917,7 @@
 				71ABEDD81CF1D1C100808AFF /* FSChatListController.m in Sources */,
 				71A9714B1D0AD73000E70408 /* FSSelectSectionController.m in Sources */,
 				71ABE6491CE2A7D500808AFF /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+				712A54C81D4116B200B6CDD6 /* FSChangeController.m in Sources */,
 				5C7378701CE5CD81002E1C4C /* UIImage+WebP.m in Sources */,
 				71ABEE151CF1D20000808AFF /* MJRefreshConst.m in Sources */,
 				71ABE64D1CE2A7D500808AFF /* FIWebView.m in Sources */,
@@ -1921,6 +1951,7 @@
 				5C4F615B1D07FFD00086C265 /* FSTapScrollView.m in Sources */,
 				71E534131D28B2F80036AD5E /* FSMakeQRController.m in Sources */,
 				71ABE6521CE2A7D500808AFF /* FSWebImageView.m in Sources */,
+				712A54BE1D410E7600B6CDD6 /* FSPersonController.m in Sources */,
 				5C7378731CE5CD81002E1C4C /* UIView+WebCacheOperation.m in Sources */,
 				71ABE5FE1CE2A74400808AFF /* ViewController.m in Sources */,
 				71ABE6531CE2A7D500808AFF /* FuData.m in Sources */,
@@ -1957,6 +1988,7 @@
 				5C5056211CFE8B3A00B654AB /* FSLoanCounterController.m in Sources */,
 				71ABEE0F1CF1D20000808AFF /* MJRefreshBackNormalFooter.m in Sources */,
 				71A971421D0AB63500E70408 /* FSTaxRateEntity.m in Sources */,
+				712A54C11D41105A00B6CDD6 /* FSHeadPictureController.m in Sources */,
 				71ABEE181CF1D20000808AFF /* UIView+MJExtension.m in Sources */,
 				71FBBC531CFA85AF0086D807 /* FSComposeController.m in Sources */,
 				71ABE7AC1CE6CAE600808AFF /* FSImageLabelView.m in Sources */,
