@@ -15,6 +15,7 @@
 @implementation FSMoneyListController
 {
     NSArray     *_textArrays;
+    NSArray     *_valueArray;
 }
 
 - (void)viewDidLoad {
@@ -22,22 +23,23 @@
     self.title = @"记一笔";
     
     _textArrays = @[@"收入",@"成本",@"应收账款",@"现金",@"投资",@"存货",@"摊销资产",@"负债"];
+    _valueArray = @[@9999,@1212,@1133,@4412,@1123,@9584,@42423,@134];
     
-    UIBarButtonItem *bbi = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemOrganize target:self action:@selector(bbiActionMoneyList)];
+    UIBarButtonItem *bbi = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemAdd target:self action:@selector(bbiActionMoneyList)];
     bbi.tintColor = [UIColor whiteColor];
     self.navigationItem.rightBarButtonItem = bbi;
     
     UIView *headView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, WIDTHFC, 110)];
     headView.backgroundColor = [UIColor whiteColor];
     
-    UILabel *label = [FSViewManager labelWithFrame:CGRectMake(0, 20, 50, 40) text:@"金 额" textColor:nil backColor:nil font:FONTFC(13) textAlignment:NSTextAlignmentRight];
+    UILabel *label = [FSViewManager labelWithFrame:CGRectMake(0, 10, 50, 40) text:@"总资产:" textColor:nil backColor:nil font:FONTFC(13) textAlignment:NSTextAlignmentRight];
     [headView addSubview:label];
-    
-    UITextField *textField = [FSViewManager textFieldWithFrame:CGRectMake(60, 20, WIDTHFC - 80, 40) placeholder:@"单位：元" textColor:nil backColor:RGBCOLOR(240, 240, 240, 1)];
-    [headView addSubview:textField];
-    
-    UILabel *textLabel = [FSViewManager labelWithFrame:CGRectMake(15, textField.bottom + 20, 70, 30) text:@"应用场景" textColor:nil backColor:nil font:FONTFC(13) textAlignment:NSTextAlignmentLeft];
-    [headView addSubview:textLabel];
+//
+//    UITextField *textField = [FSViewManager textFieldWithFrame:CGRectMake(60, 20, WIDTHFC - 80, 40) placeholder:@"单位：元" textColor:nil backColor:RGBCOLOR(240, 240, 240, 1)];
+//    [headView addSubview:textField];
+//    
+//    UILabel *textLabel = [FSViewManager labelWithFrame:CGRectMake(15, textField.bottom + 20, 70, 30) text:@"应用场景" textColor:nil backColor:nil font:FONTFC(13) textAlignment:NSTextAlignmentLeft];
+//    [headView addSubview:textLabel];
     
     UITableView *tableView = [[UITableView alloc] initWithFrame:CGRectMake(0, 64, WIDTHFC, HEIGHTFC - 64) style:UITableViewStylePlain];
     tableView.delegate = self;
@@ -63,13 +65,19 @@
     static NSString *identifier = @"moneyListCell";
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:identifier];
     if (!cell) {
-        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:identifier];
+        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleValue1 reuseIdentifier:identifier];
     }
     cell.textLabel.font = FONTFC(13);
     cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
     cell.backgroundColor = [UIColor clearColor];
     cell.textLabel.text = _textArrays[indexPath.row];
+    cell.detailTextLabel.text = [[NSString alloc] initWithFormat:@"%.2f",[_valueArray[indexPath.row] floatValue]];
     return cell;
+}
+
+- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    return 60;
 }
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
