@@ -51,7 +51,7 @@
 - (void)asConfigSuper
 {
     self.title = @"个人资料";
-    _asArrayRow = @[@[@"账号",@"头像",@"昵称"],@[@"手机号",@"邮箱",@"我的地址"],@[@"实名认证",@"登录密码",@"手势密码"]];
+    _asArrayRow = @[@[@"账号",@"头像"],@[@"手机号",@"邮箱"],@[@"实名认证",@"登录密码",@"手势密码"]];
 }
 
 - (void)asHandleDatas
@@ -91,7 +91,7 @@
         if (indexPath.row == 0) {
             cell.detailTextLabel.text = @"扶盛来";
         }else if (indexPath.row == 2) {
-//            cell.detailTextLabel.text = DEFAULTTEXT([FuSing shareInstance].userModel.name, @"未设置");
+
         }
     }else if (indexPath.section == 1) {
         if (indexPath.row == 0) {
@@ -101,7 +101,9 @@
         }
     }else if (indexPath.section == 2){
         if (indexPath.row == 0) {
-            cell.detailTextLabel.text = @"已留备";
+            cell.detailTextLabel.text = @"芝麻分755";
+        }else if (indexPath.row == 1){
+            
         }
     }
     
