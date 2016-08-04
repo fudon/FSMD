@@ -130,12 +130,7 @@
     
     id  pushVC = nil;
     if (indexPath.section == 0) {
-        if (indexPath.row == 1) {
-            pushVC = [[FSHeadPictureController alloc] init];
-        }else if (indexPath.row == 2){
-            FSChangeController *push = [[FSChangeController alloc] init];
-            pushVC = push;
-        }
+        pushVC = [[FSHeadPictureController alloc] init];
     }else if (indexPath.section == 1){
         if (indexPath.row == 0) {
             FSChangeController *push = [[FSChangeController alloc] init];
