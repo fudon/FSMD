@@ -52,7 +52,7 @@
         [button addSubview:picImageView];
     }
     
-    UILabel *nameLabel = [FSViewManager labelWithFrame:CGRectMake(headImageView.right + 10, headImageView.top, WIDTHFC / 2 - 20, headImageView.height / 2) text:@"fudon" textColor:nil backColor:nil font:nil textAlignment:NSTextAlignmentLeft];
+    UILabel *nameLabel = [FSViewManager labelWithFrame:CGRectMake(headImageView.right + 10, headImageView.top, WIDTHFC / 2 - 20, headImageView.height / 2) text:@"扶盛来" textColor:nil backColor:nil font:nil textAlignment:NSTextAlignmentLeft];
     [self addSubview:nameLabel];
     
     UILabel *numberLabel = [FSViewManager labelWithFrame:CGRectMake(nameLabel.left, nameLabel.bottom, nameLabel.width, nameLabel.height) text:@"18810790738" textColor:[UIColor grayColor] backColor:nil font:FONTFC(14) textAlignment:NSTextAlignmentLeft];

@@ -51,7 +51,7 @@
 - (void)asConfigSuper
 {
     self.title = @"个人资料";
-    _asArrayRow = @[@[@"账号",@"头像"],@[@"手机号",@"邮箱"],@[@"实名认证",@"登录密码",@"手势密码"]];
+    _asArrayRow = @[@[@"头像"],@[@"联系(手机号、邮箱、QQ、微信、支付宝)"],@[@"分贝"],@[@"认证"],@[@"密码(登录密码、手势密码)"]];
 }
 
 - (void)asHandleDatas
@@ -89,7 +89,6 @@
     
     if (indexPath.section == 0) {
         if (indexPath.row == 0) {
-            cell.detailTextLabel.text = @"扶盛来";
         }else if (indexPath.row == 2) {
 
         }
@@ -101,9 +100,8 @@
         }
     }else if (indexPath.section == 2){
         if (indexPath.row == 0) {
-            cell.detailTextLabel.text = @"芝麻分755";
         }else if (indexPath.row == 1){
-            
+            cell.detailTextLabel.text = @"芝麻分755";
         }
     }
     
