@@ -10,8 +10,9 @@
 #import "FuSoft.h"
 #import "FSHeadPictureController.h"
 #import "FSChangeController.h"
-//#import "AboutController.h"
-//#import "ChangePwdController.h"
+#import "FSConnectController.h"
+#import "FSCentShellController.h"
+#import "FSCertificateController.h"
 //#import "NickController.h"
 //#import "NumberController.h"
 //#import "AddressController.h"
@@ -51,7 +52,7 @@
 - (void)asConfigSuper
 {
     self.title = @"个人资料";
-    _asArrayRow = @[@[@"头像"],@[@"联系(手机号、邮箱、QQ、微信、支付宝)"],@[@"分贝"],@[@"认证"],@[@"密码(登录密码、手势密码)"]];
+    _asArrayRow = @[@[@"头像"],@[@"联系"],@[@"分贝"],@[@"认证"],@[@"密码(登录密码、手势密码)"]];
 }
 
 - (void)asHandleDatas
@@ -84,6 +85,7 @@
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:identifier];
     if (!cell) {
         cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleValue1 reuseIdentifier:identifier];
+        cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
     }
     cell.textLabel.text = _asArrayRow[indexPath.section][indexPath.row];
     
@@ -93,22 +95,12 @@
 
         }
     }else if (indexPath.section == 1) {
-        if (indexPath.row == 0) {
-//            cell.detailTextLabel.text = DEFAULTTEXT([FuSing shareInstance].userModel.phone, @"未设置");
-        }else if (indexPath.row == 1){
-//            cell.detailTextLabel.text = DEFAULTTEXT([FuSing shareInstance].userModel.email, @"未设置");
-        }
+
     }else if (indexPath.section == 2){
         if (indexPath.row == 0) {
         }else if (indexPath.row == 1){
             cell.detailTextLabel.text = @"芝麻分755";
         }
-    }
-    
-    if (indexPath.section == 0 && indexPath.row == 0) {
-        
-    }else{
-        cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
     }
     
     return cell;
@@ -132,28 +124,16 @@
     if (indexPath.section == 0) {
         pushVC = [[FSHeadPictureController alloc] init];
     }else if (indexPath.section == 1){
-        if (indexPath.row == 0) {
-            FSChangeController *push = [[FSChangeController alloc] init];
-            pushVC = push;
-        }else if (indexPath.row == 1){
-            FSChangeController *push = [[FSChangeController alloc] init];
-            pushVC = push;
-        }
-            else if (indexPath.row == 2){
-//            pushVC = [[AddressController alloc] init];
-//        }
-//    }else if (indexPath.section == 2){
-//        if (indexPath.row == 0) {
-//            pushVC = [[AuthenticationController alloc] init];
-//        }else if (indexPath.row == 1){
-//            pushVC = [[ChangePwdController alloc] init];
-//        }else if (indexPath.row == 2){
-//            GestureController *push = [[GestureController alloc] init];
-//            push.gType = GestureTypeSetCode;
-//            pushVC = push;
-        }
+        FSConnectController *push = [[FSConnectController alloc] init];
+        pushVC = push;
+    }else if (indexPath.section == 2){
+        FSCentShellController *push = [[FSCentShellController alloc] init];
+        pushVC = push;
+    }else if (indexPath.section == 3){
+        FSCertificateController *push = [[FSCertificateController alloc] init];
+        pushVC = push;
     }
-//
+    
     if (pushVC) {
         [self.navigationController pushViewController:pushVC animated:YES];
     }

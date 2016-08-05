@@ -183,6 +183,10 @@
 		716203851D3A7DB400D2768E /* FlowMeter.m in Sources */ = {isa = PBXBuildFile; fileRef = 7162037E1D3A7DB400D2768E /* FlowMeter.m */; };
 		716203861D3A7DB400D2768E /* FMModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 716203811D3A7DB400D2768E /* FMModel.m */; };
 		716203891D3DA4F000D2768E /* FSAddressController.m in Sources */ = {isa = PBXBuildFile; fileRef = 716203881D3DA4F000D2768E /* FSAddressController.m */; };
+		716F50241D538A3100BED15E /* FSConnectController.m in Sources */ = {isa = PBXBuildFile; fileRef = 716F50231D538A3100BED15E /* FSConnectController.m */; };
+		716F50271D53960A00BED15E /* FSCentShellController.m in Sources */ = {isa = PBXBuildFile; fileRef = 716F50261D53960A00BED15E /* FSCentShellController.m */; };
+		716F502B1D540D1B00BED15E /* FSBlockButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 716F502A1D540D1B00BED15E /* FSBlockButton.m */; };
+		717219C71D5419A8001101C2 /* FSCertificateController.m in Sources */ = {isa = PBXBuildFile; fileRef = 717219C61D5419A8001101C2 /* FSCertificateController.m */; };
 		71A9713E1D086F5D00E70408 /* FSTaxDetailView.m in Sources */ = {isa = PBXBuildFile; fileRef = 71A9713B1D086F5D00E70408 /* FSTaxDetailView.m */; };
 		71A9713F1D086F5D00E70408 /* FSTaxOfIncomeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71A9713D1D086F5D00E70408 /* FSTaxOfIncomeController.m */; };
 		71A971421D0AB63500E70408 /* FSTaxRateEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 71A971411D0AB63500E70408 /* FSTaxRateEntity.m */; };
@@ -538,6 +542,14 @@
 		716203811D3A7DB400D2768E /* FMModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMModel.m; sourceTree = "<group>"; };
 		716203871D3DA4F000D2768E /* FSAddressController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSAddressController.h; sourceTree = "<group>"; };
 		716203881D3DA4F000D2768E /* FSAddressController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSAddressController.m; sourceTree = "<group>"; };
+		716F50221D538A3100BED15E /* FSConnectController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSConnectController.h; sourceTree = "<group>"; };
+		716F50231D538A3100BED15E /* FSConnectController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSConnectController.m; sourceTree = "<group>"; };
+		716F50251D53960A00BED15E /* FSCentShellController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSCentShellController.h; sourceTree = "<group>"; };
+		716F50261D53960A00BED15E /* FSCentShellController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSCentShellController.m; sourceTree = "<group>"; };
+		716F50291D540D1B00BED15E /* FSBlockButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FSBlockButton.h; path = ShareEconomy/MVC/ViewController/FSBlockButton.h; sourceTree = SOURCE_ROOT; };
+		716F502A1D540D1B00BED15E /* FSBlockButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FSBlockButton.m; path = ShareEconomy/MVC/ViewController/FSBlockButton.m; sourceTree = SOURCE_ROOT; };
+		717219C51D5419A8001101C2 /* FSCertificateController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSCertificateController.h; sourceTree = "<group>"; };
+		717219C61D5419A8001101C2 /* FSCertificateController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSCertificateController.m; sourceTree = "<group>"; };
 		71A9713A1D086F5D00E70408 /* FSTaxDetailView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSTaxDetailView.h; sourceTree = "<group>"; };
 		71A9713B1D086F5D00E70408 /* FSTaxDetailView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSTaxDetailView.m; sourceTree = "<group>"; };
 		71A9713C1D086F5D00E70408 /* FSTaxOfIncomeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSTaxOfIncomeController.h; sourceTree = "<group>"; };
@@ -1068,6 +1080,8 @@
 		7117B2A01CCBB82800F959D2 /* BaseViews */ = {
 			isa = PBXGroup;
 			children = (
+				716F50291D540D1B00BED15E /* FSBlockButton.h */,
+				716F502A1D540D1B00BED15E /* FSBlockButton.m */,
 			);
 			path = BaseViews;
 			sourceTree = "<group>";
@@ -1247,6 +1261,12 @@
 				712A54C01D41105A00B6CDD6 /* FSHeadPictureController.m */,
 				712A54C61D4116B200B6CDD6 /* FSChangeController.h */,
 				712A54C71D4116B200B6CDD6 /* FSChangeController.m */,
+				716F50221D538A3100BED15E /* FSConnectController.h */,
+				716F50231D538A3100BED15E /* FSConnectController.m */,
+				716F50251D53960A00BED15E /* FSCentShellController.h */,
+				716F50261D53960A00BED15E /* FSCentShellController.m */,
+				717219C51D5419A8001101C2 /* FSCertificateController.h */,
+				717219C61D5419A8001101C2 /* FSCertificateController.m */,
 			);
 			name = Zone;
 			sourceTree = "<group>";
@@ -1939,6 +1959,7 @@
 				71ABE64E1CE2A7D500808AFF /* FSBaseController.m in Sources */,
 				7141E2371CBE8EDE0090AF17 /* FSZoneController.m in Sources */,
 				71ABE6471CE2A7D500808AFF /* MASViewConstraint.m in Sources */,
+				716F50241D538A3100BED15E /* FSConnectController.m in Sources */,
 				716203831D3A7DB400D2768E /* fishhook.c in Sources */,
 				71A971DA1D1E2BD700E70408 /* FIMoveButton.m in Sources */,
 				71ABEE101CF1D20000808AFF /* MJRefreshBackStateFooter.m in Sources */,
@@ -1951,6 +1972,7 @@
 				5C4F615B1D07FFD00086C265 /* FSTapScrollView.m in Sources */,
 				71E534131D28B2F80036AD5E /* FSMakeQRController.m in Sources */,
 				71ABE6521CE2A7D500808AFF /* FSWebImageView.m in Sources */,
+				716F50271D53960A00BED15E /* FSCentShellController.m in Sources */,
 				712A54BE1D410E7600B6CDD6 /* FSPersonController.m in Sources */,
 				5C7378731CE5CD81002E1C4C /* UIView+WebCacheOperation.m in Sources */,
 				71ABE5FE1CE2A74400808AFF /* ViewController.m in Sources */,
@@ -1991,11 +2013,13 @@
 				712A54C11D41105A00B6CDD6 /* FSHeadPictureController.m in Sources */,
 				71ABEE181CF1D20000808AFF /* UIView+MJExtension.m in Sources */,
 				71FBBC531CFA85AF0086D807 /* FSComposeController.m in Sources */,
+				717219C71D5419A8001101C2 /* FSCertificateController.m in Sources */,
 				71ABE7AC1CE6CAE600808AFF /* FSImageLabelView.m in Sources */,
 				71A971D71D1E2B1500E70408 /* FSAddTaxModelController.m in Sources */,
 				5C73786F1CE5CD81002E1C4C /* UIImage+MultiFormat.m in Sources */,
 				716203851D3A7DB400D2768E /* FlowMeter.m in Sources */,
 				71ABE6411CE2A7D500808AFF /* GTMBase64.m in Sources */,
+				716F502B1D540D1B00BED15E /* FSBlockButton.m in Sources */,
 				71ABE6501CE2A7D500808AFF /* FSNavigationController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
