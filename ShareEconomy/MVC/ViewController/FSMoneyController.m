@@ -34,12 +34,12 @@
     CGFloat width = (WIDTHFC - 100) / 4;
     WEAKSELF(this);
     for (int x = 0; x < array.count; x ++) {
-        FSImageLabelView *imageView = [FSImageLabelView imageLabelViewWithFrame:CGRectMake(20 + (x % 4) * (width + 20), 74 + (x / 4) * (width + 45), width, width + 25) imageName:picArray[x] text:array[x]];
+        FSImageLabelView *imageView = [FSImageLabelView imageLabelViewWithFrame:CGRectMake(20 + (x % 4) * (width + 20), 10 + (x / 4) * (width + 45), width, width + 25) imageName:picArray[x] text:array[x]];
         imageView.block = ^ (FSImageLabelView *bImageLabelView){
             [this imageViewAction:bImageLabelView];
         };
         imageView.tag = TAGIMAGEVIEW + x;
-        [self.view addSubview:imageView];
+        [self.scrollView addSubview:imageView];
     }
 }
 
