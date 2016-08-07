@@ -21,7 +21,8 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    //    self.backTitle = [FuData appName];
+    
+    
     
     FSSegmentControl *control = [[FSSegmentControl alloc] initWithFrame:CGRectMake(0, 7, 100, 30)];
     self.navigationItem.titleView = control;
@@ -33,7 +34,6 @@
             this.ccView.thisYearDelta ++;
         }
     };
-    
     _ccView = [[ChineseCalendarView alloc] initWithFrame:CGRectMake(0, 64, WIDTHFC, HEIGHTFC - 64)];
     [self.view addSubview:_ccView];
 }
