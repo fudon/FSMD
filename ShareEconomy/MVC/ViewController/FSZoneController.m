@@ -58,8 +58,8 @@
     if (!cell) {
         cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleValue1 reuseIdentifier:identifier];
     }
-    cell.textLabel.text = @"清除缓存";
-    cell.detailTextLabel.text = @"计算缓存中...";
+    cell.textLabel.text = @"美盾";
+    cell.detailTextLabel.text = @"1000";
     cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
     return cell;
 }
