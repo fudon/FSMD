@@ -8,8 +8,11 @@
 
 #import "FSChineseCalendarController.h"
 #import "ChineseCalendarView.h"
+#import "FSSegmentControl.h"
 
 @interface FSChineseCalendarController ()
+
+@property (nonatomic,strong) ChineseCalendarView *ccView;
 
 @end
 
@@ -18,12 +21,21 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    self.title = @"国历";
-//    self.backTitle = [FuData appName];
+    //    self.backTitle = [FuData appName];
     
-    ChineseCalendarView *ccView = [[ChineseCalendarView alloc] initWithFrame:CGRectMake(0, 64, WIDTHFC, HEIGHTFC - 64)];
-    ccView.backgroundColor = [UIColor whiteColor];
-    [self.view addSubview:ccView];
+    FSSegmentControl *control = [[FSSegmentControl alloc] initWithFrame:CGRectMake(0, 7, 100, 30)];
+    self.navigationItem.titleView = control;
+    WEAKSELF(this);
+    control.block = ^(FSSegmentControl   *bControl,NSInteger bSelectedIndex){
+        if (bSelectedIndex == 0) {
+            this.ccView.thisYearDelta --;
+        }else{
+            this.ccView.thisYearDelta ++;
+        }
+    };
+    
+    _ccView = [[ChineseCalendarView alloc] initWithFrame:CGRectMake(0, 64, WIDTHFC, HEIGHTFC - 64)];
+    [self.view addSubview:_ccView];
 }
 
 - (void)didReceiveMemoryWarning {
