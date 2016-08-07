@@ -9,6 +9,7 @@
 #import "FSChineseCalendarController.h"
 #import "ChineseCalendarView.h"
 #import "FSSegmentControl.h"
+#import "FSDatePickerView.h"
 
 @interface FSChineseCalendarController ()
 
@@ -18,11 +19,18 @@
 
 @implementation FSChineseCalendarController
 
+- (void)dealloc
+{
+    FSLog(@"");
+}
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
     
-    
+    UIBarButtonItem *bbi = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemSearch target:self action:@selector(bbiAction)];
+    bbi.tintColor = [UIColor whiteColor];
+    self.navigationItem.rightBarButtonItem = bbi;
     
     FSSegmentControl *control = [[FSSegmentControl alloc] initWithFrame:CGRectMake(0, 7, 100, 30)];
     self.navigationItem.titleView = control;
@@ -36,6 +44,16 @@
     };
     _ccView = [[ChineseCalendarView alloc] initWithFrame:CGRectMake(0, 64, WIDTHFC, HEIGHTFC - 64)];
     [self.view addSubview:_ccView];
+}
+
+- (void)bbiAction
+{
+    WEAKSELF(this);
+    FSDatePickerView *picker = [[FSDatePickerView alloc] initWithFrame:CGRectMake(0, 0, WIDTHFC, HEIGHTFC)];
+    [self.view.window addSubview:picker];
+    picker.block = ^ (NSDate *bDate){
+        this.ccView.date = bDate;
+    };
 }
 
 - (void)didReceiveMemoryWarning {

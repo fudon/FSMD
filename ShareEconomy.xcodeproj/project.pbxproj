@@ -197,6 +197,7 @@
 		717219F71D56E1E5001101C2 /* FSChineseCalendarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 717219F61D56E1E5001101C2 /* FSChineseCalendarController.m */; };
 		717219FA1D57210E001101C2 /* FSSegmentControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 717219F91D57210E001101C2 /* FSSegmentControl.m */; };
 		717219FD1D57307B001101C2 /* ExhaustiveCalendar.m in Sources */ = {isa = PBXBuildFile; fileRef = 717219FC1D57307B001101C2 /* ExhaustiveCalendar.m */; };
+		71721A001D576AC7001101C2 /* FSDatePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 717219FF1D576AC7001101C2 /* FSDatePickerView.m */; };
 		71A9713E1D086F5D00E70408 /* FSTaxDetailView.m in Sources */ = {isa = PBXBuildFile; fileRef = 71A9713B1D086F5D00E70408 /* FSTaxDetailView.m */; };
 		71A9713F1D086F5D00E70408 /* FSTaxOfIncomeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71A9713D1D086F5D00E70408 /* FSTaxOfIncomeController.m */; };
 		71A971421D0AB63500E70408 /* FSTaxRateEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 71A971411D0AB63500E70408 /* FSTaxRateEntity.m */; };
@@ -580,6 +581,8 @@
 		717219F91D57210E001101C2 /* FSSegmentControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSSegmentControl.m; sourceTree = "<group>"; };
 		717219FB1D57307B001101C2 /* ExhaustiveCalendar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ExhaustiveCalendar.h; path = ../ExhaustiveCalendar.h; sourceTree = "<group>"; };
 		717219FC1D57307B001101C2 /* ExhaustiveCalendar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ExhaustiveCalendar.m; path = ../ExhaustiveCalendar.m; sourceTree = "<group>"; };
+		717219FE1D576AC7001101C2 /* FSDatePickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSDatePickerView.h; sourceTree = "<group>"; };
+		717219FF1D576AC7001101C2 /* FSDatePickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSDatePickerView.m; sourceTree = "<group>"; };
 		71A9713A1D086F5D00E70408 /* FSTaxDetailView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSTaxDetailView.h; sourceTree = "<group>"; };
 		71A9713B1D086F5D00E70408 /* FSTaxDetailView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSTaxDetailView.m; sourceTree = "<group>"; };
 		71A9713C1D086F5D00E70408 /* FSTaxOfIncomeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSTaxOfIncomeController.h; sourceTree = "<group>"; };
@@ -1534,6 +1537,8 @@
 				712A54BA1D4044FF00B6CDD6 /* FSTapCell.m */,
 				717219F81D57210E001101C2 /* FSSegmentControl.h */,
 				717219F91D57210E001101C2 /* FSSegmentControl.m */,
+				717219FE1D576AC7001101C2 /* FSDatePickerView.h */,
+				717219FF1D576AC7001101C2 /* FSDatePickerView.m */,
 			);
 			path = FSBase;
 			sourceTree = "<group>";
@@ -1990,6 +1995,7 @@
 				71A971D01D1E2AC100E70408 /* FSQRController.m in Sources */,
 				7141E2891CBF12140090AF17 /* FSHomeCell.m in Sources */,
 				5C7378671CE5CD81002E1C4C /* SDWebImageCompat.m in Sources */,
+				71721A001D576AC7001101C2 /* FSDatePickerView.m in Sources */,
 				71ABE7BD1CE7192D00808AFF /* FSHardwareInfoController.m in Sources */,
 				7141E2341CBE8ED20090AF17 /* FSMoneyController.m in Sources */,
 				7117B2A71CCBBCF000F959D2 /* FSRegisterController.m in Sources */,
