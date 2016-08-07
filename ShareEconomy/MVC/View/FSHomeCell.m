@@ -56,7 +56,7 @@
         NSArray *userPwds = [[NSUserDefaults standardUserDefaults] objectForKey:UserDefaultsKey_UserPwd];
 
         EMMessage *message = conversation.latestMessage;
-        if ([message.from isEqualToString:userPwds[0]]) {
+        if ([message.from isEqualToString:@"22"]) {
             _nameLabel.text = message.to;
         }else{
             _nameLabel.text = message.from;
