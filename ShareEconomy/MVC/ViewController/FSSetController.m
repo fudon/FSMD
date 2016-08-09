@@ -11,7 +11,9 @@
 
 @interface FSSetController ()<UITableViewDataSource,UITableViewDelegate>
 
-@property (nonatomic,strong) UITableView *tableView;
+@property (nonatomic,strong) UITableView    *tableView;
+@property (nonatomic,strong) NSArray        *array;
+@property (nonatomic,strong) NSArray        *values;
 
 @end
 
@@ -21,6 +23,8 @@
 {
     [super viewDidLoad];
     self.title = @"设置";
+    _array = @[@"清除缓存",@"意见反馈"];
+    _values = @[@"计算缓存中...",@"请告知您的宝贵提议"];
     
     _tableView = [[UITableView alloc] initWithFrame:CGRectMake(0, 64, WIDTHFC, HEIGHTFC - 64) style:UITableViewStyleGrouped];
     _tableView.delegate = self;
@@ -33,7 +37,7 @@
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-    return 1;
+    return _array.count;
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
@@ -43,8 +47,8 @@
     if (!cell) {
         cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleValue1 reuseIdentifier:identifier];
     }
-    cell.textLabel.text = @"清除缓存";
-    cell.detailTextLabel.text = @"计算缓存中...";
+    cell.textLabel.text = [_array objectAtIndex:indexPath.row];
+    cell.detailTextLabel.text = [_values objectAtIndex:indexPath.row];
     cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
     return cell;
 }

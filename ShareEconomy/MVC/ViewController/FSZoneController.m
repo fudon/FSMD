@@ -13,7 +13,8 @@
 
 @interface FSZoneController ()<UITableViewDataSource,UITableViewDelegate>
 
-@property (nonatomic,strong) UITableView *tableView;
+@property (nonatomic,strong) UITableView    *tableView;
+@property (nonatomic,strong) NSArray        *array;
 
 @end
 
@@ -22,6 +23,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.title = @"行";
+    _array = @[@"美盾",@"支持优雅"];
     
     self.navigationItem.rightBarButtonItem = [FSViewManager barButtonItemWithTitle:@"设置" target:self selector:@selector(configAction) tintColor:[UIColor whiteColor]];
     
@@ -48,7 +50,7 @@
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-    return 1;
+    return _array.count;
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
@@ -58,8 +60,10 @@
     if (!cell) {
         cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleValue1 reuseIdentifier:identifier];
     }
-    cell.textLabel.text = @"美盾";
-    cell.detailTextLabel.text = @"1000";
+    cell.textLabel.text = [_array objectAtIndex:indexPath.row];
+    if (indexPath.row == 0) {
+        cell.detailTextLabel.text = @"1000";
+    }
     cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
     return cell;
 }
