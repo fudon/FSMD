@@ -126,33 +126,10 @@
 {
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
     
-    //    EaseMessageViewController *chatController = [[EaseMessageViewController alloc] initWithConversationChatter:@"11" conversationType:EMConversationTypeChat];
-    //    [self.navigationController pushViewController:chatController animated:YES];
-    
     EMConversation *conversation = [_chatToWhos objectAtIndex:indexPath.row];
-    EMMessage *message = conversation.latestMessage;
-    if (message.from.length) {
-        NSArray *userPwds = [[NSUserDefaults standardUserDefaults] objectForKey:UserDefaultsKey_UserPwd];
-        
-        FSMSGController *msg = [[FSMSGController alloc] init];
-        EMMessage *message = conversation.latestMessage;
-        if ([message.from isEqualToString:userPwds[0]]) {
-            msg.chatToWho = message.to;
-        }else{
-            msg.chatToWho = message.from;
-        }
-        if ([msg.chatToWho isEqualToString:userPwds[0]]) {
-            [self showTitle:@"不能发给自己"];
-            return;
-        }
-        if (msg.chatToWho.length == 0) {
-            [self showTitle:@"该账号已被服务器删除"];
-            return;
-        }
-        [self.navigationController pushViewController:msg animated:YES];
-    }else{
-        [self showTitle:@"假数据"];
-    }
+    FSMSGController *msg = [[FSMSGController alloc] init];
+    msg.chatToWho = conversation.conversationId;
+    [self.navigationController pushViewController:msg animated:YES];
 }
 
 - (BOOL)tableView:(UITableView *)tableView canEditRowAtIndexPath:(NSIndexPath *)indexPath
