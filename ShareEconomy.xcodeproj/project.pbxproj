@@ -186,6 +186,10 @@
 		716F50241D538A3100BED15E /* FSConnectController.m in Sources */ = {isa = PBXBuildFile; fileRef = 716F50231D538A3100BED15E /* FSConnectController.m */; };
 		716F50271D53960A00BED15E /* FSCentShellController.m in Sources */ = {isa = PBXBuildFile; fileRef = 716F50261D53960A00BED15E /* FSCentShellController.m */; };
 		716F502B1D540D1B00BED15E /* FSBlockButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 716F502A1D540D1B00BED15E /* FSBlockButton.m */; };
+		7171679A1D5CB9E200BD9100 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 717167991D5CB9E200BD9100 /* CoreTelephony.framework */; };
+		7171679C1D5CB9F700BD9100 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7171679B1D5CB9F700BD9100 /* Security.framework */; };
+		717167A91D5CBF0900BD9100 /* FSStatistics.m in Sources */ = {isa = PBXBuildFile; fileRef = 717167A61D5CBF0900BD9100 /* FSStatistics.m */; };
+		717167AA1D5CBF0900BD9100 /* UMMobClick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 717167A81D5CBF0900BD9100 /* UMMobClick.framework */; };
 		717219C71D5419A8001101C2 /* FSCertificateController.m in Sources */ = {isa = PBXBuildFile; fileRef = 717219C61D5419A8001101C2 /* FSCertificateController.m */; };
 		717219EE1D56DEF6001101C2 /* ChineseCalendarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 717219DF1D56DEF6001101C2 /* ChineseCalendarView.m */; };
 		717219EF1D56DEF6001101C2 /* FSCCDayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 717219E11D56DEF6001101C2 /* FSCCDayView.m */; };
@@ -559,6 +563,12 @@
 		716F50261D53960A00BED15E /* FSCentShellController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSCentShellController.m; sourceTree = "<group>"; };
 		716F50291D540D1B00BED15E /* FSBlockButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FSBlockButton.h; path = ShareEconomy/MVC/ViewController/FSBlockButton.h; sourceTree = SOURCE_ROOT; };
 		716F502A1D540D1B00BED15E /* FSBlockButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FSBlockButton.m; path = ShareEconomy/MVC/ViewController/FSBlockButton.m; sourceTree = SOURCE_ROOT; };
+		717167991D5CB9E200BD9100 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		7171679B1D5CB9F700BD9100 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		717167A51D5CBF0900BD9100 /* FSStatistics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSStatistics.h; sourceTree = "<group>"; };
+		717167A61D5CBF0900BD9100 /* FSStatistics.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSStatistics.m; sourceTree = "<group>"; };
+		717167A71D5CBF0900BD9100 /* FSStatisticsKeys.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSStatisticsKeys.h; sourceTree = "<group>"; };
+		717167A81D5CBF0900BD9100 /* UMMobClick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = UMMobClick.framework; sourceTree = "<group>"; };
 		717219C51D5419A8001101C2 /* FSCertificateController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSCertificateController.h; sourceTree = "<group>"; };
 		717219C61D5419A8001101C2 /* FSCertificateController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSCertificateController.m; sourceTree = "<group>"; };
 		717219DE1D56DEF6001101C2 /* ChineseCalendarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChineseCalendarView.h; sourceTree = "<group>"; };
@@ -797,6 +807,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				717167AA1D5CBF0900BD9100 /* UMMobClick.framework in Frameworks */,
+				7171679C1D5CB9F700BD9100 /* Security.framework in Frameworks */,
+				7171679A1D5CB9E200BD9100 /* CoreTelephony.framework in Frameworks */,
 				5C913D4D1D15006F0009DC32 /* WebKit.framework in Frameworks */,
 				71ABEE701CF2038E00808AFF /* libHyphenateFullSDK.a in Frameworks */,
 				71ABEDD51CF1D09B00808AFF /* CoreMedia.framework in Frameworks */,
@@ -1163,6 +1176,8 @@
 		7141E2061CBE8B090090AF17 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				7171679B1D5CB9F700BD9100 /* Security.framework */,
+				717167991D5CB9E200BD9100 /* CoreTelephony.framework */,
 				5C913D4C1D15006F0009DC32 /* WebKit.framework */,
 				7141E2071CBE8B090090AF17 /* main.m */,
 			);
@@ -1329,6 +1344,17 @@
 				716203811D3A7DB400D2768E /* FMModel.m */,
 			);
 			path = FlowMeter;
+			sourceTree = "<group>";
+		};
+		717167A41D5CBF0900BD9100 /* tongji */ = {
+			isa = PBXGroup;
+			children = (
+				717167A51D5CBF0900BD9100 /* FSStatistics.h */,
+				717167A61D5CBF0900BD9100 /* FSStatistics.m */,
+				717167A71D5CBF0900BD9100 /* FSStatisticsKeys.h */,
+				717167A81D5CBF0900BD9100 /* UMMobClick.framework */,
+			);
+			path = tongji;
 			sourceTree = "<group>";
 		};
 		717219DD1D56DEF6001101C2 /* ChineseCalendar */ = {
@@ -1546,6 +1572,7 @@
 		71ABE6AE1CE2AABC00808AFF /* Thanks */ = {
 			isa = PBXGroup;
 			children = (
+				717167A41D5CBF0900BD9100 /* tongji */,
 				71ABEDD91CF1D20000808AFF /* MJRefresh */,
 				71ABEAA11CF1CF9F00808AFF /* ThirtParty */,
 				5C7378421CE5CD81002E1C4C /* SDWebImage */,
@@ -2067,6 +2094,7 @@
 				71ABE6531CE2A7D500808AFF /* FuData.m in Sources */,
 				71ABEDAD1CF1CFA000808AFF /* FSChatView.m in Sources */,
 				7141E2081CBE8B090090AF17 /* main.m in Sources */,
+				717167A91D5CBF0900BD9100 /* FSStatistics.m in Sources */,
 				71ABE64C1CE2A7D500808AFF /* UIViewExt.m in Sources */,
 				71ABEDB11CF1CFA000808AFF /* FSSendCell.m in Sources */,
 				5CCBBC791D1AB248003B5C41 /* FSSameKindController.m in Sources */,
@@ -2226,12 +2254,14 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = /Users/fudonfuchina/Documents/FSGit/Thanks/Thanks/Thanks/tongji;
 				INFOPLIST_FILE = ShareEconomy/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
-					"/Users/fudonfuchina/Documents/FSGit/HyphenateFullSDK/lib\n",
+					/Users/fudonfuchina/Documents/FSGit/HyphenateFullSDK/lib,
 					"$(inherited)",
+					"/Users/fudonfuchina/Documents/FSGit/Thanks/Thanks/Thanks/tongji\n",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.youya.se;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -2246,12 +2276,14 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = /Users/fudonfuchina/Documents/FSGit/Thanks/Thanks/Thanks/tongji;
 				INFOPLIST_FILE = ShareEconomy/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
-					"/Users/fudonfuchina/Documents/FSGit/HyphenateFullSDK/lib\n",
+					/Users/fudonfuchina/Documents/FSGit/HyphenateFullSDK/lib,
 					"$(inherited)",
+					"/Users/fudonfuchina/Documents/FSGit/Thanks/Thanks/Thanks/tongji\n",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.youya.se;
 				PRODUCT_NAME = "$(TARGET_NAME)";
