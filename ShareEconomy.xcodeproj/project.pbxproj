@@ -293,6 +293,8 @@
 		71D9C25D1D3316C100DDDB10 /* FSMoneyListController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71D9C25C1D3316C100DDDB10 /* FSMoneyListController.m */; };
 		71E534131D28B2F80036AD5E /* FSMakeQRController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71E534121D28B2F80036AD5E /* FSMakeQRController.m */; };
 		71E534161D28FA510036AD5E /* FSTapLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 71E534151D28FA510036AD5E /* FSTapLabel.m */; };
+		71EEDF101D5ED09300436C97 /* FSWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71EEDF0F1D5ED09300436C97 /* FSWebViewController.m */; };
+		71EEDF161D5ED3FC00436C97 /* FSWBView.m in Sources */ = {isa = PBXBuildFile; fileRef = 71EEDF151D5ED3FC00436C97 /* FSWBView.m */; };
 		71FBBC531CFA85AF0086D807 /* FSComposeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71FBBC521CFA85AF0086D807 /* FSComposeController.m */; };
 /* End PBXBuildFile section */
 
@@ -798,6 +800,10 @@
 		71E534121D28B2F80036AD5E /* FSMakeQRController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSMakeQRController.m; sourceTree = "<group>"; };
 		71E534141D28FA510036AD5E /* FSTapLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSTapLabel.h; sourceTree = "<group>"; };
 		71E534151D28FA510036AD5E /* FSTapLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSTapLabel.m; sourceTree = "<group>"; };
+		71EEDF0E1D5ED09300436C97 /* FSWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FSWebViewController.h; path = ../FSWebViewController.h; sourceTree = "<group>"; };
+		71EEDF0F1D5ED09300436C97 /* FSWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FSWebViewController.m; path = ../FSWebViewController.m; sourceTree = "<group>"; };
+		71EEDF141D5ED3FC00436C97 /* FSWBView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSWBView.h; sourceTree = "<group>"; };
+		71EEDF151D5ED3FC00436C97 /* FSWBView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSWBView.m; sourceTree = "<group>"; };
 		71FBBC511CFA85AF0086D807 /* FSComposeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSComposeController.h; sourceTree = "<group>"; };
 		71FBBC521CFA85AF0086D807 /* FSComposeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSComposeController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -1555,6 +1561,10 @@
 				71ABE7AB1CE6CAE600808AFF /* FSImageLabelView.m */,
 				71ABE7B01CE7061900808AFF /* FSWebController.h */,
 				71ABE7B11CE7061900808AFF /* FSWebController.m */,
+				71EEDF141D5ED3FC00436C97 /* FSWBView.h */,
+				71EEDF151D5ED3FC00436C97 /* FSWBView.m */,
+				71EEDF0E1D5ED09300436C97 /* FSWebViewController.h */,
+				71EEDF0F1D5ED09300436C97 /* FSWebViewController.m */,
 				71ABE7BB1CE7192D00808AFF /* FSHardwareInfoController.h */,
 				71ABE7BC1CE7192D00808AFF /* FSHardwareInfoController.m */,
 				71E534141D28FA510036AD5E /* FSTapLabel.h */,
@@ -2094,6 +2104,7 @@
 				71ABE6531CE2A7D500808AFF /* FuData.m in Sources */,
 				71ABEDAD1CF1CFA000808AFF /* FSChatView.m in Sources */,
 				7141E2081CBE8B090090AF17 /* main.m in Sources */,
+				71EEDF101D5ED09300436C97 /* FSWebViewController.m in Sources */,
 				717167A91D5CBF0900BD9100 /* FSStatistics.m in Sources */,
 				71ABE64C1CE2A7D500808AFF /* UIViewExt.m in Sources */,
 				71ABEDB11CF1CFA000808AFF /* FSSendCell.m in Sources */,
@@ -2126,6 +2137,7 @@
 				5C73786C1CE5CD81002E1C4C /* SDWebImagePrefetcher.m in Sources */,
 				716203841D3A7DB400D2768E /* FlowCollector.m in Sources */,
 				5C5056211CFE8B3A00B654AB /* FSLoanCounterController.m in Sources */,
+				71EEDF161D5ED3FC00436C97 /* FSWBView.m in Sources */,
 				71ABEE0F1CF1D20000808AFF /* MJRefreshBackNormalFooter.m in Sources */,
 				71A971421D0AB63500E70408 /* FSTaxRateEntity.m in Sources */,
 				712A54C11D41105A00B6CDD6 /* FSHeadPictureController.m in Sources */,
