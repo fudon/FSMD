@@ -28,8 +28,8 @@
     [super viewDidLoad];
     self.title = @"百宝箱";
     
-    NSArray *array = @[@"二维码",@"记账本",@"设备信息",@"信息",@"消费",@"贷款计算器",@"个税计算器",@"流量统计",@"国历"];
-    NSArray *picArray = @[@"saoma_too",@"a_4",@"a_n",@"ae6",@"myintegral",@"my_history",@"tootoodingdan",@"ae6",@"ae6"];
+    NSArray *array = @[@"二维码",@"记账本",@"设备信息",@"信息",@"消费",@"贷款计算器",@"个税计算器",@"流量统计"];
+    NSArray *picArray = @[@"saoma_too",@"a_4",@"a_n",@"ae6",@"myintegral",@"my_history",@"tootoodingdan",@"ae6"];
     
     CGFloat width = (WIDTHFC - 100) / 4;
     WEAKSELF(this);
