@@ -202,6 +202,7 @@
 		717219FA1D57210E001101C2 /* FSSegmentControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 717219F91D57210E001101C2 /* FSSegmentControl.m */; };
 		717219FD1D57307B001101C2 /* ExhaustiveCalendar.m in Sources */ = {isa = PBXBuildFile; fileRef = 717219FC1D57307B001101C2 /* ExhaustiveCalendar.m */; };
 		71721A001D576AC7001101C2 /* FSDatePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 717219FF1D576AC7001101C2 /* FSDatePickerView.m */; };
+		71766A961D6935CC0078C703 /* FSMoveLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 71766A951D6935CC0078C703 /* FSMoveLabel.m */; };
 		71A9713E1D086F5D00E70408 /* FSTaxDetailView.m in Sources */ = {isa = PBXBuildFile; fileRef = 71A9713B1D086F5D00E70408 /* FSTaxDetailView.m */; };
 		71A9713F1D086F5D00E70408 /* FSTaxOfIncomeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71A9713D1D086F5D00E70408 /* FSTaxOfIncomeController.m */; };
 		71A971421D0AB63500E70408 /* FSTaxRateEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 71A971411D0AB63500E70408 /* FSTaxRateEntity.m */; };
@@ -595,6 +596,8 @@
 		717219FC1D57307B001101C2 /* ExhaustiveCalendar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ExhaustiveCalendar.m; path = ../ExhaustiveCalendar.m; sourceTree = "<group>"; };
 		717219FE1D576AC7001101C2 /* FSDatePickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSDatePickerView.h; sourceTree = "<group>"; };
 		717219FF1D576AC7001101C2 /* FSDatePickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSDatePickerView.m; sourceTree = "<group>"; };
+		71766A941D6935CC0078C703 /* FSMoveLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FSMoveLabel.h; path = ../3rd/FSMoveLabel.h; sourceTree = "<group>"; };
+		71766A951D6935CC0078C703 /* FSMoveLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FSMoveLabel.m; path = ../3rd/FSMoveLabel.m; sourceTree = "<group>"; };
 		71A9713A1D086F5D00E70408 /* FSTaxDetailView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSTaxDetailView.h; sourceTree = "<group>"; };
 		71A9713B1D086F5D00E70408 /* FSTaxDetailView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSTaxDetailView.m; sourceTree = "<group>"; };
 		71A9713C1D086F5D00E70408 /* FSTaxOfIncomeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSTaxOfIncomeController.h; sourceTree = "<group>"; };
@@ -1545,6 +1548,8 @@
 			children = (
 				71A971D81D1E2BD700E70408 /* FIMoveButton.h */,
 				71A971D91D1E2BD700E70408 /* FIMoveButton.m */,
+				71766A941D6935CC0078C703 /* FSMoveLabel.h */,
+				71766A951D6935CC0078C703 /* FSMoveLabel.m */,
 				71A971C11D1E2AC100E70408 /* QR */,
 				71A971391D086F5D00E70408 /* Tax */,
 				71ABE62B1CE2A7D500808AFF /* FSBaseController.h */,
@@ -2043,6 +2048,7 @@
 				717219F21D56DEF6001101C2 /* Datetime.m in Sources */,
 				71ABEE0A1CF1D20000808AFF /* MJRefreshHeader.m in Sources */,
 				71ABEDB01CF1CFA000808AFF /* FSMSGController.m in Sources */,
+				71766A961D6935CC0078C703 /* FSMoveLabel.m in Sources */,
 				716203891D3DA4F000D2768E /* FSAddressController.m in Sources */,
 				5C73786B1CE5CD81002E1C4C /* SDWebImageManager.m in Sources */,
 				71ABE5FB1CE2A73900808AFF /* AppDelegate.m in Sources */,
