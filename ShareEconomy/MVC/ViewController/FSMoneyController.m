@@ -14,9 +14,9 @@
 #import "FSTaxOfIncomeController.h"
 #import "FSWebController.h"
 #import "FSSameKindController.h"
-#import "FSMoneyListController.h"
 #import "FSFlowMeterController.h"
 #import "FSChineseCalendarController.h"
+#import "FSFinancesManagerController.h"
 
 @interface FSMoneyController ()
 
@@ -55,7 +55,7 @@
             break;
           case 1:
         {
-            FSMoneyListController *moneyListController = [[FSMoneyListController alloc] init];
+            FSFinancesManagerController *moneyListController = [[FSFinancesManagerController alloc] init];
             [self.navigationController pushViewController:moneyListController animated:YES];
         }
             break;
