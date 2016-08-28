@@ -8,7 +8,6 @@
 
 #import "AppDelegate.h"
 #import "FSEaseMob.h"
-#import "FlowMeter.h"
 #import "FSStatistics.h"
 
 @interface AppDelegate ()
@@ -19,7 +18,6 @@
 
 - (void)thankFunctionAdded:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    [FlowMeter shareInstance];
     [FSStatistics startStatisticFunction];
     [[FSEaseMob shareInstance] initEaseMob:application launchOptions:launchOptions];
 }

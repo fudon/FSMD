@@ -221,11 +221,6 @@
 		7141E2891CBF12140090AF17 /* FSHomeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7141E2881CBF12140090AF17 /* FSHomeCell.m */; };
 		7141E28D1CBFD4230090AF17 /* FSCommuniteController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7141E28C1CBFD4230090AF17 /* FSCommuniteController.m */; };
 		7141E2971CC529EE0090AF17 /* FSLoginController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7141E2961CC529EE0090AF17 /* FSLoginController.m */; };
-		716203751D3A7B5C00D2768E /* FSFlowMeterController.m in Sources */ = {isa = PBXBuildFile; fileRef = 716203741D3A7B5C00D2768E /* FSFlowMeterController.m */; };
-		716203831D3A7DB400D2768E /* fishhook.c in Sources */ = {isa = PBXBuildFile; fileRef = 716203791D3A7DB400D2768E /* fishhook.c */; };
-		716203841D3A7DB400D2768E /* FlowCollector.m in Sources */ = {isa = PBXBuildFile; fileRef = 7162037C1D3A7DB400D2768E /* FlowCollector.m */; };
-		716203851D3A7DB400D2768E /* FlowMeter.m in Sources */ = {isa = PBXBuildFile; fileRef = 7162037E1D3A7DB400D2768E /* FlowMeter.m */; };
-		716203861D3A7DB400D2768E /* FMModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 716203811D3A7DB400D2768E /* FMModel.m */; };
 		716203891D3DA4F000D2768E /* FSAddressController.m in Sources */ = {isa = PBXBuildFile; fileRef = 716203881D3DA4F000D2768E /* FSAddressController.m */; };
 		716F50241D538A3100BED15E /* FSConnectController.m in Sources */ = {isa = PBXBuildFile; fileRef = 716F50231D538A3100BED15E /* FSConnectController.m */; };
 		716F50271D53960A00BED15E /* FSCentShellController.m in Sources */ = {isa = PBXBuildFile; fileRef = 716F50261D53960A00BED15E /* FSCentShellController.m */; };
@@ -628,17 +623,6 @@
 		7141E28C1CBFD4230090AF17 /* FSCommuniteController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSCommuniteController.m; sourceTree = "<group>"; };
 		7141E2951CC529EE0090AF17 /* FSLoginController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSLoginController.h; sourceTree = "<group>"; };
 		7141E2961CC529EE0090AF17 /* FSLoginController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSLoginController.m; sourceTree = "<group>"; };
-		716203731D3A7B5C00D2768E /* FSFlowMeterController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSFlowMeterController.h; sourceTree = "<group>"; };
-		716203741D3A7B5C00D2768E /* FSFlowMeterController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSFlowMeterController.m; sourceTree = "<group>"; };
-		716203791D3A7DB400D2768E /* fishhook.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = fishhook.c; sourceTree = "<group>"; };
-		7162037A1D3A7DB400D2768E /* fishhook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fishhook.h; sourceTree = "<group>"; };
-		7162037B1D3A7DB400D2768E /* FlowCollector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlowCollector.h; sourceTree = "<group>"; };
-		7162037C1D3A7DB400D2768E /* FlowCollector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlowCollector.m; sourceTree = "<group>"; };
-		7162037D1D3A7DB400D2768E /* FlowMeter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlowMeter.h; sourceTree = "<group>"; };
-		7162037E1D3A7DB400D2768E /* FlowMeter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlowMeter.m; sourceTree = "<group>"; };
-		7162037F1D3A7DB400D2768E /* FlowMeterKeys.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlowMeterKeys.h; sourceTree = "<group>"; };
-		716203801D3A7DB400D2768E /* FMModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMModel.h; sourceTree = "<group>"; };
-		716203811D3A7DB400D2768E /* FMModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMModel.m; sourceTree = "<group>"; };
 		716203871D3DA4F000D2768E /* FSAddressController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSAddressController.h; sourceTree = "<group>"; };
 		716203881D3DA4F000D2768E /* FSAddressController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSAddressController.m; sourceTree = "<group>"; };
 		716F50221D538A3100BED15E /* FSConnectController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSConnectController.h; sourceTree = "<group>"; };
@@ -1438,8 +1422,6 @@
 				5C50567B1CFF162D00B654AB /* FSLoanResultController.m */,
 				5CCBBC771D1AB248003B5C41 /* FSSameKindController.h */,
 				5CCBBC781D1AB248003B5C41 /* FSSameKindController.m */,
-				716203731D3A7B5C00D2768E /* FSFlowMeterController.h */,
-				716203741D3A7B5C00D2768E /* FSFlowMeterController.m */,
 				717219F51D56E1E5001101C2 /* FSChineseCalendarController.h */,
 				717219F61D56E1E5001101C2 /* FSChineseCalendarController.m */,
 			);
@@ -1478,22 +1460,6 @@
 				7141E28C1CBFD4230090AF17 /* FSCommuniteController.m */,
 			);
 			name = Communicate;
-			sourceTree = "<group>";
-		};
-		716203761D3A7DB400D2768E /* FlowMeter */ = {
-			isa = PBXGroup;
-			children = (
-				716203791D3A7DB400D2768E /* fishhook.c */,
-				7162037A1D3A7DB400D2768E /* fishhook.h */,
-				7162037B1D3A7DB400D2768E /* FlowCollector.h */,
-				7162037C1D3A7DB400D2768E /* FlowCollector.m */,
-				7162037D1D3A7DB400D2768E /* FlowMeter.h */,
-				7162037E1D3A7DB400D2768E /* FlowMeter.m */,
-				7162037F1D3A7DB400D2768E /* FlowMeterKeys.h */,
-				716203801D3A7DB400D2768E /* FMModel.h */,
-				716203811D3A7DB400D2768E /* FMModel.m */,
-			);
-			path = FlowMeter;
 			sourceTree = "<group>";
 		};
 		717167A41D5CBF0900BD9100 /* tongji */ = {
@@ -1566,7 +1532,6 @@
 				710CCDFA1D714721009F555E /* Account */,
 				717219DD1D56DEF6001101C2 /* ChineseCalendar */,
 				712A54C21D41137800B6CDD6 /* ClipPicture */,
-				716203761D3A7DB400D2768E /* FlowMeter */,
 				71ABE6041CE2A7D500808AFF /* BaseModel */,
 				71ABE6071CE2A7D500808AFF /* GTMBase64 */,
 				71ABE6251CE2A7D500808AFF /* UIViewExt */,
@@ -2096,7 +2061,6 @@
 				5C73786A1CE5CD81002E1C4C /* SDWebImageDownloaderOperation.m in Sources */,
 				7141E2971CC529EE0090AF17 /* FSLoginController.m in Sources */,
 				5C7378641CE5CD81002E1C4C /* MKAnnotationView+WebCache.m in Sources */,
-				716203861D3A7DB400D2768E /* FMModel.m in Sources */,
 				7141E2311CBE8EC50090AF17 /* FSHomeController.m in Sources */,
 				712A54B51D3FB32900B6CDD6 /* FSSetController.m in Sources */,
 				5C7378711CE5CD81002E1C4C /* UIImageView+HighlightedWebCache.m in Sources */,
@@ -2110,7 +2074,6 @@
 				7141E2371CBE8EDE0090AF17 /* FSZoneController.m in Sources */,
 				719374EA1D72A5F70032FF36 /* FSMoveLabel.m in Sources */,
 				716F50241D538A3100BED15E /* FSConnectController.m in Sources */,
-				716203831D3A7DB400D2768E /* fishhook.c in Sources */,
 				71ABEE101CF1D20000808AFF /* MJRefreshBackStateFooter.m in Sources */,
 				71ABEE131CF1D20000808AFF /* MJRefreshStateHeader.m in Sources */,
 				71ABEDB41CF1CFA000808AFF /* HPTextViewInternal.m in Sources */,
@@ -2143,7 +2106,6 @@
 				717219F01D56DEF6001101C2 /* FSCCHeadView.m in Sources */,
 				71ABEDAF1CF1CFA000808AFF /* FSEMMessage.m in Sources */,
 				5C73786E1CE5CD81002E1C4C /* UIImage+GIF.m in Sources */,
-				716203751D3A7B5C00D2768E /* FSFlowMeterController.m in Sources */,
 				71ABEE071CF1D20000808AFF /* MJRefreshBackFooter.m in Sources */,
 				71ABEE0B1CF1D20000808AFF /* MJRefreshAutoGifFooter.m in Sources */,
 				710CCE131D714721009F555E /* FSDBManager.m in Sources */,
@@ -2162,7 +2124,6 @@
 				710CCE721D72836A009F555E /* FSTapCell.m in Sources */,
 				710CCE1D1D714721009F555E /* SQLEntity.m in Sources */,
 				710CCE741D72836A009F555E /* FSViewManager.m in Sources */,
-				716203841D3A7DB400D2768E /* FlowCollector.m in Sources */,
 				710CCE841D72836A009F555E /* FSTaxOfIncomeController.m in Sources */,
 				710CCE861D72836A009F555E /* FSBlockButton.m in Sources */,
 				5C5056211CFE8B3A00B654AB /* FSLoanCounterController.m in Sources */,
@@ -2174,7 +2135,6 @@
 				717219C71D5419A8001101C2 /* FSCertificateController.m in Sources */,
 				710CCE881D72836A009F555E /* FSSelectController.m in Sources */,
 				5C73786F1CE5CD81002E1C4C /* UIImage+MultiFormat.m in Sources */,
-				716203851D3A7DB400D2768E /* FlowMeter.m in Sources */,
 				710CCE8C1D72836A009F555E /* FuData.m in Sources */,
 				710CCE6E1D72836A009F555E /* FSHardwareInfoController.m in Sources */,
 				710CCE8E1D72836A009F555E /* FuWeb.m in Sources */,

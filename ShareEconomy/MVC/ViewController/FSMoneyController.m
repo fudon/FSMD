@@ -14,7 +14,6 @@
 #import "FSTaxOfIncomeController.h"
 #import "FSWebController.h"
 #import "FSSameKindController.h"
-#import "FSFlowMeterController.h"
 #import "FSChineseCalendarController.h"
 #import "FSFinancesManagerController.h"
 
@@ -121,8 +120,8 @@
             break;
             case 7:
         {
-            FSFlowMeterController *flowMetterController = [[FSFlowMeterController alloc] init];
-            [self.navigationController pushViewController:flowMetterController animated:YES];
+//            FSFlowMeterController *flowMetterController = [[FSFlowMeterController alloc] init];
+//            [self.navigationController pushViewController:flowMetterController animated:YES];
         }
             break;
             case 8:
