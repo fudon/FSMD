@@ -32,7 +32,6 @@
 		5CCBBC791D1AB248003B5C41 /* FSSameKindController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CCBBC781D1AB248003B5C41 /* FSSameKindController.m */; };
 		710CCE131D714721009F555E /* FSDBManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 710CCDFD1D714721009F555E /* FSDBManager.m */; };
 		710CCE141D714721009F555E /* FSAccountCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 710CCE001D714721009F555E /* FSAccountCell.m */; };
-		710CCE151D714721009F555E /* FSFinanceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 710CCE021D714721009F555E /* FSFinanceManager.m */; };
 		710CCE161D714721009F555E /* FSFinancesManagerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 710CCE041D714721009F555E /* FSFinancesManagerController.m */; };
 		710CCE181D714721009F555E /* FSFMAccountController.m in Sources */ = {isa = PBXBuildFile; fileRef = 710CCE081D714721009F555E /* FSFMAccountController.m */; };
 		710CCE191D714721009F555E /* FSFMListController.m in Sources */ = {isa = PBXBuildFile; fileRef = 710CCE0A1D714721009F555E /* FSFMListController.m */; };
@@ -396,8 +395,6 @@
 		710CCDFD1D714721009F555E /* FSDBManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSDBManager.m; sourceTree = "<group>"; };
 		710CCDFF1D714721009F555E /* FSAccountCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSAccountCell.h; sourceTree = "<group>"; };
 		710CCE001D714721009F555E /* FSAccountCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSAccountCell.m; sourceTree = "<group>"; };
-		710CCE011D714721009F555E /* FSFinanceManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSFinanceManager.h; sourceTree = "<group>"; };
-		710CCE021D714721009F555E /* FSFinanceManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSFinanceManager.m; sourceTree = "<group>"; };
 		710CCE031D714721009F555E /* FSFinancesManagerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSFinancesManagerController.h; sourceTree = "<group>"; };
 		710CCE041D714721009F555E /* FSFinancesManagerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSFinancesManagerController.m; sourceTree = "<group>"; };
 		710CCE071D714721009F555E /* FSFMAccountController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSFMAccountController.h; sourceTree = "<group>"; };
@@ -993,8 +990,6 @@
 			children = (
 				710CCDFF1D714721009F555E /* FSAccountCell.h */,
 				710CCE001D714721009F555E /* FSAccountCell.m */,
-				710CCE011D714721009F555E /* FSFinanceManager.h */,
-				710CCE021D714721009F555E /* FSFinanceManager.m */,
 				710CCE031D714721009F555E /* FSFinancesManagerController.h */,
 				710CCE041D714721009F555E /* FSFinancesManagerController.m */,
 				710CCE071D714721009F555E /* FSFMAccountController.h */,
@@ -2103,7 +2098,6 @@
 				710CCE191D714721009F555E /* FSFMListController.m in Sources */,
 				7117B2AF1CCC3D3600F959D2 /* FSRegisterPwdController.m in Sources */,
 				712A54B81D3FBF1D00B6CDD6 /* FSZoneHeadView.m in Sources */,
-				710CCE151D714721009F555E /* FSFinanceManager.m in Sources */,
 				71ABE64B1CE2A7D500808AFF /* ViewController+MASAdditions.m in Sources */,
 				71A971D01D1E2AC100E70408 /* FSQRController.m in Sources */,
 				7141E2891CBF12140090AF17 /* FSHomeCell.m in Sources */,
