@@ -53,7 +53,7 @@
         
         _headImageView.image = ROUNDIMAGE(@"testdd.jpg", 0);
         
-        NSArray *userPwds = [[NSUserDefaults standardUserDefaults] objectForKey:UserDefaultsKey_UserPwd];
+//        NSArray *userPwds = [[NSUserDefaults standardUserDefaults] objectForKey:UserDefaultsKey_UserPwd];
 
         EMMessage *message = conversation.latestMessage;
         _nameLabel.text = conversation.conversationId;
