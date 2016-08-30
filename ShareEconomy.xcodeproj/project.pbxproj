@@ -29,7 +29,6 @@
 		5C913D4D1D15006F0009DC32 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C913D4C1D15006F0009DC32 /* WebKit.framework */; };
 		5CCBBC791D1AB248003B5C41 /* FSSameKindController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CCBBC781D1AB248003B5C41 /* FSSameKindController.m */; };
 		710CCE131D714721009F555E /* FSDBManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 710CCDFD1D714721009F555E /* FSDBManager.m */; };
-		710CCE141D714721009F555E /* FSAccountCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 710CCE001D714721009F555E /* FSAccountCell.m */; };
 		710CCE161D714721009F555E /* FSFinancesManagerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 710CCE041D714721009F555E /* FSFinancesManagerController.m */; };
 		710CCE181D714721009F555E /* FSFMAccountController.m in Sources */ = {isa = PBXBuildFile; fileRef = 710CCE081D714721009F555E /* FSFMAccountController.m */; };
 		710CCE191D714721009F555E /* FSFMListController.m in Sources */ = {isa = PBXBuildFile; fileRef = 710CCE0A1D714721009F555E /* FSFMListController.m */; };
@@ -375,8 +374,6 @@
 		5CCBBC781D1AB248003B5C41 /* FSSameKindController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSSameKindController.m; sourceTree = "<group>"; };
 		710CCDFC1D714721009F555E /* FSDBManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSDBManager.h; sourceTree = "<group>"; };
 		710CCDFD1D714721009F555E /* FSDBManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSDBManager.m; sourceTree = "<group>"; };
-		710CCDFF1D714721009F555E /* FSAccountCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSAccountCell.h; sourceTree = "<group>"; };
-		710CCE001D714721009F555E /* FSAccountCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSAccountCell.m; sourceTree = "<group>"; };
 		710CCE031D714721009F555E /* FSFinancesManagerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSFinancesManagerController.h; sourceTree = "<group>"; };
 		710CCE041D714721009F555E /* FSFinancesManagerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSFinancesManagerController.m; sourceTree = "<group>"; };
 		710CCE071D714721009F555E /* FSFMAccountController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSFMAccountController.h; sourceTree = "<group>"; };
@@ -940,8 +937,6 @@
 		710CCDFE1D714721009F555E /* SQLManager */ = {
 			isa = PBXGroup;
 			children = (
-				710CCDFF1D714721009F555E /* FSAccountCell.h */,
-				710CCE001D714721009F555E /* FSAccountCell.m */,
 				710CCE031D714721009F555E /* FSFinancesManagerController.h */,
 				710CCE041D714721009F555E /* FSFinancesManagerController.m */,
 				710CCE071D714721009F555E /* FSFMAccountController.h */,
@@ -2034,7 +2029,6 @@
 				710CCE6A1D72836A009F555E /* FIWebView.m in Sources */,
 				710CCE1C1D714721009F555E /* FSTwoMinusController.m in Sources */,
 				710CCE691D72836A009F555E /* FIMoveButton.m in Sources */,
-				710CCE141D714721009F555E /* FSAccountCell.m in Sources */,
 				717219F11D56DEF6001101C2 /* FSCCMainView.m in Sources */,
 				717219F21D56DEF6001101C2 /* Datetime.m in Sources */,
 				71ABEE0A1CF1D20000808AFF /* MJRefreshHeader.m in Sources */,
