@@ -46,9 +46,6 @@
 
 - (void)addActionHome
 {
-    NSArray *array = [NSArray arrayWithObject:@"array"];
-    NSLog(@"%@",[array objectAtIndex:1]);
-
     FSComposeController *composeController = [[FSComposeController alloc] init];
     [self.navigationController pushViewController:composeController animated:YES];
 }
