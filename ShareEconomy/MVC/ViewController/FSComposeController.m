@@ -7,6 +7,7 @@
 //
 
 #import "FSComposeController.h"
+#import "FSDatePickerView.h"
 
 @interface FSComposeController ()
 
@@ -17,8 +18,16 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    UIBarButtonItem *bbi = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemAdd target:self action:@selector(bbiAction)];
+    self.navigationItem.rightBarButtonItem = bbi;
     
     // Do any additional setup after loading the view.
+}
+
+- (void)bbiAction
+{
+    FSDatePickerView *datePickerView = [[FSDatePickerView alloc] initWithFrame:self.navigationController.view.bounds];
+    [self.navigationController.view addSubview:datePickerView];
 }
 
 - (void)didReceiveMemoryWarning {
