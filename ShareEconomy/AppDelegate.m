@@ -9,7 +9,6 @@
 #import "AppDelegate.h"
 #import "FSEaseMob.h"
 #import "FSStatistics.h"
-#import "SRCrashLog.h"
 
 @interface AppDelegate ()
 
@@ -19,8 +18,6 @@
 
 - (void)thankFunctionAdded:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    [SRCrashLog registerCrashReportWithEmail:@"1245102331@qq.com"];
-
     [FSStatistics startStatisticFunction];
     [[FSEaseMob shareInstance] initEaseMob:application launchOptions:launchOptions];
 }
