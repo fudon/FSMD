@@ -19,7 +19,8 @@
 
 - (void)thankFunctionAdded:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    [SRCrashLog registerCrashReportWithServerURL:@"https://www.baidu.com"];
+    [SRCrashLog registerCrashReportWithEmail:@"1245102331@qq.com"];
+
     [FSStatistics startStatisticFunction];
     [[FSEaseMob shareInstance] initEaseMob:application launchOptions:launchOptions];
 }
