@@ -48,8 +48,6 @@
 		5CB7E0341D7679E700471C83 /* ClipPictureController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CB7DFC81D7679E700471C83 /* ClipPictureController.m */; };
 		5CB7E0351D7679E700471C83 /* GTMBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CB7DFCB1D7679E700471C83 /* GTMBase64.m */; };
 		5CB7E0361D7679E700471C83 /* UIViewExt.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CB7DFCF1D7679E700471C83 /* UIViewExt.m */; };
-		5CB7E0371D7679E700471C83 /* FIMoveButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CB7DFD41D7679E700471C83 /* FIMoveButton.m */; };
-		5CB7E0381D7679E700471C83 /* FIWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CB7DFD61D7679E700471C83 /* FIWebView.m */; };
 		5CB7E0391D7679E700471C83 /* FSBaseController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CB7DFD91D7679E700471C83 /* FSBaseController.m */; };
 		5CB7E03A1D7679E700471C83 /* FSBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CB7DFDB1D7679E700471C83 /* FSBaseView.m */; };
 		5CB7E03B1D7679E700471C83 /* FSDatePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CB7DFDD1D7679E700471C83 /* FSDatePickerView.m */; };
@@ -77,13 +75,6 @@
 		5CB7E0511D7679E700471C83 /* FSTaxDetailView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CB7E0031D7679E700471C83 /* FSTaxDetailView.m */; };
 		5CB7E0521D7679E700471C83 /* FSTaxOfIncomeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CB7E0051D7679E700471C83 /* FSTaxOfIncomeController.m */; };
 		5CB7E0531D7679E700471C83 /* FSTaxRateEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CB7E0071D7679E700471C83 /* FSTaxRateEntity.m */; };
-		5CB7E0541D7679E700471C83 /* FSBlockButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CB7E0091D7679E700471C83 /* FSBlockButton.m */; };
-		5CB7E0551D7679E700471C83 /* FSCacheManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CB7E00B1D7679E700471C83 /* FSCacheManager.m */; };
-		5CB7E0561D7679E700471C83 /* FSMoveLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CB7E00E1D7679E700471C83 /* FSMoveLabel.m */; };
-		5CB7E0571D7679E700471C83 /* FSSelectController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CB7E0101D7679E700471C83 /* FSSelectController.m */; };
-		5CB7E0581D7679E700471C83 /* FSSelectSectionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CB7E0121D7679E700471C83 /* FSSelectSectionController.m */; };
-		5CB7E0591D7679E700471C83 /* FSTapScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CB7E0141D7679E700471C83 /* FSTapScrollView.m */; };
-		5CB7E05A1D7679E700471C83 /* FSWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CB7E0171D7679E700471C83 /* FSWebViewController.m */; };
 		5CB7E05B1D7679E700471C83 /* Note.txt in Resources */ = {isa = PBXBuildFile; fileRef = 5CB7E0181D7679E700471C83 /* Note.txt */; };
 		5CB7E05C1D7679E700471C83 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 5CB7E0191D7679E700471C83 /* README.md */; };
 		5CB7E05D1D7679E700471C83 /* FuData.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CB7E01C1D7679E700471C83 /* FuData.m */; };
@@ -92,6 +83,16 @@
 		5CB7E08A1D767BB500471C83 /* libHyphenateFullSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CB7E0891D767BB500471C83 /* libHyphenateFullSDK.a */; };
 		5CB7E09D1D76838E00471C83 /* FSStatistics.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CB7E09A1D76838E00471C83 /* FSStatistics.m */; };
 		5CB7E09E1D76838E00471C83 /* UMMobClick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CB7E09C1D76838E00471C83 /* UMMobClick.framework */; };
+		5CB7E0A21D76AD0B00471C83 /* FSCacheManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CB7E0A11D76AD0B00471C83 /* FSCacheManager.m */; };
+		5CB7E1031D76ADB300471C83 /* FIMoveButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CB7E0D71D76ADB300471C83 /* FIMoveButton.m */; };
+		5CB7E1041D76ADB300471C83 /* FSBlockButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CB7E0D91D76ADB300471C83 /* FSBlockButton.m */; };
+		5CB7E1051D76ADB300471C83 /* FSMoveLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CB7E0DB1D76ADB300471C83 /* FSMoveLabel.m */; };
+		5CB7E1061D76ADB300471C83 /* FSTapScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CB7E0DD1D76ADB300471C83 /* FSTapScrollView.m */; };
+		5CB7E1071D76ADB300471C83 /* FSSelectController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CB7E0E01D76ADB300471C83 /* FSSelectController.m */; };
+		5CB7E1081D76ADB300471C83 /* FSSelectSectionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CB7E0E21D76ADB300471C83 /* FSSelectSectionController.m */; };
+		5CB7E1091D76ADB300471C83 /* FIWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CB7E0E51D76ADB300471C83 /* FIWebView.m */; };
+		5CB7E10A1D76ADB300471C83 /* FSWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CB7E0E71D76ADB300471C83 /* FSWebViewController.m */; };
+		5CB7E10F1D76AEE600471C83 /* SRCrashLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CB7E10E1D76AEE600471C83 /* SRCrashLog.m */; };
 		5CCBBC791D1AB248003B5C41 /* FSSameKindController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CCBBC781D1AB248003B5C41 /* FSSameKindController.m */; };
 		7117B2181CCBADD500F959D2 /* actionPic.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7117B1911CCBADD500F959D2 /* actionPic.jpg */; };
 		7117B2191CCBADD500F959D2 /* banjiaa.png in Resources */ = {isa = PBXBuildFile; fileRef = 7117B1921CCBADD500F959D2 /* banjiaa.png */; };
@@ -377,10 +378,6 @@
 		5CB7DFCE1D7679E700471C83 /* UIViewExt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewExt.h; sourceTree = "<group>"; };
 		5CB7DFCF1D7679E700471C83 /* UIViewExt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIViewExt.m; sourceTree = "<group>"; };
 		5CB7DFD11D7679E700471C83 /* FuSoft.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FuSoft.h; sourceTree = "<group>"; };
-		5CB7DFD31D7679E700471C83 /* FIMoveButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FIMoveButton.h; sourceTree = "<group>"; };
-		5CB7DFD41D7679E700471C83 /* FIMoveButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FIMoveButton.m; sourceTree = "<group>"; };
-		5CB7DFD51D7679E700471C83 /* FIWebView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FIWebView.h; sourceTree = "<group>"; };
-		5CB7DFD61D7679E700471C83 /* FIWebView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FIWebView.m; sourceTree = "<group>"; };
 		5CB7DFD81D7679E700471C83 /* FSBaseController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSBaseController.h; sourceTree = "<group>"; };
 		5CB7DFD91D7679E700471C83 /* FSBaseController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSBaseController.m; sourceTree = "<group>"; };
 		5CB7DFDA1D7679E700471C83 /* FSBaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSBaseView.h; sourceTree = "<group>"; };
@@ -427,22 +424,6 @@
 		5CB7E0051D7679E700471C83 /* FSTaxOfIncomeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSTaxOfIncomeController.m; sourceTree = "<group>"; };
 		5CB7E0061D7679E700471C83 /* FSTaxRateEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSTaxRateEntity.h; sourceTree = "<group>"; };
 		5CB7E0071D7679E700471C83 /* FSTaxRateEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSTaxRateEntity.m; sourceTree = "<group>"; };
-		5CB7E0081D7679E700471C83 /* FSBlockButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSBlockButton.h; sourceTree = "<group>"; };
-		5CB7E0091D7679E700471C83 /* FSBlockButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSBlockButton.m; sourceTree = "<group>"; };
-		5CB7E00A1D7679E700471C83 /* FSCacheManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSCacheManager.h; sourceTree = "<group>"; };
-		5CB7E00B1D7679E700471C83 /* FSCacheManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSCacheManager.m; sourceTree = "<group>"; };
-		5CB7E00C1D7679E700471C83 /* FSMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSMacro.h; sourceTree = "<group>"; };
-		5CB7E00D1D7679E700471C83 /* FSMoveLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSMoveLabel.h; sourceTree = "<group>"; };
-		5CB7E00E1D7679E700471C83 /* FSMoveLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSMoveLabel.m; sourceTree = "<group>"; };
-		5CB7E00F1D7679E700471C83 /* FSSelectController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSSelectController.h; sourceTree = "<group>"; };
-		5CB7E0101D7679E700471C83 /* FSSelectController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSSelectController.m; sourceTree = "<group>"; };
-		5CB7E0111D7679E700471C83 /* FSSelectSectionController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSSelectSectionController.h; sourceTree = "<group>"; };
-		5CB7E0121D7679E700471C83 /* FSSelectSectionController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSSelectSectionController.m; sourceTree = "<group>"; };
-		5CB7E0131D7679E700471C83 /* FSTapScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSTapScrollView.h; sourceTree = "<group>"; };
-		5CB7E0141D7679E700471C83 /* FSTapScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSTapScrollView.m; sourceTree = "<group>"; };
-		5CB7E0151D7679E700471C83 /* FSWebUrl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSWebUrl.h; sourceTree = "<group>"; };
-		5CB7E0161D7679E700471C83 /* FSWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSWebViewController.h; sourceTree = "<group>"; };
-		5CB7E0171D7679E700471C83 /* FSWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSWebViewController.m; sourceTree = "<group>"; };
 		5CB7E0181D7679E700471C83 /* Note.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Note.txt; sourceTree = "<group>"; };
 		5CB7E0191D7679E700471C83 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		5CB7E01B1D7679E700471C83 /* FuData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FuData.h; sourceTree = "<group>"; };
@@ -494,6 +475,28 @@
 		5CB7E09A1D76838E00471C83 /* FSStatistics.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSStatistics.m; sourceTree = "<group>"; };
 		5CB7E09B1D76838E00471C83 /* FSStatisticsKeys.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSStatisticsKeys.h; sourceTree = "<group>"; };
 		5CB7E09C1D76838E00471C83 /* UMMobClick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = UMMobClick.framework; sourceTree = "<group>"; };
+		5CB7E0A01D76AD0B00471C83 /* FSCacheManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSCacheManager.h; sourceTree = "<group>"; };
+		5CB7E0A11D76AD0B00471C83 /* FSCacheManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSCacheManager.m; sourceTree = "<group>"; };
+		5CB7E0A31D76AD1700471C83 /* FSWebUrl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSWebUrl.h; sourceTree = "<group>"; };
+		5CB7E0D61D76ADB300471C83 /* FIMoveButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FIMoveButton.h; sourceTree = "<group>"; };
+		5CB7E0D71D76ADB300471C83 /* FIMoveButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FIMoveButton.m; sourceTree = "<group>"; };
+		5CB7E0D81D76ADB300471C83 /* FSBlockButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSBlockButton.h; sourceTree = "<group>"; };
+		5CB7E0D91D76ADB300471C83 /* FSBlockButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSBlockButton.m; sourceTree = "<group>"; };
+		5CB7E0DA1D76ADB300471C83 /* FSMoveLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSMoveLabel.h; sourceTree = "<group>"; };
+		5CB7E0DB1D76ADB300471C83 /* FSMoveLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSMoveLabel.m; sourceTree = "<group>"; };
+		5CB7E0DC1D76ADB300471C83 /* FSTapScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSTapScrollView.h; sourceTree = "<group>"; };
+		5CB7E0DD1D76ADB300471C83 /* FSTapScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSTapScrollView.m; sourceTree = "<group>"; };
+		5CB7E0DF1D76ADB300471C83 /* FSSelectController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSSelectController.h; sourceTree = "<group>"; };
+		5CB7E0E01D76ADB300471C83 /* FSSelectController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSSelectController.m; sourceTree = "<group>"; };
+		5CB7E0E11D76ADB300471C83 /* FSSelectSectionController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSSelectSectionController.h; sourceTree = "<group>"; };
+		5CB7E0E21D76ADB300471C83 /* FSSelectSectionController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSSelectSectionController.m; sourceTree = "<group>"; };
+		5CB7E0E41D76ADB300471C83 /* FIWebView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FIWebView.h; sourceTree = "<group>"; };
+		5CB7E0E51D76ADB300471C83 /* FIWebView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FIWebView.m; sourceTree = "<group>"; };
+		5CB7E0E61D76ADB300471C83 /* FSWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSWebViewController.h; sourceTree = "<group>"; };
+		5CB7E0E71D76ADB300471C83 /* FSWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSWebViewController.m; sourceTree = "<group>"; };
+		5CB7E10B1D76ADC000471C83 /* FSMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSMacro.h; sourceTree = "<group>"; };
+		5CB7E10D1D76AEE600471C83 /* SRCrashLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRCrashLog.h; sourceTree = "<group>"; };
+		5CB7E10E1D76AEE600471C83 /* SRCrashLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRCrashLog.m; sourceTree = "<group>"; };
 		5CCBBC771D1AB248003B5C41 /* FSSameKindController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSSameKindController.h; sourceTree = "<group>"; };
 		5CCBBC781D1AB248003B5C41 /* FSSameKindController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSSameKindController.m; sourceTree = "<group>"; };
 		7117B1911CCBADD500F959D2 /* actionPic.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = actionPic.jpg; sourceTree = "<group>"; };
@@ -817,9 +820,9 @@
 		5CB7DF971D7679E700471C83 /* FuSoft */ = {
 			isa = PBXGroup;
 			children = (
-				5CB7DF981D7679E700471C83 /* 3rd */,
-				5CB7DFD01D7679E700471C83 /* FSBase */,
 				5CB7DFD11D7679E700471C83 /* FuSoft.h */,
+				5CB7E10B1D76ADC000471C83 /* FSMacro.h */,
+				5CB7DF981D7679E700471C83 /* 3rd */,
 				5CB7DFD21D7679E700471C83 /* Module */,
 				5CB7E0181D7679E700471C83 /* Note.txt */,
 				5CB7E0191D7679E700471C83 /* README.md */,
@@ -961,37 +964,15 @@
 			path = UIViewExt;
 			sourceTree = "<group>";
 		};
-		5CB7DFD01D7679E700471C83 /* FSBase */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = FSBase;
-			sourceTree = "<group>";
-		};
 		5CB7DFD21D7679E700471C83 /* Module */ = {
 			isa = PBXGroup;
 			children = (
-				5CB7DFD31D7679E700471C83 /* FIMoveButton.h */,
-				5CB7DFD41D7679E700471C83 /* FIMoveButton.m */,
-				5CB7DFD51D7679E700471C83 /* FIWebView.h */,
-				5CB7DFD61D7679E700471C83 /* FIWebView.m */,
+				5CB7E10C1D76AEE600471C83 /* CrashLog */,
+				5CB7E0D51D76ADB300471C83 /* FSCustomUI */,
+				5CB7E0DE1D76ADB300471C83 /* FSSelect */,
+				5CB7E0E31D76ADB300471C83 /* FSWeb */,
+				5CB7E09F1D76AD0B00471C83 /* FSCacheManager */,
 				5CB7DFD71D7679E700471C83 /* FSBase */,
-				5CB7E0081D7679E700471C83 /* FSBlockButton.h */,
-				5CB7E0091D7679E700471C83 /* FSBlockButton.m */,
-				5CB7E00A1D7679E700471C83 /* FSCacheManager.h */,
-				5CB7E00B1D7679E700471C83 /* FSCacheManager.m */,
-				5CB7E00C1D7679E700471C83 /* FSMacro.h */,
-				5CB7E00D1D7679E700471C83 /* FSMoveLabel.h */,
-				5CB7E00E1D7679E700471C83 /* FSMoveLabel.m */,
-				5CB7E00F1D7679E700471C83 /* FSSelectController.h */,
-				5CB7E0101D7679E700471C83 /* FSSelectController.m */,
-				5CB7E0111D7679E700471C83 /* FSSelectSectionController.h */,
-				5CB7E0121D7679E700471C83 /* FSSelectSectionController.m */,
-				5CB7E0131D7679E700471C83 /* FSTapScrollView.h */,
-				5CB7E0141D7679E700471C83 /* FSTapScrollView.m */,
-				5CB7E0151D7679E700471C83 /* FSWebUrl.h */,
-				5CB7E0161D7679E700471C83 /* FSWebViewController.h */,
-				5CB7E0171D7679E700471C83 /* FSWebViewController.m */,
 			);
 			path = Module;
 			sourceTree = "<group>";
@@ -1068,6 +1049,7 @@
 		5CB7E01A1D7679E700471C83 /* Tool */ = {
 			isa = PBXGroup;
 			children = (
+				5CB7E0A31D76AD1700471C83 /* FSWebUrl.h */,
 				5CB7E01B1D7679E700471C83 /* FuData.h */,
 				5CB7E01C1D7679E700471C83 /* FuData.m */,
 				5CB7E01D1D7679E700471C83 /* FuSing.h */,
@@ -1152,6 +1134,61 @@
 			name = tongji;
 			path = ShareEconomy/ThirtParty/tongji;
 			sourceTree = SOURCE_ROOT;
+		};
+		5CB7E09F1D76AD0B00471C83 /* FSCacheManager */ = {
+			isa = PBXGroup;
+			children = (
+				5CB7E0A01D76AD0B00471C83 /* FSCacheManager.h */,
+				5CB7E0A11D76AD0B00471C83 /* FSCacheManager.m */,
+			);
+			path = FSCacheManager;
+			sourceTree = "<group>";
+		};
+		5CB7E0D51D76ADB300471C83 /* FSCustomUI */ = {
+			isa = PBXGroup;
+			children = (
+				5CB7E0D61D76ADB300471C83 /* FIMoveButton.h */,
+				5CB7E0D71D76ADB300471C83 /* FIMoveButton.m */,
+				5CB7E0D81D76ADB300471C83 /* FSBlockButton.h */,
+				5CB7E0D91D76ADB300471C83 /* FSBlockButton.m */,
+				5CB7E0DA1D76ADB300471C83 /* FSMoveLabel.h */,
+				5CB7E0DB1D76ADB300471C83 /* FSMoveLabel.m */,
+				5CB7E0DC1D76ADB300471C83 /* FSTapScrollView.h */,
+				5CB7E0DD1D76ADB300471C83 /* FSTapScrollView.m */,
+			);
+			path = FSCustomUI;
+			sourceTree = "<group>";
+		};
+		5CB7E0DE1D76ADB300471C83 /* FSSelect */ = {
+			isa = PBXGroup;
+			children = (
+				5CB7E0DF1D76ADB300471C83 /* FSSelectController.h */,
+				5CB7E0E01D76ADB300471C83 /* FSSelectController.m */,
+				5CB7E0E11D76ADB300471C83 /* FSSelectSectionController.h */,
+				5CB7E0E21D76ADB300471C83 /* FSSelectSectionController.m */,
+			);
+			path = FSSelect;
+			sourceTree = "<group>";
+		};
+		5CB7E0E31D76ADB300471C83 /* FSWeb */ = {
+			isa = PBXGroup;
+			children = (
+				5CB7E0E41D76ADB300471C83 /* FIWebView.h */,
+				5CB7E0E51D76ADB300471C83 /* FIWebView.m */,
+				5CB7E0E61D76ADB300471C83 /* FSWebViewController.h */,
+				5CB7E0E71D76ADB300471C83 /* FSWebViewController.m */,
+			);
+			path = FSWeb;
+			sourceTree = "<group>";
+		};
+		5CB7E10C1D76AEE600471C83 /* CrashLog */ = {
+			isa = PBXGroup;
+			children = (
+				5CB7E10D1D76AEE600471C83 /* SRCrashLog.h */,
+				5CB7E10E1D76AEE600471C83 /* SRCrashLog.m */,
+			);
+			path = CrashLog;
+			sourceTree = "<group>";
 		};
 		7117B1901CCBADD500F959D2 /* First */ = {
 			isa = PBXGroup;
@@ -1898,7 +1935,6 @@
 			files = (
 				5CB7E0301D7679E700471C83 /* FSChineseCalendarController.m in Sources */,
 				5CB7E0291D7679E700471C83 /* SQLEntity.m in Sources */,
-				5CB7E0591D7679E700471C83 /* FSTapScrollView.m in Sources */,
 				7117B2AF1CCC3D3600F959D2 /* FSRegisterPwdController.m in Sources */,
 				712A54B81D3FBF1D00B6CDD6 /* FSZoneHeadView.m in Sources */,
 				7141E2891CBF12140090AF17 /* FSHomeCell.m in Sources */,
@@ -1917,7 +1953,6 @@
 				71ABEE121CF1D20000808AFF /* MJRefreshNormalHeader.m in Sources */,
 				5C7378681CE5CD81002E1C4C /* SDWebImageDecoder.m in Sources */,
 				7141E28D1CBFD4230090AF17 /* FSCommuniteController.m in Sources */,
-				5CB7E0541D7679E700471C83 /* FSBlockButton.m in Sources */,
 				71ABE6011CE2A75E00808AFF /* FSTabbarController.m in Sources */,
 				5CB7E0211D7679E700471C83 /* FSDBManager.m in Sources */,
 				71ABEDD81CF1D1C100808AFF /* FSChatListController.m in Sources */,
@@ -1926,6 +1961,8 @@
 				5C7378701CE5CD81002E1C4C /* UIImage+WebP.m in Sources */,
 				5CB7E02F1D7679E700471C83 /* FSCCMainView.m in Sources */,
 				71ABEE151CF1D20000808AFF /* MJRefreshConst.m in Sources */,
+				5CB7E1041D76ADB300471C83 /* FSBlockButton.m in Sources */,
+				5CB7E1071D76ADB300471C83 /* FSSelectController.m in Sources */,
 				71ABEE171CF1D20000808AFF /* UIScrollView+MJRefresh.m in Sources */,
 				5C73786A1CE5CD81002E1C4C /* SDWebImageDownloaderOperation.m in Sources */,
 				7141E2971CC529EE0090AF17 /* FSLoginController.m in Sources */,
@@ -1941,7 +1978,9 @@
 				5CB7E0271D7679E700471C83 /* FSFMSelectController.m in Sources */,
 				5C7378711CE5CD81002E1C4C /* UIImageView+HighlightedWebCache.m in Sources */,
 				71ABEE0E1CF1D20000808AFF /* MJRefreshBackGifFooter.m in Sources */,
+				5CB7E1081D76ADB300471C83 /* FSSelectSectionController.m in Sources */,
 				71ABEE111CF1D20000808AFF /* MJRefreshGifHeader.m in Sources */,
+				5CB7E10F1D76AEE600471C83 /* SRCrashLog.m in Sources */,
 				71ABEE061CF1D20000808AFF /* MJRefreshAutoFooter.m in Sources */,
 				71ABEDAE1CF1CFA000808AFF /* FSEaseMob.m in Sources */,
 				5CB7E0261D7679E700471C83 /* FSFMSelectCell.m in Sources */,
@@ -1950,9 +1989,9 @@
 				5CB7E0431D7679E700471C83 /* FSWBView.m in Sources */,
 				71ABEE101CF1D20000808AFF /* MJRefreshBackStateFooter.m in Sources */,
 				71ABEE131CF1D20000808AFF /* MJRefreshStateHeader.m in Sources */,
-				5CB7E05A1D7679E700471C83 /* FSWebViewController.m in Sources */,
 				71ABEDB41CF1CFA000808AFF /* HPTextViewInternal.m in Sources */,
 				5CB7E0531D7679E700471C83 /* FSTaxRateEntity.m in Sources */,
+				5CB7E10A1D76ADB300471C83 /* FSWebViewController.m in Sources */,
 				5CB7E0321D7679E700471C83 /* CYDatetime.m in Sources */,
 				71ABEE091CF1D20000808AFF /* MJRefreshFooter.m in Sources */,
 				5C7378721CE5CD81002E1C4C /* UIImageView+WebCache.m in Sources */,
@@ -1964,6 +2003,7 @@
 				5CB7E0251D7679E700471C83 /* FSFMListController.m in Sources */,
 				71ABE5FE1CE2A74400808AFF /* ViewController.m in Sources */,
 				5CB7E05F1D7679E700471C83 /* FuWeb.m in Sources */,
+				5CB7E1051D76ADB300471C83 /* FSMoveLabel.m in Sources */,
 				71ABEDAD1CF1CFA000808AFF /* FSChatView.m in Sources */,
 				7141E2081CBE8B090090AF17 /* main.m in Sources */,
 				5CB7E03F1D7679E700471C83 /* FSSegmentControl.m in Sources */,
@@ -1979,7 +2019,6 @@
 				71ABEE081CF1D20000808AFF /* MJRefreshComponent.m in Sources */,
 				71ABEDAF1CF1CFA000808AFF /* FSEMMessage.m in Sources */,
 				5C73786E1CE5CD81002E1C4C /* UIImage+GIF.m in Sources */,
-				5CB7E0371D7679E700471C83 /* FIMoveButton.m in Sources */,
 				5CB7E03E1D7679E700471C83 /* FSNavigationController.m in Sources */,
 				5CB7E0461D7679E700471C83 /* FSMakeQRController.m in Sources */,
 				5CB7E0351D7679E700471C83 /* GTMBase64.m in Sources */,
@@ -1987,18 +2026,21 @@
 				71ABEE071CF1D20000808AFF /* MJRefreshBackFooter.m in Sources */,
 				5CB7E0281D7679E700471C83 /* FSTwoMinusController.m in Sources */,
 				71ABEE0B1CF1D20000808AFF /* MJRefreshAutoGifFooter.m in Sources */,
+				5CB7E1061D76ADB300471C83 /* FSTapScrollView.m in Sources */,
 				5CB7E04B1D7679E700471C83 /* FSQRController.m in Sources */,
+				5CB7E1091D76ADB300471C83 /* FIWebView.m in Sources */,
+				5CB7E1031D76ADB300471C83 /* FIMoveButton.m in Sources */,
 				71ABEDAC1CF1CFA000808AFF /* FSChatCell.m in Sources */,
 				5C50567C1CFF162D00B654AB /* FSLoanResultController.m in Sources */,
 				5C7378661CE5CD81002E1C4C /* SDImageCache.m in Sources */,
 				5CB7E0221D7679E700471C83 /* FSFinancesManagerController.m in Sources */,
-				5CB7E0551D7679E700471C83 /* FSCacheManager.m in Sources */,
 				5CB7E0361D7679E700471C83 /* UIViewExt.m in Sources */,
 				5CB7E0421D7679E700471C83 /* FSViewManager.m in Sources */,
 				71ABEE0C1CF1D20000808AFF /* MJRefreshAutoNormalFooter.m in Sources */,
 				71ABEDB31CF1CFA000808AFF /* HPGrowingTextView.m in Sources */,
 				5C7378651CE5CD81002E1C4C /* NSData+ImageContentType.m in Sources */,
 				5C73786C1CE5CD81002E1C4C /* SDWebImagePrefetcher.m in Sources */,
+				5CB7E0A21D76AD0B00471C83 /* FSCacheManager.m in Sources */,
 				5CB7E0441D7679E700471C83 /* FSWebController.m in Sources */,
 				5CB7E03A1D7679E700471C83 /* FSBaseView.m in Sources */,
 				5CB7E0331D7679E700471C83 /* FSLunarCalendar.m in Sources */,
@@ -2008,16 +2050,12 @@
 				5CB7E03D1D7679E700471C83 /* FSImageLabelView.m in Sources */,
 				71ABEE0F1CF1D20000808AFF /* MJRefreshBackNormalFooter.m in Sources */,
 				712A54C11D41105A00B6CDD6 /* FSHeadPictureController.m in Sources */,
-				5CB7E0561D7679E700471C83 /* FSMoveLabel.m in Sources */,
-				5CB7E0381D7679E700471C83 /* FIWebView.m in Sources */,
 				71ABEE181CF1D20000808AFF /* UIView+MJExtension.m in Sources */,
 				71FBBC531CFA85AF0086D807 /* FSComposeController.m in Sources */,
 				717219C71D5419A8001101C2 /* FSCertificateController.m in Sources */,
 				5CB7E02A1D7679E700471C83 /* FIBaseEntity.m in Sources */,
 				5CB7E0511D7679E700471C83 /* FSTaxDetailView.m in Sources */,
 				5C73786F1CE5CD81002E1C4C /* UIImage+MultiFormat.m in Sources */,
-				5CB7E0571D7679E700471C83 /* FSSelectController.m in Sources */,
-				5CB7E0581D7679E700471C83 /* FSSelectSectionController.m in Sources */,
 				5CB7E02E1D7679E700471C83 /* FSCCHeadView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -9,6 +9,7 @@
 #import "AppDelegate.h"
 #import "FSEaseMob.h"
 #import "FSStatistics.h"
+#import "SRCrashLog.h"
 
 @interface AppDelegate ()
 
@@ -18,6 +19,7 @@
 
 - (void)thankFunctionAdded:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    [SRCrashLog registerCrashReportWithServerURL:@"https://www.baidu.com"];
     [FSStatistics startStatisticFunction];
     [[FSEaseMob shareInstance] initEaseMob:application launchOptions:launchOptions];
 }
