@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		5C03EC651D782F49008DA4C1 /* FSH5.html in Resources */ = {isa = PBXBuildFile; fileRef = 5C03EC641D782F49008DA4C1 /* FSH5.html */; };
+		5C03EC681D7840AA008DA4C1 /* FSHTMLController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C03EC671D7840AA008DA4C1 /* FSHTMLController.m */; };
 		5C5056211CFE8B3A00B654AB /* FSLoanCounterController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C5056201CFE8B3A00B654AB /* FSLoanCounterController.m */; };
 		5C50567C1CFF162D00B654AB /* FSLoanResultController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C50567B1CFF162D00B654AB /* FSLoanResultController.m */; };
 		5C7378641CE5CD81002E1C4C /* MKAnnotationView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C7378441CE5CD81002E1C4C /* MKAnnotationView+WebCache.m */; };
@@ -306,6 +307,8 @@
 
 /* Begin PBXFileReference section */
 		5C03EC641D782F49008DA4C1 /* FSH5.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = FSH5.html; sourceTree = "<group>"; };
+		5C03EC661D7840AA008DA4C1 /* FSHTMLController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSHTMLController.h; sourceTree = "<group>"; };
+		5C03EC671D7840AA008DA4C1 /* FSHTMLController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSHTMLController.m; sourceTree = "<group>"; };
 		5C50561F1CFE8B3A00B654AB /* FSLoanCounterController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSLoanCounterController.h; sourceTree = "<group>"; };
 		5C5056201CFE8B3A00B654AB /* FSLoanCounterController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSLoanCounterController.m; sourceTree = "<group>"; };
 		5C50567A1CFF162D00B654AB /* FSLoanResultController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSLoanResultController.h; sourceTree = "<group>"; };
@@ -1229,6 +1232,8 @@
 				5CF071FF1D77D03D008A5AF8 /* FSWebController.m */,
 				5CF072001D77D03D008A5AF8 /* FSWebViewController.h */,
 				5CF072011D77D03D008A5AF8 /* FSWebViewController.m */,
+				5C03EC661D7840AA008DA4C1 /* FSHTMLController.h */,
+				5C03EC671D7840AA008DA4C1 /* FSHTMLController.m */,
 			);
 			path = FSWeb;
 			sourceTree = "<group>";
@@ -2076,6 +2081,7 @@
 				5CB7E09D1D76838E00471C83 /* FSStatistics.m in Sources */,
 				5CF072521D77D03D008A5AF8 /* FSSelectController.m in Sources */,
 				5C7378641CE5CD81002E1C4C /* MKAnnotationView+WebCache.m in Sources */,
+				5C03EC681D7840AA008DA4C1 /* FSHTMLController.m in Sources */,
 				7141E2311CBE8EC50090AF17 /* FSHomeController.m in Sources */,
 				712A54B51D3FB32900B6CDD6 /* FSSetController.m in Sources */,
 				5CF0722F1D77D03D008A5AF8 /* FSCCHeadView.m in Sources */,

@@ -16,6 +16,7 @@
 #import "FSSameKindController.h"
 #import "FSChineseCalendarController.h"
 #import "FSFinancesManagerController.h"
+#import "FSHTMLController.h"
 
 @interface FSMoneyController ()
 
@@ -120,7 +121,7 @@
             break;
             case 7:
         {
-            FSWebController *flowMetterController = [[FSWebController alloc] init];
+            FSHTMLController *flowMetterController = [[FSHTMLController alloc] init];
             NSString *path = [[NSBundle mainBundle] pathForResource:@"FSH5" ofType:@"html"];
             flowMetterController.localUrlString = path;
             [self.navigationController pushViewController:flowMetterController animated:YES];
