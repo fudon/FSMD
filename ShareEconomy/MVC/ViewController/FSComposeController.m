@@ -26,7 +26,7 @@
 
 - (void)bbiAction
 {
-    FSDatePickerView *datePickerView = [[FSDatePickerView alloc] initWithFrame:self.navigationController.view.bounds];
+    FSDatePickerView *datePickerView = [[FSDatePickerView alloc] initWithFrame:self.navigationController.view.bounds controller:self];
     [self.navigationController.view addSubview:datePickerView];
 }
 

@@ -9,6 +9,7 @@
 #import "FSChatView.h"
 #import "FSMacro.h"
 #import "HPGrowingTextView.h"
+#import "UIView+ViewController.h"
 
 @interface FSChatView()<HPGrowingTextViewDelegate,UIActionSheetDelegate,UINavigationControllerDelegate, UIImagePickerControllerDelegate>
 
