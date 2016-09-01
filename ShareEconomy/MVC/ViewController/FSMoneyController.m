@@ -120,8 +120,10 @@
             break;
             case 7:
         {
-//            FSFlowMeterController *flowMetterController = [[FSFlowMeterController alloc] init];
-//            [self.navigationController pushViewController:flowMetterController animated:YES];
+            FSWebController *flowMetterController = [[FSWebController alloc] init];
+            NSString *path = [[NSBundle mainBundle] pathForResource:@"FSH5" ofType:@"html"];
+            flowMetterController.localUrlString = path;
+            [self.navigationController pushViewController:flowMetterController animated:YES];
         }
             break;
             case 8:

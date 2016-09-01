@@ -62,7 +62,6 @@
     
     FSWebController *webController = [[FSWebController alloc] init];
     webController.urlString = [dic objectForKey:Url_String];
-    webController.name = [dic objectForKey:Text_Name];
     [self.navigationController pushViewController:webController animated:YES];
 }
 
