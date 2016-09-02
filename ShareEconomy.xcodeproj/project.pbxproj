@@ -31,73 +31,6 @@
 		5CB7E09D1D76838E00471C83 /* FSStatistics.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CB7E09A1D76838E00471C83 /* FSStatistics.m */; };
 		5CB7E09E1D76838E00471C83 /* UMMobClick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CB7E09C1D76838E00471C83 /* UMMobClick.framework */; };
 		5CCBBC791D1AB248003B5C41 /* FSSameKindController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CCBBC781D1AB248003B5C41 /* FSSameKindController.m */; };
-		5CD87C211D792AE900875046 /* FSDBManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CD87B7D1D792AE900875046 /* FSDBManager.m */; };
-		5CD87C221D792AE900875046 /* FSFinancesManagerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CD87B801D792AE900875046 /* FSFinancesManagerController.m */; };
-		5CD87C231D792AE900875046 /* FSFMAccountController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CD87B821D792AE900875046 /* FSFMAccountController.m */; };
-		5CD87C241D792AE900875046 /* FSFMListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CD87B841D792AE900875046 /* FSFMListCell.m */; };
-		5CD87C251D792AE900875046 /* FSFMListController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CD87B861D792AE900875046 /* FSFMListController.m */; };
-		5CD87C261D792AE900875046 /* FSFMSelectCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CD87B881D792AE900875046 /* FSFMSelectCell.m */; };
-		5CD87C271D792AE900875046 /* FSFMSelectController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CD87B8A1D792AE900875046 /* FSFMSelectController.m */; };
-		5CD87C281D792AE900875046 /* FSTwoMinusController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CD87B8C1D792AE900875046 /* FSTwoMinusController.m */; };
-		5CD87C291D792AE900875046 /* SQLEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CD87B8E1D792AE900875046 /* SQLEntity.m */; };
-		5CD87C2A1D792AE900875046 /* FIBaseEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CD87B911D792AE900875046 /* FIBaseEntity.m */; };
-		5CD87C2B1D792AE900875046 /* ChineseCalendarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CD87B941D792AE900875046 /* ChineseCalendarView.m */; };
-		5CD87C2C1D792AE900875046 /* ExhaustiveCalendar.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CD87B961D792AE900875046 /* ExhaustiveCalendar.m */; };
-		5CD87C2D1D792AE900875046 /* FSCCDayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CD87B981D792AE900875046 /* FSCCDayView.m */; };
-		5CD87C2E1D792AE900875046 /* FSCCHeadView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CD87B9A1D792AE900875046 /* FSCCHeadView.m */; };
-		5CD87C2F1D792AE900875046 /* FSCCMainView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CD87B9C1D792AE900875046 /* FSCCMainView.m */; };
-		5CD87C301D792AE900875046 /* FSChineseCalendarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CD87B9E1D792AE900875046 /* FSChineseCalendarController.m */; };
-		5CD87C311D792AE900875046 /* Datetime.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CD87BA11D792AE900875046 /* Datetime.m */; };
-		5CD87C321D792AE900875046 /* CYDatetime.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CD87BA41D792AE900875046 /* CYDatetime.m */; };
-		5CD87C331D792AE900875046 /* FSLunarCalendar.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CD87BA61D792AE900875046 /* FSLunarCalendar.m */; };
-		5CD87C341D792AE900875046 /* ClipPictureController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CD87BA91D792AE900875046 /* ClipPictureController.m */; };
-		5CD87C351D792AE900875046 /* fishhook.c in Sources */ = {isa = PBXBuildFile; fileRef = 5CD87BAB1D792AE900875046 /* fishhook.c */; };
-		5CD87C361D792AE900875046 /* FlowCollector.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CD87BAE1D792AE900875046 /* FlowCollector.m */; };
-		5CD87C371D792AE900875046 /* GTMBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CD87BB21D792AE900875046 /* GTMBase64.m */; };
-		5CD87C381D792AE900875046 /* UIViewExt.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CD87BB61D792AE900875046 /* UIViewExt.m */; };
-		5CD87C411D792AE900875046 /* FSBaseController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CD87BCC1D792AE900875046 /* FSBaseController.m */; };
-		5CD87C421D792AE900875046 /* FSBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CD87BCE1D792AE900875046 /* FSBaseView.m */; };
-		5CD87C431D792AE900875046 /* FSHardwareInfoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CD87BD01D792AE900875046 /* FSHardwareInfoController.m */; };
-		5CD87C441D792AE900875046 /* FSNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CD87BD21D792AE900875046 /* FSNavigationController.m */; };
-		5CD87C451D792AE900875046 /* UIView+ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CD87BD41D792AE900875046 /* UIView+ViewController.m */; };
-		5CD87C461D792AE900875046 /* FSCacheManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CD87BD71D792AE900875046 /* FSCacheManager.m */; };
-		5CD87C471D792AE900875046 /* FIMoveButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CD87BDA1D792AE900875046 /* FIMoveButton.m */; };
-		5CD87C481D792AE900875046 /* FSBlockButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CD87BDC1D792AE900875046 /* FSBlockButton.m */; };
-		5CD87C491D792AE900875046 /* FSImageLabelView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CD87BDE1D792AE900875046 /* FSImageLabelView.m */; };
-		5CD87C4A1D792AE900875046 /* FSMoveLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CD87BE01D792AE900875046 /* FSMoveLabel.m */; };
-		5CD87C4B1D792AE900875046 /* FSSegmentControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CD87BE21D792AE900875046 /* FSSegmentControl.m */; };
-		5CD87C4C1D792AE900875046 /* FSTapCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CD87BE41D792AE900875046 /* FSTapCell.m */; };
-		5CD87C4D1D792AE900875046 /* FSTapLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CD87BE61D792AE900875046 /* FSTapLabel.m */; };
-		5CD87C4E1D792AE900875046 /* FSTapScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CD87BE81D792AE900875046 /* FSTapScrollView.m */; };
-		5CD87C4F1D792AE900875046 /* FSWBView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CD87BEA1D792AE900875046 /* FSWBView.m */; };
-		5CD87C501D792AE900875046 /* FSWebImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CD87BEC1D792AE900875046 /* FSWebImageView.m */; };
-		5CD87C511D792AE900875046 /* FSDatePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CD87BEF1D792AE900875046 /* FSDatePickerView.m */; };
-		5CD87C521D792AE900875046 /* FSSelectController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CD87BF21D792AE900875046 /* FSSelectController.m */; };
-		5CD87C531D792AE900875046 /* FSSelectSectionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CD87BF41D792AE900875046 /* FSSelectSectionController.m */; };
-		5CD87C541D792AE900875046 /* FSViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CD87BF71D792AE900875046 /* FSViewManager.m */; };
-		5CD87C551D792AE900875046 /* FIWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CD87BFA1D792AE900875046 /* FIWebView.m */; };
-		5CD87C561D792AE900875046 /* FSHTMLController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CD87BFC1D792AE900875046 /* FSHTMLController.m */; };
-		5CD87C571D792AE900875046 /* FSWebController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CD87BFE1D792AE900875046 /* FSWebController.m */; };
-		5CD87C581D792AE900875046 /* FSWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CD87C001D792AE900875046 /* FSWebViewController.m */; };
-		5CD87C591D792AE900875046 /* FSMakeQRController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CD87C031D792AE900875046 /* FSMakeQRController.m */; };
-		5CD87C5A1D792AE900875046 /* fsqr1.png in Resources */ = {isa = PBXBuildFile; fileRef = 5CD87C041D792AE900875046 /* fsqr1.png */; };
-		5CD87C5B1D792AE900875046 /* fsqr2.png in Resources */ = {isa = PBXBuildFile; fileRef = 5CD87C051D792AE900875046 /* fsqr2.png */; };
-		5CD87C5C1D792AE900875046 /* fsqr3.png in Resources */ = {isa = PBXBuildFile; fileRef = 5CD87C061D792AE900875046 /* fsqr3.png */; };
-		5CD87C5D1D792AE900875046 /* fsqr4.png in Resources */ = {isa = PBXBuildFile; fileRef = 5CD87C071D792AE900875046 /* fsqr4.png */; };
-		5CD87C5E1D792AE900875046 /* FSQRController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CD87C091D792AE900875046 /* FSQRController.m */; };
-		5CD87C5F1D792AE900875046 /* fsqrlightoff.png in Resources */ = {isa = PBXBuildFile; fileRef = 5CD87C0A1D792AE900875046 /* fsqrlightoff.png */; };
-		5CD87C601D792AE900875046 /* fsqrlighton.png in Resources */ = {isa = PBXBuildFile; fileRef = 5CD87C0B1D792AE900875046 /* fsqrlighton.png */; };
-		5CD87C611D792AE900875046 /* fsqrline.png in Resources */ = {isa = PBXBuildFile; fileRef = 5CD87C0C1D792AE900875046 /* fsqrline.png */; };
-		5CD87C621D792AE900875046 /* fsqrmsg.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5CD87C0D1D792AE900875046 /* fsqrmsg.wav */; };
-		5CD87C631D792AE900875046 /* FSAddTaxModelController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CD87C101D792AE900875046 /* FSAddTaxModelController.m */; };
-		5CD87C641D792AE900875046 /* FSTaxDetailView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CD87C121D792AE900875046 /* FSTaxDetailView.m */; };
-		5CD87C651D792AE900875046 /* FSTaxOfIncomeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CD87C141D792AE900875046 /* FSTaxOfIncomeController.m */; };
-		5CD87C661D792AE900875046 /* FSTaxRateEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CD87C161D792AE900875046 /* FSTaxRateEntity.m */; };
-		5CD87C671D792AE900875046 /* Note.txt in Resources */ = {isa = PBXBuildFile; fileRef = 5CD87C171D792AE900875046 /* Note.txt */; };
-		5CD87C681D792AE900875046 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 5CD87C181D792AE900875046 /* README.md */; };
-		5CD87C691D792AE900875046 /* FuData.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CD87C1C1D792AE900875046 /* FuData.m */; };
-		5CD87C6A1D792AE900875046 /* FuSing.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CD87C1E1D792AE900875046 /* FuSing.m */; };
-		5CD87C6B1D792AE900875046 /* FuWeb.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CD87C201D792AE900875046 /* FuWeb.m */; };
 		5CD87C6D1D792E5900875046 /* FSJS.css in Resources */ = {isa = PBXBuildFile; fileRef = 5CD87C6C1D792E5900875046 /* FSJS.css */; };
 		7117B2181CCBADD500F959D2 /* actionPic.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7117B1911CCBADD500F959D2 /* actionPic.jpg */; };
 		7117B2191CCBADD500F959D2 /* banjiaa.png in Resources */ = {isa = PBXBuildFile; fileRef = 7117B1921CCBADD500F959D2 /* banjiaa.png */; };
@@ -295,6 +228,73 @@
 		71ABEE161CF1D20000808AFF /* UIScrollView+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 71ABEE011CF1D20000808AFF /* UIScrollView+MJExtension.m */; };
 		71ABEE171CF1D20000808AFF /* UIScrollView+MJRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = 71ABEE031CF1D20000808AFF /* UIScrollView+MJRefresh.m */; };
 		71ABEE181CF1D20000808AFF /* UIView+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 71ABEE051CF1D20000808AFF /* UIView+MJExtension.m */; };
+		71E6C4D81D79D26B006EE258 /* FSDBManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 71E6C4301D79D26B006EE258 /* FSDBManager.m */; };
+		71E6C4D91D79D26B006EE258 /* FSFinancesManagerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71E6C4331D79D26B006EE258 /* FSFinancesManagerController.m */; };
+		71E6C4DA1D79D26B006EE258 /* FSFMAccountController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71E6C4351D79D26B006EE258 /* FSFMAccountController.m */; };
+		71E6C4DB1D79D26B006EE258 /* FSFMListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 71E6C4371D79D26B006EE258 /* FSFMListCell.m */; };
+		71E6C4DC1D79D26B006EE258 /* FSFMListController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71E6C4391D79D26B006EE258 /* FSFMListController.m */; };
+		71E6C4DD1D79D26B006EE258 /* FSFMSelectCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 71E6C43B1D79D26B006EE258 /* FSFMSelectCell.m */; };
+		71E6C4DE1D79D26B006EE258 /* FSFMSelectController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71E6C43D1D79D26B006EE258 /* FSFMSelectController.m */; };
+		71E6C4DF1D79D26B006EE258 /* FSTwoMinusController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71E6C43F1D79D26B006EE258 /* FSTwoMinusController.m */; };
+		71E6C4E01D79D26B006EE258 /* SQLEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 71E6C4411D79D26B006EE258 /* SQLEntity.m */; };
+		71E6C4E11D79D26B006EE258 /* FIBaseEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 71E6C4441D79D26B006EE258 /* FIBaseEntity.m */; };
+		71E6C4E21D79D26B006EE258 /* ChineseCalendarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 71E6C4471D79D26B006EE258 /* ChineseCalendarView.m */; };
+		71E6C4E31D79D26B006EE258 /* ExhaustiveCalendar.m in Sources */ = {isa = PBXBuildFile; fileRef = 71E6C4491D79D26B006EE258 /* ExhaustiveCalendar.m */; };
+		71E6C4E41D79D26B006EE258 /* FSCCDayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 71E6C44B1D79D26B006EE258 /* FSCCDayView.m */; };
+		71E6C4E51D79D26B006EE258 /* FSCCHeadView.m in Sources */ = {isa = PBXBuildFile; fileRef = 71E6C44D1D79D26B006EE258 /* FSCCHeadView.m */; };
+		71E6C4E61D79D26B006EE258 /* FSCCMainView.m in Sources */ = {isa = PBXBuildFile; fileRef = 71E6C44F1D79D26B006EE258 /* FSCCMainView.m */; };
+		71E6C4E71D79D26B006EE258 /* FSChineseCalendarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71E6C4511D79D26B006EE258 /* FSChineseCalendarController.m */; };
+		71E6C4E81D79D26B006EE258 /* Datetime.m in Sources */ = {isa = PBXBuildFile; fileRef = 71E6C4541D79D26B006EE258 /* Datetime.m */; };
+		71E6C4E91D79D26B006EE258 /* CYDatetime.m in Sources */ = {isa = PBXBuildFile; fileRef = 71E6C4571D79D26B006EE258 /* CYDatetime.m */; };
+		71E6C4EA1D79D26B006EE258 /* FSLunarCalendar.m in Sources */ = {isa = PBXBuildFile; fileRef = 71E6C4591D79D26B006EE258 /* FSLunarCalendar.m */; };
+		71E6C4EB1D79D26B006EE258 /* ClipPictureController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71E6C45C1D79D26B006EE258 /* ClipPictureController.m */; };
+		71E6C4EC1D79D26B006EE258 /* fishhook.c in Sources */ = {isa = PBXBuildFile; fileRef = 71E6C45F1D79D26B006EE258 /* fishhook.c */; };
+		71E6C4ED1D79D26B006EE258 /* FlowCollector.m in Sources */ = {isa = PBXBuildFile; fileRef = 71E6C4621D79D26B006EE258 /* FlowCollector.m */; };
+		71E6C4EE1D79D26B006EE258 /* GTMBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = 71E6C4661D79D26B006EE258 /* GTMBase64.m */; };
+		71E6C4EF1D79D26B006EE258 /* UIViewExt.m in Sources */ = {isa = PBXBuildFile; fileRef = 71E6C46B1D79D26B006EE258 /* UIViewExt.m */; };
+		71E6C4F81D79D26B006EE258 /* FSBaseController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71E6C4811D79D26B006EE258 /* FSBaseController.m */; };
+		71E6C4F91D79D26B006EE258 /* FSBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 71E6C4831D79D26B006EE258 /* FSBaseView.m */; };
+		71E6C4FA1D79D26B006EE258 /* FSHardwareInfoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71E6C4851D79D26B006EE258 /* FSHardwareInfoController.m */; };
+		71E6C4FB1D79D26B006EE258 /* FSNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71E6C4871D79D26B006EE258 /* FSNavigationController.m */; };
+		71E6C4FC1D79D26B006EE258 /* UIView+ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71E6C48B1D79D26B006EE258 /* UIView+ViewController.m */; };
+		71E6C4FD1D79D26B006EE258 /* FSCacheManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 71E6C48E1D79D26B006EE258 /* FSCacheManager.m */; };
+		71E6C4FE1D79D26B006EE258 /* FIMoveButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 71E6C4911D79D26B006EE258 /* FIMoveButton.m */; };
+		71E6C4FF1D79D26B006EE258 /* FSBlockButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 71E6C4931D79D26B006EE258 /* FSBlockButton.m */; };
+		71E6C5001D79D26B006EE258 /* FSImageLabelView.m in Sources */ = {isa = PBXBuildFile; fileRef = 71E6C4951D79D26B006EE258 /* FSImageLabelView.m */; };
+		71E6C5011D79D26B006EE258 /* FSMoveLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 71E6C4971D79D26B006EE258 /* FSMoveLabel.m */; };
+		71E6C5021D79D26B006EE258 /* FSSegmentControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 71E6C4991D79D26B006EE258 /* FSSegmentControl.m */; };
+		71E6C5031D79D26B006EE258 /* FSTapCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 71E6C49B1D79D26B006EE258 /* FSTapCell.m */; };
+		71E6C5041D79D26B006EE258 /* FSTapLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 71E6C49D1D79D26B006EE258 /* FSTapLabel.m */; };
+		71E6C5051D79D26B006EE258 /* FSTapScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 71E6C49F1D79D26B006EE258 /* FSTapScrollView.m */; };
+		71E6C5061D79D26B006EE258 /* FSWBView.m in Sources */ = {isa = PBXBuildFile; fileRef = 71E6C4A11D79D26B006EE258 /* FSWBView.m */; };
+		71E6C5071D79D26B006EE258 /* FSWebImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 71E6C4A31D79D26B006EE258 /* FSWebImageView.m */; };
+		71E6C5081D79D26B006EE258 /* FSDatePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 71E6C4A61D79D26B006EE258 /* FSDatePickerView.m */; };
+		71E6C5091D79D26B006EE258 /* FSSelectController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71E6C4A91D79D26B006EE258 /* FSSelectController.m */; };
+		71E6C50A1D79D26B006EE258 /* FSSelectSectionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71E6C4AB1D79D26B006EE258 /* FSSelectSectionController.m */; };
+		71E6C50B1D79D26B006EE258 /* FSViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 71E6C4AE1D79D26B006EE258 /* FSViewManager.m */; };
+		71E6C50C1D79D26B006EE258 /* FIWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = 71E6C4B11D79D26B006EE258 /* FIWebView.m */; };
+		71E6C50D1D79D26B006EE258 /* FSHTMLController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71E6C4B31D79D26B006EE258 /* FSHTMLController.m */; };
+		71E6C50E1D79D26B006EE258 /* FSWebController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71E6C4B51D79D26B006EE258 /* FSWebController.m */; };
+		71E6C50F1D79D26B006EE258 /* FSWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71E6C4B71D79D26B006EE258 /* FSWebViewController.m */; };
+		71E6C5101D79D26B006EE258 /* FSMakeQRController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71E6C4BA1D79D26B006EE258 /* FSMakeQRController.m */; };
+		71E6C5111D79D26B006EE258 /* fsqr1.png in Resources */ = {isa = PBXBuildFile; fileRef = 71E6C4BB1D79D26B006EE258 /* fsqr1.png */; };
+		71E6C5121D79D26B006EE258 /* fsqr2.png in Resources */ = {isa = PBXBuildFile; fileRef = 71E6C4BC1D79D26B006EE258 /* fsqr2.png */; };
+		71E6C5131D79D26B006EE258 /* fsqr3.png in Resources */ = {isa = PBXBuildFile; fileRef = 71E6C4BD1D79D26B006EE258 /* fsqr3.png */; };
+		71E6C5141D79D26B006EE258 /* fsqr4.png in Resources */ = {isa = PBXBuildFile; fileRef = 71E6C4BE1D79D26B006EE258 /* fsqr4.png */; };
+		71E6C5151D79D26B006EE258 /* FSQRController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71E6C4C01D79D26B006EE258 /* FSQRController.m */; };
+		71E6C5161D79D26B006EE258 /* fsqrlightoff.png in Resources */ = {isa = PBXBuildFile; fileRef = 71E6C4C11D79D26B006EE258 /* fsqrlightoff.png */; };
+		71E6C5171D79D26B006EE258 /* fsqrlighton.png in Resources */ = {isa = PBXBuildFile; fileRef = 71E6C4C21D79D26B006EE258 /* fsqrlighton.png */; };
+		71E6C5181D79D26B006EE258 /* fsqrline.png in Resources */ = {isa = PBXBuildFile; fileRef = 71E6C4C31D79D26B006EE258 /* fsqrline.png */; };
+		71E6C5191D79D26B006EE258 /* fsqrmsg.wav in Resources */ = {isa = PBXBuildFile; fileRef = 71E6C4C41D79D26B006EE258 /* fsqrmsg.wav */; };
+		71E6C51A1D79D26B006EE258 /* FSAddTaxModelController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71E6C4C71D79D26B006EE258 /* FSAddTaxModelController.m */; };
+		71E6C51B1D79D26B006EE258 /* FSTaxDetailView.m in Sources */ = {isa = PBXBuildFile; fileRef = 71E6C4C91D79D26B006EE258 /* FSTaxDetailView.m */; };
+		71E6C51C1D79D26B006EE258 /* FSTaxOfIncomeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71E6C4CB1D79D26B006EE258 /* FSTaxOfIncomeController.m */; };
+		71E6C51D1D79D26B006EE258 /* FSTaxRateEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 71E6C4CD1D79D26B006EE258 /* FSTaxRateEntity.m */; };
+		71E6C51E1D79D26B006EE258 /* Note.txt in Resources */ = {isa = PBXBuildFile; fileRef = 71E6C4CE1D79D26B006EE258 /* Note.txt */; };
+		71E6C51F1D79D26B006EE258 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 71E6C4CF1D79D26B006EE258 /* README.md */; };
+		71E6C5201D79D26B006EE258 /* FuData.m in Sources */ = {isa = PBXBuildFile; fileRef = 71E6C4D31D79D26B006EE258 /* FuData.m */; };
+		71E6C5211D79D26B006EE258 /* FuSing.m in Sources */ = {isa = PBXBuildFile; fileRef = 71E6C4D51D79D26B006EE258 /* FuSing.m */; };
+		71E6C5221D79D26B006EE258 /* FuWeb.m in Sources */ = {isa = PBXBuildFile; fileRef = 71E6C4D71D79D26B006EE258 /* FuWeb.m */; };
 		71FBBC531CFA85AF0086D807 /* FSComposeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71FBBC521CFA85AF0086D807 /* FSComposeController.m */; };
 /* End PBXBuildFile section */
 
@@ -383,135 +383,6 @@
 		5CB7E09C1D76838E00471C83 /* UMMobClick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = UMMobClick.framework; sourceTree = "<group>"; };
 		5CCBBC771D1AB248003B5C41 /* FSSameKindController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSSameKindController.h; sourceTree = "<group>"; };
 		5CCBBC781D1AB248003B5C41 /* FSSameKindController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSSameKindController.m; sourceTree = "<group>"; };
-		5CD87B7C1D792AE900875046 /* FSDBManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSDBManager.h; sourceTree = "<group>"; };
-		5CD87B7D1D792AE900875046 /* FSDBManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSDBManager.m; sourceTree = "<group>"; };
-		5CD87B7F1D792AE900875046 /* FSFinancesManagerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSFinancesManagerController.h; sourceTree = "<group>"; };
-		5CD87B801D792AE900875046 /* FSFinancesManagerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSFinancesManagerController.m; sourceTree = "<group>"; };
-		5CD87B811D792AE900875046 /* FSFMAccountController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSFMAccountController.h; sourceTree = "<group>"; };
-		5CD87B821D792AE900875046 /* FSFMAccountController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSFMAccountController.m; sourceTree = "<group>"; };
-		5CD87B831D792AE900875046 /* FSFMListCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSFMListCell.h; sourceTree = "<group>"; };
-		5CD87B841D792AE900875046 /* FSFMListCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSFMListCell.m; sourceTree = "<group>"; };
-		5CD87B851D792AE900875046 /* FSFMListController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSFMListController.h; sourceTree = "<group>"; };
-		5CD87B861D792AE900875046 /* FSFMListController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSFMListController.m; sourceTree = "<group>"; };
-		5CD87B871D792AE900875046 /* FSFMSelectCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSFMSelectCell.h; sourceTree = "<group>"; };
-		5CD87B881D792AE900875046 /* FSFMSelectCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSFMSelectCell.m; sourceTree = "<group>"; };
-		5CD87B891D792AE900875046 /* FSFMSelectController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSFMSelectController.h; sourceTree = "<group>"; };
-		5CD87B8A1D792AE900875046 /* FSFMSelectController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSFMSelectController.m; sourceTree = "<group>"; };
-		5CD87B8B1D792AE900875046 /* FSTwoMinusController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSTwoMinusController.h; sourceTree = "<group>"; };
-		5CD87B8C1D792AE900875046 /* FSTwoMinusController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSTwoMinusController.m; sourceTree = "<group>"; };
-		5CD87B8D1D792AE900875046 /* SQLEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQLEntity.h; sourceTree = "<group>"; };
-		5CD87B8E1D792AE900875046 /* SQLEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQLEntity.m; sourceTree = "<group>"; };
-		5CD87B901D792AE900875046 /* FIBaseEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FIBaseEntity.h; sourceTree = "<group>"; };
-		5CD87B911D792AE900875046 /* FIBaseEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FIBaseEntity.m; sourceTree = "<group>"; };
-		5CD87B931D792AE900875046 /* ChineseCalendarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChineseCalendarView.h; sourceTree = "<group>"; };
-		5CD87B941D792AE900875046 /* ChineseCalendarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChineseCalendarView.m; sourceTree = "<group>"; };
-		5CD87B951D792AE900875046 /* ExhaustiveCalendar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExhaustiveCalendar.h; sourceTree = "<group>"; };
-		5CD87B961D792AE900875046 /* ExhaustiveCalendar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExhaustiveCalendar.m; sourceTree = "<group>"; };
-		5CD87B971D792AE900875046 /* FSCCDayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSCCDayView.h; sourceTree = "<group>"; };
-		5CD87B981D792AE900875046 /* FSCCDayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSCCDayView.m; sourceTree = "<group>"; };
-		5CD87B991D792AE900875046 /* FSCCHeadView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSCCHeadView.h; sourceTree = "<group>"; };
-		5CD87B9A1D792AE900875046 /* FSCCHeadView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSCCHeadView.m; sourceTree = "<group>"; };
-		5CD87B9B1D792AE900875046 /* FSCCMainView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSCCMainView.h; sourceTree = "<group>"; };
-		5CD87B9C1D792AE900875046 /* FSCCMainView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSCCMainView.m; sourceTree = "<group>"; };
-		5CD87B9D1D792AE900875046 /* FSChineseCalendarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSChineseCalendarController.h; sourceTree = "<group>"; };
-		5CD87B9E1D792AE900875046 /* FSChineseCalendarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSChineseCalendarController.m; sourceTree = "<group>"; };
-		5CD87BA01D792AE900875046 /* Datetime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Datetime.h; sourceTree = "<group>"; };
-		5CD87BA11D792AE900875046 /* Datetime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Datetime.m; sourceTree = "<group>"; };
-		5CD87BA31D792AE900875046 /* CYDatetime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYDatetime.h; sourceTree = "<group>"; };
-		5CD87BA41D792AE900875046 /* CYDatetime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYDatetime.m; sourceTree = "<group>"; };
-		5CD87BA51D792AE900875046 /* FSLunarCalendar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSLunarCalendar.h; sourceTree = "<group>"; };
-		5CD87BA61D792AE900875046 /* FSLunarCalendar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSLunarCalendar.m; sourceTree = "<group>"; };
-		5CD87BA81D792AE900875046 /* ClipPictureController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClipPictureController.h; sourceTree = "<group>"; };
-		5CD87BA91D792AE900875046 /* ClipPictureController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClipPictureController.m; sourceTree = "<group>"; };
-		5CD87BAB1D792AE900875046 /* fishhook.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = fishhook.c; sourceTree = "<group>"; };
-		5CD87BAC1D792AE900875046 /* fishhook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fishhook.h; sourceTree = "<group>"; };
-		5CD87BAD1D792AE900875046 /* FlowCollector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlowCollector.h; sourceTree = "<group>"; };
-		5CD87BAE1D792AE900875046 /* FlowCollector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlowCollector.m; sourceTree = "<group>"; };
-		5CD87BAF1D792AE900875046 /* FlowMeterKeys.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlowMeterKeys.h; sourceTree = "<group>"; };
-		5CD87BB11D792AE900875046 /* GTMBase64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMBase64.h; sourceTree = "<group>"; };
-		5CD87BB21D792AE900875046 /* GTMBase64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMBase64.m; sourceTree = "<group>"; };
-		5CD87BB31D792AE900875046 /* GTMDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMDefines.h; sourceTree = "<group>"; };
-		5CD87BB51D792AE900875046 /* UIViewExt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewExt.h; sourceTree = "<group>"; };
-		5CD87BB61D792AE900875046 /* UIViewExt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIViewExt.m; sourceTree = "<group>"; };
-		5CD87BB71D792AE900875046 /* FSMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSMacro.h; sourceTree = "<group>"; };
-		5CD87BB81D792AE900875046 /* FuSoft.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FuSoft.h; sourceTree = "<group>"; };
-		5CD87BCB1D792AE900875046 /* FSBaseController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSBaseController.h; sourceTree = "<group>"; };
-		5CD87BCC1D792AE900875046 /* FSBaseController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSBaseController.m; sourceTree = "<group>"; };
-		5CD87BCD1D792AE900875046 /* FSBaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSBaseView.h; sourceTree = "<group>"; };
-		5CD87BCE1D792AE900875046 /* FSBaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSBaseView.m; sourceTree = "<group>"; };
-		5CD87BCF1D792AE900875046 /* FSHardwareInfoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSHardwareInfoController.h; sourceTree = "<group>"; };
-		5CD87BD01D792AE900875046 /* FSHardwareInfoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSHardwareInfoController.m; sourceTree = "<group>"; };
-		5CD87BD11D792AE900875046 /* FSNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSNavigationController.h; sourceTree = "<group>"; };
-		5CD87BD21D792AE900875046 /* FSNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSNavigationController.m; sourceTree = "<group>"; };
-		5CD87BD31D792AE900875046 /* UIView+ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ViewController.h"; sourceTree = "<group>"; };
-		5CD87BD41D792AE900875046 /* UIView+ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ViewController.m"; sourceTree = "<group>"; };
-		5CD87BD61D792AE900875046 /* FSCacheManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSCacheManager.h; sourceTree = "<group>"; };
-		5CD87BD71D792AE900875046 /* FSCacheManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSCacheManager.m; sourceTree = "<group>"; };
-		5CD87BD91D792AE900875046 /* FIMoveButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FIMoveButton.h; sourceTree = "<group>"; };
-		5CD87BDA1D792AE900875046 /* FIMoveButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FIMoveButton.m; sourceTree = "<group>"; };
-		5CD87BDB1D792AE900875046 /* FSBlockButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSBlockButton.h; sourceTree = "<group>"; };
-		5CD87BDC1D792AE900875046 /* FSBlockButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSBlockButton.m; sourceTree = "<group>"; };
-		5CD87BDD1D792AE900875046 /* FSImageLabelView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSImageLabelView.h; sourceTree = "<group>"; };
-		5CD87BDE1D792AE900875046 /* FSImageLabelView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSImageLabelView.m; sourceTree = "<group>"; };
-		5CD87BDF1D792AE900875046 /* FSMoveLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSMoveLabel.h; sourceTree = "<group>"; };
-		5CD87BE01D792AE900875046 /* FSMoveLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSMoveLabel.m; sourceTree = "<group>"; };
-		5CD87BE11D792AE900875046 /* FSSegmentControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSSegmentControl.h; sourceTree = "<group>"; };
-		5CD87BE21D792AE900875046 /* FSSegmentControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSSegmentControl.m; sourceTree = "<group>"; };
-		5CD87BE31D792AE900875046 /* FSTapCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSTapCell.h; sourceTree = "<group>"; };
-		5CD87BE41D792AE900875046 /* FSTapCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSTapCell.m; sourceTree = "<group>"; };
-		5CD87BE51D792AE900875046 /* FSTapLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSTapLabel.h; sourceTree = "<group>"; };
-		5CD87BE61D792AE900875046 /* FSTapLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSTapLabel.m; sourceTree = "<group>"; };
-		5CD87BE71D792AE900875046 /* FSTapScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSTapScrollView.h; sourceTree = "<group>"; };
-		5CD87BE81D792AE900875046 /* FSTapScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSTapScrollView.m; sourceTree = "<group>"; };
-		5CD87BE91D792AE900875046 /* FSWBView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSWBView.h; sourceTree = "<group>"; };
-		5CD87BEA1D792AE900875046 /* FSWBView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSWBView.m; sourceTree = "<group>"; };
-		5CD87BEB1D792AE900875046 /* FSWebImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSWebImageView.h; sourceTree = "<group>"; };
-		5CD87BEC1D792AE900875046 /* FSWebImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSWebImageView.m; sourceTree = "<group>"; };
-		5CD87BEE1D792AE900875046 /* FSDatePickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSDatePickerView.h; sourceTree = "<group>"; };
-		5CD87BEF1D792AE900875046 /* FSDatePickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSDatePickerView.m; sourceTree = "<group>"; };
-		5CD87BF11D792AE900875046 /* FSSelectController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSSelectController.h; sourceTree = "<group>"; };
-		5CD87BF21D792AE900875046 /* FSSelectController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSSelectController.m; sourceTree = "<group>"; };
-		5CD87BF31D792AE900875046 /* FSSelectSectionController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSSelectSectionController.h; sourceTree = "<group>"; };
-		5CD87BF41D792AE900875046 /* FSSelectSectionController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSSelectSectionController.m; sourceTree = "<group>"; };
-		5CD87BF61D792AE900875046 /* FSViewManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSViewManager.h; sourceTree = "<group>"; };
-		5CD87BF71D792AE900875046 /* FSViewManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSViewManager.m; sourceTree = "<group>"; };
-		5CD87BF91D792AE900875046 /* FIWebView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FIWebView.h; sourceTree = "<group>"; };
-		5CD87BFA1D792AE900875046 /* FIWebView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FIWebView.m; sourceTree = "<group>"; };
-		5CD87BFB1D792AE900875046 /* FSHTMLController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSHTMLController.h; sourceTree = "<group>"; };
-		5CD87BFC1D792AE900875046 /* FSHTMLController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSHTMLController.m; sourceTree = "<group>"; };
-		5CD87BFD1D792AE900875046 /* FSWebController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSWebController.h; sourceTree = "<group>"; };
-		5CD87BFE1D792AE900875046 /* FSWebController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSWebController.m; sourceTree = "<group>"; };
-		5CD87BFF1D792AE900875046 /* FSWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSWebViewController.h; sourceTree = "<group>"; };
-		5CD87C001D792AE900875046 /* FSWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSWebViewController.m; sourceTree = "<group>"; };
-		5CD87C021D792AE900875046 /* FSMakeQRController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSMakeQRController.h; sourceTree = "<group>"; };
-		5CD87C031D792AE900875046 /* FSMakeQRController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSMakeQRController.m; sourceTree = "<group>"; };
-		5CD87C041D792AE900875046 /* fsqr1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fsqr1.png; sourceTree = "<group>"; };
-		5CD87C051D792AE900875046 /* fsqr2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fsqr2.png; sourceTree = "<group>"; };
-		5CD87C061D792AE900875046 /* fsqr3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fsqr3.png; sourceTree = "<group>"; };
-		5CD87C071D792AE900875046 /* fsqr4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fsqr4.png; sourceTree = "<group>"; };
-		5CD87C081D792AE900875046 /* FSQRController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSQRController.h; sourceTree = "<group>"; };
-		5CD87C091D792AE900875046 /* FSQRController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSQRController.m; sourceTree = "<group>"; };
-		5CD87C0A1D792AE900875046 /* fsqrlightoff.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fsqrlightoff.png; sourceTree = "<group>"; };
-		5CD87C0B1D792AE900875046 /* fsqrlighton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fsqrlighton.png; sourceTree = "<group>"; };
-		5CD87C0C1D792AE900875046 /* fsqrline.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fsqrline.png; sourceTree = "<group>"; };
-		5CD87C0D1D792AE900875046 /* fsqrmsg.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = fsqrmsg.wav; sourceTree = "<group>"; };
-		5CD87C0F1D792AE900875046 /* FSAddTaxModelController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSAddTaxModelController.h; sourceTree = "<group>"; };
-		5CD87C101D792AE900875046 /* FSAddTaxModelController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSAddTaxModelController.m; sourceTree = "<group>"; };
-		5CD87C111D792AE900875046 /* FSTaxDetailView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSTaxDetailView.h; sourceTree = "<group>"; };
-		5CD87C121D792AE900875046 /* FSTaxDetailView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSTaxDetailView.m; sourceTree = "<group>"; };
-		5CD87C131D792AE900875046 /* FSTaxOfIncomeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSTaxOfIncomeController.h; sourceTree = "<group>"; };
-		5CD87C141D792AE900875046 /* FSTaxOfIncomeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSTaxOfIncomeController.m; sourceTree = "<group>"; };
-		5CD87C151D792AE900875046 /* FSTaxRateEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSTaxRateEntity.h; sourceTree = "<group>"; };
-		5CD87C161D792AE900875046 /* FSTaxRateEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSTaxRateEntity.m; sourceTree = "<group>"; };
-		5CD87C171D792AE900875046 /* Note.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Note.txt; sourceTree = "<group>"; };
-		5CD87C181D792AE900875046 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		5CD87C1A1D792AE900875046 /* FSWebUrl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSWebUrl.h; sourceTree = "<group>"; };
-		5CD87C1B1D792AE900875046 /* FuData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FuData.h; sourceTree = "<group>"; };
-		5CD87C1C1D792AE900875046 /* FuData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FuData.m; sourceTree = "<group>"; };
-		5CD87C1D1D792AE900875046 /* FuSing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FuSing.h; sourceTree = "<group>"; };
-		5CD87C1E1D792AE900875046 /* FuSing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FuSing.m; sourceTree = "<group>"; };
-		5CD87C1F1D792AE900875046 /* FuWeb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FuWeb.h; sourceTree = "<group>"; };
-		5CD87C201D792AE900875046 /* FuWeb.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FuWeb.m; sourceTree = "<group>"; };
 		5CD87C6C1D792E5900875046 /* FSJS.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = FSJS.css; sourceTree = "<group>"; };
 		7117B1911CCBADD500F959D2 /* actionPic.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = actionPic.jpg; sourceTree = "<group>"; };
 		7117B1921CCBADD500F959D2 /* banjiaa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = banjiaa.png; sourceTree = "<group>"; };
@@ -759,6 +630,135 @@
 		71ABEE031CF1D20000808AFF /* UIScrollView+MJRefresh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+MJRefresh.m"; sourceTree = "<group>"; };
 		71ABEE041CF1D20000808AFF /* UIView+MJExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+MJExtension.h"; sourceTree = "<group>"; };
 		71ABEE051CF1D20000808AFF /* UIView+MJExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+MJExtension.m"; sourceTree = "<group>"; };
+		71E6C42F1D79D26B006EE258 /* FSDBManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSDBManager.h; sourceTree = "<group>"; };
+		71E6C4301D79D26B006EE258 /* FSDBManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSDBManager.m; sourceTree = "<group>"; };
+		71E6C4321D79D26B006EE258 /* FSFinancesManagerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSFinancesManagerController.h; sourceTree = "<group>"; };
+		71E6C4331D79D26B006EE258 /* FSFinancesManagerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSFinancesManagerController.m; sourceTree = "<group>"; };
+		71E6C4341D79D26B006EE258 /* FSFMAccountController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSFMAccountController.h; sourceTree = "<group>"; };
+		71E6C4351D79D26B006EE258 /* FSFMAccountController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSFMAccountController.m; sourceTree = "<group>"; };
+		71E6C4361D79D26B006EE258 /* FSFMListCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSFMListCell.h; sourceTree = "<group>"; };
+		71E6C4371D79D26B006EE258 /* FSFMListCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSFMListCell.m; sourceTree = "<group>"; };
+		71E6C4381D79D26B006EE258 /* FSFMListController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSFMListController.h; sourceTree = "<group>"; };
+		71E6C4391D79D26B006EE258 /* FSFMListController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSFMListController.m; sourceTree = "<group>"; };
+		71E6C43A1D79D26B006EE258 /* FSFMSelectCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSFMSelectCell.h; sourceTree = "<group>"; };
+		71E6C43B1D79D26B006EE258 /* FSFMSelectCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSFMSelectCell.m; sourceTree = "<group>"; };
+		71E6C43C1D79D26B006EE258 /* FSFMSelectController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSFMSelectController.h; sourceTree = "<group>"; };
+		71E6C43D1D79D26B006EE258 /* FSFMSelectController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSFMSelectController.m; sourceTree = "<group>"; };
+		71E6C43E1D79D26B006EE258 /* FSTwoMinusController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSTwoMinusController.h; sourceTree = "<group>"; };
+		71E6C43F1D79D26B006EE258 /* FSTwoMinusController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSTwoMinusController.m; sourceTree = "<group>"; };
+		71E6C4401D79D26B006EE258 /* SQLEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQLEntity.h; sourceTree = "<group>"; };
+		71E6C4411D79D26B006EE258 /* SQLEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQLEntity.m; sourceTree = "<group>"; };
+		71E6C4431D79D26B006EE258 /* FIBaseEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FIBaseEntity.h; sourceTree = "<group>"; };
+		71E6C4441D79D26B006EE258 /* FIBaseEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FIBaseEntity.m; sourceTree = "<group>"; };
+		71E6C4461D79D26B006EE258 /* ChineseCalendarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChineseCalendarView.h; sourceTree = "<group>"; };
+		71E6C4471D79D26B006EE258 /* ChineseCalendarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChineseCalendarView.m; sourceTree = "<group>"; };
+		71E6C4481D79D26B006EE258 /* ExhaustiveCalendar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExhaustiveCalendar.h; sourceTree = "<group>"; };
+		71E6C4491D79D26B006EE258 /* ExhaustiveCalendar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExhaustiveCalendar.m; sourceTree = "<group>"; };
+		71E6C44A1D79D26B006EE258 /* FSCCDayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSCCDayView.h; sourceTree = "<group>"; };
+		71E6C44B1D79D26B006EE258 /* FSCCDayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSCCDayView.m; sourceTree = "<group>"; };
+		71E6C44C1D79D26B006EE258 /* FSCCHeadView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSCCHeadView.h; sourceTree = "<group>"; };
+		71E6C44D1D79D26B006EE258 /* FSCCHeadView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSCCHeadView.m; sourceTree = "<group>"; };
+		71E6C44E1D79D26B006EE258 /* FSCCMainView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSCCMainView.h; sourceTree = "<group>"; };
+		71E6C44F1D79D26B006EE258 /* FSCCMainView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSCCMainView.m; sourceTree = "<group>"; };
+		71E6C4501D79D26B006EE258 /* FSChineseCalendarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSChineseCalendarController.h; sourceTree = "<group>"; };
+		71E6C4511D79D26B006EE258 /* FSChineseCalendarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSChineseCalendarController.m; sourceTree = "<group>"; };
+		71E6C4531D79D26B006EE258 /* Datetime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Datetime.h; sourceTree = "<group>"; };
+		71E6C4541D79D26B006EE258 /* Datetime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Datetime.m; sourceTree = "<group>"; };
+		71E6C4561D79D26B006EE258 /* CYDatetime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYDatetime.h; sourceTree = "<group>"; };
+		71E6C4571D79D26B006EE258 /* CYDatetime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYDatetime.m; sourceTree = "<group>"; };
+		71E6C4581D79D26B006EE258 /* FSLunarCalendar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSLunarCalendar.h; sourceTree = "<group>"; };
+		71E6C4591D79D26B006EE258 /* FSLunarCalendar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSLunarCalendar.m; sourceTree = "<group>"; };
+		71E6C45B1D79D26B006EE258 /* ClipPictureController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClipPictureController.h; sourceTree = "<group>"; };
+		71E6C45C1D79D26B006EE258 /* ClipPictureController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClipPictureController.m; sourceTree = "<group>"; };
+		71E6C45F1D79D26B006EE258 /* fishhook.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = fishhook.c; sourceTree = "<group>"; };
+		71E6C4601D79D26B006EE258 /* fishhook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fishhook.h; sourceTree = "<group>"; };
+		71E6C4611D79D26B006EE258 /* FlowCollector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlowCollector.h; sourceTree = "<group>"; };
+		71E6C4621D79D26B006EE258 /* FlowCollector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlowCollector.m; sourceTree = "<group>"; };
+		71E6C4631D79D26B006EE258 /* FlowMeterKeys.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlowMeterKeys.h; sourceTree = "<group>"; };
+		71E6C4651D79D26B006EE258 /* GTMBase64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMBase64.h; sourceTree = "<group>"; };
+		71E6C4661D79D26B006EE258 /* GTMBase64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMBase64.m; sourceTree = "<group>"; };
+		71E6C4671D79D26B006EE258 /* GTMDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMDefines.h; sourceTree = "<group>"; };
+		71E6C46A1D79D26B006EE258 /* UIViewExt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewExt.h; sourceTree = "<group>"; };
+		71E6C46B1D79D26B006EE258 /* UIViewExt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIViewExt.m; sourceTree = "<group>"; };
+		71E6C46C1D79D26B006EE258 /* FSMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSMacro.h; sourceTree = "<group>"; };
+		71E6C46D1D79D26B006EE258 /* FuSoft.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FuSoft.h; sourceTree = "<group>"; };
+		71E6C4801D79D26B006EE258 /* FSBaseController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSBaseController.h; sourceTree = "<group>"; };
+		71E6C4811D79D26B006EE258 /* FSBaseController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSBaseController.m; sourceTree = "<group>"; };
+		71E6C4821D79D26B006EE258 /* FSBaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSBaseView.h; sourceTree = "<group>"; };
+		71E6C4831D79D26B006EE258 /* FSBaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSBaseView.m; sourceTree = "<group>"; };
+		71E6C4841D79D26B006EE258 /* FSHardwareInfoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSHardwareInfoController.h; sourceTree = "<group>"; };
+		71E6C4851D79D26B006EE258 /* FSHardwareInfoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSHardwareInfoController.m; sourceTree = "<group>"; };
+		71E6C4861D79D26B006EE258 /* FSNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSNavigationController.h; sourceTree = "<group>"; };
+		71E6C4871D79D26B006EE258 /* FSNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSNavigationController.m; sourceTree = "<group>"; };
+		71E6C48A1D79D26B006EE258 /* UIView+ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ViewController.h"; sourceTree = "<group>"; };
+		71E6C48B1D79D26B006EE258 /* UIView+ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ViewController.m"; sourceTree = "<group>"; };
+		71E6C48D1D79D26B006EE258 /* FSCacheManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSCacheManager.h; sourceTree = "<group>"; };
+		71E6C48E1D79D26B006EE258 /* FSCacheManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSCacheManager.m; sourceTree = "<group>"; };
+		71E6C4901D79D26B006EE258 /* FIMoveButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FIMoveButton.h; sourceTree = "<group>"; };
+		71E6C4911D79D26B006EE258 /* FIMoveButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FIMoveButton.m; sourceTree = "<group>"; };
+		71E6C4921D79D26B006EE258 /* FSBlockButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSBlockButton.h; sourceTree = "<group>"; };
+		71E6C4931D79D26B006EE258 /* FSBlockButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSBlockButton.m; sourceTree = "<group>"; };
+		71E6C4941D79D26B006EE258 /* FSImageLabelView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSImageLabelView.h; sourceTree = "<group>"; };
+		71E6C4951D79D26B006EE258 /* FSImageLabelView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSImageLabelView.m; sourceTree = "<group>"; };
+		71E6C4961D79D26B006EE258 /* FSMoveLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSMoveLabel.h; sourceTree = "<group>"; };
+		71E6C4971D79D26B006EE258 /* FSMoveLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSMoveLabel.m; sourceTree = "<group>"; };
+		71E6C4981D79D26B006EE258 /* FSSegmentControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSSegmentControl.h; sourceTree = "<group>"; };
+		71E6C4991D79D26B006EE258 /* FSSegmentControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSSegmentControl.m; sourceTree = "<group>"; };
+		71E6C49A1D79D26B006EE258 /* FSTapCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSTapCell.h; sourceTree = "<group>"; };
+		71E6C49B1D79D26B006EE258 /* FSTapCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSTapCell.m; sourceTree = "<group>"; };
+		71E6C49C1D79D26B006EE258 /* FSTapLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSTapLabel.h; sourceTree = "<group>"; };
+		71E6C49D1D79D26B006EE258 /* FSTapLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSTapLabel.m; sourceTree = "<group>"; };
+		71E6C49E1D79D26B006EE258 /* FSTapScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSTapScrollView.h; sourceTree = "<group>"; };
+		71E6C49F1D79D26B006EE258 /* FSTapScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSTapScrollView.m; sourceTree = "<group>"; };
+		71E6C4A01D79D26B006EE258 /* FSWBView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSWBView.h; sourceTree = "<group>"; };
+		71E6C4A11D79D26B006EE258 /* FSWBView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSWBView.m; sourceTree = "<group>"; };
+		71E6C4A21D79D26B006EE258 /* FSWebImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSWebImageView.h; sourceTree = "<group>"; };
+		71E6C4A31D79D26B006EE258 /* FSWebImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSWebImageView.m; sourceTree = "<group>"; };
+		71E6C4A51D79D26B006EE258 /* FSDatePickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSDatePickerView.h; sourceTree = "<group>"; };
+		71E6C4A61D79D26B006EE258 /* FSDatePickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSDatePickerView.m; sourceTree = "<group>"; };
+		71E6C4A81D79D26B006EE258 /* FSSelectController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSSelectController.h; sourceTree = "<group>"; };
+		71E6C4A91D79D26B006EE258 /* FSSelectController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSSelectController.m; sourceTree = "<group>"; };
+		71E6C4AA1D79D26B006EE258 /* FSSelectSectionController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSSelectSectionController.h; sourceTree = "<group>"; };
+		71E6C4AB1D79D26B006EE258 /* FSSelectSectionController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSSelectSectionController.m; sourceTree = "<group>"; };
+		71E6C4AD1D79D26B006EE258 /* FSViewManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSViewManager.h; sourceTree = "<group>"; };
+		71E6C4AE1D79D26B006EE258 /* FSViewManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSViewManager.m; sourceTree = "<group>"; };
+		71E6C4B01D79D26B006EE258 /* FIWebView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FIWebView.h; sourceTree = "<group>"; };
+		71E6C4B11D79D26B006EE258 /* FIWebView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FIWebView.m; sourceTree = "<group>"; };
+		71E6C4B21D79D26B006EE258 /* FSHTMLController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSHTMLController.h; sourceTree = "<group>"; };
+		71E6C4B31D79D26B006EE258 /* FSHTMLController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSHTMLController.m; sourceTree = "<group>"; };
+		71E6C4B41D79D26B006EE258 /* FSWebController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSWebController.h; sourceTree = "<group>"; };
+		71E6C4B51D79D26B006EE258 /* FSWebController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSWebController.m; sourceTree = "<group>"; };
+		71E6C4B61D79D26B006EE258 /* FSWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSWebViewController.h; sourceTree = "<group>"; };
+		71E6C4B71D79D26B006EE258 /* FSWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSWebViewController.m; sourceTree = "<group>"; };
+		71E6C4B91D79D26B006EE258 /* FSMakeQRController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSMakeQRController.h; sourceTree = "<group>"; };
+		71E6C4BA1D79D26B006EE258 /* FSMakeQRController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSMakeQRController.m; sourceTree = "<group>"; };
+		71E6C4BB1D79D26B006EE258 /* fsqr1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fsqr1.png; sourceTree = "<group>"; };
+		71E6C4BC1D79D26B006EE258 /* fsqr2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fsqr2.png; sourceTree = "<group>"; };
+		71E6C4BD1D79D26B006EE258 /* fsqr3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fsqr3.png; sourceTree = "<group>"; };
+		71E6C4BE1D79D26B006EE258 /* fsqr4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fsqr4.png; sourceTree = "<group>"; };
+		71E6C4BF1D79D26B006EE258 /* FSQRController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSQRController.h; sourceTree = "<group>"; };
+		71E6C4C01D79D26B006EE258 /* FSQRController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSQRController.m; sourceTree = "<group>"; };
+		71E6C4C11D79D26B006EE258 /* fsqrlightoff.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fsqrlightoff.png; sourceTree = "<group>"; };
+		71E6C4C21D79D26B006EE258 /* fsqrlighton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fsqrlighton.png; sourceTree = "<group>"; };
+		71E6C4C31D79D26B006EE258 /* fsqrline.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fsqrline.png; sourceTree = "<group>"; };
+		71E6C4C41D79D26B006EE258 /* fsqrmsg.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = fsqrmsg.wav; sourceTree = "<group>"; };
+		71E6C4C61D79D26B006EE258 /* FSAddTaxModelController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSAddTaxModelController.h; sourceTree = "<group>"; };
+		71E6C4C71D79D26B006EE258 /* FSAddTaxModelController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSAddTaxModelController.m; sourceTree = "<group>"; };
+		71E6C4C81D79D26B006EE258 /* FSTaxDetailView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSTaxDetailView.h; sourceTree = "<group>"; };
+		71E6C4C91D79D26B006EE258 /* FSTaxDetailView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSTaxDetailView.m; sourceTree = "<group>"; };
+		71E6C4CA1D79D26B006EE258 /* FSTaxOfIncomeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSTaxOfIncomeController.h; sourceTree = "<group>"; };
+		71E6C4CB1D79D26B006EE258 /* FSTaxOfIncomeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSTaxOfIncomeController.m; sourceTree = "<group>"; };
+		71E6C4CC1D79D26B006EE258 /* FSTaxRateEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSTaxRateEntity.h; sourceTree = "<group>"; };
+		71E6C4CD1D79D26B006EE258 /* FSTaxRateEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSTaxRateEntity.m; sourceTree = "<group>"; };
+		71E6C4CE1D79D26B006EE258 /* Note.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Note.txt; sourceTree = "<group>"; };
+		71E6C4CF1D79D26B006EE258 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		71E6C4D11D79D26B006EE258 /* FSWebUrl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSWebUrl.h; sourceTree = "<group>"; };
+		71E6C4D21D79D26B006EE258 /* FuData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FuData.h; sourceTree = "<group>"; };
+		71E6C4D31D79D26B006EE258 /* FuData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FuData.m; sourceTree = "<group>"; };
+		71E6C4D41D79D26B006EE258 /* FuSing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FuSing.h; sourceTree = "<group>"; };
+		71E6C4D51D79D26B006EE258 /* FuSing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FuSing.m; sourceTree = "<group>"; };
+		71E6C4D61D79D26B006EE258 /* FuWeb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FuWeb.h; sourceTree = "<group>"; };
+		71E6C4D71D79D26B006EE258 /* FuWeb.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FuWeb.m; sourceTree = "<group>"; };
 		71FBBC511CFA85AF0086D807 /* FSComposeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSComposeController.h; sourceTree = "<group>"; };
 		71FBBC521CFA85AF0086D807 /* FSComposeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSComposeController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -915,327 +915,6 @@
 			name = tongji;
 			path = ShareEconomy/ThirtParty/tongji;
 			sourceTree = SOURCE_ROOT;
-		};
-		5CD87B781D792AE900875046 /* FuSoft */ = {
-			isa = PBXGroup;
-			children = (
-				5CD87B791D792AE900875046 /* 3rd */,
-				5CD87BB71D792AE900875046 /* FSMacro.h */,
-				5CD87BB81D792AE900875046 /* FuSoft.h */,
-				5CD87BB91D792AE900875046 /* Module */,
-				5CD87C171D792AE900875046 /* Note.txt */,
-				5CD87C181D792AE900875046 /* README.md */,
-				5CD87C191D792AE900875046 /* Tool */,
-			);
-			name = FuSoft;
-			path = ../../../FuSoft;
-			sourceTree = "<group>";
-		};
-		5CD87B791D792AE900875046 /* 3rd */ = {
-			isa = PBXGroup;
-			children = (
-				5CD87B7A1D792AE900875046 /* Account */,
-				5CD87B8F1D792AE900875046 /* BaseModel */,
-				5CD87B921D792AE900875046 /* ChineseCalendar */,
-				5CD87BA71D792AE900875046 /* ClipPicture */,
-				5CD87BAA1D792AE900875046 /* FSCHook */,
-				5CD87BB01D792AE900875046 /* GTMBase64 */,
-				5CD87BB41D792AE900875046 /* UIViewExt */,
-			);
-			path = 3rd;
-			sourceTree = "<group>";
-		};
-		5CD87B7A1D792AE900875046 /* Account */ = {
-			isa = PBXGroup;
-			children = (
-				5CD87B7B1D792AE900875046 /* FSDB */,
-				5CD87B7E1D792AE900875046 /* SQLManager */,
-			);
-			path = Account;
-			sourceTree = "<group>";
-		};
-		5CD87B7B1D792AE900875046 /* FSDB */ = {
-			isa = PBXGroup;
-			children = (
-				5CD87B7C1D792AE900875046 /* FSDBManager.h */,
-				5CD87B7D1D792AE900875046 /* FSDBManager.m */,
-			);
-			path = FSDB;
-			sourceTree = "<group>";
-		};
-		5CD87B7E1D792AE900875046 /* SQLManager */ = {
-			isa = PBXGroup;
-			children = (
-				5CD87B7F1D792AE900875046 /* FSFinancesManagerController.h */,
-				5CD87B801D792AE900875046 /* FSFinancesManagerController.m */,
-				5CD87B811D792AE900875046 /* FSFMAccountController.h */,
-				5CD87B821D792AE900875046 /* FSFMAccountController.m */,
-				5CD87B831D792AE900875046 /* FSFMListCell.h */,
-				5CD87B841D792AE900875046 /* FSFMListCell.m */,
-				5CD87B851D792AE900875046 /* FSFMListController.h */,
-				5CD87B861D792AE900875046 /* FSFMListController.m */,
-				5CD87B871D792AE900875046 /* FSFMSelectCell.h */,
-				5CD87B881D792AE900875046 /* FSFMSelectCell.m */,
-				5CD87B891D792AE900875046 /* FSFMSelectController.h */,
-				5CD87B8A1D792AE900875046 /* FSFMSelectController.m */,
-				5CD87B8B1D792AE900875046 /* FSTwoMinusController.h */,
-				5CD87B8C1D792AE900875046 /* FSTwoMinusController.m */,
-				5CD87B8D1D792AE900875046 /* SQLEntity.h */,
-				5CD87B8E1D792AE900875046 /* SQLEntity.m */,
-			);
-			path = SQLManager;
-			sourceTree = "<group>";
-		};
-		5CD87B8F1D792AE900875046 /* BaseModel */ = {
-			isa = PBXGroup;
-			children = (
-				5CD87B901D792AE900875046 /* FIBaseEntity.h */,
-				5CD87B911D792AE900875046 /* FIBaseEntity.m */,
-			);
-			path = BaseModel;
-			sourceTree = "<group>";
-		};
-		5CD87B921D792AE900875046 /* ChineseCalendar */ = {
-			isa = PBXGroup;
-			children = (
-				5CD87B931D792AE900875046 /* ChineseCalendarView.h */,
-				5CD87B941D792AE900875046 /* ChineseCalendarView.m */,
-				5CD87B951D792AE900875046 /* ExhaustiveCalendar.h */,
-				5CD87B961D792AE900875046 /* ExhaustiveCalendar.m */,
-				5CD87B971D792AE900875046 /* FSCCDayView.h */,
-				5CD87B981D792AE900875046 /* FSCCDayView.m */,
-				5CD87B991D792AE900875046 /* FSCCHeadView.h */,
-				5CD87B9A1D792AE900875046 /* FSCCHeadView.m */,
-				5CD87B9B1D792AE900875046 /* FSCCMainView.h */,
-				5CD87B9C1D792AE900875046 /* FSCCMainView.m */,
-				5CD87B9D1D792AE900875046 /* FSChineseCalendarController.h */,
-				5CD87B9E1D792AE900875046 /* FSChineseCalendarController.m */,
-				5CD87B9F1D792AE900875046 /* lunar */,
-				5CD87BA21D792AE900875046 /* LunarCalendar */,
-			);
-			path = ChineseCalendar;
-			sourceTree = "<group>";
-		};
-		5CD87B9F1D792AE900875046 /* lunar */ = {
-			isa = PBXGroup;
-			children = (
-				5CD87BA01D792AE900875046 /* Datetime.h */,
-				5CD87BA11D792AE900875046 /* Datetime.m */,
-			);
-			path = lunar;
-			sourceTree = "<group>";
-		};
-		5CD87BA21D792AE900875046 /* LunarCalendar */ = {
-			isa = PBXGroup;
-			children = (
-				5CD87BA31D792AE900875046 /* CYDatetime.h */,
-				5CD87BA41D792AE900875046 /* CYDatetime.m */,
-				5CD87BA51D792AE900875046 /* FSLunarCalendar.h */,
-				5CD87BA61D792AE900875046 /* FSLunarCalendar.m */,
-			);
-			path = LunarCalendar;
-			sourceTree = "<group>";
-		};
-		5CD87BA71D792AE900875046 /* ClipPicture */ = {
-			isa = PBXGroup;
-			children = (
-				5CD87BA81D792AE900875046 /* ClipPictureController.h */,
-				5CD87BA91D792AE900875046 /* ClipPictureController.m */,
-			);
-			path = ClipPicture;
-			sourceTree = "<group>";
-		};
-		5CD87BAA1D792AE900875046 /* FSCHook */ = {
-			isa = PBXGroup;
-			children = (
-				5CD87BAB1D792AE900875046 /* fishhook.c */,
-				5CD87BAC1D792AE900875046 /* fishhook.h */,
-				5CD87BAD1D792AE900875046 /* FlowCollector.h */,
-				5CD87BAE1D792AE900875046 /* FlowCollector.m */,
-				5CD87BAF1D792AE900875046 /* FlowMeterKeys.h */,
-			);
-			path = FSCHook;
-			sourceTree = "<group>";
-		};
-		5CD87BB01D792AE900875046 /* GTMBase64 */ = {
-			isa = PBXGroup;
-			children = (
-				5CD87BB11D792AE900875046 /* GTMBase64.h */,
-				5CD87BB21D792AE900875046 /* GTMBase64.m */,
-				5CD87BB31D792AE900875046 /* GTMDefines.h */,
-			);
-			path = GTMBase64;
-			sourceTree = "<group>";
-		};
-		5CD87BB41D792AE900875046 /* UIViewExt */ = {
-			isa = PBXGroup;
-			children = (
-				5CD87BB51D792AE900875046 /* UIViewExt.h */,
-				5CD87BB61D792AE900875046 /* UIViewExt.m */,
-			);
-			path = UIViewExt;
-			sourceTree = "<group>";
-		};
-		5CD87BB91D792AE900875046 /* Module */ = {
-			isa = PBXGroup;
-			children = (
-				5CD87BCA1D792AE900875046 /* FSBase */,
-				5CD87BD51D792AE900875046 /* FSCacheManager */,
-				5CD87BD81D792AE900875046 /* FSCustomUI */,
-				5CD87BED1D792AE900875046 /* FSDatePicker */,
-				5CD87BF01D792AE900875046 /* FSSelect */,
-				5CD87BF51D792AE900875046 /* FSViewManager */,
-				5CD87BF81D792AE900875046 /* FSWeb */,
-				5CD87C011D792AE900875046 /* QR */,
-				5CD87C0E1D792AE900875046 /* Tax */,
-			);
-			path = Module;
-			sourceTree = "<group>";
-		};
-		5CD87BCA1D792AE900875046 /* FSBase */ = {
-			isa = PBXGroup;
-			children = (
-				5CD87BCB1D792AE900875046 /* FSBaseController.h */,
-				5CD87BCC1D792AE900875046 /* FSBaseController.m */,
-				5CD87BCD1D792AE900875046 /* FSBaseView.h */,
-				5CD87BCE1D792AE900875046 /* FSBaseView.m */,
-				5CD87BCF1D792AE900875046 /* FSHardwareInfoController.h */,
-				5CD87BD01D792AE900875046 /* FSHardwareInfoController.m */,
-				5CD87BD11D792AE900875046 /* FSNavigationController.h */,
-				5CD87BD21D792AE900875046 /* FSNavigationController.m */,
-				5CD87BD31D792AE900875046 /* UIView+ViewController.h */,
-				5CD87BD41D792AE900875046 /* UIView+ViewController.m */,
-			);
-			path = FSBase;
-			sourceTree = "<group>";
-		};
-		5CD87BD51D792AE900875046 /* FSCacheManager */ = {
-			isa = PBXGroup;
-			children = (
-				5CD87BD61D792AE900875046 /* FSCacheManager.h */,
-				5CD87BD71D792AE900875046 /* FSCacheManager.m */,
-			);
-			path = FSCacheManager;
-			sourceTree = "<group>";
-		};
-		5CD87BD81D792AE900875046 /* FSCustomUI */ = {
-			isa = PBXGroup;
-			children = (
-				5CD87BD91D792AE900875046 /* FIMoveButton.h */,
-				5CD87BDA1D792AE900875046 /* FIMoveButton.m */,
-				5CD87BDB1D792AE900875046 /* FSBlockButton.h */,
-				5CD87BDC1D792AE900875046 /* FSBlockButton.m */,
-				5CD87BDD1D792AE900875046 /* FSImageLabelView.h */,
-				5CD87BDE1D792AE900875046 /* FSImageLabelView.m */,
-				5CD87BDF1D792AE900875046 /* FSMoveLabel.h */,
-				5CD87BE01D792AE900875046 /* FSMoveLabel.m */,
-				5CD87BE11D792AE900875046 /* FSSegmentControl.h */,
-				5CD87BE21D792AE900875046 /* FSSegmentControl.m */,
-				5CD87BE31D792AE900875046 /* FSTapCell.h */,
-				5CD87BE41D792AE900875046 /* FSTapCell.m */,
-				5CD87BE51D792AE900875046 /* FSTapLabel.h */,
-				5CD87BE61D792AE900875046 /* FSTapLabel.m */,
-				5CD87BE71D792AE900875046 /* FSTapScrollView.h */,
-				5CD87BE81D792AE900875046 /* FSTapScrollView.m */,
-				5CD87BE91D792AE900875046 /* FSWBView.h */,
-				5CD87BEA1D792AE900875046 /* FSWBView.m */,
-				5CD87BEB1D792AE900875046 /* FSWebImageView.h */,
-				5CD87BEC1D792AE900875046 /* FSWebImageView.m */,
-			);
-			path = FSCustomUI;
-			sourceTree = "<group>";
-		};
-		5CD87BED1D792AE900875046 /* FSDatePicker */ = {
-			isa = PBXGroup;
-			children = (
-				5CD87BEE1D792AE900875046 /* FSDatePickerView.h */,
-				5CD87BEF1D792AE900875046 /* FSDatePickerView.m */,
-			);
-			path = FSDatePicker;
-			sourceTree = "<group>";
-		};
-		5CD87BF01D792AE900875046 /* FSSelect */ = {
-			isa = PBXGroup;
-			children = (
-				5CD87BF11D792AE900875046 /* FSSelectController.h */,
-				5CD87BF21D792AE900875046 /* FSSelectController.m */,
-				5CD87BF31D792AE900875046 /* FSSelectSectionController.h */,
-				5CD87BF41D792AE900875046 /* FSSelectSectionController.m */,
-			);
-			path = FSSelect;
-			sourceTree = "<group>";
-		};
-		5CD87BF51D792AE900875046 /* FSViewManager */ = {
-			isa = PBXGroup;
-			children = (
-				5CD87BF61D792AE900875046 /* FSViewManager.h */,
-				5CD87BF71D792AE900875046 /* FSViewManager.m */,
-			);
-			path = FSViewManager;
-			sourceTree = "<group>";
-		};
-		5CD87BF81D792AE900875046 /* FSWeb */ = {
-			isa = PBXGroup;
-			children = (
-				5CD87BF91D792AE900875046 /* FIWebView.h */,
-				5CD87BFA1D792AE900875046 /* FIWebView.m */,
-				5CD87BFB1D792AE900875046 /* FSHTMLController.h */,
-				5CD87BFC1D792AE900875046 /* FSHTMLController.m */,
-				5CD87BFD1D792AE900875046 /* FSWebController.h */,
-				5CD87BFE1D792AE900875046 /* FSWebController.m */,
-				5CD87BFF1D792AE900875046 /* FSWebViewController.h */,
-				5CD87C001D792AE900875046 /* FSWebViewController.m */,
-			);
-			path = FSWeb;
-			sourceTree = "<group>";
-		};
-		5CD87C011D792AE900875046 /* QR */ = {
-			isa = PBXGroup;
-			children = (
-				5CD87C021D792AE900875046 /* FSMakeQRController.h */,
-				5CD87C031D792AE900875046 /* FSMakeQRController.m */,
-				5CD87C041D792AE900875046 /* fsqr1.png */,
-				5CD87C051D792AE900875046 /* fsqr2.png */,
-				5CD87C061D792AE900875046 /* fsqr3.png */,
-				5CD87C071D792AE900875046 /* fsqr4.png */,
-				5CD87C081D792AE900875046 /* FSQRController.h */,
-				5CD87C091D792AE900875046 /* FSQRController.m */,
-				5CD87C0A1D792AE900875046 /* fsqrlightoff.png */,
-				5CD87C0B1D792AE900875046 /* fsqrlighton.png */,
-				5CD87C0C1D792AE900875046 /* fsqrline.png */,
-				5CD87C0D1D792AE900875046 /* fsqrmsg.wav */,
-			);
-			path = QR;
-			sourceTree = "<group>";
-		};
-		5CD87C0E1D792AE900875046 /* Tax */ = {
-			isa = PBXGroup;
-			children = (
-				5CD87C0F1D792AE900875046 /* FSAddTaxModelController.h */,
-				5CD87C101D792AE900875046 /* FSAddTaxModelController.m */,
-				5CD87C111D792AE900875046 /* FSTaxDetailView.h */,
-				5CD87C121D792AE900875046 /* FSTaxDetailView.m */,
-				5CD87C131D792AE900875046 /* FSTaxOfIncomeController.h */,
-				5CD87C141D792AE900875046 /* FSTaxOfIncomeController.m */,
-				5CD87C151D792AE900875046 /* FSTaxRateEntity.h */,
-				5CD87C161D792AE900875046 /* FSTaxRateEntity.m */,
-			);
-			path = Tax;
-			sourceTree = "<group>";
-		};
-		5CD87C191D792AE900875046 /* Tool */ = {
-			isa = PBXGroup;
-			children = (
-				5CD87C1A1D792AE900875046 /* FSWebUrl.h */,
-				5CD87C1B1D792AE900875046 /* FuData.h */,
-				5CD87C1C1D792AE900875046 /* FuData.m */,
-				5CD87C1D1D792AE900875046 /* FuSing.h */,
-				5CD87C1E1D792AE900875046 /* FuSing.m */,
-				5CD87C1F1D792AE900875046 /* FuWeb.h */,
-				5CD87C201D792AE900875046 /* FuWeb.m */,
-			);
-			path = Tool;
-			sourceTree = "<group>";
 		};
 		7117B1901CCBADD500F959D2 /* First */ = {
 			isa = PBXGroup;
@@ -1446,7 +1125,7 @@
 		7141E2051CBE8B090090AF17 /* ShareEconomy */ = {
 			isa = PBXGroup;
 			children = (
-				5CD87B781D792AE900875046 /* FuSoft */,
+				71E6C42B1D79D26B006EE258 /* FuSoft */,
 				71ABE6AE1CE2AABC00808AFF /* Thanks */,
 				7141E2211CBE8CEB0090AF17 /* Main */,
 				7141E21E1CBE8CC20090AF17 /* MVC */,
@@ -1769,6 +1448,359 @@
 			name = EMBanks;
 			sourceTree = "<group>";
 		};
+		71E6C42B1D79D26B006EE258 /* FuSoft */ = {
+			isa = PBXGroup;
+			children = (
+				71E6C42C1D79D26B006EE258 /* 3rd */,
+				71E6C46C1D79D26B006EE258 /* FSMacro.h */,
+				71E6C46D1D79D26B006EE258 /* FuSoft.h */,
+				71E6C46E1D79D26B006EE258 /* Module */,
+				71E6C4CE1D79D26B006EE258 /* Note.txt */,
+				71E6C4CF1D79D26B006EE258 /* README.md */,
+				71E6C4D01D79D26B006EE258 /* Tool */,
+			);
+			name = FuSoft;
+			path = ../../FuSoft;
+			sourceTree = "<group>";
+		};
+		71E6C42C1D79D26B006EE258 /* 3rd */ = {
+			isa = PBXGroup;
+			children = (
+				71E6C42D1D79D26B006EE258 /* Account */,
+				71E6C4421D79D26B006EE258 /* BaseModel */,
+				71E6C4451D79D26B006EE258 /* ChineseCalendar */,
+				71E6C45A1D79D26B006EE258 /* ClipPicture */,
+				71E6C45D1D79D26B006EE258 /* FlowMeter */,
+				71E6C45E1D79D26B006EE258 /* FSCHook */,
+				71E6C4641D79D26B006EE258 /* GTMBase64 */,
+				71E6C4681D79D26B006EE258 /* Masonry */,
+				71E6C4691D79D26B006EE258 /* UIViewExt */,
+			);
+			path = 3rd;
+			sourceTree = "<group>";
+		};
+		71E6C42D1D79D26B006EE258 /* Account */ = {
+			isa = PBXGroup;
+			children = (
+				71E6C42E1D79D26B006EE258 /* FSDB */,
+				71E6C4311D79D26B006EE258 /* SQLManager */,
+			);
+			path = Account;
+			sourceTree = "<group>";
+		};
+		71E6C42E1D79D26B006EE258 /* FSDB */ = {
+			isa = PBXGroup;
+			children = (
+				71E6C42F1D79D26B006EE258 /* FSDBManager.h */,
+				71E6C4301D79D26B006EE258 /* FSDBManager.m */,
+			);
+			path = FSDB;
+			sourceTree = "<group>";
+		};
+		71E6C4311D79D26B006EE258 /* SQLManager */ = {
+			isa = PBXGroup;
+			children = (
+				71E6C4321D79D26B006EE258 /* FSFinancesManagerController.h */,
+				71E6C4331D79D26B006EE258 /* FSFinancesManagerController.m */,
+				71E6C4341D79D26B006EE258 /* FSFMAccountController.h */,
+				71E6C4351D79D26B006EE258 /* FSFMAccountController.m */,
+				71E6C4361D79D26B006EE258 /* FSFMListCell.h */,
+				71E6C4371D79D26B006EE258 /* FSFMListCell.m */,
+				71E6C4381D79D26B006EE258 /* FSFMListController.h */,
+				71E6C4391D79D26B006EE258 /* FSFMListController.m */,
+				71E6C43A1D79D26B006EE258 /* FSFMSelectCell.h */,
+				71E6C43B1D79D26B006EE258 /* FSFMSelectCell.m */,
+				71E6C43C1D79D26B006EE258 /* FSFMSelectController.h */,
+				71E6C43D1D79D26B006EE258 /* FSFMSelectController.m */,
+				71E6C43E1D79D26B006EE258 /* FSTwoMinusController.h */,
+				71E6C43F1D79D26B006EE258 /* FSTwoMinusController.m */,
+				71E6C4401D79D26B006EE258 /* SQLEntity.h */,
+				71E6C4411D79D26B006EE258 /* SQLEntity.m */,
+			);
+			path = SQLManager;
+			sourceTree = "<group>";
+		};
+		71E6C4421D79D26B006EE258 /* BaseModel */ = {
+			isa = PBXGroup;
+			children = (
+				71E6C4431D79D26B006EE258 /* FIBaseEntity.h */,
+				71E6C4441D79D26B006EE258 /* FIBaseEntity.m */,
+			);
+			path = BaseModel;
+			sourceTree = "<group>";
+		};
+		71E6C4451D79D26B006EE258 /* ChineseCalendar */ = {
+			isa = PBXGroup;
+			children = (
+				71E6C4461D79D26B006EE258 /* ChineseCalendarView.h */,
+				71E6C4471D79D26B006EE258 /* ChineseCalendarView.m */,
+				71E6C4481D79D26B006EE258 /* ExhaustiveCalendar.h */,
+				71E6C4491D79D26B006EE258 /* ExhaustiveCalendar.m */,
+				71E6C44A1D79D26B006EE258 /* FSCCDayView.h */,
+				71E6C44B1D79D26B006EE258 /* FSCCDayView.m */,
+				71E6C44C1D79D26B006EE258 /* FSCCHeadView.h */,
+				71E6C44D1D79D26B006EE258 /* FSCCHeadView.m */,
+				71E6C44E1D79D26B006EE258 /* FSCCMainView.h */,
+				71E6C44F1D79D26B006EE258 /* FSCCMainView.m */,
+				71E6C4501D79D26B006EE258 /* FSChineseCalendarController.h */,
+				71E6C4511D79D26B006EE258 /* FSChineseCalendarController.m */,
+				71E6C4521D79D26B006EE258 /* lunar */,
+				71E6C4551D79D26B006EE258 /* LunarCalendar */,
+			);
+			path = ChineseCalendar;
+			sourceTree = "<group>";
+		};
+		71E6C4521D79D26B006EE258 /* lunar */ = {
+			isa = PBXGroup;
+			children = (
+				71E6C4531D79D26B006EE258 /* Datetime.h */,
+				71E6C4541D79D26B006EE258 /* Datetime.m */,
+			);
+			path = lunar;
+			sourceTree = "<group>";
+		};
+		71E6C4551D79D26B006EE258 /* LunarCalendar */ = {
+			isa = PBXGroup;
+			children = (
+				71E6C4561D79D26B006EE258 /* CYDatetime.h */,
+				71E6C4571D79D26B006EE258 /* CYDatetime.m */,
+				71E6C4581D79D26B006EE258 /* FSLunarCalendar.h */,
+				71E6C4591D79D26B006EE258 /* FSLunarCalendar.m */,
+			);
+			path = LunarCalendar;
+			sourceTree = "<group>";
+		};
+		71E6C45A1D79D26B006EE258 /* ClipPicture */ = {
+			isa = PBXGroup;
+			children = (
+				71E6C45B1D79D26B006EE258 /* ClipPictureController.h */,
+				71E6C45C1D79D26B006EE258 /* ClipPictureController.m */,
+			);
+			path = ClipPicture;
+			sourceTree = "<group>";
+		};
+		71E6C45D1D79D26B006EE258 /* FlowMeter */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = FlowMeter;
+			sourceTree = "<group>";
+		};
+		71E6C45E1D79D26B006EE258 /* FSCHook */ = {
+			isa = PBXGroup;
+			children = (
+				71E6C45F1D79D26B006EE258 /* fishhook.c */,
+				71E6C4601D79D26B006EE258 /* fishhook.h */,
+				71E6C4611D79D26B006EE258 /* FlowCollector.h */,
+				71E6C4621D79D26B006EE258 /* FlowCollector.m */,
+				71E6C4631D79D26B006EE258 /* FlowMeterKeys.h */,
+			);
+			path = FSCHook;
+			sourceTree = "<group>";
+		};
+		71E6C4641D79D26B006EE258 /* GTMBase64 */ = {
+			isa = PBXGroup;
+			children = (
+				71E6C4651D79D26B006EE258 /* GTMBase64.h */,
+				71E6C4661D79D26B006EE258 /* GTMBase64.m */,
+				71E6C4671D79D26B006EE258 /* GTMDefines.h */,
+			);
+			path = GTMBase64;
+			sourceTree = "<group>";
+		};
+		71E6C4681D79D26B006EE258 /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Masonry;
+			sourceTree = "<group>";
+		};
+		71E6C4691D79D26B006EE258 /* UIViewExt */ = {
+			isa = PBXGroup;
+			children = (
+				71E6C46A1D79D26B006EE258 /* UIViewExt.h */,
+				71E6C46B1D79D26B006EE258 /* UIViewExt.m */,
+			);
+			path = UIViewExt;
+			sourceTree = "<group>";
+		};
+		71E6C46E1D79D26B006EE258 /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				71E6C47F1D79D26B006EE258 /* FSBase */,
+				71E6C48C1D79D26B006EE258 /* FSCacheManager */,
+				71E6C48F1D79D26B006EE258 /* FSCustomUI */,
+				71E6C4A41D79D26B006EE258 /* FSDatePicker */,
+				71E6C4A71D79D26B006EE258 /* FSSelect */,
+				71E6C4AC1D79D26B006EE258 /* FSViewManager */,
+				71E6C4AF1D79D26B006EE258 /* FSWeb */,
+				71E6C4B81D79D26B006EE258 /* QR */,
+				71E6C4C51D79D26B006EE258 /* Tax */,
+			);
+			path = Module;
+			sourceTree = "<group>";
+		};
+		71E6C47F1D79D26B006EE258 /* FSBase */ = {
+			isa = PBXGroup;
+			children = (
+				71E6C4801D79D26B006EE258 /* FSBaseController.h */,
+				71E6C4811D79D26B006EE258 /* FSBaseController.m */,
+				71E6C4821D79D26B006EE258 /* FSBaseView.h */,
+				71E6C4831D79D26B006EE258 /* FSBaseView.m */,
+				71E6C4841D79D26B006EE258 /* FSHardwareInfoController.h */,
+				71E6C4851D79D26B006EE258 /* FSHardwareInfoController.m */,
+				71E6C4861D79D26B006EE258 /* FSNavigationController.h */,
+				71E6C4871D79D26B006EE258 /* FSNavigationController.m */,
+				71E6C4881D79D26B006EE258 /* QR */,
+				71E6C4891D79D26B006EE258 /* Tax */,
+				71E6C48A1D79D26B006EE258 /* UIView+ViewController.h */,
+				71E6C48B1D79D26B006EE258 /* UIView+ViewController.m */,
+			);
+			path = FSBase;
+			sourceTree = "<group>";
+		};
+		71E6C4881D79D26B006EE258 /* QR */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = QR;
+			sourceTree = "<group>";
+		};
+		71E6C4891D79D26B006EE258 /* Tax */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tax;
+			sourceTree = "<group>";
+		};
+		71E6C48C1D79D26B006EE258 /* FSCacheManager */ = {
+			isa = PBXGroup;
+			children = (
+				71E6C48D1D79D26B006EE258 /* FSCacheManager.h */,
+				71E6C48E1D79D26B006EE258 /* FSCacheManager.m */,
+			);
+			path = FSCacheManager;
+			sourceTree = "<group>";
+		};
+		71E6C48F1D79D26B006EE258 /* FSCustomUI */ = {
+			isa = PBXGroup;
+			children = (
+				71E6C4901D79D26B006EE258 /* FIMoveButton.h */,
+				71E6C4911D79D26B006EE258 /* FIMoveButton.m */,
+				71E6C4921D79D26B006EE258 /* FSBlockButton.h */,
+				71E6C4931D79D26B006EE258 /* FSBlockButton.m */,
+				71E6C4941D79D26B006EE258 /* FSImageLabelView.h */,
+				71E6C4951D79D26B006EE258 /* FSImageLabelView.m */,
+				71E6C4961D79D26B006EE258 /* FSMoveLabel.h */,
+				71E6C4971D79D26B006EE258 /* FSMoveLabel.m */,
+				71E6C4981D79D26B006EE258 /* FSSegmentControl.h */,
+				71E6C4991D79D26B006EE258 /* FSSegmentControl.m */,
+				71E6C49A1D79D26B006EE258 /* FSTapCell.h */,
+				71E6C49B1D79D26B006EE258 /* FSTapCell.m */,
+				71E6C49C1D79D26B006EE258 /* FSTapLabel.h */,
+				71E6C49D1D79D26B006EE258 /* FSTapLabel.m */,
+				71E6C49E1D79D26B006EE258 /* FSTapScrollView.h */,
+				71E6C49F1D79D26B006EE258 /* FSTapScrollView.m */,
+				71E6C4A01D79D26B006EE258 /* FSWBView.h */,
+				71E6C4A11D79D26B006EE258 /* FSWBView.m */,
+				71E6C4A21D79D26B006EE258 /* FSWebImageView.h */,
+				71E6C4A31D79D26B006EE258 /* FSWebImageView.m */,
+			);
+			path = FSCustomUI;
+			sourceTree = "<group>";
+		};
+		71E6C4A41D79D26B006EE258 /* FSDatePicker */ = {
+			isa = PBXGroup;
+			children = (
+				71E6C4A51D79D26B006EE258 /* FSDatePickerView.h */,
+				71E6C4A61D79D26B006EE258 /* FSDatePickerView.m */,
+			);
+			path = FSDatePicker;
+			sourceTree = "<group>";
+		};
+		71E6C4A71D79D26B006EE258 /* FSSelect */ = {
+			isa = PBXGroup;
+			children = (
+				71E6C4A81D79D26B006EE258 /* FSSelectController.h */,
+				71E6C4A91D79D26B006EE258 /* FSSelectController.m */,
+				71E6C4AA1D79D26B006EE258 /* FSSelectSectionController.h */,
+				71E6C4AB1D79D26B006EE258 /* FSSelectSectionController.m */,
+			);
+			path = FSSelect;
+			sourceTree = "<group>";
+		};
+		71E6C4AC1D79D26B006EE258 /* FSViewManager */ = {
+			isa = PBXGroup;
+			children = (
+				71E6C4AD1D79D26B006EE258 /* FSViewManager.h */,
+				71E6C4AE1D79D26B006EE258 /* FSViewManager.m */,
+			);
+			path = FSViewManager;
+			sourceTree = "<group>";
+		};
+		71E6C4AF1D79D26B006EE258 /* FSWeb */ = {
+			isa = PBXGroup;
+			children = (
+				71E6C4B01D79D26B006EE258 /* FIWebView.h */,
+				71E6C4B11D79D26B006EE258 /* FIWebView.m */,
+				71E6C4B21D79D26B006EE258 /* FSHTMLController.h */,
+				71E6C4B31D79D26B006EE258 /* FSHTMLController.m */,
+				71E6C4B41D79D26B006EE258 /* FSWebController.h */,
+				71E6C4B51D79D26B006EE258 /* FSWebController.m */,
+				71E6C4B61D79D26B006EE258 /* FSWebViewController.h */,
+				71E6C4B71D79D26B006EE258 /* FSWebViewController.m */,
+			);
+			path = FSWeb;
+			sourceTree = "<group>";
+		};
+		71E6C4B81D79D26B006EE258 /* QR */ = {
+			isa = PBXGroup;
+			children = (
+				71E6C4B91D79D26B006EE258 /* FSMakeQRController.h */,
+				71E6C4BA1D79D26B006EE258 /* FSMakeQRController.m */,
+				71E6C4BB1D79D26B006EE258 /* fsqr1.png */,
+				71E6C4BC1D79D26B006EE258 /* fsqr2.png */,
+				71E6C4BD1D79D26B006EE258 /* fsqr3.png */,
+				71E6C4BE1D79D26B006EE258 /* fsqr4.png */,
+				71E6C4BF1D79D26B006EE258 /* FSQRController.h */,
+				71E6C4C01D79D26B006EE258 /* FSQRController.m */,
+				71E6C4C11D79D26B006EE258 /* fsqrlightoff.png */,
+				71E6C4C21D79D26B006EE258 /* fsqrlighton.png */,
+				71E6C4C31D79D26B006EE258 /* fsqrline.png */,
+				71E6C4C41D79D26B006EE258 /* fsqrmsg.wav */,
+			);
+			path = QR;
+			sourceTree = "<group>";
+		};
+		71E6C4C51D79D26B006EE258 /* Tax */ = {
+			isa = PBXGroup;
+			children = (
+				71E6C4C61D79D26B006EE258 /* FSAddTaxModelController.h */,
+				71E6C4C71D79D26B006EE258 /* FSAddTaxModelController.m */,
+				71E6C4C81D79D26B006EE258 /* FSTaxDetailView.h */,
+				71E6C4C91D79D26B006EE258 /* FSTaxDetailView.m */,
+				71E6C4CA1D79D26B006EE258 /* FSTaxOfIncomeController.h */,
+				71E6C4CB1D79D26B006EE258 /* FSTaxOfIncomeController.m */,
+				71E6C4CC1D79D26B006EE258 /* FSTaxRateEntity.h */,
+				71E6C4CD1D79D26B006EE258 /* FSTaxRateEntity.m */,
+			);
+			path = Tax;
+			sourceTree = "<group>";
+		};
+		71E6C4D01D79D26B006EE258 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				71E6C4D11D79D26B006EE258 /* FSWebUrl.h */,
+				71E6C4D21D79D26B006EE258 /* FuData.h */,
+				71E6C4D31D79D26B006EE258 /* FuData.m */,
+				71E6C4D41D79D26B006EE258 /* FuSing.h */,
+				71E6C4D51D79D26B006EE258 /* FuSing.m */,
+				71E6C4D61D79D26B006EE258 /* FuWeb.h */,
+				71E6C4D71D79D26B006EE258 /* FuWeb.m */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -1830,7 +1862,6 @@
 			files = (
 				7117B28E1CCBADD500F959D2 /* shopcar.png in Resources */,
 				7117B2471CCBADD500F959D2 /* wx.png in Resources */,
-				5CD87C5F1D792AE900875046 /* fsqrlightoff.png in Resources */,
 				7117B25C1CCBADD500F959D2 /* banjia.png in Resources */,
 				7117B23B1CCBADD500F959D2 /* afw.png in Resources */,
 				7117B2491CCBADD500F959D2 /* xwgc.png in Resources */,
@@ -1839,22 +1870,21 @@
 				7117B2311CCBADD500F959D2 /* yybj.jpg in Resources */,
 				7117B2AB1CCBC07C00F959D2 /* 87.png in Resources */,
 				7117B2851CCBADD500F959D2 /* sg04.jpg in Resources */,
+				71E6C5181D79D26B006EE258 /* fsqrline.png in Resources */,
 				7117B24C1CCBADD500F959D2 /* a37.png in Resources */,
 				7117B25B1CCBADD500F959D2 /* backItem.png in Resources */,
-				5CD87C601D792AE900875046 /* fsqrlighton.png in Resources */,
 				7117B2201CCBADD500F959D2 /* ly.jpg in Resources */,
 				7117B2721CCBADD500F959D2 /* mycoupon.png in Resources */,
 				7117B2571CCBADD500F959D2 /* app_20000690.png in Resources */,
 				7117B2531CCBADD500F959D2 /* aty.png in Resources */,
 				7117B2511CCBADD500F959D2 /* ark.png in Resources */,
+				71E6C5131D79D26B006EE258 /* fsqr3.png in Resources */,
 				5C03EC651D782F49008DA4C1 /* FSH5.html in Resources */,
 				7117B2391CCBADD500F959D2 /* aec.png in Resources */,
 				7117B2691CCBADD500F959D2 /* fhyj.png in Resources */,
-				5CD87C671D792AE900875046 /* Note.txt in Resources */,
 				7117B2421CCBADD500F959D2 /* fmxys.png in Resources */,
 				7117B2601CCBADD500F959D2 /* centn.png in Resources */,
 				7117B2221CCBADD500F959D2 /* nnyl.jpg in Resources */,
-				5CD87C5A1D792AE900875046 /* fsqr1.png in Resources */,
 				7117B23C1CCBADD500F959D2 /* amh.png in Resources */,
 				71ABEE141CF1D20000808AFF /* MJRefresh.bundle in Resources */,
 				7117B2731CCBADD500F959D2 /* mytoo.png in Resources */,
@@ -1863,9 +1893,8 @@
 				7117B21B1CCBADD500F959D2 /* dgfh.jpg in Resources */,
 				7117B2951CCBADD500F959D2 /* xiaolian.png in Resources */,
 				7117B22C1CCBADD500F959D2 /* number9.png in Resources */,
-				5CD87C5D1D792AE900875046 /* fsqr4.png in Resources */,
+				71E6C5161D79D26B006EE258 /* fsqrlightoff.png in Resources */,
 				7117B2271CCBADD500F959D2 /* number4.png in Resources */,
-				5CD87C5B1D792AE900875046 /* fsqr2.png in Resources */,
 				7117B2641CCBADD500F959D2 /* default_chatroom.png in Resources */,
 				7117B22E1CCBADD500F959D2 /* support.jpg in Resources */,
 				7117B27D1CCBADD500F959D2 /* sc08.jpg in Resources */,
@@ -1873,6 +1902,7 @@
 				7117B2881CCBADD500F959D2 /* sg07.jpg in Resources */,
 				7117B2241CCBADD500F959D2 /* number1.png in Resources */,
 				7117B2821CCBADD500F959D2 /* sg01.jpg in Resources */,
+				71E6C5191D79D26B006EE258 /* fsqrmsg.wav in Resources */,
 				7117B26A1CCBADD500F959D2 /* gouwuche.png in Resources */,
 				7117B2911CCBADD500F959D2 /* testdd.jpg in Resources */,
 				7117B2791CCBADD500F959D2 /* sc04.jpg in Resources */,
@@ -1884,6 +1914,7 @@
 				7117B2711CCBADD500F959D2 /* mycomment.png in Resources */,
 				7117B2611CCBADD500F959D2 /* centy.png in Resources */,
 				7117B2401CCBADD500F959D2 /* fhsafe.png in Resources */,
+				71E6C5121D79D26B006EE258 /* fsqr2.png in Resources */,
 				7117B2481CCBADD500F959D2 /* xfjl.png in Resources */,
 				7117B27E1CCBADD500F959D2 /* sc09.jpg in Resources */,
 				7117B25F1CCBADD500F959D2 /* callProStaff.png in Resources */,
@@ -1891,15 +1922,16 @@
 				7117B2871CCBADD500F959D2 /* sg06.jpg in Resources */,
 				7117B2761CCBADD500F959D2 /* sc01.jpg in Resources */,
 				7117B2941CCBADD500F959D2 /* wxzf.png in Resources */,
+				71E6C51E1D79D26B006EE258 /* Note.txt in Resources */,
 				7117B21D1CCBADD500F959D2 /* hdtp.png in Resources */,
 				7117B2891CCBADD500F959D2 /* sg08.jpg in Resources */,
+				71E6C5111D79D26B006EE258 /* fsqr1.png in Resources */,
 				7117B2741CCBADD500F959D2 /* navigationSetting.png in Resources */,
 				7117B2301CCBADD500F959D2 /* yanjiu.jpeg in Resources */,
 				7117B21A1CCBADD500F959D2 /* cart10.png in Resources */,
 				7117B2831CCBADD500F959D2 /* sg02.jpg in Resources */,
 				7117B2331CCBADD500F959D2 /* 120.png in Resources */,
 				7117B22A1CCBADD500F959D2 /* number7.png in Resources */,
-				5CD87C621D792AE900875046 /* fsqrmsg.wav in Resources */,
 				7117B2361CCBADD500F959D2 /* 58.png in Resources */,
 				7117B2841CCBADD500F959D2 /* sg03.jpg in Resources */,
 				7117B26B1CCBADD500F959D2 /* holdonp.png in Resources */,
@@ -1918,6 +1950,7 @@
 				7117B22F1CCBADD500F959D2 /* ttc.jpg in Resources */,
 				7117B2621CCBADD500F959D2 /* ct24.png in Resources */,
 				7117B2781CCBADD500F959D2 /* sc03.jpg in Resources */,
+				71E6C5141D79D26B006EE258 /* fsqr4.png in Resources */,
 				7117B2541CCBADD500F959D2 /* membg.gif in Resources */,
 				7117B2811CCBADD500F959D2 /* service.png in Resources */,
 				7117B2901CCBADD500F959D2 /* shopcarsm.png in Resources */,
@@ -1935,7 +1968,6 @@
 				7117B25E1CCBADD500F959D2 /* buycar.png in Resources */,
 				7141E2161CBE8B090090AF17 /* LaunchScreen.storyboard in Resources */,
 				7117B21C1CCBADD500F959D2 /* dghk.jpg in Resources */,
-				5CD87C5C1D792AE900875046 /* fsqr3.png in Resources */,
 				7117B24F1CCBADD500F959D2 /* all.png in Resources */,
 				7117B2581CCBADD500F959D2 /* appicon.png in Resources */,
 				7117B2751CCBADD500F959D2 /* otherV.png in Resources */,
@@ -1944,6 +1976,7 @@
 				7117B26C1CCBADD500F959D2 /* huodongp.png in Resources */,
 				7117B2441CCBADD500F959D2 /* kf.png in Resources */,
 				7117B28D1CCBADD500F959D2 /* shebaoUse.png in Resources */,
+				71E6C5171D79D26B006EE258 /* fsqrlighton.png in Resources */,
 				7117B2261CCBADD500F959D2 /* number3.png in Resources */,
 				7117B2281CCBADD500F959D2 /* number5.png in Resources */,
 				7117B23D1CCBADD500F959D2 /* app_20000193.png in Resources */,
@@ -1960,7 +1993,6 @@
 				7117B21F1CCBADD500F959D2 /* lstd.jpg in Resources */,
 				7117B2181CCBADD500F959D2 /* actionPic.jpg in Resources */,
 				7117B2521CCBADD500F959D2 /* asv.png in Resources */,
-				5CD87C611D792AE900875046 /* fsqrline.png in Resources */,
 				7117B2591CCBADD500F959D2 /* ava.png in Resources */,
 				7117B23E1CCBADD500F959D2 /* ddxx.png in Resources */,
 				7117B2211CCBADD500F959D2 /* niunai.jpg in Resources */,
@@ -1983,129 +2015,129 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5CD87C6B1D792AE900875046 /* FuWeb.m in Sources */,
+				71E6C5221D79D26B006EE258 /* FuWeb.m in Sources */,
 				7117B2AF1CCC3D3600F959D2 /* FSRegisterPwdController.m in Sources */,
-				5CD87C331D792AE900875046 /* FSLunarCalendar.m in Sources */,
-				5CD87C471D792AE900875046 /* FIMoveButton.m in Sources */,
-				5CD87C271D792AE900875046 /* FSFMSelectController.m in Sources */,
+				71E6C4EA1D79D26B006EE258 /* FSLunarCalendar.m in Sources */,
+				71E6C4FE1D79D26B006EE258 /* FIMoveButton.m in Sources */,
+				71E6C4DE1D79D26B006EE258 /* FSFMSelectController.m in Sources */,
 				712A54B81D3FBF1D00B6CDD6 /* FSZoneHeadView.m in Sources */,
 				7141E2891CBF12140090AF17 /* FSHomeCell.m in Sources */,
 				5C7378671CE5CD81002E1C4C /* SDWebImageCompat.m in Sources */,
 				7141E2341CBE8ED20090AF17 /* FSMoneyController.m in Sources */,
-				5CD87C251D792AE900875046 /* FSFMListController.m in Sources */,
-				5CD87C501D792AE900875046 /* FSWebImageView.m in Sources */,
+				71E6C4DC1D79D26B006EE258 /* FSFMListController.m in Sources */,
+				71E6C5071D79D26B006EE258 /* FSWebImageView.m in Sources */,
 				7117B2A71CCBBCF000F959D2 /* FSRegisterController.m in Sources */,
 				5C73786D1CE5CD81002E1C4C /* UIButton+WebCache.m in Sources */,
-				5CD87C381D792AE900875046 /* UIViewExt.m in Sources */,
+				71E6C4EF1D79D26B006EE258 /* UIViewExt.m in Sources */,
 				71ABEE0A1CF1D20000808AFF /* MJRefreshHeader.m in Sources */,
 				71ABEDB01CF1CFA000808AFF /* FSMSGController.m in Sources */,
-				5CD87C2A1D792AE900875046 /* FIBaseEntity.m in Sources */,
-				5CD87C431D792AE900875046 /* FSHardwareInfoController.m in Sources */,
+				71E6C4E11D79D26B006EE258 /* FIBaseEntity.m in Sources */,
+				71E6C4FA1D79D26B006EE258 /* FSHardwareInfoController.m in Sources */,
 				716203891D3DA4F000D2768E /* FSAddressController.m in Sources */,
 				5C73786B1CE5CD81002E1C4C /* SDWebImageManager.m in Sources */,
-				5CD87C571D792AE900875046 /* FSWebController.m in Sources */,
-				5CD87C5E1D792AE900875046 /* FSQRController.m in Sources */,
-				5CD87C361D792AE900875046 /* FlowCollector.m in Sources */,
-				5CD87C691D792AE900875046 /* FuData.m in Sources */,
+				71E6C50E1D79D26B006EE258 /* FSWebController.m in Sources */,
+				71E6C5151D79D26B006EE258 /* FSQRController.m in Sources */,
+				71E6C4ED1D79D26B006EE258 /* FlowCollector.m in Sources */,
+				71E6C5201D79D26B006EE258 /* FuData.m in Sources */,
 				71ABE5FB1CE2A73900808AFF /* AppDelegate.m in Sources */,
 				71ABEE0D1CF1D20000808AFF /* MJRefreshAutoStateFooter.m in Sources */,
-				5CD87C591D792AE900875046 /* FSMakeQRController.m in Sources */,
-				5CD87C241D792AE900875046 /* FSFMListCell.m in Sources */,
-				5CD87C2C1D792AE900875046 /* ExhaustiveCalendar.m in Sources */,
+				71E6C5101D79D26B006EE258 /* FSMakeQRController.m in Sources */,
+				71E6C4DB1D79D26B006EE258 /* FSFMListCell.m in Sources */,
+				71E6C4E31D79D26B006EE258 /* ExhaustiveCalendar.m in Sources */,
 				71ABEE121CF1D20000808AFF /* MJRefreshNormalHeader.m in Sources */,
 				5C7378681CE5CD81002E1C4C /* SDWebImageDecoder.m in Sources */,
 				7141E28D1CBFD4230090AF17 /* FSCommuniteController.m in Sources */,
 				71ABE6011CE2A75E00808AFF /* FSTabbarController.m in Sources */,
-				5CD87C461D792AE900875046 /* FSCacheManager.m in Sources */,
+				71E6C4FD1D79D26B006EE258 /* FSCacheManager.m in Sources */,
 				71ABEDD81CF1D1C100808AFF /* FSChatListController.m in Sources */,
 				712A54C81D4116B200B6CDD6 /* FSChangeController.m in Sources */,
-				5CD87C511D792AE900875046 /* FSDatePickerView.m in Sources */,
+				71E6C5081D79D26B006EE258 /* FSDatePickerView.m in Sources */,
 				5C7378701CE5CD81002E1C4C /* UIImage+WebP.m in Sources */,
-				5CD87C6A1D792AE900875046 /* FuSing.m in Sources */,
+				71E6C5211D79D26B006EE258 /* FuSing.m in Sources */,
 				71ABEE151CF1D20000808AFF /* MJRefreshConst.m in Sources */,
 				71ABEE171CF1D20000808AFF /* UIScrollView+MJRefresh.m in Sources */,
-				5CD87C631D792AE900875046 /* FSAddTaxModelController.m in Sources */,
-				5CD87C541D792AE900875046 /* FSViewManager.m in Sources */,
+				71E6C51A1D79D26B006EE258 /* FSAddTaxModelController.m in Sources */,
+				71E6C50B1D79D26B006EE258 /* FSViewManager.m in Sources */,
 				5C73786A1CE5CD81002E1C4C /* SDWebImageDownloaderOperation.m in Sources */,
 				7141E2971CC529EE0090AF17 /* FSLoginController.m in Sources */,
 				5CB7E09D1D76838E00471C83 /* FSStatistics.m in Sources */,
 				5C7378641CE5CD81002E1C4C /* MKAnnotationView+WebCache.m in Sources */,
-				5CD87C651D792AE900875046 /* FSTaxOfIncomeController.m in Sources */,
+				71E6C51C1D79D26B006EE258 /* FSTaxOfIncomeController.m in Sources */,
 				7141E2311CBE8EC50090AF17 /* FSHomeController.m in Sources */,
 				712A54B51D3FB32900B6CDD6 /* FSSetController.m in Sources */,
-				5CD87C2E1D792AE900875046 /* FSCCHeadView.m in Sources */,
-				5CD87C291D792AE900875046 /* SQLEntity.m in Sources */,
+				71E6C4E51D79D26B006EE258 /* FSCCHeadView.m in Sources */,
+				71E6C4E01D79D26B006EE258 /* SQLEntity.m in Sources */,
 				5C7378711CE5CD81002E1C4C /* UIImageView+HighlightedWebCache.m in Sources */,
 				71ABEE0E1CF1D20000808AFF /* MJRefreshBackGifFooter.m in Sources */,
 				71ABEE111CF1D20000808AFF /* MJRefreshGifHeader.m in Sources */,
-				5CD87C261D792AE900875046 /* FSFMSelectCell.m in Sources */,
-				5CD87C231D792AE900875046 /* FSFMAccountController.m in Sources */,
+				71E6C4DD1D79D26B006EE258 /* FSFMSelectCell.m in Sources */,
+				71E6C4DA1D79D26B006EE258 /* FSFMAccountController.m in Sources */,
 				71ABEE061CF1D20000808AFF /* MJRefreshAutoFooter.m in Sources */,
 				71ABEDAE1CF1CFA000808AFF /* FSEaseMob.m in Sources */,
-				5CD87C561D792AE900875046 /* FSHTMLController.m in Sources */,
+				71E6C50D1D79D26B006EE258 /* FSHTMLController.m in Sources */,
 				7141E2371CBE8EDE0090AF17 /* FSZoneController.m in Sources */,
 				716F50241D538A3100BED15E /* FSConnectController.m in Sources */,
 				71ABEE101CF1D20000808AFF /* MJRefreshBackStateFooter.m in Sources */,
-				5CD87C4D1D792AE900875046 /* FSTapLabel.m in Sources */,
+				71E6C5041D79D26B006EE258 /* FSTapLabel.m in Sources */,
 				71ABEE131CF1D20000808AFF /* MJRefreshStateHeader.m in Sources */,
-				5CD87C4B1D792AE900875046 /* FSSegmentControl.m in Sources */,
+				71E6C5021D79D26B006EE258 /* FSSegmentControl.m in Sources */,
 				71ABEDB41CF1CFA000808AFF /* HPTextViewInternal.m in Sources */,
 				71ABEE091CF1D20000808AFF /* MJRefreshFooter.m in Sources */,
 				5C7378721CE5CD81002E1C4C /* UIImageView+WebCache.m in Sources */,
 				716F50271D53960A00BED15E /* FSCentShellController.m in Sources */,
-				5CD87C531D792AE900875046 /* FSSelectSectionController.m in Sources */,
-				5CD87C4E1D792AE900875046 /* FSTapScrollView.m in Sources */,
+				71E6C50A1D79D26B006EE258 /* FSSelectSectionController.m in Sources */,
+				71E6C5051D79D26B006EE258 /* FSTapScrollView.m in Sources */,
 				712A54BE1D410E7600B6CDD6 /* FSPersonController.m in Sources */,
-				5CD87C2D1D792AE900875046 /* FSCCDayView.m in Sources */,
+				71E6C4E41D79D26B006EE258 /* FSCCDayView.m in Sources */,
 				5C7378731CE5CD81002E1C4C /* UIView+WebCacheOperation.m in Sources */,
-				5CD87C551D792AE900875046 /* FIWebView.m in Sources */,
-				5CD87C371D792AE900875046 /* GTMBase64.m in Sources */,
-				5CD87C341D792AE900875046 /* ClipPictureController.m in Sources */,
+				71E6C50C1D79D26B006EE258 /* FIWebView.m in Sources */,
+				71E6C4EE1D79D26B006EE258 /* GTMBase64.m in Sources */,
+				71E6C4EB1D79D26B006EE258 /* ClipPictureController.m in Sources */,
 				71ABE5FE1CE2A74400808AFF /* ViewController.m in Sources */,
-				5CD87C211D792AE900875046 /* FSDBManager.m in Sources */,
-				5CD87C2B1D792AE900875046 /* ChineseCalendarView.m in Sources */,
-				5CD87C681D792AE900875046 /* README.md in Sources */,
-				5CD87C411D792AE900875046 /* FSBaseController.m in Sources */,
-				5CD87C301D792AE900875046 /* FSChineseCalendarController.m in Sources */,
+				71E6C4D81D79D26B006EE258 /* FSDBManager.m in Sources */,
+				71E6C4E21D79D26B006EE258 /* ChineseCalendarView.m in Sources */,
+				71E6C51F1D79D26B006EE258 /* README.md in Sources */,
+				71E6C4F81D79D26B006EE258 /* FSBaseController.m in Sources */,
+				71E6C4E71D79D26B006EE258 /* FSChineseCalendarController.m in Sources */,
 				71ABEDAD1CF1CFA000808AFF /* FSChatView.m in Sources */,
 				7141E2081CBE8B090090AF17 /* main.m in Sources */,
-				5CD87C491D792AE900875046 /* FSImageLabelView.m in Sources */,
+				71E6C5001D79D26B006EE258 /* FSImageLabelView.m in Sources */,
 				71ABEDB11CF1CFA000808AFF /* FSSendCell.m in Sources */,
 				5CCBBC791D1AB248003B5C41 /* FSSameKindController.m in Sources */,
-				5CD87C641D792AE900875046 /* FSTaxDetailView.m in Sources */,
-				5CD87C581D792AE900875046 /* FSWebViewController.m in Sources */,
-				5CD87C2F1D792AE900875046 /* FSCCMainView.m in Sources */,
-				5CD87C4A1D792AE900875046 /* FSMoveLabel.m in Sources */,
+				71E6C51B1D79D26B006EE258 /* FSTaxDetailView.m in Sources */,
+				71E6C50F1D79D26B006EE258 /* FSWebViewController.m in Sources */,
+				71E6C4E61D79D26B006EE258 /* FSCCMainView.m in Sources */,
+				71E6C5011D79D26B006EE258 /* FSMoveLabel.m in Sources */,
 				5C7378691CE5CD81002E1C4C /* SDWebImageDownloader.m in Sources */,
-				5CD87C281D792AE900875046 /* FSTwoMinusController.m in Sources */,
-				5CD87C4C1D792AE900875046 /* FSTapCell.m in Sources */,
-				5CD87C311D792AE900875046 /* Datetime.m in Sources */,
+				71E6C4DF1D79D26B006EE258 /* FSTwoMinusController.m in Sources */,
+				71E6C5031D79D26B006EE258 /* FSTapCell.m in Sources */,
+				71E6C4E81D79D26B006EE258 /* Datetime.m in Sources */,
 				71ABEE161CF1D20000808AFF /* UIScrollView+MJExtension.m in Sources */,
-				5CD87C481D792AE900875046 /* FSBlockButton.m in Sources */,
+				71E6C4FF1D79D26B006EE258 /* FSBlockButton.m in Sources */,
 				71ABEE081CF1D20000808AFF /* MJRefreshComponent.m in Sources */,
 				71ABEDAF1CF1CFA000808AFF /* FSEMMessage.m in Sources */,
 				5C73786E1CE5CD81002E1C4C /* UIImage+GIF.m in Sources */,
 				71ABEE071CF1D20000808AFF /* MJRefreshBackFooter.m in Sources */,
 				71ABEE0B1CF1D20000808AFF /* MJRefreshAutoGifFooter.m in Sources */,
 				71ABEDAC1CF1CFA000808AFF /* FSChatCell.m in Sources */,
-				5CD87C421D792AE900875046 /* FSBaseView.m in Sources */,
-				5CD87C441D792AE900875046 /* FSNavigationController.m in Sources */,
-				5CD87C221D792AE900875046 /* FSFinancesManagerController.m in Sources */,
+				71E6C4F91D79D26B006EE258 /* FSBaseView.m in Sources */,
+				71E6C4FB1D79D26B006EE258 /* FSNavigationController.m in Sources */,
+				71E6C4D91D79D26B006EE258 /* FSFinancesManagerController.m in Sources */,
 				5C50567C1CFF162D00B654AB /* FSLoanResultController.m in Sources */,
-				5CD87C351D792AE900875046 /* fishhook.c in Sources */,
-				5CD87C4F1D792AE900875046 /* FSWBView.m in Sources */,
+				71E6C4EC1D79D26B006EE258 /* fishhook.c in Sources */,
+				71E6C5061D79D26B006EE258 /* FSWBView.m in Sources */,
 				5C7378661CE5CD81002E1C4C /* SDImageCache.m in Sources */,
 				71ABEE0C1CF1D20000808AFF /* MJRefreshAutoNormalFooter.m in Sources */,
 				71ABEDB31CF1CFA000808AFF /* HPGrowingTextView.m in Sources */,
 				5C7378651CE5CD81002E1C4C /* NSData+ImageContentType.m in Sources */,
-				5CD87C451D792AE900875046 /* UIView+ViewController.m in Sources */,
+				71E6C4FC1D79D26B006EE258 /* UIView+ViewController.m in Sources */,
 				5C73786C1CE5CD81002E1C4C /* SDWebImagePrefetcher.m in Sources */,
 				5C5056211CFE8B3A00B654AB /* FSLoanCounterController.m in Sources */,
 				71ABEE0F1CF1D20000808AFF /* MJRefreshBackNormalFooter.m in Sources */,
-				5CD87C521D792AE900875046 /* FSSelectController.m in Sources */,
-				5CD87C321D792AE900875046 /* CYDatetime.m in Sources */,
+				71E6C5091D79D26B006EE258 /* FSSelectController.m in Sources */,
+				71E6C4E91D79D26B006EE258 /* CYDatetime.m in Sources */,
 				712A54C11D41105A00B6CDD6 /* FSHeadPictureController.m in Sources */,
-				5CD87C661D792AE900875046 /* FSTaxRateEntity.m in Sources */,
+				71E6C51D1D79D26B006EE258 /* FSTaxRateEntity.m in Sources */,
 				71ABEE181CF1D20000808AFF /* UIView+MJExtension.m in Sources */,
 				71FBBC531CFA85AF0086D807 /* FSComposeController.m in Sources */,
 				717219C71D5419A8001101C2 /* FSCertificateController.m in Sources */,
@@ -2230,8 +2262,8 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
+					"/Users/fudonfuchina/Documents/FSGit/HyphenateFullSDK/lib\n",
 					"$(inherited)",
-					"/Users/ios/Documents/FSGit/HyphenateFullSDK/lib\n",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.youya.se;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -2251,8 +2283,8 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
+					"/Users/fudonfuchina/Documents/FSGit/HyphenateFullSDK/lib\n",
 					"$(inherited)",
-					"/Users/ios/Documents/FSGit/HyphenateFullSDK/lib\n",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.youya.se;
 				PRODUCT_NAME = "$(TARGET_NAME)";
