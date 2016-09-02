@@ -2,24 +2,31 @@
 <html lang = "zh-CN">
 <meta charset="UTF-8"> 
 <body>
-    <input id="test" value="" placeholder="请输入姓名"/>
+    
+<meta content="initial-scale=1.0, minimum-scale=1.0, maximum-scale=2.0, user-scalable=no, width=device-width" name="viewport">
+    
+    <input id="test" value="" placeholder="请输入姓名" width=device.width/>
 <p id="demo">点击这个按钮，获得您的坐标：</p>
 <button onclick="getLocation()">试一下</button>
+
 <script>
-var x=document.getElementById("demo");
-function getLocation()
-  {
-  if (navigator.geolocation)
+    var x=document.getElementById("demo");
+
+    function getLocation()
     {
-    navigator.geolocation.getCurrentPosition(showPosition);
+        if (navigator.geolocation){
+            navigator.geolocation.getCurrentPosition(showPosition);
+        }
+        else{
+            x.innerHTML="Geolocation is not supported by this browser.";
+        }
     }
-  else{x.innerHTML="Geolocation is not supported by this browser.";}
-  }
-function showPosition(position)
-  {
-  x.innerHTML="Latitude: " + position.coords.latitude + 
-  "<br />Longitude: " + position.coords.longitude;	
-  }
+
+    function showPosition(position)
+    {
+        x.innerHTML="Latitude: " + position.coords.latitude +
+        "<br />Longitude: " + position.coords.longitude;
+    }
 </script>
 </body>
 </html>
