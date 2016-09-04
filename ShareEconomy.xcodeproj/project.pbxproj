@@ -1832,7 +1832,7 @@
 				TargetAttributes = {
 					7141E2021CBE8B090090AF17 = {
 						CreatedOnToolsVersion = 7.3;
-						DevelopmentTeam = BL86JR5S2K;
+						DevelopmentTeam = U9Y4DBL6N3;
 					};
 				};
 			};
