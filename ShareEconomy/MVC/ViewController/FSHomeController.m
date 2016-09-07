@@ -30,12 +30,10 @@
     self.navigationItem.leftBarButtonItem = bbi;
     
     UISegmentedControl *segControl = [[UISegmentedControl alloc] initWithItems:@[@"我要",@"帮人"]];
-    segControl.tintColor = [UIColor whiteColor];
     segControl.selectedSegmentIndex = 0;
     self.navigationItem.titleView = segControl;
     
     UIBarButtonItem *addBBI = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemCompose target:self action:@selector(addActionHome)];
-    addBBI.tintColor = [UIColor whiteColor];
     self.navigationItem.rightBarButtonItem = addBBI;
 
     _tableView = [[UITableView alloc] initWithFrame:CGRectMake(0, 64, WIDTHFC, HEIGHTFC - 113) style:UITableViewStylePlain];

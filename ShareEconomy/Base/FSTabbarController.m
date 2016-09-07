@@ -23,7 +23,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    FSHomeController *home = [[FSHomeController alloc] init];
+    FSHomeController *home = [[FSHomeController alloc] init];    
     FSChatListController *communicate = [[FSChatListController alloc] init];
     FSMoneyController *money = [[FSMoneyController alloc] init];
     FSZoneController *zone = [[FSZoneController alloc] init];
