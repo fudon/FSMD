@@ -68,7 +68,6 @@
     self.title = _chatToWho;
     self.view.height = HEIGHTFC + FSChatViewHeight;
     UIBarButtonItem *bbi = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemTrash target:self action:@selector(clearChatRecord)];
-    bbi.tintColor = [UIColor whiteColor];
     self.navigationItem.rightBarButtonItem = bbi;
     
     _chatView = [[FSChatView alloc] initWithFrame:CGRectMake(0, HEIGHTFC - 88, WIDTHFC, FSChatViewHeight)];
@@ -166,12 +165,10 @@
 - (void)clearChatRecord
 {
     WEAKSELF(this);
-    [self showAlertViewWithTitle:@"清除聊天记录?" message:@"" cancelTitle:@"取消" otherTitles:@"确定" clickBlock:^(UIAlertView *bAlertView, NSInteger index) {
-        if (index == 1) {
-            [[EMClient sharedClient].chatManager deleteConversation:this.chatToWho deleteMessages:YES];
-            [this msgHandleDatas];
-        }
-    }];
+    [FuData alertViewAtController:self title:@"清除聊天记录?" message:@"" cancelTitle:@"取消" handler:nil okTitle:@"确定" handler:^(UIAlertAction *action) {
+        [[EMClient sharedClient].chatManager deleteConversation:this.chatToWho deleteMessages:YES];
+        [this msgHandleDatas];
+    } completion:nil];
 }
 
 #pragma mark TableViewDelegate

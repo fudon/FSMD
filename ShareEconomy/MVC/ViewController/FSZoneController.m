@@ -25,7 +25,7 @@
     self.title = @"行";
     _array = @[@"美盾",@"支持优雅"];
     
-    self.navigationItem.rightBarButtonItem = [FSViewManager barButtonItemWithTitle:@"设置" target:self selector:@selector(configAction) tintColor:[UIColor whiteColor]];
+    self.navigationItem.rightBarButtonItem = [FSViewManager barButtonItemWithTitle:@"设置" target:self selector:@selector(configAction) tintColor:nil];
     
     WEAKSELF(this);
     FSZoneHeadView *headView = [[FSZoneHeadView alloc] initWithFrame:CGRectMake(0, 0, WIDTHFC, 132)];

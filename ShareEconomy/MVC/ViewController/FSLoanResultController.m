@@ -27,7 +27,6 @@
     
     UISegmentedControl *segControl = [[UISegmentedControl alloc] initWithItems:@[@"等额本息",@"等额本金"]];
     segControl.selectedSegmentIndex = 0;
-    segControl.tintColor = [UIColor whiteColor];
     [segControl addTarget:self action:@selector(segControlAction:) forControlEvents:UIControlEventValueChanged];
     self.navigationItem.titleView = segControl;
     
