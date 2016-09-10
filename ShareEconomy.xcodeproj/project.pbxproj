@@ -245,6 +245,7 @@
 		715D37571D81A52A007C8183 /* FuData.m in Sources */ = {isa = PBXBuildFile; fileRef = 715D37111D81A52A007C8183 /* FuData.m */; };
 		715D37581D81A52A007C8183 /* FuSing.m in Sources */ = {isa = PBXBuildFile; fileRef = 715D37131D81A52A007C8183 /* FuSing.m */; };
 		715D37591D81A52A007C8183 /* FuWeb.m in Sources */ = {isa = PBXBuildFile; fileRef = 715D37151D81A52A007C8183 /* FuWeb.m */; };
+		715D375C1D844B1B007C8183 /* FSFMExpectController.m in Sources */ = {isa = PBXBuildFile; fileRef = 715D375B1D844B1B007C8183 /* FSFMExpectController.m */; };
 		716203891D3DA4F000D2768E /* FSAddressController.m in Sources */ = {isa = PBXBuildFile; fileRef = 716203881D3DA4F000D2768E /* FSAddressController.m */; };
 		716F50241D538A3100BED15E /* FSConnectController.m in Sources */ = {isa = PBXBuildFile; fileRef = 716F50231D538A3100BED15E /* FSConnectController.m */; };
 		716F50271D53960A00BED15E /* FSCentShellController.m in Sources */ = {isa = PBXBuildFile; fileRef = 716F50261D53960A00BED15E /* FSCentShellController.m */; };
@@ -676,6 +677,8 @@
 		715D37131D81A52A007C8183 /* FuSing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FuSing.m; sourceTree = "<group>"; };
 		715D37141D81A52A007C8183 /* FuWeb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FuWeb.h; sourceTree = "<group>"; };
 		715D37151D81A52A007C8183 /* FuWeb.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FuWeb.m; sourceTree = "<group>"; };
+		715D375A1D844B1B007C8183 /* FSFMExpectController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSFMExpectController.h; sourceTree = "<group>"; };
+		715D375B1D844B1B007C8183 /* FSFMExpectController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSFMExpectController.m; sourceTree = "<group>"; };
 		716203871D3DA4F000D2768E /* FSAddressController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSAddressController.h; sourceTree = "<group>"; };
 		716203881D3DA4F000D2768E /* FSAddressController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSAddressController.m; sourceTree = "<group>"; };
 		716F50221D538A3100BED15E /* FSConnectController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSConnectController.h; sourceTree = "<group>"; };
@@ -1351,6 +1354,8 @@
 				715D36891D81A52A007C8183 /* FSTwoMinusController.m */,
 				715D368A1D81A52A007C8183 /* SQLEntity.h */,
 				715D368B1D81A52A007C8183 /* SQLEntity.m */,
+				715D375A1D844B1B007C8183 /* FSFMExpectController.h */,
+				715D375B1D844B1B007C8183 /* FSFMExpectController.m */,
 			);
 			path = SQLManager;
 			sourceTree = "<group>";
@@ -2067,6 +2072,7 @@
 				715D37211D81A52A007C8183 /* ExhaustiveCalendar.m in Sources */,
 				715D374C1D81A52A007C8183 /* FSQRController.m in Sources */,
 				71ABEE121CF1D20000808AFF /* MJRefreshNormalHeader.m in Sources */,
+				715D375C1D844B1B007C8183 /* FSFMExpectController.m in Sources */,
 				715D37341D81A52A007C8183 /* FSCacheManager.m in Sources */,
 				5C7378681CE5CD81002E1C4C /* SDWebImageDecoder.m in Sources */,
 				7141E28D1CBFD4230090AF17 /* FSCommuniteController.m in Sources */,
