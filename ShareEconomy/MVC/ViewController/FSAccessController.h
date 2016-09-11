@@ -15,5 +15,6 @@
 @interface FSAccessController : FSBaseController
 
 @property (nonatomic,strong) NSArray        *datas; // 存储字典，@{@"":@"",@"":@"",@"":@""};
+@property (nonatomic,copy) void (^selectBlock)(FSAccessController *bController,NSIndexPath *bIndexPath);
 
 @end
