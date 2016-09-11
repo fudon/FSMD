@@ -1,13 +1,13 @@
 //
-//  FSMoneyController.h
+//  FSAppsController.h
 //  ShareEconomy
 //
-//  Created by FudonFuchina on 16/4/13.
+//  Created by FudonFuchina on 16/9/11.
 //  Copyright © 2016年 FudonFuchina. All rights reserved.
 //
 
 #import "FSBaseController.h"
 
-@interface FSMoneyController : FSBaseController
+@interface FSAppsController : FSBaseController
 
 @end

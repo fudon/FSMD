@@ -8,7 +8,7 @@
 
 #import "FSTabbarController.h"
 #import "FSHomeController.h"
-#import "FSMoneyController.h"
+#import "FSAppsController.h"
 #import "FSZoneController.h"
 #import "FSNavigationController.h"
 #import "FSCommuniteController.h"
@@ -25,7 +25,7 @@
     [super viewDidLoad];
     FSHomeController *home = [[FSHomeController alloc] init];    
     FSChatListController *communicate = [[FSChatListController alloc] init];
-    FSMoneyController *money = [[FSMoneyController alloc] init];
+    FSAppsController *money = [[FSAppsController alloc] init];
     FSZoneController *zone = [[FSZoneController alloc] init];
     
     NSArray *vcs = @[home,communicate,money,zone];

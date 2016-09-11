@@ -172,7 +172,6 @@
 		7141E2131CBE8B090090AF17 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7141E2121CBE8B090090AF17 /* Assets.xcassets */; };
 		7141E2161CBE8B090090AF17 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7141E2141CBE8B090090AF17 /* LaunchScreen.storyboard */; };
 		7141E2311CBE8EC50090AF17 /* FSHomeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7141E2301CBE8EC50090AF17 /* FSHomeController.m */; };
-		7141E2341CBE8ED20090AF17 /* FSMoneyController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7141E2331CBE8ED20090AF17 /* FSMoneyController.m */; };
 		7141E2371CBE8EDE0090AF17 /* FSZoneController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7141E2361CBE8EDE0090AF17 /* FSZoneController.m */; };
 		7141E2891CBF12140090AF17 /* FSHomeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7141E2881CBF12140090AF17 /* FSHomeCell.m */; };
 		7141E28D1CBFD4230090AF17 /* FSCommuniteController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7141E28C1CBFD4230090AF17 /* FSCommuniteController.m */; };
@@ -246,6 +245,8 @@
 		715D37581D81A52A007C8183 /* FuSing.m in Sources */ = {isa = PBXBuildFile; fileRef = 715D37131D81A52A007C8183 /* FuSing.m */; };
 		715D37591D81A52A007C8183 /* FuWeb.m in Sources */ = {isa = PBXBuildFile; fileRef = 715D37151D81A52A007C8183 /* FuWeb.m */; };
 		715D375C1D844B1B007C8183 /* FSFMExpectController.m in Sources */ = {isa = PBXBuildFile; fileRef = 715D375B1D844B1B007C8183 /* FSFMExpectController.m */; };
+		715D38471D850C39007C8183 /* FSAppsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 715D38461D850C39007C8183 /* FSAppsController.m */; };
+		715D384A1D850D68007C8183 /* FSAccessController.m in Sources */ = {isa = PBXBuildFile; fileRef = 715D38491D850D68007C8183 /* FSAccessController.m */; };
 		716203891D3DA4F000D2768E /* FSAddressController.m in Sources */ = {isa = PBXBuildFile; fileRef = 716203881D3DA4F000D2768E /* FSAddressController.m */; };
 		716F50241D538A3100BED15E /* FSConnectController.m in Sources */ = {isa = PBXBuildFile; fileRef = 716F50231D538A3100BED15E /* FSConnectController.m */; };
 		716F50271D53960A00BED15E /* FSCentShellController.m in Sources */ = {isa = PBXBuildFile; fileRef = 716F50261D53960A00BED15E /* FSCentShellController.m */; };
@@ -536,8 +537,6 @@
 		7141E2171CBE8B090090AF17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7141E22F1CBE8EC50090AF17 /* FSHomeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSHomeController.h; sourceTree = "<group>"; };
 		7141E2301CBE8EC50090AF17 /* FSHomeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSHomeController.m; sourceTree = "<group>"; };
-		7141E2321CBE8ED20090AF17 /* FSMoneyController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSMoneyController.h; sourceTree = "<group>"; };
-		7141E2331CBE8ED20090AF17 /* FSMoneyController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSMoneyController.m; sourceTree = "<group>"; };
 		7141E2351CBE8EDE0090AF17 /* FSZoneController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSZoneController.h; sourceTree = "<group>"; };
 		7141E2361CBE8EDE0090AF17 /* FSZoneController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSZoneController.m; sourceTree = "<group>"; };
 		7141E2871CBF12140090AF17 /* FSHomeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSHomeCell.h; sourceTree = "<group>"; };
@@ -679,6 +678,10 @@
 		715D37151D81A52A007C8183 /* FuWeb.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FuWeb.m; sourceTree = "<group>"; };
 		715D375A1D844B1B007C8183 /* FSFMExpectController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSFMExpectController.h; sourceTree = "<group>"; };
 		715D375B1D844B1B007C8183 /* FSFMExpectController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSFMExpectController.m; sourceTree = "<group>"; };
+		715D38451D850C39007C8183 /* FSAppsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSAppsController.h; sourceTree = "<group>"; };
+		715D38461D850C39007C8183 /* FSAppsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSAppsController.m; sourceTree = "<group>"; };
+		715D38481D850D68007C8183 /* FSAccessController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSAccessController.h; sourceTree = "<group>"; };
+		715D38491D850D68007C8183 /* FSAccessController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSAccessController.m; sourceTree = "<group>"; };
 		716203871D3DA4F000D2768E /* FSAddressController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSAddressController.h; sourceTree = "<group>"; };
 		716203881D3DA4F000D2768E /* FSAddressController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSAddressController.m; sourceTree = "<group>"; };
 		716F50221D538A3100BED15E /* FSConnectController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSConnectController.h; sourceTree = "<group>"; };
@@ -1240,14 +1243,16 @@
 		7141E22A1CBE8E670090AF17 /* Money */ = {
 			isa = PBXGroup;
 			children = (
-				7141E2321CBE8ED20090AF17 /* FSMoneyController.h */,
-				7141E2331CBE8ED20090AF17 /* FSMoneyController.m */,
 				5C50561F1CFE8B3A00B654AB /* FSLoanCounterController.h */,
 				5C5056201CFE8B3A00B654AB /* FSLoanCounterController.m */,
 				5C50567A1CFF162D00B654AB /* FSLoanResultController.h */,
 				5C50567B1CFF162D00B654AB /* FSLoanResultController.m */,
 				5CCBBC771D1AB248003B5C41 /* FSSameKindController.h */,
 				5CCBBC781D1AB248003B5C41 /* FSSameKindController.m */,
+				715D38451D850C39007C8183 /* FSAppsController.h */,
+				715D38461D850C39007C8183 /* FSAppsController.m */,
+				715D38481D850D68007C8183 /* FSAccessController.h */,
+				715D38491D850D68007C8183 /* FSAccessController.m */,
 			);
 			name = Money;
 			sourceTree = "<group>";
@@ -2049,7 +2054,6 @@
 				712A54B81D3FBF1D00B6CDD6 /* FSZoneHeadView.m in Sources */,
 				7141E2891CBF12140090AF17 /* FSHomeCell.m in Sources */,
 				5C7378671CE5CD81002E1C4C /* SDWebImageCompat.m in Sources */,
-				7141E2341CBE8ED20090AF17 /* FSMoneyController.m in Sources */,
 				715D37531D81A52A007C8183 /* FSTaxOfIncomeController.m in Sources */,
 				715D371A1D81A52A007C8183 /* FSFMListController.m in Sources */,
 				715D37411D81A52A007C8183 /* FSSelectSectionController.m in Sources */,
@@ -2074,6 +2078,7 @@
 				71ABEE121CF1D20000808AFF /* MJRefreshNormalHeader.m in Sources */,
 				715D375C1D844B1B007C8183 /* FSFMExpectController.m in Sources */,
 				715D37341D81A52A007C8183 /* FSCacheManager.m in Sources */,
+				715D384A1D850D68007C8183 /* FSAccessController.m in Sources */,
 				5C7378681CE5CD81002E1C4C /* SDWebImageDecoder.m in Sources */,
 				7141E28D1CBFD4230090AF17 /* FSCommuniteController.m in Sources */,
 				71ABE6011CE2A75E00808AFF /* FSTabbarController.m in Sources */,
@@ -2163,6 +2168,7 @@
 				715D37271D81A52A007C8183 /* CYDatetime.m in Sources */,
 				712A54C11D41105A00B6CDD6 /* FSHeadPictureController.m in Sources */,
 				715D37371D81A52A007C8183 /* FSImageLabelView.m in Sources */,
+				715D38471D850C39007C8183 /* FSAppsController.m in Sources */,
 				715D37571D81A52A007C8183 /* FuData.m in Sources */,
 				71ABEE181CF1D20000808AFF /* UIView+MJExtension.m in Sources */,
 				715D37591D81A52A007C8183 /* FuWeb.m in Sources */,
