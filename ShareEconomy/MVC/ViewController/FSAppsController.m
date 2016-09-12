@@ -65,7 +65,8 @@
             FSAccessController *access = [[FSAccessController alloc] init];
             access.title = @"分类网站";
             access.datas = @[@{Picture_Name:@"tblogo",Text_Name:@"购物消费",Url_String:@"http://xw.qq.com"},
-                               @{Picture_Name:@"jdlogo",Text_Name:@"新闻阅读",Url_String:@"http://3g.163.com"},
+                             @{Picture_Name:@"jdlogo",Text_Name:@"生活服务",Url_String:@"http://3g.163.com"},
+                             @{Picture_Name:@"jdlogo",Text_Name:@"新闻阅读",Url_String:@"http://3g.163.com"},
                                @{Picture_Name:@"snlogo.jpg",Text_Name:@"影视娱乐",Url_String:@"http://blog.sina.cn"},
                              @{Picture_Name:@"snlogo.jpg",Text_Name:@"导航搜索",Url_String:@"http://www.sina.cn"},
                              @{Picture_Name:@"snlogo.jpg",Text_Name:@"银行服务",Url_String:@"http://www.sina.cn"},
@@ -129,18 +130,26 @@
                                  @{Picture_Name:@"snlogo.jpg",Text_Name:@"亚马逊",Url_String:@"https://www.amazon.cn"},
                                  @{Picture_Name:@"gmlogo.jpg",Text_Name:@"国美电器",Url_String:@"http://m.gome.com.cn"},
                                  @{Picture_Name:@"snlogo.jpg",Text_Name:@"苏宁易购",Url_String:@"http://m.suning.com"},
-                                 @{Picture_Name:@"snlogo.jpg",Text_Name:@"美团",Url_String:@"http://i.meituan.com"},
-                                 @{Picture_Name:@"snlogo.jpg",Text_Name:@"大众点评",Url_String:@"http://m.dianping.com"},
                                  @{Picture_Name:@"snlogo.jpg",Text_Name:@"唯品会",Url_String:@"http://m.vip.com"},
-                                 @{Picture_Name:@"snlogo.jpg",Text_Name:@"百度糯米",Url_String:@"https://m.nuomi.com"},
                                  @{Picture_Name:@"snlogo.jpg",Text_Name:@"1688",Url_String:@"http://m.1688.com"},
                                  @{Picture_Name:@"snlogo.jpg",Text_Name:@"聚美优品",Url_String:@"http://m.jumei.com"},
                                  @{Picture_Name:@"snlogo.jpg",Text_Name:@"一号店",Url_String:@"http://m.yhd.com"},
                                  @{Picture_Name:@"snlogo.jpg",Text_Name:@"蘑菇街",Url_String:@"http://m.mogujie.com"},
                                  @{Picture_Name:@"snlogo.jpg",Text_Name:@"酒仙网",Url_String:@"http://m.jiuxian.com"},
-                                 @{Picture_Name:@"snlogo.jpg",Text_Name:@"58同城",Url_String:@"http://m.58.com"},
                                  @{Picture_Name:@"snlogo.jpg",Text_Name:@"小米官网",Url_String:@"http://m.mi.com"},
                                  ],
+                             
+                             @[
+                                 // 生活服务
+                                 @{Picture_Name:@"snlogo.jpg",Text_Name:@"美团",Url_String:@"http://i.meituan.com"},
+                                 @{Picture_Name:@"snlogo.jpg",Text_Name:@"百度外卖",Url_String:@"http://waimai.baidu.com"},
+                                 @{Picture_Name:@"snlogo.jpg",Text_Name:@"饿了么",Url_String:@"http://m.ele.me"},
+                                 @{Picture_Name:@"snlogo.jpg",Text_Name:@"百度糯米",Url_String:@"https://m.nuomi.com"},
+                                 @{Picture_Name:@"snlogo.jpg",Text_Name:@"大众点评",Url_String:@"http://m.dianping.com"},
+                                 @{Picture_Name:@"snlogo.jpg",Text_Name:@"58同城",Url_String:@"http://m.58.com"},
+                                 @{Picture_Name:@"snlogo.jpg",Text_Name:@"赶集网",Url_String:@"http://m.ganji.com"},
+                                 ],
+
                              // 新闻信息
                              @[@{Picture_Name:@"tblogo",Text_Name:@"腾讯新闻",Url_String:@"http://xw.qq.com"},
                                @{Picture_Name:@"jdlogo",Text_Name:@"网易",Url_String:@"http://3g.163.com"},

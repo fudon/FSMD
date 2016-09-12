@@ -23,7 +23,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.title = @"行";
-    _array = @[@"美盾",@"支持优雅"];
+    _array = @[@"美盾",@"支持优雅",@"分享好友"];
     
     self.navigationItem.rightBarButtonItem = [FSViewManager barButtonItemWithTitle:@"设置" target:self selector:@selector(configAction) tintColor:nil];
     
@@ -82,6 +82,9 @@
 {
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
     
+    NSArray *classNames = @[@"FSShareToFriendController",@"FSSupportController",@"FSShareToFriendController"];
+    Class Controller = NSClassFromString(classNames[indexPath.row]);
+    [self.navigationController pushViewController:[[Controller alloc] init] animated:YES];
 }
 
 - (void)didReceiveMemoryWarning {

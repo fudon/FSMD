@@ -247,6 +247,8 @@
 		715D375C1D844B1B007C8183 /* FSFMExpectController.m in Sources */ = {isa = PBXBuildFile; fileRef = 715D375B1D844B1B007C8183 /* FSFMExpectController.m */; };
 		715D38471D850C39007C8183 /* FSAppsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 715D38461D850C39007C8183 /* FSAppsController.m */; };
 		715D384A1D850D68007C8183 /* FSAccessController.m in Sources */ = {isa = PBXBuildFile; fileRef = 715D38491D850D68007C8183 /* FSAccessController.m */; };
+		715D384D1D86E770007C8183 /* FSShareToFriendController.m in Sources */ = {isa = PBXBuildFile; fileRef = 715D384C1D86E770007C8183 /* FSShareToFriendController.m */; };
+		715D38501D86E782007C8183 /* FSSupportController.m in Sources */ = {isa = PBXBuildFile; fileRef = 715D384F1D86E782007C8183 /* FSSupportController.m */; };
 		716203891D3DA4F000D2768E /* FSAddressController.m in Sources */ = {isa = PBXBuildFile; fileRef = 716203881D3DA4F000D2768E /* FSAddressController.m */; };
 		716F50241D538A3100BED15E /* FSConnectController.m in Sources */ = {isa = PBXBuildFile; fileRef = 716F50231D538A3100BED15E /* FSConnectController.m */; };
 		716F50271D53960A00BED15E /* FSCentShellController.m in Sources */ = {isa = PBXBuildFile; fileRef = 716F50261D53960A00BED15E /* FSCentShellController.m */; };
@@ -682,6 +684,10 @@
 		715D38461D850C39007C8183 /* FSAppsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSAppsController.m; sourceTree = "<group>"; };
 		715D38481D850D68007C8183 /* FSAccessController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSAccessController.h; sourceTree = "<group>"; };
 		715D38491D850D68007C8183 /* FSAccessController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSAccessController.m; sourceTree = "<group>"; };
+		715D384B1D86E770007C8183 /* FSShareToFriendController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSShareToFriendController.h; sourceTree = "<group>"; };
+		715D384C1D86E770007C8183 /* FSShareToFriendController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSShareToFriendController.m; sourceTree = "<group>"; };
+		715D384E1D86E782007C8183 /* FSSupportController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSSupportController.h; sourceTree = "<group>"; };
+		715D384F1D86E782007C8183 /* FSSupportController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSSupportController.m; sourceTree = "<group>"; };
 		716203871D3DA4F000D2768E /* FSAddressController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSAddressController.h; sourceTree = "<group>"; };
 		716203881D3DA4F000D2768E /* FSAddressController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSAddressController.m; sourceTree = "<group>"; };
 		716F50221D538A3100BED15E /* FSConnectController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSConnectController.h; sourceTree = "<group>"; };
@@ -1215,7 +1221,7 @@
 			children = (
 				7141E28A1CBFD3D30090AF17 /* Communicate */,
 				7141E22B1CBE8E8A0090AF17 /* Zone */,
-				7141E22A1CBE8E670090AF17 /* Money */,
+				7141E22A1CBE8E670090AF17 /* Apps */,
 				7141E2281CBE8E580090AF17 /* Home */,
 			);
 			path = ViewController;
@@ -1240,7 +1246,7 @@
 			name = Home;
 			sourceTree = "<group>";
 		};
-		7141E22A1CBE8E670090AF17 /* Money */ = {
+		7141E22A1CBE8E670090AF17 /* Apps */ = {
 			isa = PBXGroup;
 			children = (
 				5C50561F1CFE8B3A00B654AB /* FSLoanCounterController.h */,
@@ -1254,7 +1260,7 @@
 				715D38481D850D68007C8183 /* FSAccessController.h */,
 				715D38491D850D68007C8183 /* FSAccessController.m */,
 			);
-			name = Money;
+			name = Apps;
 			sourceTree = "<group>";
 		};
 		7141E22B1CBE8E8A0090AF17 /* Zone */ = {
@@ -1278,6 +1284,10 @@
 				716F50261D53960A00BED15E /* FSCentShellController.m */,
 				717219C51D5419A8001101C2 /* FSCertificateController.h */,
 				717219C61D5419A8001101C2 /* FSCertificateController.m */,
+				715D384B1D86E770007C8183 /* FSShareToFriendController.h */,
+				715D384C1D86E770007C8183 /* FSShareToFriendController.m */,
+				715D384E1D86E782007C8183 /* FSSupportController.h */,
+				715D384F1D86E782007C8183 /* FSSupportController.m */,
 			);
 			name = Zone;
 			sourceTree = "<group>";
@@ -2049,6 +2059,7 @@
 				715D37521D81A52A007C8183 /* FSTaxDetailView.m in Sources */,
 				715D37381D81A52A007C8183 /* FSMoveLabel.m in Sources */,
 				7117B2AF1CCC3D3600F959D2 /* FSRegisterPwdController.m in Sources */,
+				715D384D1D86E770007C8183 /* FSShareToFriendController.m in Sources */,
 				715D37281D81A52A007C8183 /* FSLunarCalendar.m in Sources */,
 				715D371C1D81A52A007C8183 /* FSFMSelectController.m in Sources */,
 				712A54B81D3FBF1D00B6CDD6 /* FSZoneHeadView.m in Sources */,
@@ -2107,6 +2118,7 @@
 				715D37441D81A52A007C8183 /* FSHTMLController.m in Sources */,
 				715D37471D81A52A007C8183 /* FSMakeQRController.m in Sources */,
 				715D371B1D81A52A007C8183 /* FSFMSelectCell.m in Sources */,
+				715D38501D86E782007C8183 /* FSSupportController.m in Sources */,
 				715D37181D81A52A007C8183 /* FSFMAccountController.m in Sources */,
 				71ABEE061CF1D20000808AFF /* MJRefreshAutoFooter.m in Sources */,
 				71ABEDAE1CF1CFA000808AFF /* FSEaseMob.m in Sources */,
