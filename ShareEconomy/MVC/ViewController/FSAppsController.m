@@ -18,6 +18,7 @@
 #import "FSFinancesManagerController.h"
 #import "FSHTMLController.h"
 #import "FSAccessController.h"
+#import "FSAccountDoorController.h"
 
 @interface FSAppsController ()
 
@@ -91,7 +92,7 @@
                              ];
             WEAKSELF(this);
             access.selectBlock = ^ (FSAccessController *bController,NSIndexPath *bIndexPath){
-                NSArray *classArray = @[@"FSFinancesManagerController",@"FSLoanCounterController",@"FSTaxOfIncomeController"];
+                NSArray *classArray = @[@"FSAccountDoorController",@"FSLoanCounterController",@"FSTaxOfIncomeController"];
                 Class ControllerClass = NSClassFromString(classArray[bIndexPath.row % classArray.count]);
                 if (ControllerClass) {
                     [this.navigationController pushViewController:[[ControllerClass alloc] init] animated:YES];
