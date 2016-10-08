@@ -89,10 +89,11 @@
             access.datas = @[@{Picture_Name:@"a_4",Text_Name:@"记账本",Url_String:@"http://xw.qq.com"},
                              @{Picture_Name:@"my_history",Text_Name:@"贷款计算器",Url_String:@"http://3g.163.com"},
                              @{Picture_Name:@"tootoodingdan",Text_Name:@"个税计算器",Url_String:@"http://3g.163.com"},
+                             @{Picture_Name:@"tootoodingdan",Text_Name:@"首付计算器",Url_String:@"http://3g.163.com"},
                              ];
             WEAKSELF(this);
             access.selectBlock = ^ (FSAccessController *bController,NSIndexPath *bIndexPath){
-                NSArray *classArray = @[@"FSAccountDoorController",@"FSLoanCounterController",@"FSTaxOfIncomeController"];
+                NSArray *classArray = @[@"FSAccountDoorController",@"FSLoanCounterController",@"FSTaxOfIncomeController",@"FSHouseLoanController"];
                 Class ControllerClass = NSClassFromString(classArray[bIndexPath.row % classArray.count]);
                 if (ControllerClass) {
                     [this.navigationController pushViewController:[[ControllerClass alloc] init] animated:YES];
