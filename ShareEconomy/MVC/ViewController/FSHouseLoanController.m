@@ -18,8 +18,8 @@
     [super viewDidLoad];
     self.title = @"首付计算器";
     
-    NSArray *titles = @[@"房价",@"面积",@"税费评估价",@"银行评估价"];
-    NSArray *placeholders = @[@"单位：万元",@"单位：平方米",@"单位：元",@"单位：元"];
+    NSArray *titles = @[@"房价",@"面积",@"税费评估价",@"银行评估价",@"首付成数"];
+    NSArray *placeholders = @[@"单位：万元",@"单位：平方米",@"单位：元",@"单位：元",@"百分数，如20表示20%"];
     for (int x = 0; x < titles.count; x ++) {
         UILabel *label = [FSViewManager labelWithFrame:CGRectMake(0,80 + 50 * x, 70, 40) text:titles[x] textColor:nil backColor:nil font:FONTFC(13) textAlignment:NSTextAlignmentRight];
         [self.view addSubview:label];
@@ -34,7 +34,7 @@
         [self.view addSubview:textField];
     }
     
-    UIButton *button = [FSViewManager buttonWithFrame:CGRectMake(20, 290, WIDTHFC - 40, 40) title:@"计算" titleColor:[UIColor whiteColor] backColor:FSAPPCOLOR fontInt:0 tag:0 target:self selector:@selector(countAction)];
+    UIButton *button = [FSViewManager buttonWithFrame:CGRectMake(20, 330, WIDTHFC - 40, 40) title:@"计算" titleColor:[UIColor whiteColor] backColor:FSAPPCOLOR fontInt:0 tag:0 target:self selector:@selector(countAction)];
     [self.view addSubview:button];
     
     UILabel *showLabel = [FSViewManager labelWithFrame:CGRectMake(20, button.bottom + 5, WIDTHFC - 20, 30) text:@"*计算结果只供参考，如有出入,请以专业为准。" textColor:[UIColor lightGrayColor] backColor:nil font:FONTFC(12) textAlignment:NSTextAlignmentLeft];
@@ -63,14 +63,20 @@
         [self showTitle:@"请填写银行评估价"];
         return;
     }
+    UITextField *rateTF = (UITextField *)[self.view viewWithTag:TAGTEXTFIELD + 4];
+    if (![FuData isPureFloat:rateTF.text]) {
+        [self showTitle:@"请填写首付比率，比如20,表示20%"];
+        return;
+    }
     
     CGFloat money = [moneyTF.text floatValue] * 10000;
     CGFloat size = [sizeTF.text floatValue];
     CGFloat taxPrice = [taxTF.text floatValue];
     CGFloat bank = [bankTF.text floatValue];
+    CGFloat firstRate = [rateTF.text floatValue];
     
     CGFloat deedTax = taxPrice * size * (1.5 / 100 + 1.0 / 100);    // 契税
-    CGFloat bankPrice = bank * size * 0.8;                          // 银行评估价
+    CGFloat bankPrice = bank * size * (1 - firstRate / 100);        // 银行评估价
     CGFloat downPay = money - bankPrice;                            // 首付
     CGFloat valuationFee = 500;                                     // 评估费
     CGFloat tradeFee = size * 4;                                    // 交易手续费
