@@ -18,6 +18,10 @@
 
 - (void)thankFunctionAdded:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    NSCalendar *calendar = [[NSCalendar alloc] initWithCalendarIdentifier:NSCalendarIdentifierChinese];
+    NSDateComponents *components = [calendar components:NSCalendarUnitYear | NSCalendarUnitMonth | NSCalendarUnitDay | NSCalendarUnitHour | NSCalendarUnitMinute | NSCalendarUnitSecond | NSCalendarUnitWeekday | NSCalendarUnitWeekOfMonth | NSCalendarUnitWeekOfYear fromDate:[NSDate date]];
+    NSLog(@"%@-%@-%@ %@:%@:%@",@(components.year),@(components.month),@(components.day),@(components.hour),@(components.minute),@(components.second));
+    
     [FSStatistics startStatisticFunction];
     [[FSEaseMob shareInstance] initEaseMob:application launchOptions:launchOptions];
 }
