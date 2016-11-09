@@ -41,7 +41,7 @@
         [this registerDesignViews];
     } failBlock:^(NSString *msg) {
         [this showWaitView:NO];
-        [this showTitle:msg];
+        [FuData showMessage:msg];
     }];
 }
 

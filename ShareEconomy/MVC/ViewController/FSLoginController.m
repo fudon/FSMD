@@ -78,13 +78,13 @@
         {
             UITextField *userNameTF = [self.view viewWithTag:TAGTEXTFIELD];
             if (![FuData checkTextFieldHasValidInput:userNameTF]) {
-                [self showTitle:@"请输入账号"];
+                [FuData showMessage:@"请输入账号"];
                 return;
                 
             }
             UITextField *passwordTF = [self.view viewWithTag:TAGTEXTFIELD + 1];
             if (![FuData checkTextFieldHasValidInput:passwordTF]) {
-                [self showTitle:@"请输入密码"];
+                [FuData showMessage:@"请输入密码"];
                 return;
             }
             
@@ -97,7 +97,7 @@
                 }];
             } failBlock:^(NSString *msg) {
                 [this showWaitView:NO];
-                [this showTitle:msg];
+                [FuData showMessage:msg];
             }];
         }
             break;

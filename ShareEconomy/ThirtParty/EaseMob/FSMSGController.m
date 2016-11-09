@@ -96,7 +96,7 @@
         [this asyncSendMessage:message progress:^(int progress) {
         } completion:^(EMMessage *bMmessage, EMError *bError) {
             if (bError) {
-                [this showTitle:@"错错错错错错错错"];
+                [FuData showMessage:@"错错错错错错错错"];
             }
         }];
     };
@@ -152,7 +152,7 @@
     [self.view addSubview:_tableView];
     _tableView.mj_header= [MJRefreshNormalHeader headerWithRefreshingBlock:^{
         if (this.chatArray.count < this.count) {
-            [this showTitle:@"没有更多聊天数据"];
+            [FuData showMessage:@"没有更多聊天数据"];
             [this.tableView.mj_header endRefreshing];
             return;
         }

@@ -53,17 +53,17 @@
 {
     UITextField *moneyTF = (UITextField *)[self.view viewWithTag:TAGTEXTFIELD];
     if (![FuData isPureFloat:moneyTF.text]) {
-        [self showTitle:@"请填写正确的总金额数字"];
+        [FuData showMessage:@"请填写正确的总金额数字"];
         return;
     }
     UITextField *periodTF = (UITextField *)[self.view viewWithTag:TAGTEXTFIELD + 1];
     if (![FuData isPureInt:periodTF.text]) {
-        [self showTitle:@"请填写期数"];
+        [FuData showMessage:@"请填写期数"];
         return;
     }
     UITextField *rateTF = (UITextField *)[self.view viewWithTag:TAGTEXTFIELD + 2];
     if (![FuData isPureFloat:rateTF.text]) {
-        [self showTitle:@"请填写正确的年利率数字"];
+        [FuData showMessage:@"请填写正确的年利率数字"];
         return;
     }
     

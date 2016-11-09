@@ -70,7 +70,7 @@
     [self showWaitView:YES];
     [FSCacheManager clearAllCache:^{
         [this showWaitView:NO];
-        [this showTitle:@"清除成功"];
+        [FuData showMessage:@"清除成功"];
         UITableViewCell *cell = [this.tableView cellForRowAtIndexPath:[NSIndexPath indexPathForRow:0 inSection:0]];
         cell.detailTextLabel.text = @"";
     }];

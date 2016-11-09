@@ -52,7 +52,7 @@
 - (void)buttonClickInRegister:(UIButton *)button
 {
     if (![FuData checkTextFieldHasValidInput:_textField]) {
-        [self showTitle:@"请输入手机号"];
+        [FuData showMessage:@"请输入手机号"];
         return;
     }
     FSRegisterPwdController *pwd = [[FSRegisterPwdController alloc] init];

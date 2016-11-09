@@ -45,27 +45,27 @@
 {
     UITextField *moneyTF = (UITextField *)[self.view viewWithTag:TAGTEXTFIELD];
     if (![FuData isPureFloat:moneyTF.text]) {
-        [self showTitle:@"请填写正确的房价"];
+        [FuData showMessage:@"请填写正确的房价"];
         return;
     }
     UITextField *sizeTF = (UITextField *)[self.view viewWithTag:TAGTEXTFIELD + 1];
     if (![FuData isPureInt:sizeTF.text]) {
-        [self showTitle:@"请填写面积"];
+        [FuData showMessage:@"请填写面积"];
         return;
     }
     UITextField *taxTF = (UITextField *)[self.view viewWithTag:TAGTEXTFIELD + 2];
     if (![FuData isPureFloat:taxTF.text]) {
-        [self showTitle:@"请填写税费评估价"];
+        [FuData showMessage:@"请填写税费评估价"];
         return;
     }
     UITextField *bankTF = (UITextField *)[self.view viewWithTag:TAGTEXTFIELD + 3];
     if (![FuData isPureFloat:bankTF.text]) {
-        [self showTitle:@"请填写银行评估价"];
+        [FuData showMessage:@"请填写银行评估价"];
         return;
     }
     UITextField *rateTF = (UITextField *)[self.view viewWithTag:TAGTEXTFIELD + 4];
     if (![FuData isPureFloat:rateTF.text]) {
-        [self showTitle:@"请填写首付比率，比如20,表示20%"];
+        [FuData showMessage:@"请填写首付比率，比如20,表示20%"];
         return;
     }
     

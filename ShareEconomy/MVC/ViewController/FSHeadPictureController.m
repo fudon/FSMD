@@ -85,14 +85,14 @@
                     //                picker.mediaTypes = [UIImagePickerController availableMediaTypesForSourceType:picker.sourceType];
                     
                 }else{
-                    [FuData showAlertViewWithTitile:@"此设备没有相册功能"];
+                    [FuData showAlertViewWithTitle:@"此设备没有相册功能"];
                     return;
                 }
             }else{
                 if([UIImagePickerController isSourceTypeAvailable:UIImagePickerControllerSourceTypeCamera]) {
                     picker.sourceType = UIImagePickerControllerSourceTypeCamera;
                 }else{
-                    [FuData showAlertViewWithTitile:@"您的设备不支持摄像头拍照"];
+                    [FuData showAlertViewWithTitle:@"您的设备不支持摄像头拍照"];
                     return;
                 }
             }

@@ -50,7 +50,7 @@
             [this refreshConversations];
         } fail:^(EMError *bError) {
             [this showWaitView:NO];
-            [this showTitle:bError.errorDescription];
+            [FuData showMessage:bError.errorDescription];
         }];
     }else{
         FSLoginController *login = [[FSLoginController alloc] init];

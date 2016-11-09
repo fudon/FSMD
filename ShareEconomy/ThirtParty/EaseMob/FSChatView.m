@@ -69,7 +69,7 @@
         [actionSheet showInView:self.viewController.view];
     }else{
         _otherButtonsClick = YES;
-        [self.viewController showTitle:@"正在开发中，敬请期待!"];
+        [FuData showMessage:@"正在开发中，敬请期待!"];
     }
 }
 
@@ -144,7 +144,7 @@
         if ([UIImagePickerController isSourceTypeAvailable: UIImagePickerControllerSourceTypeCamera]){
             picker.sourceType = UIImagePickerControllerSourceTypeCamera;
         }else {
-            [self.viewController showTitle:@"无摄像头"];
+            [FuData showMessage:@"无摄像头"];
             return;
         }
     }else if (buttonIndex == 1){
