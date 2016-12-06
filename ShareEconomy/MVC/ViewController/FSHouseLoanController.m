@@ -85,7 +85,7 @@
     CGFloat changeFee = 71;                                         // 工本费
     
     CGFloat allPay = deedTax + downPay + valuationFee + tradeFee + loanFee + agencyFee + changeFee;
-    [FuData showAlertViewWithTitle:[[NSString alloc] initWithFormat:@"\n银行评估价:%.2f万元\n\n契税:%.2f万元\n评估费:%.2f元\n交易手续费:%.2f元\n按揭服务费:%.2f万元\n中介费:%.2f万元\n工本费:%.2f元\n首付:%.2f万元\n\n中间费用：%.2f万元\n总支出:%.2f万元\n",bankPrice / 10000,deedTax / 10000,valuationFee,tradeFee,loanFee / 10000,agencyFee / 10000,changeFee,downPay / 10000,(allPay - downPay) / 10000,allPay / 10000]];
+    [FuData showAlertViewWithTitle:[[NSString alloc] initWithFormat:@"\n银行评估价:%.2f万元\n\n契税:%.2f万元\n评估费:%.2f元\n交易手续费:%.2f元\n按揭服务费:%.2f万元\n中介费:%.2f万元\n工本费:%.2f元\n首付:%.2f万元\n\n中间费用：%.2f万元\n总支出:%.2f万元\n",bankPrice / 10000,deedTax / 10000,valuationFee,tradeFee,loanFee / 10000,agencyFee / 10000,changeFee,downPay / 10000,(allPay - downPay) / 10000,allPay / 10000] message:nil];
 }
 
 - (void)didReceiveMemoryWarning {
